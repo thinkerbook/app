@@ -1,0 +1,43 @@
+- title: "Insurrections, Espions, COVID-19, Crise mondiales"
+  releaseDate: 2020-05-15
+  videoUrl: "https://youtu.be/AY2tCBZZy5I"
+  guests:
+    - "Bernard Squarcini"
+  adviseTimecode: 9039
+  advise:
+  bookTimecode: 8937
+  books:
+    - title: "Perles de Michel Audiard"
+      author: "Michel Audiard"
+      amazonUrl: "https://www.amazon.fr/Perles-Michel-Audiard-Fr%C3%A9d%C3%A9ric-Pouhier/dp/2367042837"
+    - title: "La Taupe Poche"
+      author: "John Le Carré"
+      amazonUrl: "https://www.amazon.fr/Taupe-John-carre/dp/275787280X"
+    - title: "Le fil de l'épée Poche"
+      author: "Charles de Gaulle"
+      amazonUrl: "https://www.amazon.fr/fil-l%C3%A9p%C3%A9e-Charles-GAULLE/dp/2262050201"
+- title:
+  releaseDate:
+  videoUrl:
+  guests:
+    -
+  adviseTimecode:
+  advise:
+  bookTimecode:
+  books:
+    - title:
+      author:
+      amazonUrl:
+# template
+- title:
+  releaseDate:
+  videoUrl:
+  guests:
+    -
+  adviseTimecode:
+  advise:
+  bookTimecode:
+  books:
+    - title:
+      author:
+      amazonUrl:
