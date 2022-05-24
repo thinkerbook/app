@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import BookListView from "../views/BookListView.vue";
+import BookListView from "../views/VideoListView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
