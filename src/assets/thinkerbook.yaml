@@ -17,26 +17,15 @@
     - title: "Le fil de l'épée Poche"
       author: "Charles de Gaulle"
       amazonUrl: "https://www.amazon.fr/fil-l%C3%A9p%C3%A9e-Charles-GAULLE/dp/2262050201"
-- title:
-  releaseDate:
-  videoUrl:
-  guests:
-    -
-  adviseTimecode:
-  advise:
-  bookTimecode:
-  books:
-    - title:
-      author:
-      amazonUrl:
 # template
 - title:
   releaseDate:
+  videoId:
   videoUrl:
   guests:
     -
-  adviseTimecode:
-  advise:
+  adviceTimecode:
+  advice:
   bookTimecode:
   books:
     - title:

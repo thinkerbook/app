@@ -1,7 +1,6 @@
 import { defineStore } from "pinia";
 
-import Videos from "@/assets/thinkerbook.yaml";
-console.log(`Videos: `, Videos);
+import Videos from "@/assets/thinkerbook-feed.yaml";
 
 export const VideoStore = defineStore({
   id: "videos",
@@ -9,7 +8,9 @@ export const VideoStore = defineStore({
     videos: Videos,
   }),
   getters: {
-    allVideos: (state) => state.videos,
+    allVideos: (state) => state.videos
+        // .filter((v,i) => i < 20)
+    ,
   },
   actions: {},
 });
