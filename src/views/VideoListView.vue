@@ -13,7 +13,7 @@ const { allVideos } = storeToRefs(VideoStore());
       :key="index"
       class="col"
     >
-      <VideoCardView :video="video"></VideoCardView>
+      <VideoCardView :video="video" :index="index"></VideoCardView>
     </div>
   </div>
 </template>

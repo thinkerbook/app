@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
-import BookListView from "../views/VideoListView.vue";
+import VideoListView from "../views/VideoListView.vue";
+import VideoEditView from "../views/VideoEditView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -7,7 +8,13 @@ const router = createRouter({
     {
       path: "/",
       name: "home",
-      component: BookListView,
+      component: VideoListView,
+    },
+    {
+      path: "/:index/edit",
+      name: "edit",
+      component: VideoEditView,
+      props: true,
     },
     {
       path: "/about",

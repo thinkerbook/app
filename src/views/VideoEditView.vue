@@ -1,18 +1,3 @@
-<script setup>
-import { RouterLink } from "vue-router";
-
-defineProps({
-  video: {
-    type: Object,
-    required: true,
-  },
-  index: {
-    type: Number,
-    required: true,
-  },
-});
-</script>
-
 <template>
   <div class="card mb-2 h-100">
     <div class="card-header bg-transparent">
@@ -64,14 +49,10 @@ defineProps({
             <i class="fas fa-music"></i>
             audio
           </a>
-          <RouterLink
-            v-if="false"
-            :to="{ name: 'edit', params: { index } }"
-            class="btn btn-primary btn-sm-x"
-          >
+          <button class="btn btn-primary btn-sm-x">
             <i class="fas fa-edit"></i>
             edit
-          </RouterLink>
+          </button>
         </div>
       </div>
 
@@ -95,9 +76,9 @@ defineProps({
       <h4>
         <i class="fas fa-wine-bottle fa-xs"></i>
         Conseil(s) pour les jeunes générations
-        <a :href="video.videoUrl + '?t=' + video.adviceTimecode" target="_blank" :title="'Open video at timecode t=' + video.adviceTimecode">
-          <i class="fas fa-film"></i>
-        </a>
+<!--        <a :href="video.videoUrl + '?t=' + video.adviceTimecode" target="_blank" :title="'Open video at timecode t=' + video.adviceTimecode">-->
+<!--          <i class="fas fa-film"></i>-->
+<!--        </a>-->
       </h4>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">
@@ -139,10 +120,38 @@ defineProps({
   </div>
 </template>
 
+<script setup>
+</script>
+
 <script>
+import { storeToRefs } from "pinia";
+import { VideoStore } from "@/stores/videos";
+
 export default {
+  props: {
+    index: {
+      type: String,
+      required: true,
+    },
+  },
+  setup() {
+    const { allVideos } = storeToRefs(VideoStore());
+
+    return { allVideos };
+  },
   data() {
     return {};
+  },
+  computed: {
+    indexNum() {
+      return parseInt(this.index);
+    },
+    video() {
+      return this.allVideos[this.indexNum];
+    },
+  },
+  mounted() {
+    console.log("index: %s", this.index);
   },
   methods: {
     bookStoreIcon(book) {
@@ -151,7 +160,7 @@ export default {
         : "fas fa-external-link";
     },
   },
-}
+};
 </script>
 
 <style scoped>
