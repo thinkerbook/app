@@ -115,7 +115,7 @@ defineProps({
           :key="book.title"
           class="list-group-item"
         >
-          <i class="fas fa-bookmark fa-xs me-1"></i>
+          <i :class="bookStoreIcon(book)" class="fa-xs me-1"></i>
           <a :href="book.storeUrl" target="_blank">
             {{ book.title }} <i>({{ book.author }})</i>
           </a>
@@ -124,6 +124,21 @@ defineProps({
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {};
+  },
+  methods: {
+    bookStoreIcon(book) {
+      return book.storeUrl.includes("amazon.fr")
+        ? "fab fa-amazon"
+        : "fas fa-external-link";
+    },
+  },
+}
+</script>
 
 <style scoped>
 .btn-sm-x {
