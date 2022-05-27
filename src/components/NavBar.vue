@@ -1,5 +1,9 @@
 <script setup>
 import { RouterLink } from "vue-router";
+import { storeToRefs } from 'pinia'
+import { VideoStore } from "@/stores/videos";
+
+const { allVideos } = storeToRefs(VideoStore());
 
 defineProps({
 });
@@ -10,7 +14,7 @@ defineProps({
     <div class="container-fluid">
       <RouterLink :to="{ name: 'home' }" class="navbar-brand">
         <i class="far fa-book"></i>
-        ThinkerBook
+        ThinkerBook ({{ allVideos.length }})
       </RouterLink>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
