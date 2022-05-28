@@ -93,8 +93,9 @@ defineProps({
               audio
             </a>
             <RouterLink
-                :to="{ name: 'edit', params: { yid: video.videoId || 'unknown' } }"
-                class="btn btn-primary btn-sm-x"
+              v-if="false"
+              :to="{ name: 'edit', params: { yid: video.videoId || 'unknown' } }"
+              class="btn btn-primary btn-sm-x"
             >
               <i class="fas fa-edit"></i>
               edit
