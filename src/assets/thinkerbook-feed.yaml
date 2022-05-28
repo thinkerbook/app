@@ -2,6 +2,142 @@
 # (fr) Liste les livres (bouqins) recommendés dans les interviews de la chaine Thinkerview ainsi que le conseil aux jeunes générations (la bouteille à la mer).
 # (en) Lists recommended books in Thinkerview channel interviews as well as the advice for the young generations (the bottle in the sea).
 #
+- title: "Perte de liberté et grogne sociale ?"
+  # TODO update
+  link: "https://www.thinkerview.com/"
+  pubDate: ""
+  category: [ ]
+  description: "Sociologue, directeur d'études à HESS."
+  mediaUrl: ""
+  # extends
+  releaseDate: 2022-05-25
+  videoId: "tr_IBgFhsSY"
+  videoUrl: "https://youtu.be/tr_IBgFhsSY"
+  guests:
+    - "Michel Wieviorka"
+  adviceTimecode:
+  advices:
+    - title: ""
+      author: ""
+  bookTimecode:
+  books:
+    - title: ""
+      author: ""
+      storeUrl: ""
+    - title: ""
+      author: ""
+      storeUrl: ""
+    - title: ""
+      author: ""
+      storeUrl: ""
+- title: "Alain Chouet, 35 ans de DGSE, une pointe de diamant ?"
+  link: "https://www.thinkerview.com/alain-chouet35-ans-de-dgse-une-pointe-de-diamant/"
+  pubDate: "Wed, 18 May 2022 15:26:00 +0000"
+  category: ["Interviews", "Géopolitique", "Terrorisme"]
+  description: "Alain Chouet : ancien chef du service de renseignement de sécurité à la DGSE."
+  mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Alain_Chouet_35_Ans_De_DGSE_Une_Pointe_De_Diamant.mp3"
+  # extends
+  releaseDate: 2022-05-18
+  videoId: "i9dVo3mhpSU"
+  videoUrl: "https://youtu.be/i9dVo3mhpSU"
+  guests:
+    - "Alain Chouet"
+  adviceTimecode:
+  advices:
+    - title: ""
+      author: ""
+  bookTimecode:
+  books:
+    - title: ""
+      author: ""
+      storeUrl: ""
+    - title: ""
+      author: ""
+      storeUrl: ""
+    - title: ""
+      author: ""
+      storeUrl: ""
+- title: "Crise de l'eau, planète terre invivable ?"
+  link: "https://www.thinkerview.com/emma-haziza-crise-de-leau-planete-terre-invivable/"
+  pubDate: "Tue, 17 May 2022 15:25:00 +0000"
+  category: ["Climat", "Energie", "Interviews", "Société"]
+  description: "Emma Haziza est hydrologue, spécialiste de la résilience des territoires face aux risques climatiques extrêmes...."
+  mediaUrl: "https://www.thinkerview.com/podcast-download/32074/emma-haziza-crise-de-leau-planete-terre-invivable.mp3"
+  # extends
+  releaseDate: 2022-05-17
+  videoId: "5ysUySSNW3M"
+  videoUrl: "https://youtu.be/5ysUySSNW3M"
+  guests:
+    - "Emma Haziza"
+  adviceTimecode:
+  advices:
+    - title: ""
+      author: ""
+  bookTimecode:
+  books:
+    - title: ""
+      author: ""
+      storeUrl: ""
+    - title: ""
+      author: ""
+      storeUrl: ""
+    - title: ""
+      author: ""
+      storeUrl: ""
+- title: "Tempête géopolitique?"
+  link: "https://www.thinkerview.com/pascal-boniface-tempete-geopolitique/"
+  pubDate: "Wed, 04 May 2022 09:12:00 +0000"
+  category: ["Energie", "Interviews", "Géopolitique", "Terrorisme"]
+  description: "Pascal Boniface : Fondateur et directeur de l&#8217;Institut de Relations Internationales et Stratégiques (IRIS)."
+  mediaUrl: "https://www.thinkerview.com/podcast-download/31827/pascal-boniface-tempete-geopolitique.mp3"
+  # extends
+  releaseDate: 2022-05-04
+  videoId: "iEogCC71eoQ"
+  videoUrl: "https://youtu.be/iEogCC71eoQ"
+  guests:
+    - "Pascal Boniface"
+  adviceTimecode:
+  advices:
+    - title: ""
+      author: ""
+  bookTimecode:
+  books:
+    - title: ""
+      author: ""
+      storeUrl: ""
+    - title: ""
+      author: ""
+      storeUrl: ""
+    - title: ""
+      author: ""
+      storeUrl: ""
+- title: "Vivre en dictature ?"
+  link: "https://www.thinkerview.com/sacha-filipenko-vivre-en-dictature/"
+  pubDate: "Thu, 14 Apr 2022 09:18:00 +0000"
+  category: ["Interviews", "Géopolitique", "Société"]
+  description: "Sacha Filipenko : écrivain biélorusse, lauréat du Prix russe."
+  mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Sacha_Filipenko_Vivre_En_Dictature.mp3"
+  # extends
+  releaseDate: 2022-04-14
+  videoId: "PXIiR612ghE"
+  videoUrl: "https://youtu.be/PXIiR612ghE"
+  guests:
+    - "Sacha Filipenko"
+  adviceTimecode:
+  advices:
+    - title: ""
+      author: ""
+  bookTimecode:
+  books:
+    - title: ""
+      author: ""
+      storeUrl: ""
+    - title: ""
+      author: ""
+      storeUrl: ""
+    - title: ""
+      author: ""
+      storeUrl: ""
 - title: "L’Europe à court d’énergie ?"
   link: "https://www.thinkerview.com/nicolas-meilhan-et-francis-perrin-leurope-a-court-denergie/"
   pubDate: "Wed, 30 Mar 2022 15:56:02 +0000"
