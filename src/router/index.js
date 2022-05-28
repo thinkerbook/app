@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import VideoListView from "../views/VideoListView.vue";
+import VideoItemView from "../views/VideoItemView.vue";
 import VideoEditView from "../views/VideoEditView.vue";
 
 const router = createRouter({
@@ -11,7 +12,13 @@ const router = createRouter({
       component: VideoListView,
     },
     {
-      path: "/:index/edit",
+      path: "/:yid",
+      name: "item",
+      component: VideoItemView,
+      props: true,
+    },
+    {
+      path: "/:yid/edit",
       name: "edit",
       component: VideoEditView,
       props: true,

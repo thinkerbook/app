@@ -6,6 +6,12 @@
       <a href="https://www.thinkerview.com/" target="_blank">ThinkerView</a>
       ainsi que le conseil aux jeunes générations (une bouteille à la mer).
     </p>
+
+    <h1>Comment contribuer</h1>
+
+    <p>
+      Proposer une pull request sur github.
+    </p>
   </div>
 </template>
 

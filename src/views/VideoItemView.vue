@@ -2,6 +2,7 @@
 import { useRoute } from 'vue-router';
 import { storeToRefs } from 'pinia';
 import { VideoStore } from "@/stores/videos";
+import VideoCardView from "@/views/VideoCardView.vue";
 
 const route = useRoute();
 const yid = route.params.yid;
@@ -19,15 +20,5 @@ defineProps({
 </script>
 
 <template>
-  <div class="m-2">
-    <div class="text-center">
-      <iframe
-        :src="'https://www.youtube.com/embed/' + video.videoId"
-        :title="video.title"
-        width="1000" height="600"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </div>
-  </div>
+  <VideoCardView :video="video" :show-details="true" />
 </template>

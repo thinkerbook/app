@@ -15,6 +15,7 @@ import "bootstrap";
 
 <style>
 @import "bootstrap/dist/css/bootstrap.min.css";
+@import "@/assets/scss/utility.css";
 @import "@/assets/fontawesome-pro-5.14.0-web/css/fontawesome.css";
 @import "@/assets/fontawesome-pro-5.14.0-web/css/solid.css";
 @import "@/assets/fontawesome-pro-5.14.0-web/css/regular.css";
