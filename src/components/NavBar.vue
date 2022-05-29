@@ -1,10 +1,19 @@
 <script setup>
+import { ref } from "vue";
 import { RouterLink } from "vue-router";
 import { storeToRefs } from 'pinia';
 import { useVideoStore } from "@/stores/videos";
 
 const videoStore = useVideoStore();
 const { listVideos, videoCount, isSearching, isShowInfo } = storeToRefs(videoStore);
+const { doSearch, doToggleShowInfo, doResetSearch } = videoStore;
+
+let searchValue = ref("");
+
+const resetSearch = () => {
+  searchValue.value = "";
+  doResetSearch();
+};
 </script>
 
 <template>
@@ -24,11 +33,11 @@ const { listVideos, videoCount, isSearching, isShowInfo } = storeToRefs(videoSto
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <button v-if="isShowInfo" class="btn btn-outline-success" type="button" @click="toggleShowInfo">
+            <button v-if="isShowInfo" class="btn btn-outline-success" type="button" @click="doToggleShowInfo">
               <i class="fas fa-toggle-on"></i>
               Info
             </button>
-            <button v-else class="btn btn-outline-secondary" type="button" @click="toggleShowInfo">
+            <button v-else class="btn btn-outline-secondary" type="button" @click="doToggleShowInfo">
               <i class="fas fa-toggle-off"></i>
               Info
             </button>
@@ -42,7 +51,7 @@ const { listVideos, videoCount, isSearching, isShowInfo } = storeToRefs(videoSto
           <form class="d-flex" @submit.prevent>
             <input
               v-model="searchValue"
-              @--search="search"
+              @--search="doSearch(searchValue)"
               class="form-control me-2"
               type="search"
               placeholder="Search"
@@ -52,7 +61,7 @@ const { listVideos, videoCount, isSearching, isShowInfo } = storeToRefs(videoSto
               class="btn btn-outline-secondary"
               type="submit"
               title="Search"
-              @click="search"
+              @click="doSearch(searchValue)"
             >
               <i class="fas fa-search"></i>
             </button>
@@ -62,28 +71,6 @@ const { listVideos, videoCount, isSearching, isShowInfo } = storeToRefs(videoSto
     </div>
   </nav>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      searchValue: "",
-    };
-  },
-  methods: {
-    toggleShowInfo() {
-      this.videoStore.toggleShowInfo();
-    },
-    resetSearch() {
-      this.searchValue = "";
-      this.videoStore.resetSearch();
-    },
-    search() {
-      this.videoStore.doSearch(this.searchValue);
-    },
-  },
-};
-</script>
 
 <style scoped>
 </style>

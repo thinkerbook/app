@@ -16,12 +16,12 @@ export const useVideoStore = defineStore({
     listVideos: (state) => state.videos,
   },
   actions: {
-    toggleShowInfo() {
-      console.log("toggleShowInfo");
+    doToggleShowInfo() {
+      console.log("doToggleShowInfo");
       this.showInfo = !this.showInfo;
     },
-    resetSearch() {
-      console.log("resetSearch");
+    doResetSearch() {
+      console.log("doResetSearch");
       this.searchValue = "";
       this.videos = Videos
     },

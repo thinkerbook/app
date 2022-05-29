@@ -227,9 +227,6 @@ defineProps({
 
 <script>
 export default {
-  data() {
-    return {};
-  },
   methods: {
     bookStoreIcon(book) {
       return book.storeUrl.includes("amazon.fr")
