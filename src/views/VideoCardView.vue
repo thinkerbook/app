@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink } from "vue-router";
+import SwanIcon from "@/components/icons/SwanIcon.vue";
 
 defineProps({
   video: {
@@ -100,7 +101,8 @@ defineProps({
             </RouterLink>
 
             <a :href="video.link" target="_blank" class="btn btn-dark btn-sm-x me-1" title="Ouvrir la page de la publication de l'interview ThinkerView">
-              <i class="fas fa-duck fa-flip-horizontal"></i>
+<!--              <i class="fas fa-duck fa-flip-horizontal"></i>-->
+              <SwanIcon />
             </a>
             <a v-if="video.mediaUrl" :href="video.mediaUrl" target="_blank" class="btn btn-dark btn-sm-x" title="Ouvrir l'enregistrement audio de l'interview ThinkerView">
               <i class="fas fa-music"></i>
@@ -122,7 +124,7 @@ defineProps({
 
         <div class="row">
           <div class="mb-1">
-            <i class="fas fa-tags me-1"></i>
+            <i class="fas fa-tags me-1" title="Sujets abordés dans l'interview ThinkerView"></i>
             <span
               v-for="category in video.category"
               :key="category"

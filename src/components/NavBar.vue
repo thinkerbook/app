@@ -4,13 +4,13 @@ import { storeToRefs } from 'pinia';
 import { useVideoStore } from "@/stores/videos";
 
 const videoStore = useVideoStore();
-const { listVideos, videoCount, isSearching } = storeToRefs(videoStore);
+const { listVideos, videoCount, isSearching, isShowInfo } = storeToRefs(videoStore);
 </script>
 
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <RouterLink :to="{ name: 'VideoList' }" class="navbar-brand">
+      <RouterLink :to="{ name: 'VideoList' }" @click="resetSearch" class="navbar-brand">
         <i class="far fa-book"></i>
         ThinkerBook
         <span v-if="isSearching">({{ listVideos.length }} / {{ videoCount }})</span>
@@ -24,6 +24,16 @@ const { listVideos, videoCount, isSearching } = storeToRefs(videoStore);
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
+            <button v-if="isShowInfo" class="btn btn-outline-success" type="button" @click="toggleShowInfo">
+              <i class="fas fa-toggle-on"></i>
+              Info
+            </button>
+            <button v-else class="btn btn-outline-secondary" type="button" @click="toggleShowInfo">
+              <i class="fas fa-toggle-off"></i>
+              Info
+            </button>
+          </li>
+          <li class="nav-item">
             <RouterLink :to="{ name: 'about' }" class="nav-link">About</RouterLink>
           </li>
         </ul>
@@ -32,6 +42,7 @@ const { listVideos, videoCount, isSearching } = storeToRefs(videoStore);
           <form class="d-flex" @submit.prevent>
             <input
               v-model="searchValue"
+              @--search="search"
               class="form-control me-2"
               type="search"
               placeholder="Search"
@@ -60,8 +71,14 @@ export default {
     };
   },
   methods: {
+    toggleShowInfo() {
+      this.videoStore.toggleShowInfo();
+    },
+    resetSearch() {
+      this.searchValue = "";
+      this.videoStore.resetSearch();
+    },
     search() {
-      console.log("search: ", this.searchValue);
       this.videoStore.doSearch(this.searchValue);
     },
   },
