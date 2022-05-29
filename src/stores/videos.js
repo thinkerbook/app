@@ -1,6 +1,9 @@
 import { defineStore } from "pinia";
+import { useRouter } from "vue-router";
 
 import Videos from "@/assets/thinkerbook-feed.yaml";
+
+const router = useRouter();
 
 export const useVideoStore = defineStore({
   id: "videos",
@@ -19,6 +22,8 @@ export const useVideoStore = defineStore({
       this.searchValue = searchValue;
       // title, guest, tags, date, book, advice
       // highlight results
+
+      router.push({ name: "VideoList" });
     },
   },
 });

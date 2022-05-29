@@ -21,7 +21,9 @@ defineProps({
 
 <template>
   <VideoCardView
-      :video="video"
-      :show-details="true"
+    :video="video"
+    :show-details="true"
+    :show-info="true"
+    :click-to-video="true"
   />
 </template>

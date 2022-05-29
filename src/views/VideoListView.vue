@@ -8,7 +8,6 @@ const { listVideos } = storeToRefs(useVideoStore());
 
 <template>
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xxl-4">
-    <!-- TODO optimize loading with .slice(0, 20) ? -->
     <div
       v-for="(video, index) in listVideos"
       :key="index"

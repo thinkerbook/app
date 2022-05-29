@@ -10,7 +10,7 @@ const { listVideos, videoCount, isSearching } = storeToRefs(videoStore);
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <RouterLink :to="{ name: 'home' }" class="navbar-brand">
+      <RouterLink :to="{ name: 'VideoList' }" class="navbar-brand">
         <i class="far fa-book"></i>
         ThinkerBook
         <span v-if="isSearching">({{ listVideos.length }} / {{ videoCount }})</span>
@@ -23,31 +23,30 @@ const { listVideos, videoCount, isSearching } = storeToRefs(videoStore);
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
-        </ul>
-
-        <form class="d-flex" @submit.prevent>
-          <input
-            v-model="searchValue"
-            class="form-control me-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button
-            class="btn btn-outline-secondary"
-            type="submit"
-            title="Search"
-            @click="search"
-          >
-            <i class="fas fa-search"></i>
-          </button>
-        </form>
-
-        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <RouterLink :to="{ name: 'about' }" class="nav-link">About</RouterLink>
           </li>
         </ul>
+
+        <div class="navbar-nav ms-auto">
+          <form class="d-flex" @submit.prevent>
+            <input
+              v-model="searchValue"
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-secondary"
+              type="submit"
+              title="Search"
+              @click="search"
+            >
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   </nav>
