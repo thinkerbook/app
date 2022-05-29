@@ -67,7 +67,7 @@ defineProps({
       <div class="card-header">
         <div class="row">
           <div class="col">
-            <code>
+            <code style="font-size: smaller">
               <i class="fas fa-calendar-day"></i>
               {{ video.releaseDate?.toDateString() }}
             </code>
@@ -78,7 +78,7 @@ defineProps({
               :to="{ name: 'VideoItem', params: { yid: video.videoId || 'unknown' } }"
               :class="!!video.adviceTimecode ? 'btn-dark' : 'btn-secondary'"
               class="btn btn-sm-x me-1"
-              title="Guest advices"
+              title="Nombre de conseils aux jeunes générations"
             >
               <i class="fas fa-wine-bottle"></i>
               <span v-if="!!video.adviceTimecode" class="ms-1">
@@ -90,7 +90,7 @@ defineProps({
               :to="{ name: 'VideoItem', params: { yid: video.videoId || 'unknown' } }"
               :class="!!video.bookTimecode ? 'btn-dark' : 'btn-secondary'"
               class="btn btn-sm-x me-1"
-              title="Guest books"
+              title="Nombre de bouquins à lire"
             >
               <i class="fas fa-book"></i>
               <span v-if="!!video.bookTimecode" class="ms-1">
@@ -99,10 +99,10 @@ defineProps({
               <span v-else class="ms-1">-</span>
             </RouterLink>
 
-            <a :href="video.link" target="_blank" class="btn btn-dark btn-sm-x me-1" title="ThinkerView publication">
+            <a :href="video.link" target="_blank" class="btn btn-dark btn-sm-x me-1" title="Ouvrir la page de la publication de l'interview ThinkerView">
               <i class="fas fa-duck fa-flip-horizontal"></i>
             </a>
-            <a v-if="video.mediaUrl" :href="video.mediaUrl" target="_blank" class="btn btn-dark btn-sm-x" title="ThinkerView audio recording">
+            <a v-if="video.mediaUrl" :href="video.mediaUrl" target="_blank" class="btn btn-dark btn-sm-x" title="Ouvrir l'enregistrement audio de l'interview ThinkerView">
               <i class="fas fa-music"></i>
             </a>
 
@@ -160,7 +160,7 @@ defineProps({
             v-if="!!video.adviceTimecode"
             :href="video.videoUrl + '?t=' + video.adviceTimecode"
             target="_blank"
-            :title="'Open video at timecode t=' + video.adviceTimecode"
+            :title="'Ouvrir la vidéo au temps t=' + video.adviceTimecode"
           >
             <i class="fas fa-film"></i>
           </a>
@@ -195,7 +195,7 @@ defineProps({
             v-if="video.bookTimecode"
             :href="video.videoUrl + '?t=' + video.bookTimecode"
             target="_blank"
-            :title="'Open video at timecode t=' + video.bookTimecode"
+            :title="'Ouvrir la vidéo au temps t=' + video.bookTimecode"
           >
             <i class="fas fa-film"></i>
           </a>
