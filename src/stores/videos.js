@@ -2,15 +2,23 @@ import { defineStore } from "pinia";
 
 import Videos from "@/assets/thinkerbook-feed.yaml";
 
-export const VideoStore = defineStore({
+export const useVideoStore = defineStore({
   id: "videos",
   state: () => ({
+    searchValue: "",
     videos: Videos,
   }),
   getters: {
-    allVideos: (state) => state.videos
-        // .filter((v,i) => i < 20)
-    ,
+    isSearching: (state) => state.searchValue !== "",
+    videoCount: () => Videos.length,
+    listVideos: (state) => state.videos,
   },
-  actions: {},
+  actions: {
+    doSearch(searchValue) {
+      console.log("doSearch: ", searchValue);
+      this.searchValue = searchValue;
+      // title, guest, tags, date, book, advice
+      // highlight results
+    },
+  },
 });

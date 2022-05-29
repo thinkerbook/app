@@ -180,7 +180,7 @@ export default {
         : "fas fa-external-link";
     },
   },
-}
+};
 </script>
 
 <style scoped>

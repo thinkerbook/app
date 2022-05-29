@@ -1,15 +1,15 @@
 <script setup>
 import { useRoute } from 'vue-router';
 import { storeToRefs } from 'pinia';
-import { VideoStore } from "@/stores/videos";
+import { useVideoStore } from "@/stores/videos";
 import VideoCardView from "@/views/VideoCardView.vue";
 
 const route = useRoute();
 const yid = route.params.yid;
 
-const { allVideos } = storeToRefs(VideoStore());
-const videoIndex = allVideos.value.findIndex(v => v.videoId === yid);
-const video = allVideos.value[videoIndex];
+const { listVideos } = storeToRefs(useVideoStore());
+const videoIndex = listVideos.value.findIndex(v => v.videoId === yid);
+const video = listVideos.value[videoIndex];
 
 defineProps({
   yid: {
@@ -20,5 +20,8 @@ defineProps({
 </script>
 
 <template>
-  <VideoCardView :video="video" :show-details="true" />
+  <VideoCardView
+      :video="video"
+      :show-details="true"
+  />
 </template>
