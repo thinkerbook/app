@@ -2,7 +2,7 @@
 # (fr) Liste les livres (bouqins) recommendés dans les interviews de la chaine Thinkerview ainsi que le conseil aux jeunes générations (la bouteille à la mer).
 # (en) Lists recommended books in Thinkerview channel interviews as well as the advice for the young generations (the bottle in the sea).
 #
-- title: "Perte de liberté et grogne sociale ?"
+- title: "Perte de liberté et grogne sociale\_?"
   # TODO update
   link: "https://www.thinkerview.com/"
   pubDate: ""
@@ -30,7 +30,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Alain Chouet, 35 ans de DGSE, une pointe de diamant ?"
+- title: "Alain Chouet, 35 ans de DGSE, une pointe de diamant\_?"
   link: "https://www.thinkerview.com/alain-chouet35-ans-de-dgse-une-pointe-de-diamant/"
   pubDate: "Wed, 18 May 2022 15:26:00 +0000"
   category: ["Interviews", "Géopolitique", "Terrorisme"]
@@ -54,7 +54,7 @@
     - title: "Tous mes livres"
       author: "Alain Chouet"
       storeUrl: "https://www.amazon.fr/Alain-Chouet/e/B004NBCGNQ"
-- title: "Crise de l'eau, planète terre invivable ?"
+- title: "Crise de l'eau, planète terre invivable\_?"
   link: "https://www.thinkerview.com/emma-haziza-crise-de-leau-planete-terre-invivable/"
   pubDate: "Tue, 17 May 2022 15:25:00 +0000"
   category: ["Climat", "Energie", "Interviews", "Société"]
@@ -81,7 +81,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Tempête géopolitique?"
+- title: "Tempête géopolitique\_?"
   link: "https://www.thinkerview.com/pascal-boniface-tempete-geopolitique/"
   pubDate: "Wed, 04 May 2022 09:12:00 +0000"
   category: ["Energie", "Interviews", "Géopolitique", "Terrorisme"]
@@ -108,7 +108,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Vivre en dictature ?"
+- title: "Vivre en dictature\_?"
   link: "https://www.thinkerview.com/sacha-filipenko-vivre-en-dictature/"
   pubDate: "Thu, 14 Apr 2022 09:18:00 +0000"
   category: ["Interviews", "Géopolitique", "Société"]
@@ -135,7 +135,7 @@
     - title: "Tous les livres de"
       author: "Marcel Proust"
       storeUrl: "https://www.amazon.fr/Marcel-Proust/e/B00J9SSFOC"
-- title: "L’Europe à court d’énergie ?"
+- title: "L’Europe à court d’énergie\_?"
   link: "https://www.thinkerview.com/nicolas-meilhan-et-francis-perrin-leurope-a-court-denergie/"
   pubDate: "Wed, 30 Mar 2022 15:56:02 +0000"
   category: [ "Energie", "Climat", "Interviews", "Géopolitique"]
@@ -173,7 +173,7 @@
     - title: "Perspectives énergétiques mondiales (World energy outlook)"
       author: "IEA"
       storeUrl: "https://www.iea.org/topics/world-energy-outlook"
-- title: "Où va la France ? Part 2"
+- title: "Où va la France\_? Part\_2"
   link: "https://www.thinkerview.com/jean-luc-melenchon-ou-va-la-france-part-2/"
   pubDate: "Mon, 28 Mar 2022 15:45:00 +0000"
   category: ["Interviews","Environnement","Société"]
@@ -200,7 +200,7 @@
     - title: "La Véritable Histoire des Gracques"
       author: "Christopher Bouix"
       storeUrl: "https://www.amazon.fr/V%C3%A9ritable-Histoire-Gracques-Christopher-Bouix/dp/2251040137/"
-- title: "Coup d’état numérique, la matrice ?"
+- title: "Coup d’état numérique, la matrice\_?"
   link: "https://www.thinkerview.com/christophe-deloire-coup-detat-numerique-la-matrice/"
   pubDate: "Fri, 18 Mar 2022 16:50:00 +0000"
   category: ["Interviews","Internet / Technologies","Médias"]
@@ -229,7 +229,7 @@
     - title: "La Fin de l'homme rouge: Ou le temps du désenchantement"
       author: "Svetlana Alexievitch"
       storeUrl: "https://www.amazon.fr/fin-lhomme-rouge-temps-d%C3%A9senchantement/dp/2330066848/"
-- title: "Comment arrive-t-on à la guerre ?"
+- title: "Comment arrive-t-on à la guerre\_?"
   link: "https://www.thinkerview.com/pierre-conesa-comment-arrive-t-on-a-la-guerre/"
   pubDate: "Thu, 10 Mar 2022 20:16:00 +0000"
   category: ["Interviews","Géopolitique"]
@@ -256,7 +256,7 @@
     - title: "Chronique du Point"
       author: "Kamel Daoud"
       storeUrl: "https://www.lepoint.fr/journalistes-du-point/kamel-daoud"
-- title: "Paul Moreira et Edwy Plenel, Crash des médias ? Crash des journalistes ?"
+- title: "Crash des médias\_? Crash des journalistes\_?"
   link: "https://www.thinkerview.com/paul-moreira-et-edwy-plenel-crash-des-medias-crash-des-journalistes/"
   pubDate: "Wed, 23 Feb 2022 08:25:00 +0000"
   category: ["Interviews","Médias"]
@@ -266,7 +266,8 @@
   videoId: ""
   videoUrl: "https://youtu.be/"
   guests:
-    - ""
+    - "Paul Moreira"
+    - "Edwy Plenel"
   adviceTimecode:
   advices:
     - title: ""
@@ -282,7 +283,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Marc Endeweld : L’emprise, la France sous influence ?"
+- title: "Marc Endeweld : L’emprise, la France sous influence\_?"
   link: "https://www.thinkerview.com/marc-endeweld-lemprise-la-france-sous-influence/"
   pubDate: "Thu, 17 Feb 2022 19:04:00 +0000"
   category: ["Interviews","Médias","Société"]
@@ -309,7 +310,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Jean-Marc Jancovici et Laurent Morel, Éviter l’effondrement ?"
+- title: "Jean-Marc Jancovici et Laurent Morel, Éviter l’effondrement\_?"
   link: "https://www.thinkerview.com/jean-marc-jancovici-et-laurent-morel-eviter-leffondrement/"
   pubDate: "Wed, 09 Feb 2022 08:20:00 +0000"
   category: ["Energie","Climat","Interviews"]
@@ -335,7 +336,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Geoffroy Roux de Bézieux : La France face à la nouvelle mondialisation ?"
+- title: "Geoffroy Roux de Bézieux : La France face à la nouvelle mondialisation\_?"
   link: "https://www.thinkerview.com/geoffroy-roux-de-bezieux-la-france-face-a-la-nouvelle-mondialisation/"
   pubDate: "Thu, 27 Jan 2022 12:31:00 +0000"
   category: ["Interviews","Société"]
@@ -361,7 +362,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Aurore Stéphant : L’effondrement, le point critique ?"
+- title: "Aurore Stéphant : L’effondrement, le point critique\_?"
   link: "https://www.thinkerview.com/aurore-stephant-leffondrement-le-point-critique/"
   pubDate: "Tue, 25 Jan 2022 14:42:00 +0000"
   category: ["Energie","Climat","Interviews","Environnement"]
@@ -388,7 +389,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Jean-Luc Mélenchon : Où va la France ?"
+- title: "Jean-Luc Mélenchon : Où va la France\_?"
   link: "https://www.thinkerview.com/jean-luc-melenchon-ou-va-la-france/"
   pubDate: "Fri, 21 Jan 2022 20:58:56 +0000"
   category: ["Energie","Climat","Interviews","Environnement","Société","Sciences"]
@@ -414,7 +415,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Loïc Finaz : L’art de la guerre et du commandement ?"
+- title: "Loïc Finaz : L’art de la guerre et du commandement\_?"
   link: "https://www.thinkerview.com/loic-finaz-lart-de-la-guerre-et-du-commandement/"
   pubDate: "Tue, 11 Jan 2022 16:03:00 +0000"
   category: ["Interviews","Géopolitique"]
@@ -440,7 +441,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Étienne Klein : Science et société, où va-t-on ?"
+- title: "Étienne Klein : Science et société, où va-t-on\_?"
   link: "https://www.thinkerview.com/etienne-klein-science-et-societe-ou-va-t-on/"
   pubDate: "Mon, 13 Dec 2021 08:53:21 +0000"
   category: ["Interviews","Sciences"]
@@ -466,7 +467,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Clément Viktorovitch : Militarisation de la langue ?"
+- title: "Clément Viktorovitch : Militarisation de la langue\_?"
   link: "https://www.thinkerview.com/clement-viktorovitch-militarisation-de-la-langue/"
   pubDate: "Sat, 04 Dec 2021 00:22:59 +0000"
   category: ["Philosophie","Interviews","Société"]
@@ -492,7 +493,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Eric Sadin : Désamorcer notre impuissance politique ?"
+- title: "Eric Sadin : Désamorcer notre impuissance politique\_?"
   link: "https://www.thinkerview.com/eric-sadin-desamorcer-notre-impuissance-politique/"
   pubDate: "Mon, 22 Nov 2021 21:29:00 +0000"
   category: ["Philosophie","Interviews","Société"]
@@ -519,7 +520,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "John Shipton : Julian Assange, torture made in Europe ? [Version Française]"
+- title: "John Shipton : Julian Assange, torture made in Europe\_? [Version Française]"
   link: "https://www.thinkerview.com/john-shipton-julian-assange-torture-made-in-europe-version-francaise/"
   pubDate: "Mon, 15 Nov 2021 22:59:00 +0000"
   category: ["Interviews","Géopolitique","Terrorisme"]
@@ -545,7 +546,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "John Shipton : Julian Assange, torture made in Europe ? [VO]"
+- title: "John Shipton : Julian Assange, torture made in Europe\_? [VO]"
   link: "https://www.thinkerview.com/john-shipton-julian-assange-torture-made-in-europe-vo/"
   pubDate: "Mon, 15 Nov 2021 22:52:00 +0000"
   category: ["Interviews","Géopolitique","Internet / Technologies","Médias","Société"]
@@ -572,7 +573,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Raphaël Rossello et Owen Simonin : De la récession à la crypto ?"
+- title: "Raphaël Rossello et Owen Simonin : De la récession à la crypto\_?"
   link: "https://www.thinkerview.com/raphael-rossello-et-owen-simonin-de-la-recession-a-la-crypto/"
   pubDate: "Thu, 11 Nov 2021 17:17:24 +0000"
   category: ["Interviews","Finance","Société"]
@@ -598,7 +599,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Anais Voy Gillis : Réindustrialisation, reprendre son autonomie ?"
+- title: "Anais Voy Gillis : Réindustrialisation, reprendre son autonomie\_?"
   link: "https://www.thinkerview.com/anais-voy-gillis-reindustrialisation-reprendre-son-autonomie/"
   pubDate: "Mon, 01 Nov 2021 08:26:16 +0000"
   category: ["Interviews","Société"]
@@ -624,7 +625,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Eric Zemmour : Où va la France ?"
+- title: "Eric Zemmour : Où va la France\_?"
   link: "https://www.thinkerview.com/eric-zemmour-ou-va-la-france/"
   pubDate: "Sat, 23 Oct 2021 19:41:35 +0000"
   category: ["Interviews","Société"]
@@ -650,7 +651,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Régis Le Sommier : Journaliste sous les balles ?"
+- title: "Régis Le Sommier : Journaliste sous les balles\_?"
   link: "https://www.thinkerview.com/regis-le-sommier-journaliste-sous-les-balles/"
   pubDate: "Fri, 15 Oct 2021 01:08:10 +0000"
   category: ["Interviews","Géopolitique","Médias"]
@@ -677,7 +678,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Georges Ugeux : La Finance destructrice de démocratie ?"
+- title: "Georges Ugeux : La Finance destructrice de démocratie\_?"
   link: "https://www.thinkerview.com/georges-ugeux-la-finance-destructrice-de-democratie/"
   pubDate: "Wed, 06 Oct 2021 13:39:00 +0000"
   category: ["Interviews","Finance","Société"]
@@ -704,7 +705,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Zax et Doomer : Le hacking au XXIe siècle ?"
+- title: "Zax et Doomer : Le hacking au XXIe siècle\_?"
   link: "https://www.thinkerview.com/zax-et-doomer-le-hacking-au-xxie-siecle/"
   pubDate: "Fri, 24 Sep 2021 10:59:18 +0000"
   category: ["Interviews","Internet / Technologies"]
@@ -730,7 +731,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Lu Shaye : Ambassadeur de Chine sans filtre ?"
+- title: "Lu Shaye : Ambassadeur de Chine sans filtre\_?"
   link: "https://www.thinkerview.com/lu-shaye-ambassadeur-de-chine-sans-filtre/"
   pubDate: "Wed, 22 Sep 2021 10:58:13 +0000"
   category: ["Interviews","Géopolitique","Société"]
@@ -756,7 +757,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Alain Juillet : La fin de la guerre classique ?"
+- title: "Alain Juillet : La fin de la guerre classique\_?"
   link: "https://www.thinkerview.com/alain-juillet-la-fin-de-la-guerre-classique/"
   pubDate: "Thu, 09 Sep 2021 11:31:19 +0000"
   category: ["Interviews","Géopolitique"]
@@ -782,7 +783,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Le rapport qui annonce l’apocalypse ? Valérie Masson-Delmotte et Pierre Larrouturou"
+- title: "Le rapport qui annonce l’apocalypse\_? Valérie Masson-Delmotte et Pierre Larrouturou"
   link: "https://www.thinkerview.com/le-rapport-qui-annonce-lapocalypse-valerie-masson-delmotte-et-pierre-larrouturou/"
   pubDate: "Wed, 08 Sep 2021 11:29:45 +0000"
   category: ["Energie","Climat","Interviews","Géopolitique","Environnement","Sciences"]
@@ -808,7 +809,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Renaud Van Ruymbeke : Pas de prison pour les grands escrocs ?"
+- title: "Renaud Van Ruymbeke : Pas de prison pour les grands escrocs\_?"
   link: "https://www.thinkerview.com/renaud-van-ruymbeke-pas-de-prison-pour-les-grands-escrocs/"
   pubDate: "Tue, 06 Jul 2021 15:35:50 +0000"
   category: ["Interviews","Société"]
@@ -834,7 +835,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Philippe Corcuff : 66% d’abstention, la grande confusion ?"
+- title: "Philippe Corcuff : 66% d’abstention, la grande confusion\_?"
   link: "https://www.thinkerview.com/philippe-corcuff-66-dabstention-la-grande-confusion/"
   pubDate: "Wed, 23 Jun 2021 09:40:08 +0000"
   category: ["Interviews","Médias","Société"]
@@ -860,7 +861,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Benjamin Bayart et Marc Rees : Pass sanitaire, géopolitique de la Data, copie privée ?"
+- title: "Benjamin Bayart et Marc Rees : Pass sanitaire, géopolitique de la Data, copie privée\_?"
   link: "https://www.thinkerview.com/benjamin-bayart-et-marc-rees-pass-sanitaire-geopolitique-de-la-data-copie-privee/"
   pubDate: "Tue, 15 Jun 2021 12:17:44 +0000"
   category: ["Interviews","Internet / Technologies"]
@@ -886,7 +887,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Bruno Gaccio : La satire avant la guerre ?"
+- title: "Bruno Gaccio : La satire avant la guerre\_?"
   link: "https://www.thinkerview.com/bruno-gaccio-la-satire-avant-la-guerre/"
   pubDate: "Thu, 10 Jun 2021 09:22:33 +0000"
   category: ["Interviews","Médias"]
@@ -912,7 +913,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Henri Bentégeat : Militaires en colère ?"
+- title: "Henri Bentégeat : Militaires en colère\_?"
   link: "https://www.thinkerview.com/henri-bentegeat-militaires-en-colere/"
   pubDate: "Thu, 03 Jun 2021 09:05:03 +0000"
   category: ["Interviews","Géopolitique"]
@@ -938,7 +939,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Hubert Védrine : Géopolitique, Le désastre Français ?"
+- title: "Hubert Védrine : Géopolitique, Le désastre Français\_?"
   link: "https://www.thinkerview.com/hubert-vedrine-geopolitique-le-desastre-francais/"
   pubDate: "Wed, 26 May 2021 15:17:29 +0000"
   category: ["Interviews","Géopolitique"]
@@ -964,7 +965,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Philippe de Villiers : sans filtre ?"
+- title: "Philippe de Villiers : sans filtre\_?"
   link: "https://www.thinkerview.com/philippe-de-villiers-sans-filtre/"
   pubDate: "Wed, 19 May 2021 13:51:56 +0000"
   category: ["Interviews","Société"]
@@ -990,7 +991,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Gaspard Glanz : Au cœur des soulèvements ?"
+- title: "Gaspard Glanz : Au cœur des soulèvements\_?"
   link: "https://www.thinkerview.com/gaspard-glanz-au-coeur-des-soulevements/"
   pubDate: "Tue, 18 May 2021 13:51:48 +0000"
   category: ["Interviews","Médias","Société"]
@@ -1016,7 +1017,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Barbara Stiegler : Démocratie, Épiphénomène historique, sécession des élites ?"
+- title: "Barbara Stiegler : Démocratie, Épiphénomène historique, sécession des élites\_?"
   link: "https://www.thinkerview.com/barbara-stiegler-democratie-epiphenomene-historique-secession-des-elites/"
   pubDate: "Fri, 30 Apr 2021 14:23:53 +0000"
   category: ["Philosophie","Interviews","Géopolitique","Société"]
@@ -1042,7 +1043,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Brice Perrier :Covid : aux origines du mal ?"
+- title: "Brice Perrier :Covid : aux origines du mal\_?"
   link: "https://www.thinkerview.com/brice-perrier-covid-aux-origines-du-mal/"
   pubDate: "Thu, 29 Apr 2021 14:20:32 +0000"
   category: ["Interviews","Société","Sciences"]
@@ -1068,7 +1069,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Pierre Conesa : Les radicalismes religieux et le Lobby Saoudien en France ?"
+- title: "Pierre Conesa : Les radicalismes religieux et le Lobby Saoudien en France\_?"
   link: "https://www.thinkerview.com/pierre-conesa-les-radicalismes-religieux-et-le-lobby-saoudien-en-france/"
   pubDate: "Fri, 16 Apr 2021 07:33:53 +0000"
   category: ["Interviews","Géopolitique","Terrorisme"]
@@ -1094,7 +1095,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Renaud Piarroux : Désinformation en temps d’épidémie ?"
+- title: "Renaud Piarroux : Désinformation en temps d’épidémie\_?"
   link: "https://www.thinkerview.com/renaud-piarroux-desinformation-en-temps-depidemie/"
   pubDate: "Fri, 09 Apr 2021 12:40:03 +0000"
   category: ["Interviews","Géopolitique","Sciences"]
@@ -1120,7 +1121,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Gilles Raveaud : Crise gigantesque en approche ?"
+- title: "Gilles Raveaud : Crise gigantesque en approche\_?"
   link: "https://www.thinkerview.com/gilles-raveaud-crise-gigantesque-en-approche/"
   pubDate: "Thu, 01 Apr 2021 14:16:52 +0000"
   category: ["Interviews"]
@@ -1146,7 +1147,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Elise Van Beneden : France, Corruption à tous les étages ?"
+- title: "Elise Van Beneden : France, Corruption à tous les étages\_?"
   link: "https://www.thinkerview.com/elise-van-beneden-france-corruption-a-tous-les-etages/"
   pubDate: "Wed, 17 Mar 2021 10:19:49 +0000"
   category: ["Interviews"]
@@ -1172,7 +1173,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Guillaume Meurice : Le bouffon du Roi ?"
+- title: "Guillaume Meurice : Le bouffon du Roi\_?"
   link: "https://www.thinkerview.com/guillaume-meurice-le-bouffon-du-roi/"
   pubDate: "Thu, 11 Mar 2021 17:31:45 +0000"
   category: ["Interviews","Société"]
@@ -1198,7 +1199,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Raphaël Rossello : Banquier d’affaires face aux crises ?"
+- title: "Raphaël Rossello : Banquier d’affaires face aux crises\_?"
   link: "https://www.thinkerview.com/raphael-rossello-banquier-daffaires-face-aux-crises/"
   pubDate: "Thu, 04 Mar 2021 17:31:37 +0000"
   category: ["Interviews","Finance"]
@@ -1224,7 +1225,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Yves Jégo : La France en cours de tiers-mondisation ?"
+- title: "Yves Jégo : La France en cours de tiers-mondisation\_?"
   link: "https://www.thinkerview.com/yves-jego-la-france-en-cours-de-tiers-mondisation/"
   pubDate: "Wed, 10 Feb 2021 12:17:00 +0000"
   category: ["Interviews","Société"]
@@ -1250,7 +1251,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Yann Arthus-Bertrand : 50 ans d’Utopie ?"
+- title: "Yann Arthus-Bertrand : 50 ans d’Utopie\_?"
   link: "https://www.thinkerview.com/yann-arthus-bertrand-50-ans-dutopie/"
   pubDate: "Thu, 04 Feb 2021 13:21:00 +0000"
   category: ["Climat","Interviews","Environnement"]
@@ -1276,7 +1277,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Renaud Piarroux : COVID 19, La faillite occidentale ?"
+- title: "Renaud Piarroux : COVID 19, La faillite occidentale\_?"
   link: "https://www.thinkerview.com/renaud-piarroux-covid-19-la-faillite-occidentale/"
   pubDate: "Fri, 29 Jan 2021 13:15:00 +0000"
   category: ["Interviews","Environnement","Société","Sciences"]
@@ -1302,7 +1303,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Christophe Deloire : En route vers la dictature ?"
+- title: "Christophe Deloire : En route vers la dictature\_?"
   link: "https://www.thinkerview.com/christophe-deloire-en-route-vers-la-dictature/"
   pubDate: "Thu, 21 Jan 2021 16:14:36 +0000"
   category: ["Interviews","Médias","Société"]
@@ -1328,7 +1329,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Béatrice Brugère : La Justice face aux Politiques, aux terroristes ?"
+- title: "Béatrice Brugère : La Justice face aux Politiques, aux terroristes\_?"
   link: "https://www.thinkerview.com/beatrice-brugere-la-justice-face-aux-politiques-aux-terroristes/"
   pubDate: "Fri, 15 Jan 2021 16:14:00 +0000"
   category: ["Interviews","Médias","Terrorisme","Société"]
@@ -1354,7 +1355,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Cédric Herrou : Partout où nécessité fait loi ?"
+- title: "Cédric Herrou : Partout où nécessité fait loi\_?"
   link: "https://www.thinkerview.com/cedric-herrou-partout-ou-necessite-fait-loi/"
   pubDate: "Thu, 17 Dec 2020 22:58:00 +0000"
   category: ["Interviews","Société"]
@@ -1381,7 +1382,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Alexandre Langlois et Noam Anouar : La police en déconfiture ?"
+- title: "Alexandre Langlois et Noam Anouar : La police en déconfiture\_?"
   link: "https://www.thinkerview.com/alexandre-langlois-et-noam-anouar-la-police-en-deconfiture/"
   pubDate: "Tue, 08 Dec 2020 17:24:00 +0000"
   category: ["Interviews","Terrorisme","Société"]
@@ -1408,7 +1409,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Julia Cagé : Journalisme de façade, de cour, de trottoir ?"
+- title: "Julia Cagé : Journalisme de façade, de cour, de trottoir\_?"
   link: "https://www.thinkerview.com/julia-cage-journalisme-de-facade-de-cour-de-trottoir/"
   pubDate: "Tue, 08 Dec 2020 14:22:00 +0000"
   category: ["Climat","Interviews","Finance","Environnement","Société"]
@@ -1435,7 +1436,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Marc Eichinger : L’espion qui nous veut du bien ?"
+- title: "Marc Eichinger : L’espion qui nous veut du bien\_?"
   link: "https://www.thinkerview.com/marc-eichinger-lespion-qui-nous-veut-du-bien/"
   pubDate: "Tue, 01 Dec 2020 21:54:00 +0000"
   category: ["Interviews","Géopolitique","Terrorisme"]
@@ -1462,7 +1463,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Arnaud Montebourg : France, réveiller nos vieux démons ?"
+- title: "Arnaud Montebourg : France, réveiller nos vieux démons\_?"
   link: "https://www.thinkerview.com/arnaud-montebourg-france-reveiller-nos-vieux-demons/"
   pubDate: "Wed, 18 Nov 2020 12:19:00 +0000"
   category: ["Energie","Interviews","Géopolitique","Finance","Médias","Société"]
@@ -1488,7 +1489,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Noël Mamère : Le Covid, les fake news, les journalistes ?"
+- title: "Noël Mamère : Le Covid, les fake news, les journalistes\_?"
   link: "https://www.thinkerview.com/noel-mamere-le-covid-les-fake-news-les-journalistes/"
   pubDate: "Thu, 12 Nov 2020 13:54:00 +0000"
   category: ["Interviews","Environnement","Société"]
@@ -1515,7 +1516,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Anne-Laure Kiechel : L’État démissionnaire ?"
+- title: "Anne-Laure Kiechel : L’État démissionnaire\_?"
   link: "https://www.thinkerview.com/anne-laure-kiechel-letat-demissionnaire/"
   pubDate: "Fri, 06 Nov 2020 11:47:00 +0000"
   category: ["Interviews","Géopolitique","Finance","Société"]
@@ -1542,7 +1543,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Denis Robert : Nager avec les requins ?"
+- title: "Denis Robert : Nager avec les requins\_?"
   link: "https://www.thinkerview.com/denis-robert-nager-avec-les-requins/"
   pubDate: "Thu, 29 Oct 2020 12:31:00 +0000"
   category: ["Interviews","Médias"]
@@ -1568,7 +1569,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Nicolas Meilhan et Philippe Bihouix : Le futur, entre 5G et Amish ?"
+- title: "Nicolas Meilhan et Philippe Bihouix : Le futur, entre 5G et Amish\_?"
   link: "https://www.thinkerview.com/nicolas-meilhan-et-philippe-bihouix-le-futur-entre-5g-et-amish/"
   pubDate: "Wed, 14 Oct 2020 18:00:54 +0000"
   category: ["Energie","Climat","Interviews","Environnement"]
@@ -1594,7 +1595,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Albert Dupontel : Adieu les cons, transhumance suicidaire ?"
+- title: "Albert Dupontel : Adieu les cons, transhumance suicidaire\_?"
   link: "https://www.thinkerview.com/albert-dupontel-adieu-les-cons-transhumance-suicidaire/"
   pubDate: "Wed, 14 Oct 2020 10:00:40 +0000"
   category: ["Arts","Interviews","Géopolitique","Finance","Médias","Société"]
@@ -1621,7 +1622,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Éric Sadin : La fin d’un monde commun ?"
+- title: "Éric Sadin : La fin d’un monde commun\_?"
   link: "https://www.thinkerview.com/eric-sadin-la-fin-dun-monde-commun/"
   pubDate: "Tue, 06 Oct 2020 18:01:00 +0000"
   category: ["Philosophie","Interviews","Société"]
@@ -1647,7 +1648,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Gaël Giraud : Chaos économique, blanchiment bancaire ?"
+- title: "Gaël Giraud : Chaos économique, blanchiment bancaire\_?"
   link: "https://www.thinkerview.com/gael-giraud-chaos-economique-blanchiment-bancaire/"
   pubDate: "Fri, 25 Sep 2020 22:05:59 +0000"
   category: ["Climat","Interviews","Géopolitique","Finance","Environnement"]
@@ -1673,7 +1674,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Isabelle Saporta : Les sangsues de la République ?"
+- title: "Isabelle Saporta : Les sangsues de la République\_?"
   link: "https://www.thinkerview.com/isabelle-saporta-les-sangsues-de-la-republique/"
   pubDate: "Thu, 17 Sep 2020 13:42:00 +0000"
   category: ["Interviews","Environnement","Société"]
@@ -1699,7 +1700,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Jean-Paul Fitoussi : Crise économique, débats interdits en France ?"
+- title: "Jean-Paul Fitoussi : Crise économique, débats interdits en France\_?"
   link: "https://www.thinkerview.com/jean-paul-fitoussi-crise-economique-debats-interdits-en-france/"
   pubDate: "Mon, 14 Sep 2020 14:55:20 +0000"
   category: ["Interviews"]
@@ -1725,7 +1726,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Tariq Krim et Bernard Benhamou : Souveraineté numérique, la douche froide ?"
+- title: "Tariq Krim et Bernard Benhamou : Souveraineté numérique, la douche froide\_?"
   link: "https://www.thinkerview.com/tariq-krim-et-bernard-benhamou-souverainete-numerique-la-douche-froide/"
   pubDate: "Fri, 17 Jul 2020 08:00:00 +0000"
   category: ["Interviews","Internet / Technologies"]
@@ -1752,7 +1753,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Michel Onfray : Où en est la France ?"
+- title: "Michel Onfray : Où en est la France\_?"
   link: "https://www.thinkerview.com/michel-onfray-ou-en-est-la-france/"
   pubDate: "Fri, 17 Jul 2020 06:55:00 +0000"
   category: ["Interviews","Société"]
@@ -1779,7 +1780,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Maxime Renahy : L’espion, le Covid et le truand ?"
+- title: "Maxime Renahy : L’espion, le Covid et le truand\_?"
   link: "https://www.thinkerview.com/maxime-renahy-lespion-le-covid-et-le-truand/"
   pubDate: "Fri, 03 Jul 2020 15:14:30 +0000"
   category: ["Interviews","Finance"]
@@ -1806,7 +1807,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Olivier Delamarche : Économie sous perfusion, les risques ?"
+- title: "Olivier Delamarche : Économie sous perfusion, les risques\_?"
   link: "https://www.thinkerview.com/olivier-delamarche-economie-sous-perfusion-les-risques/"
   pubDate: "Thu, 18 Jun 2020 14:29:00 +0000"
   category: ["Interviews","Finance","Société"]
@@ -1832,7 +1833,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "F.X. Selleret et P. Sabatier : Solidité du système financier et des retraites ?"
+- title: "F.X. Selleret et P. Sabatier : Solidité du système financier et des retraites\_?"
   link: "https://www.thinkerview.com/f-x-selleret-et-p-sabatier-solidite-du-systeme-financier-et-des-retraites/"
   pubDate: "Wed, 17 Jun 2020 14:18:00 +0000"
   category: ["Interviews","Finance","Société"]
@@ -1858,7 +1859,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Isabelle Delannoy : Choc économique, Perspectives alternatives ?"
+- title: "Isabelle Delannoy : Choc économique, Perspectives alternatives\_?"
   link: "https://www.thinkerview.com/isabelle-delannoy-choc-economique-perspectives-alternatives/"
   pubDate: "Fri, 05 Jun 2020 09:19:11 +0000"
   category: ["Climat","Interviews","Société","Sciences"]
@@ -1884,7 +1885,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "DataGueule : Un monde malade : quelles sont les pistes ?"
+- title: "DataGueule : Un monde malade : quelles sont les pistes\_?"
   link: "https://www.thinkerview.com/datagueule-un-monde-malade-quelles-sont-les-pistes/"
   pubDate: "Fri, 05 Jun 2020 09:17:24 +0000"
   category: ["Interviews","Géopolitique","Société"]
@@ -1910,7 +1911,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Philippe Douste-Blazy : COVID-19, panique sociale, scientifique et politique ?"
+- title: "Philippe Douste-Blazy : COVID-19, panique sociale, scientifique et politique\_?"
   link: "https://www.thinkerview.com/philippe-douste-blazy-covid-19-panique-sociale-scientifique-et-politique/"
   pubDate: "Fri, 05 Jun 2020 09:08:40 +0000"
   category: ["Interviews","Société","Sciences"]
@@ -1988,7 +1989,7 @@
     - title: "Le fil de l'épée Poche"
       author: "Charles de Gaulle"
       storeUrl: "https://www.amazon.fr/fil-l%C3%A9p%C3%A9e-Charles-GAULLE/dp/2262050201"
-- title: "Jean Ziegler : Migrants/Réfugiés, le grand scandale ?"
+- title: "Jean Ziegler : Migrants/Réfugiés, le grand scandale\_?"
   link: "https://www.thinkerview.com/jean-ziegler-migrants-refugies-le-grand-scandale/"
   pubDate: "Thu, 04 Jun 2020 12:34:53 +0000"
   category: ["Climat","Interviews","Géopolitique","Société"]
@@ -2014,7 +2015,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Glenn Albrecht Collapsologie, anxiété et dépression ?"
+- title: "Glenn Albrecht Collapsologie, anxiété et dépression\_?"
   link: "https://www.thinkerview.com/vf-glenn-albrecht-collapsologie-anxiete-et-depression/"
   pubDate: "Fri, 28 Feb 2020 15:29:00 +0000"
   category: ["Energie","Climat","Interviews"]
@@ -2040,7 +2041,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Bernard Norlain : Général 5 étoiles face à la bombe nucléaire ?"
+- title: "Bernard Norlain : Général 5 étoiles face à la bombe nucléaire\_?"
   link: "https://www.thinkerview.com/bernard-norlain-general-5-etoiles-face-a-la-bombe-nucleaire/"
   pubDate: "Mon, 24 Feb 2020 13:35:00 +0000"
   category: ["Interviews","Géopolitique"]
@@ -2066,7 +2067,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Virginie Martin : Les politiques, l’important c’est pas la chute ?"
+- title: "Virginie Martin : Les politiques, l’important c’est pas la chute\_?"
   link: "https://www.thinkerview.com/virginie-martin-les-politiques-limportant-cest-pas-la-chute-2/"
   pubDate: "Tue, 04 Feb 2020 12:08:00 +0000"
   category: ["Interviews","Finance","Société"]
@@ -2118,7 +2119,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Reflets + Extra-Muros : Radars, un pognon de dingue ?"
+- title: "Reflets + Extra-Muros : Radars, un pognon de dingue\_?"
   link: "https://www.thinkerview.com/reflets-extra-muros-radars-un-pognon-de-dingue/"
   pubDate: "Fri, 10 Jan 2020 11:29:00 +0000"
   category: ["Interviews","Médias"]
@@ -2144,7 +2145,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Thomas Wiesel : Humour, pensée formatée et politiquement correct ?"
+- title: "Thomas Wiesel : Humour, pensée formatée et politiquement correct\_?"
   link: "https://www.thinkerview.com/thomas-wiesel-humour-pensee-formatee-et-politiquement-correct/"
   pubDate: "Tue, 07 Jan 2020 18:22:00 +0000"
   category: ["Interviews","Société"]
@@ -2170,7 +2171,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Marc Endeweld : Macron, les réseaux secrets ?"
+- title: "Marc Endeweld : Macron, les réseaux secrets\_?"
   link: "https://www.thinkerview.com/marc-endeweld-macron-les-reseaux-secrets/"
   pubDate: "Thu, 19 Dec 2019 18:23:00 +0000"
   category: ["Interviews","Géopolitique","Société"]
@@ -2196,7 +2197,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Guillaume Pitron : L’enfumage de la transition écologique ?"
+- title: "Guillaume Pitron : L’enfumage de la transition écologique\_?"
   link: "https://www.thinkerview.com/guillaume-pitron-lenfumage-de-la-transition-ecologique/"
   pubDate: "Wed, 18 Dec 2019 18:23:00 +0000"
   category: ["Climat","Interviews"]
@@ -2222,7 +2223,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Cédric O : Guerre économique, surveillance de masse ?"
+- title: "Cédric O : Guerre économique, surveillance de masse\_?"
   link: "https://www.thinkerview.com/cedric-o-guerre-economique-surveillance-de-masse/"
   pubDate: "Thu, 12 Dec 2019 18:24:00 +0000"
   category: ["Interviews","Internet / Technologies"]
@@ -2248,7 +2249,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Christophe Stalla-Bourdillon : Propagande et contre-propagande ?"
+- title: "Christophe Stalla-Bourdillon : Propagande et contre-propagande\_?"
   link: "https://www.thinkerview.com/christophe-stalla-bourdillon-propagande-et-contre-propagande/"
   pubDate: "Tue, 26 Nov 2019 18:00:00 +0000"
   category: ["Interviews","Géopolitique","Société"]
@@ -2274,7 +2275,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Francis Dupuis-Déri : Crise de la masculinité ?"
+- title: "Francis Dupuis-Déri : Crise de la masculinité\_?"
   link: "https://www.thinkerview.com/francis-dupuis-deri-crise-de-la-masculinite/"
   pubDate: "Thu, 21 Nov 2019 17:21:00 +0000"
   category: ["Interviews","Société"]
@@ -2300,7 +2301,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Gilles Babinet : Camisole numérique pour votre bien ?"
+- title: "Gilles Babinet : Camisole numérique pour votre bien\_?"
   link: "https://www.thinkerview.com/gilles-babinet-camisole-numerique-pour-votre-bien/"
   pubDate: "Thu, 14 Nov 2019 17:24:00 +0000"
   category: ["Interviews","Internet / Technologies"]
@@ -2326,7 +2327,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Christophe Brusset : L’agroalimentaire vu de l’intérieur, intoxication ?"
+- title: "Christophe Brusset : L’agroalimentaire vu de l’intérieur, intoxication\_?"
   link: "https://www.thinkerview.com/christophe-brusset-lagroalimentaire-vu-de-linterieur-intoxication/"
   pubDate: "Thu, 07 Nov 2019 17:27:00 +0000"
   category: ["Interviews","Environnement","Société"]
@@ -2352,7 +2353,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Costa-Gavras : Europe, dictature technocratique ?"
+- title: "Costa-Gavras : Europe, dictature technocratique\_?"
   link: "https://www.thinkerview.com/costa-gavras-europe-dictature-technocratique/"
   pubDate: "Mon, 04 Nov 2019 19:20:00 +0000"
   category: ["Interviews","Société"]
@@ -2404,7 +2405,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Bruno Gaccio : Médias, les nouveaux GUIGNOLS ?"
+- title: "Bruno Gaccio : Médias, les nouveaux GUIGNOLS\_?"
   link: "https://www.thinkerview.com/bruno-gaccio-medias-les-nouveaux-guignols/"
   pubDate: "Wed, 16 Oct 2019 18:43:11 +0000"
   category: ["Interviews","Médias"]
@@ -2430,7 +2431,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Christophe Nijdam & Jérôme Cazes : L’explosion des banques ?"
+- title: "Christophe Nijdam & Jérôme Cazes : L’explosion des banques\_?"
   link: "https://www.thinkerview.com/christophe-nijdam-jerome-cazes-lexplosion-des-banques/"
   pubDate: "Wed, 09 Oct 2019 18:31:49 +0000"
   category: ["Interviews","Finance"]
@@ -2456,7 +2457,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Jouzel & Larrouturou : GIEC, Le climat survivra-t-il au capitalisme ?"
+- title: "Jouzel & Larrouturou : GIEC, Le climat survivra-t-il au capitalisme\_?"
   link: "https://www.thinkerview.com/jouzel-larrouturou-giec-le-climat-survivra-t-il-au-capitalisme/"
   pubDate: "Fri, 27 Sep 2019 17:00:33 +0000"
   category: ["Climat","Interviews"]
@@ -2482,7 +2483,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Joseph Stiglitz : Un prix Nobel face au krach à venir ?"
+- title: "Joseph Stiglitz : Un prix Nobel face au krach à venir\_?"
   link: "https://www.thinkerview.com/joseph-stiglitz-un-prix-nobel-face-au-krach-a-venir/"
   pubDate: "Wed, 25 Sep 2019 17:32:49 +0000"
   category: ["Climat","Interviews","Finance","Société"]
@@ -2508,7 +2509,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "DGSE : Face à la réalité ? Beryl614 Talk with a spy"
+- title: "DGSE : Face à la réalité\_? Beryl614 Talk with a spy"
   link: "https://www.thinkerview.com/dgse-face-a-la-realite-beryl614-talk-with-a-spy/"
   pubDate: "Fri, 20 Sep 2019 18:00:00 +0000"
   category: ["Interviews","Géopolitique"]
@@ -2534,7 +2535,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Olivier Marleix : Guerre économique sans pitié pour la France ?"
+- title: "Olivier Marleix : Guerre économique sans pitié pour la France\_?"
   link: "https://www.thinkerview.com/olivier-marleix-guerre-economique-sans-pitie-pour-la-france/"
   pubDate: "Tue, 17 Sep 2019 18:00:14 +0000"
   category: ["Interviews","Géopolitique","Finance"]
@@ -2560,7 +2561,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Eric Dénécé : La France en danger: où en est le renseignement ?"
+- title: "Eric Dénécé : La France en danger: où en est le renseignement\_?"
   link: "https://www.thinkerview.com/eric-denece-la-france-en-danger-ou-en-est-le-renseignement/"
   pubDate: "Wed, 11 Sep 2019 18:00:20 +0000"
   category: ["Interviews","Géopolitique"]
@@ -2586,7 +2587,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Vikash Dhorasoo : Football : du pain, des jeux et des magouilles ?"
+- title: "Vikash Dhorasoo : Football : du pain, des jeux et des magouilles\_?"
   link: "https://www.thinkerview.com/vikash-dhorasoo-football-du-pain-des-jeux-et-des-magouilles/"
   pubDate: "Thu, 05 Sep 2019 18:00:00 +0000"
   category: ["Interviews","Société"]
@@ -2612,7 +2613,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Maxime Renahy : DGSE : l’impuissance de l’état ?"
+- title: "Maxime Renahy : DGSE : l’impuissance de l’état\_?"
   link: "https://www.thinkerview.com/maxime-renahy-dgse-limpuissance-de-letat/"
   pubDate: "Tue, 03 Sep 2019 18:00:03 +0000"
   category: ["Interviews","Finance"]
@@ -2639,7 +2640,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Arnaud Montebourg : USA, Nos anciens alliés ?"
+- title: "Arnaud Montebourg : USA, Nos anciens alliés\_?"
   link: "https://www.thinkerview.com/arnaud-montebourg-usa-nos-anciens-allies/"
   pubDate: "Thu, 25 Jul 2019 18:00:05 +0000"
   category: ["Interviews","Géopolitique"]
@@ -2665,7 +2666,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Frédéric Pierucci. Alstom : la France vendue à la découpe ?"
+- title: "Frédéric Pierucci. Alstom : la France vendue à la découpe\_?"
   link: "https://www.thinkerview.com/frederic-pierucci-alstom-la-france-vendue-a-la-decoupe/"
   pubDate: "Mon, 08 Jul 2019 18:00:28 +0000"
   category: ["Interviews","Géopolitique"]
@@ -2692,7 +2693,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Pierre Conesa : Arabie Saoudite, un pays protégé ?"
+- title: "Pierre Conesa : Arabie Saoudite, un pays protégé\_?"
   link: "https://www.thinkerview.com/pierre-conesa-arabie-saoudite-un-pays-protege/"
   pubDate: "Tue, 02 Jul 2019 18:00:30 +0000"
   category: ["Interviews","Géopolitique"]
@@ -2744,7 +2745,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Laurent Alexandre et Philippe Bihouix : L’avenir de l’humanité ?"
+- title: "Laurent Alexandre et Philippe Bihouix : L’avenir de l’humanité\_?"
   link: "https://www.thinkerview.com/laurent-alexandre-et-philippe-bihouix-lavenir-de-lhumanite/"
   pubDate: "Tue, 25 Jun 2019 18:00:27 +0000"
   category: ["Climat","Interviews","Environnement","Sciences"]
@@ -2770,7 +2771,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Laherrère, Meilhan: Croissance, énergie, le point de non-retour ?"
+- title: "Laherrère, Meilhan: Croissance, énergie, le point de non-retour\_?"
   link: "https://www.thinkerview.com/laherrere-meilhan-croissance-energie-le-point-de-non-retour/"
   pubDate: "Wed, 19 Jun 2019 18:00:37 +0000"
   category: ["Energie","Climat","Interviews"]
@@ -2796,7 +2797,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Jean Ziegler : Pourquoi il faut détruire le capitalisme ?"
+- title: "Jean Ziegler : Pourquoi il faut détruire le capitalisme\_?"
   link: "https://www.thinkerview.com/jean-ziegler-pourquoi-il-faut-detruire-le-capitalisme/"
   pubDate: "Fri, 14 Jun 2019 18:00:31 +0000"
   category: ["Interviews","Géopolitique","Société"]
@@ -2822,7 +2823,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Alain Grandjean : la finance va-t-elle sauver la planète ?"
+- title: "Alain Grandjean : la finance va-t-elle sauver la planète\_?"
   link: "https://www.thinkerview.com/alain-grandjean-la-finance-va-t-elle-sauver-la-planete/"
   pubDate: "Wed, 12 Jun 2019 18:00:58 +0000"
   category: ["Energie","Climat","Interviews"]
@@ -2848,7 +2849,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Monique Pinçon-Charlot : Casse sociale, le début ?"
+- title: "Monique Pinçon-Charlot : Casse sociale, le début\_?"
   link: "https://www.thinkerview.com/monique-pincon-charlot-casse-sociale-le-debut/"
   pubDate: "Tue, 04 Jun 2019 18:00:47 +0000"
   category: ["Interviews","Société"]
@@ -2874,7 +2875,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Mediapart : Benalla, Macron, le journalisme menacé ?"
+- title: "Mediapart : Benalla, Macron, le journalisme menacé\_?"
   link: "https://www.thinkerview.com/mediapart-benalla-macron-le-journalisme-menace/"
   pubDate: "Fri, 24 May 2019 18:00:51 +0000"
   category: ["Interviews","Société"]
@@ -2901,7 +2902,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Barbara Stiegler : S’adapter à une société malade ?"
+- title: "Barbara Stiegler : S’adapter à une société malade\_?"
   link: "https://www.thinkerview.com/barbara-stiegler-sadapter-a-une-societe-malade/"
   pubDate: "Fri, 17 May 2019 18:00:03 +0000"
   category: ["Interviews","Finance"]
@@ -2927,7 +2928,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Philippe Bihouix : Prophète de l’apocalypse ?"
+- title: "Philippe Bihouix : Prophète de l’apocalypse\_?"
   link: "https://www.thinkerview.com/philippe-bihouix-prophete-de-lapocalypse-en-direct/"
   pubDate: "Tue, 14 May 2019 18:00:25 +0000"
   category: ["Climat","Interviews","Sciences"]
@@ -2953,7 +2954,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Coralie Delaume : Union Européenne pour ou contre ?"
+- title: "Coralie Delaume : Union Européenne pour ou contre\_?"
   link: "https://www.thinkerview.com/coralie-delaume-union-europeenne-pour-ou-contre-en-direct/"
   pubDate: "Fri, 10 May 2019 18:00:57 +0000"
   category: ["Interviews","Finance","Société"]
@@ -2980,7 +2981,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Jean-Luc Mélenchon : face à la réalité ? [EN DIRECT]"
+- title: "Jean-Luc Mélenchon : face à la réalité\_? [EN DIRECT]"
   link: "https://www.thinkerview.com/jean-luc-melenchon-face-a-la-realite-en-direct/"
   pubDate: "Mon, 06 May 2019 13:09:13 +0000"
   category: ["Interviews","Société"]
@@ -3032,7 +3033,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Champagne, Duplessy et Fontaine : Investigation sans filtre ?"
+- title: "Champagne, Duplessy et Fontaine : Investigation sans filtre\_?"
   link: "https://www.thinkerview.com/champagne-duplessy-et-fontaine-investigation-sans-filtre/"
   pubDate: "Fri, 12 Apr 2019 18:00:21 +0000"
   category: ["Interviews"]
@@ -3058,7 +3059,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Charles Rojzman : Vers les Guerres civiles ?"
+- title: "Charles Rojzman : Vers les Guerres civiles\_?"
   link: "https://www.thinkerview.com/charles-rojzman-vers-les-guerres-civiles/"
   pubDate: "Fri, 12 Apr 2019 15:00:40 +0000"
   category: ["Interviews","Société"]
@@ -3085,7 +3086,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Alain Damasio : l’intuition de la science-fiction ?"
+- title: "Alain Damasio : l’intuition de la science-fiction\_?"
   link: "https://www.thinkerview.com/alain-damasio-lintuition-de-la-science-fiction/"
   pubDate: "Thu, 11 Apr 2019 18:00:03 +0000"
   category: ["Interviews","Société"]
@@ -3112,7 +3113,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Caroline Galacteros : Géopolitique : Cynisme et bons sentiments ?"
+- title: "Caroline Galacteros : Géopolitique : Cynisme et bons sentiments\_?"
   link: "https://www.thinkerview.com/caroline-galacteros-geopolitique-cynisme-et-bons-sentiments/"
   pubDate: "Wed, 27 Mar 2019 18:00:36 +0000"
   category: ["Interviews","Géopolitique"]
@@ -3139,7 +3140,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Noam Anouar : Lucidité face aux terrorismes ?"
+- title: "Noam Anouar : Lucidité face aux terrorismes\_?"
   link: "https://www.thinkerview.com/noam-anouar-lucidite-face-aux-terrorismes/"
   pubDate: "Wed, 20 Mar 2019 13:30:31 +0000"
   category: ["Interviews","Terrorisme"]
@@ -3166,7 +3167,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Gaël Giraud : Tsunami financier, désastre humanitaire ?"
+- title: "Gaël Giraud : Tsunami financier, désastre humanitaire\_?"
   link: "https://www.thinkerview.com/gael-giraud-tsunami-financier-desastre-humanitaire/"
   pubDate: "Wed, 20 Mar 2019 09:30:23 +0000"
   category: ["Energie","Climat","Interviews"]
@@ -3193,7 +3194,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Juan Branco : L’illusion de la démocratie en France ?"
+- title: "Juan Branco : L’illusion de la démocratie en France\_?"
   link: "https://www.thinkerview.com/juan-branco-lillusion-de-la-democratie-en-france/"
   pubDate: "Wed, 13 Mar 2019 18:00:14 +0000"
   category: ["Interviews","Société"]
@@ -3220,7 +3221,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Aymeric Caron : Société à bout de souffle ?"
+- title: "Aymeric Caron : Société à bout de souffle\_?"
   link: "https://www.thinkerview.com/aymeric-caron-societe-a-bout-de-souffle/"
   pubDate: "Wed, 13 Mar 2019 15:30:21 +0000"
   category: ["Interviews","Environnement","Société"]
@@ -3273,7 +3274,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "François Boulo : Gilets Jaunes : Avant la révolution ?"
+- title: "François Boulo : Gilets Jaunes : Avant la révolution\_?"
   link: "https://www.thinkerview.com/francois-boulo-gilets-jaunes-avant-la-revolution/"
   pubDate: "Mon, 25 Feb 2019 13:30:38 +0000"
   category: ["Interviews","Société"]
@@ -3299,7 +3300,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "François Bégaudeau : Gilets Jaunes, Populisme, Bourgeois ?"
+- title: "François Bégaudeau : Gilets Jaunes, Populisme, Bourgeois\_?"
   link: "https://www.thinkerview.com/francois-begaudeau-gilets-jaunes-populisme-bourgeois/"
   pubDate: "Mon, 18 Feb 2019 19:00:48 +0000"
   category: ["Interviews"]
@@ -3325,7 +3326,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Khalid Essa: Taxi un métier en danger ?"
+- title: "Khalid Essa: Taxi un métier en danger\_?"
   link: "https://www.thinkerview.com/khalid-essa-taxi-un-metier-en-danger/"
   pubDate: "Mon, 18 Feb 2019 16:00:51 +0000"
   category: ["Interviews","Société"]
@@ -3351,7 +3352,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Yánis Varoufákis, la fin de l’Europe et de l’Euro ?"
+- title: "Yánis Varoufákis, la fin de l’Europe et de l’Euro\_?"
   link: "https://www.thinkerview.com/yanis-varoufakis-la-fin-de-leurope-et-de-leuro/"
   pubDate: "Mon, 18 Feb 2019 12:00:07 +0000"
   category: ["Interviews"]
@@ -3429,7 +3430,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Les milliardaires gavés au sang des gilets jaunes ? Denis Robert"
+- title: "Les milliardaires gavés au sang des gilets jaunes\_? Denis Robert"
   link: "https://www.thinkerview.com/les-milliardaires-gaves-au-sang-des-gilets-jaunes-denis-robert/"
   pubDate: "Thu, 17 Jan 2019 14:00:34 +0000"
   category: ["Interviews","Société"]
@@ -3456,7 +3457,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Gilets Jaunes : le début de la fin pour l’UE ?"
+- title: "Gilets Jaunes : le début de la fin pour l’UE\_?"
   link: "https://www.thinkerview.com/gilets-jaunes-le-debut-de-la-fin-pour-lue/"
   pubDate: "Wed, 16 Jan 2019 18:00:52 +0000"
   category: ["Interviews","Société"]
@@ -3482,7 +3483,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Futur de l’ordre mondial, la menace russe ?"
+- title: "Futur de l’ordre mondial, la menace russe\_?"
   link: "https://www.thinkerview.com/futur-de-lordre-mondial-la-menace-russe/"
   pubDate: "Tue, 18 Dec 2018 14:00:54 +0000"
   category: ["Interviews","Géopolitique"]
@@ -3508,7 +3509,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Corruption : Maladie de la France ? Anticor sans filtre"
+- title: "Corruption : Maladie de la France\_? Anticor sans filtre"
   link: "https://www.thinkerview.com/corruption-maladie-de-la-france-anticor-sans-filtre/"
   pubDate: "Mon, 10 Dec 2018 17:00:08 +0000"
   category: ["Interviews","Société"]
@@ -3535,7 +3536,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Une Justice sous Macron ? Carbon de Seze"
+- title: "Une Justice sous Macron\_? Carbon de Seze"
   link: "https://www.thinkerview.com/une-justice-sous-macron-carbon-de-seze/"
   pubDate: "Fri, 30 Nov 2018 10:30:00 +0000"
   category: ["Interviews","Société"]
@@ -3561,7 +3562,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Jérémy Ferrari : la révolte par l’humour ?"
+- title: "Jérémy Ferrari : la révolte par l’humour\_?"
   link: "https://www.thinkerview.com/jeremy-ferrari-la-revolte-par-lhumour/"
   pubDate: "Tue, 27 Nov 2018 18:30:31 +0000"
   category: ["Interviews","Société"]
@@ -3587,7 +3588,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Armée française : Quelle stratégie ? Général Vincent Desportes"
+- title: "Armée française : Quelle stratégie\_? Général Vincent Desportes"
   link: "https://www.thinkerview.com/armee-francaise-quelle-strategie-general-vincent-desportes/"
   pubDate: "Thu, 22 Nov 2018 17:30:46 +0000"
   category: ["Interviews","Géopolitique"]
@@ -3613,7 +3614,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Kémi Séba : Panafricanisme 2.0 ?"
+- title: "Kémi Séba : Panafricanisme 2.0\_?"
   link: "https://www.thinkerview.com/kemi-seba-panafricanisme-2-0/"
   pubDate: "Wed, 21 Nov 2018 19:00:07 +0000"
   category: ["Interviews","Géopolitique"]
@@ -3639,7 +3640,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Migrants / Réfugiés / Immigration : problèmes inextricables ?"
+- title: "Migrants / Réfugiés / Immigration : problèmes inextricables\_?"
   link: "https://www.thinkerview.com/migrants-refugies-immigration-problemes-inextricables/"
   pubDate: "Tue, 13 Nov 2018 18:00:26 +0000"
   category: ["Interviews","Société"]
@@ -3691,7 +3692,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Éric Sadin : l’asservissement par l’Intelligence Artificielle ?"
+- title: "Éric Sadin : l’asservissement par l’Intelligence Artificielle\_?"
   link: "https://www.thinkerview.com/eric-sadin-lasservissement-par-lintelligence-artificielle/"
   pubDate: "Thu, 08 Nov 2018 18:00:15 +0000"
   category: ["Interviews","Internet / Technologies"]
@@ -3717,7 +3718,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Emmanuel Todd : Trahison des élites françaises ?"
+- title: "Emmanuel Todd : Trahison des élites françaises\_?"
   link: "https://www.thinkerview.com/emmanuel-todd-trahison-des-elites-francaises/"
   pubDate: "Wed, 07 Nov 2018 18:00:26 +0000"
   category: ["Interviews","Société"]
@@ -3743,7 +3744,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "La France interdite ? Laurent Obertone"
+- title: "La France interdite\_? Laurent Obertone"
   link: "https://www.thinkerview.com/la-france-interdite-laurent-obertone/"
   pubDate: "Tue, 06 Nov 2018 18:00:02 +0000"
   category: ["Interviews","Société"]
@@ -3769,7 +3770,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Terrorisme ou Légitime défense ? Thibault de Montbrial"
+- title: "Terrorisme ou Légitime défense\_? Thibault de Montbrial"
   link: "https://www.thinkerview.com/terrorisme-ou-legitime-defense-thibault-de-montbrial/"
   pubDate: "Tue, 06 Nov 2018 14:30:16 +0000"
   category: ["Interviews","Société"]
@@ -3795,7 +3796,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Jérémie Zimmermann : 1984, un manuel d’instructions ?"
+- title: "Jérémie Zimmermann : 1984, un manuel d’instructions\_?"
   link: "https://www.thinkerview.com/jeremie-zimmermann-1984-un-manuel-dinstructions/"
   pubDate: "Thu, 18 Oct 2018 18:00:15 +0000"
   category: ["Interviews","Internet / Technologies"]
@@ -3847,7 +3848,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Anarchie VS Capitalisme ?"
+- title: "Anarchie VS Capitalisme\_?"
   link: "https://www.thinkerview.com/anarchie-vs-capitalisme/"
   pubDate: "Tue, 02 Oct 2018 18:00:14 +0000"
   category: ["Interviews","Société"]
@@ -3925,7 +3926,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Ex-députée écolo : sans langue de bois ?"
+- title: "Ex-députée écolo : sans langue de bois\_?"
   link: "https://www.thinkerview.com/ex-deputee-ecolo-sans-langue-de-bois/"
   pubDate: "Fri, 21 Sep 2018 18:00:14 +0000"
   category: ["Interviews","Environnement"]
@@ -3951,7 +3952,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Edgar Morin : L’effondrement ?"
+- title: "Edgar Morin : L’effondrement\_?"
   link: "https://www.thinkerview.com/edgar-morin-leffondrement/"
   pubDate: "Wed, 19 Sep 2018 17:15:53 +0000"
   category: ["Interviews","Société"]
@@ -3977,7 +3978,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Greenpeace : Menaces Nucléaire ?"
+- title: "Greenpeace : Menaces Nucléaire\_?"
   link: "https://www.thinkerview.com/greenpeace-menaces-nucleaire/"
   pubDate: "Wed, 19 Sep 2018 15:30:03 +0000"
   category: ["Interviews","Environnement"]
@@ -4029,7 +4030,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Quand la Science appelle à l’aide pour l’humanité ? Aurélien Barrau, Astrophysicien"
+- title: "Quand la Science appelle à l’aide pour l’humanité\_? Aurélien Barrau, Astrophysicien"
   link: "https://www.thinkerview.com/quand-la-science-appelle-a-laide-pour-lhumanite-aurelien-barrau-astrophysicien/"
   pubDate: "Fri, 14 Sep 2018 12:30:26 +0000"
   category: ["Interviews","Sciences"]
@@ -4055,7 +4056,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Sankara, Françafrique, CFA, où va l’Afrique ?"
+- title: "Sankara, Françafrique, CFA, où va l’Afrique\_?"
   link: "https://www.thinkerview.com/sankara-francafrique-cfa-ou-va-lafrique/"
   pubDate: "Thu, 13 Sep 2018 18:00:08 +0000"
   category: ["Interviews","Géopolitique"]
@@ -6161,7 +6162,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Climat : Trois quarts de l’humanité menacés de mort ?"
+- title: "Climat : Trois quarts de l’humanité menacés de mort\_?"
   link: "https://www.thinkerview.com/climat-trois-quarts-de-lhumanite-menaces-de-mort/"
   pubDate: "Thu, 28 Jun 2018 16:00:58 +0000"
   category: ["Interviews","Environnement"]
@@ -6214,7 +6215,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Economie en danger ? Flux migratoires, Brexit et Mondialisation"
+- title: "Economie en danger\_? Flux migratoires, Brexit et Mondialisation"
   link: "https://www.thinkerview.com/economie-en-danger-flux-migratoires-brexit-et-mondialisation/"
   pubDate: "Tue, 26 Jun 2018 13:15:27 +0000"
   category: ["Interviews","Finance"]
@@ -6240,7 +6241,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Blockchain, gouvernance et énergie ?"
+- title: "Blockchain, gouvernance et énergie\_?"
   link: "https://www.thinkerview.com/blockchain-gouvernance-et-energie/"
   pubDate: "Tue, 19 Jun 2018 18:00:32 +0000"
   category: ["Interviews","Internet / Technologies"]
@@ -6318,7 +6319,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "François Ruffin, sans filtre : Journaliste VS Politique ?"
+- title: "François Ruffin, sans filtre : Journaliste VS Politique\_?"
   link: "https://www.thinkerview.com/francois-ruffin-sans-filtre-journaliste-vs-politique/"
   pubDate: "Thu, 31 May 2018 18:00:13 +0000"
   category: ["Interviews","Société"]
@@ -6396,7 +6397,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Sarkozy, corruption, assassinat et affaire d’état ? Fabrice Arfi (Mediapart)"
+- title: "Sarkozy, corruption, assassinat et affaire d’état\_? Fabrice Arfi (Mediapart)"
   link: "https://www.thinkerview.com/sarkozy-corruption-assassinat-et-affaire-detat-fabrice-arfi-mediapart/"
   pubDate: "Wed, 23 May 2018 18:00:32 +0000"
   category: ["Interviews","Société"]
@@ -6449,7 +6450,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Le langage au service des puissants ? Alain Deneault"
+- title: "Le langage au service des puissants\_? Alain Deneault"
   link: "https://www.thinkerview.com/le-langage-au-service-des-puissants-alain-deneault/"
   pubDate: "Fri, 04 May 2018 18:00:34 +0000"
   category: ["Interviews","Société"]
@@ -6475,7 +6476,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Criminalisation de la lutte sociale ? Jérémie Assous : Affaire Tarnac"
+- title: "Criminalisation de la lutte sociale\_? Jérémie Assous : Affaire Tarnac"
   link: "https://www.thinkerview.com/criminalisation-de-la-lutte-sociale-jeremie-assous-affaire-tarnac/"
   pubDate: "Fri, 04 May 2018 15:30:19 +0000"
   category: ["Interviews","Société"]
@@ -6605,7 +6606,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Big Brother habite Place Beauvau ? Exégèse en libertés"
+- title: "Big Brother habite Place Beauvau\_? Exégèse en libertés"
   link: "https://www.thinkerview.com/big-brother-habite-place-beauvau-exegese-en-libertes/"
   pubDate: "Fri, 30 Mar 2018 19:15:12 +0000"
   category: ["Interviews","Internet / Technologies"]
@@ -6631,7 +6632,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Santé VS Nourriture ? Isabelle Saporta"
+- title: "Santé VS Nourriture\_? Isabelle Saporta"
   link: "https://www.thinkerview.com/sante-vs-nourriture-isabelle-saporta/"
   pubDate: "Tue, 13 Mar 2018 16:30:18 +0000"
   category: ["Interviews","Environnement"]
@@ -6657,7 +6658,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Bernard Friot : Théorie du revenu universel / salaire à la qualification ?"
+- title: "Bernard Friot : Théorie du revenu universel / salaire à la qualification\_?"
   link: "https://www.thinkerview.com/bernard-friot-theorie-du-revenu-universel-salaire-a-la-qualification/"
   pubDate: "Tue, 13 Mar 2018 14:00:31 +0000"
   category: ["Interviews","Finance"]
@@ -6683,7 +6684,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Natacha Polony : Journalistes et médias sous contrôles ?"
+- title: "Natacha Polony : Journalistes et médias sous contrôles\_?"
   link: "https://www.thinkerview.com/natacha-polony-journalistes-medias-controles/"
   pubDate: "Mon, 05 Mar 2018 11:00:12 +0000"
   category: ["Interviews","Médias"]
@@ -6709,7 +6710,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Aude Lancelin : Indépendance des médias ?"
+- title: "Aude Lancelin : Indépendance des médias\_?"
   link: "https://www.thinkerview.com/aude-lancelin-independance-medias/"
   pubDate: "Tue, 27 Feb 2018 19:30:38 +0000"
   category: ["Interviews","Médias"]
@@ -6735,7 +6736,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Effondrement de la civilisation ? Pablo Servigne"
+- title: "Effondrement de la civilisation\_? Pablo Servigne"
   link: "https://www.thinkerview.com/effondrement-de-civilisation-pablo-servigne/"
   pubDate: "Fri, 23 Feb 2018 18:00:01 +0000"
   category: ["Interviews","Environnement"]
@@ -6787,7 +6788,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Journalistes et liberté d’expression en danger ?"
+- title: "Journalistes et liberté d’expression en danger\_?"
   link: "https://www.thinkerview.com/journalistes-liberte-dexpression-danger/"
   pubDate: "Tue, 13 Feb 2018 18:30:54 +0000"
   category: ["Interviews","Médias"]
@@ -6813,7 +6814,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "La police au service du marché ?"
+- title: "La police au service du marché\_?"
   link: "https://www.thinkerview.com/police-service-marche/"
   pubDate: "Tue, 13 Feb 2018 16:30:49 +0000"
   category: ["Interviews","Société"]
@@ -6839,7 +6840,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Étienne Klein : Éthique et philosophie des sciences, le rôle des scientifiques ?"
+- title: "Étienne Klein : Éthique et philosophie des sciences, le rôle des scientifiques\_?"
   link: "https://www.thinkerview.com/etienne-klein-ethique-philosophie-sciences-role-scientifiques/"
   pubDate: "Wed, 17 Jan 2018 18:30:59 +0000"
   category: ["Interviews","Sciences"]
@@ -6891,7 +6892,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Propagande VS Journalisme ? RT France, Xenia Fedorova"
+- title: "Propagande VS Journalisme\_? RT France, Xenia Fedorova"
   link: "https://www.thinkerview.com/propagande-vs-journalisme-rt-france-xenia-fedorova/"
   pubDate: "Tue, 16 Jan 2018 16:00:37 +0000"
   category: ["Interviews","Médias"]
@@ -6917,7 +6918,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Philippe Bihouix : Le mensonge de la croissance verte ?"
+- title: "Philippe Bihouix : Le mensonge de la croissance verte\_?"
   link: "https://www.thinkerview.com/philippe-bihouix-mensonge-de-croissance-verte/"
   pubDate: "Thu, 11 Jan 2018 18:00:18 +0000"
   category: ["Interviews","Société"]
@@ -6943,7 +6944,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "L214 : Exploitation animale & Alimentation – Souffrance du 21ème siècle ?"
+- title: "L214 : Exploitation animale & Alimentation – Souffrance du 21ème siècle\_?"
   link: "https://www.thinkerview.com/exploitation-animale-alimentation-souffrance-21eme-siecle-l214/"
   pubDate: "Wed, 10 Jan 2018 20:15:36 +0000"
   category: ["Interviews","Environnement"]
@@ -6969,7 +6970,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Pollution atmosphérique : après l’amiante, un nouveau scandale d’Etat ? Solutions ?"
+- title: "Pollution atmosphérique : après l’amiante, un nouveau scandale d’Etat\_? Solutions\_?"
   link: "https://www.thinkerview.com/pollution-atmospherique-apres-lamiante-nouveau-scandale-detat-solutions/"
   pubDate: "Wed, 10 Jan 2018 18:00:04 +0000"
   category: ["Interviews","Environnement"]
@@ -6995,11 +6996,11 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Périco Légasse : Malbouffe et Mondialisation ?"
+- title: "Périco Légasse : Malbouffe et Mondialisation\_?"
   link: "https://www.thinkerview.com/perico-legasse-malbouffe-mondialisation/"
   pubDate: "Thu, 14 Dec 2017 18:45:54 +0000"
   category: ["Interviews","Société"]
-  description: "Interview de Périco Légasse : Malbouffe et Mondialisation ? en direct à 19h45 le 14/12/2017."
+  description: "Interview de Périco Légasse : Malbouffe et Mondialisation\_? en direct à 19h45 le 14/12/2017."
   # extends
   releaseDate:
   videoId: ""
@@ -7021,11 +7022,11 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Jean-Marc Jancovici : Anticiper l’effondrement énergétique ?"
+- title: "Jean-Marc Jancovici : Anticiper l’effondrement énergétique\_?"
   link: "https://www.thinkerview.com/jean-marc-jancovici-anticiper-leffondrement-energetique/"
   pubDate: "Thu, 14 Dec 2017 18:00:42 +0000"
   category: ["Interviews","Géopolitique"]
-  description: "Interview de Jean-Marc Jancovici : Anticiper l’effondrement énergétique ? en direct à 19h00 le 14/12/2017."
+  description: "Interview de Jean-Marc Jancovici : Anticiper l’effondrement énergétique\_? en direct à 19h00 le 14/12/2017."
   # extends
   releaseDate:
   videoId: ""
@@ -7073,7 +7074,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Frédéric Taddeï : Les limites du débat ?"
+- title: "Frédéric Taddeï : Les limites du débat\_?"
   link: "https://www.thinkerview.com/frederic-taddei-limites-debat/"
   pubDate: "Wed, 06 Dec 2017 12:30:25 +0000"
   category: ["Interviews","Médias"]
@@ -7125,11 +7126,11 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Philippe Tixier, Inventeur du Dirigeable du Futur ?"
+- title: "Philippe Tixier, Inventeur du Dirigeable du Futur\_?"
   link: "https://www.thinkerview.com/philippe-tixier-inventeur-dirigeable-futur/"
   pubDate: "Tue, 05 Dec 2017 16:30:07 +0000"
   category: ["Interviews"]
-  description: "Interview de Philippe Tixier, Inventeur du Dirigeable du Futur ? en direct à 17h30 mardi..."
+  description: "Interview de Philippe Tixier, Inventeur du Dirigeable du Futur\_? en direct à 17h30 mardi..."
   # extends
   releaseDate:
   videoId: ""
@@ -7151,7 +7152,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Lutter sans violence ? Jean-Marie Muller"
+- title: "Lutter sans violence\_? Jean-Marie Muller"
   link: "https://www.thinkerview.com/lutter-violence-jean-marie-muller/"
   pubDate: "Sun, 03 Dec 2017 14:30:35 +0000"
   category: ["Interviews","Société"]
@@ -7177,7 +7178,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Changement de Civilisation ? Marc Luyckx Ghisi"
+- title: "Changement de Civilisation\_? Marc Luyckx Ghisi"
   link: "https://www.thinkerview.com/changement-de-civilisation-marc-luyckx-ghisi/"
   pubDate: "Wed, 15 Nov 2017 17:15:12 +0000"
   category: ["Interviews","Société"]
@@ -7255,7 +7256,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Bruno Parmentier : Nourrir l’humanité ?"
+- title: "Bruno Parmentier : Nourrir l’humanité\_?"
   link: "https://www.thinkerview.com/bruno-parmentier-nourrir-lhumanite/"
   pubDate: "Fri, 29 Sep 2017 21:46:43 +0000"
   category: ["Interviews","Environnement"]
@@ -7281,7 +7282,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Vincent Mignerot : Anticiper l’effondrement ?"
+- title: "Vincent Mignerot : Anticiper l’effondrement\_?"
   link: "https://www.thinkerview.com/vincent-mignerot-anticiper-leffondrement/"
   pubDate: "Thu, 21 Sep 2017 08:33:54 +0000"
   category: ["Interviews","Environnement","Société"]
@@ -7411,7 +7412,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "José Pluki : Énergie nucléaire ?"
+- title: "José Pluki : Énergie nucléaire\_?"
   link: "https://www.thinkerview.com/jose-pluki-energie-nucleaire/"
   pubDate: "Wed, 02 Aug 2017 10:17:43 +0000"
   category: ["Interviews","Environnement"]
@@ -7620,7 +7621,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Marie-Noëlle Lienemann : Présidentielle 2017 sans filtre ?"
+- title: "Marie-Noëlle Lienemann : Présidentielle 2017 sans filtre\_?"
   link: "https://www.thinkerview.com/marie-noelle-lienemann-presidentielle-2017-sans-filtre/"
   pubDate: "Wed, 29 Mar 2017 19:19:05 +0000"
   category: ["Interviews","Politique"]
@@ -7646,7 +7647,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Jean Lassalle : Présidentielle 2017 sans filtre ?"
+- title: "Jean Lassalle : Présidentielle 2017 sans filtre\_?"
   link: "https://www.thinkerview.com/jean-lassalle-presidentielle-2017-filtre/"
   pubDate: "Sun, 19 Mar 2017 21:07:15 +0000"
   category: ["Interviews","Politique"]
@@ -7672,7 +7673,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Yannick Jadot : Présidentielle 2017 sans filtre ?"
+- title: "Yannick Jadot : Présidentielle 2017 sans filtre\_?"
   link: "https://www.thinkerview.com/yannick-jadot-presidentielle-2017-filtre/"
   pubDate: "Tue, 14 Mar 2017 09:39:54 +0000"
   category: ["Interviews","Politique"]
@@ -7698,7 +7699,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Alexandre Jardin : Présidentielle 2017 sans filtre ?"
+- title: "Alexandre Jardin : Présidentielle 2017 sans filtre\_?"
   link: "https://www.thinkerview.com/alexandre-jardin-presidentielle-2017-filtre/"
   pubDate: "Sun, 12 Mar 2017 10:01:16 +0000"
   category: ["Interviews","Politique"]
@@ -7724,7 +7725,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Nicolas Dupont-Aignan : Présidentielle 2017 sans filtre ?"
+- title: "Nicolas Dupont-Aignan : Présidentielle 2017 sans filtre\_?"
   link: "https://www.thinkerview.com/nicolas-dupont-aignan-presidentielle-2017-filtre/"
   pubDate: "Fri, 10 Mar 2017 13:31:35 +0000"
   category: ["Interviews","Politique"]
@@ -7750,7 +7751,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "François Asselineau : Présidentielle 2017 sans filtre ?"
+- title: "François Asselineau : Présidentielle 2017 sans filtre\_?"
   link: "https://www.thinkerview.com/francois-asselineau-presidentielle-2017-filtre/"
   pubDate: "Fri, 10 Mar 2017 13:21:09 +0000"
   category: ["Interviews","Politique"]
@@ -8010,7 +8011,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "200 terroristes sur le territoire ? Entre Ukraine, Irak, Terrorisme, Reporter de Guerre et après ?"
+- title: "200 terroristes sur le territoire\_? Entre Ukraine, Irak, Terrorisme, Reporter de Guerre et après\_?"
   link: "https://www.thinkerview.com/200-terroristes-territoire-entre-ukraine-irak-terrorisme-reporter-de-guerre-apres/"
   pubDate: "Mon, 04 Jul 2016 17:37:59 +0000"
   category: ["Interviews","Médias","Terrorisme"]
@@ -8036,7 +8037,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "David Koubbi, Affaire Kerviel, Justice et Société Générale ?"
+- title: "David Koubbi, Affaire Kerviel, Justice et Société Générale\_?"
   link: "https://www.thinkerview.com/david-koubbi-affaire-kerviel-justice-societe-generale/"
   pubDate: "Sat, 11 Jun 2016 17:00:53 +0000"
   category: ["Interviews","Finance"]
@@ -8062,7 +8063,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Elise Lucet sans filtre, Cash investigation, Panama Papers, l’offensive des journalistes ?"
+- title: "Elise Lucet sans filtre, Cash investigation, Panama Papers, l’offensive des journalistes\_?"
   link: "https://www.thinkerview.com/elise-lucet-filtre-cash-investigation-panama-papers-loffensive-journalistes/"
   pubDate: "Tue, 17 May 2016 17:00:51 +0000"
   category: ["Interviews","Médias"]
@@ -8088,7 +8089,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Propagande de Guerre, festival de médias mensonges et complot ?"
+- title: "Propagande de Guerre, festival de médias mensonges et complot\_?"
   link: "https://www.thinkerview.com/propagande-de-guerre-festival-de-medias-mensonges-complot/"
   pubDate: "Tue, 19 Apr 2016 17:00:06 +0000"
   category: ["Interviews","Géopolitique","Médias"]
@@ -8114,7 +8115,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "De l’éducation à la guerre ou de la guerre, à l’éducation ?"
+- title: "De l’éducation à la guerre ou de la guerre, à l’éducation\_?"
   link: "https://www.thinkerview.com/de-leducation-a-guerre-de-guerre-a-leducation/"
   pubDate: "Thu, 07 Apr 2016 17:00:44 +0000"
   category: ["Interviews","Géopolitique"]
@@ -8140,7 +8141,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Schizophrénie financière, casse du siècle ou injure sur l’avenir ?"
+- title: "Schizophrénie financière, casse du siècle ou injure sur l’avenir\_?"
   link: "https://www.thinkerview.com/schizophrenie-financiere-casse-siecle-injure-lavenir/"
   pubDate: "Thu, 25 Feb 2016 17:00:40 +0000"
   category: ["Interviews","Finance"]
@@ -8166,7 +8167,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Natacha Polony : Police de la pensée, journalistes en laisse ?"
+- title: "Natacha Polony : Police de la pensée, journalistes en laisse\_?"
   link: "https://www.thinkerview.com/natacha-polony-police-de-pensee-journalistes-laisse/"
   pubDate: "Fri, 19 Feb 2016 17:00:50 +0000"
   category: ["Interviews","Médias"]
@@ -8244,7 +8245,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Terrorisme, Etat d’Urgence, où sont les solutions ? Journaliste, Renseignement, Stratégiste, Hacker."
+- title: "Terrorisme, Etat d’Urgence, où sont les solutions\_? Journaliste, Renseignement, Stratégiste, Hacker."
   link: "https://www.thinkerview.com/terrorisme-etat-durgence-solutions-journaliste-renseignement-strategiste-hacker/"
   pubDate: "Wed, 30 Dec 2015 17:00:22 +0000"
   category: ["Interviews","Géopolitique","Médias","Terrorisme"]
@@ -8348,11 +8349,11 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Député, qui va payer ? Entre TAFTA, Monsanto et la Syrie ? (Jean Lassalle)"
+- title: "Député, qui va payer\_? Entre TAFTA, Monsanto et la Syrie\_? (Jean Lassalle)"
   link: "https://www.thinkerview.com/depute-va-payer-entre-tafta-monsanto-syrie-jean-lassalle/"
   pubDate: "Tue, 14 Jul 2015 17:00:39 +0000"
   category: ["Interviews","Géopolitique","Politique"]
-  description: "Que reste t&#8217;il de la politique ? Entretien sans langue de bois avec un député..."
+  description: "Que reste t&#8217;il de la politique\_? Entretien sans langue de bois avec un député..."
   # extends
   releaseDate:
   videoId: ""
@@ -8400,7 +8401,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Pétrole et gaz de schiste, où va-t-on ?"
+- title: "Pétrole et gaz de schiste, où va-t-on\_?"
   link: "https://www.thinkerview.com/petrole-gaz-de-schiste-va-t-on/"
   pubDate: "Fri, 12 Jun 2015 17:17:53 +0000"
   category: ["Interviews","Géopolitique"]
@@ -8452,11 +8453,11 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Terrorisme/Internet : Liberté d’expression menacée en France ?"
+- title: "Terrorisme/Internet : Liberté d’expression menacée en France\_?"
   link: "https://www.thinkerview.com/terrorismeinternet-liberte-dexpression-menacee-france/"
   pubDate: "Wed, 25 Feb 2015 17:00:30 +0000"
   category: ["Interviews","Internet / Technologies"]
-  description: "Nos gouvernements réagissent de façon symptomatique et contre productive ? Nous avons donc convié 3..."
+  description: "Nos gouvernements réagissent de façon symptomatique et contre productive\_? Nous avons donc convié 3..."
   # extends
   releaseDate:
   videoId: ""
@@ -8660,11 +8661,11 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Où va le monde financier ? (J-M. Rozan & H. de Carmoy)"
+- title: "Où va le monde financier\_? (J-M. Rozan & H. de Carmoy)"
   link: "https://www.thinkerview.com/va-monde-financier-j-m-rozan-h-de-carmoy/"
   pubDate: "Sat, 01 Mar 2014 17:36:34 +0000"
   category: ["Interviews","Finance"]
-  description: "Où va le monde financier ? Avec Jean-Manuel Rozan &#038; Hervé de Carmoy Banquiers, Traders,..."
+  description: "Où va le monde financier\_? Avec Jean-Manuel Rozan &#038; Hervé de Carmoy Banquiers, Traders,..."
   # extends
   releaseDate:
   videoId: ""
@@ -8686,7 +8687,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Allons-nous vers une Cyber Dictature ? E. Filiol (ex DGSE, hacker) , J. Zimmermann (QDN)"
+- title: "Allons-nous vers une Cyber Dictature\_? E. Filiol (ex DGSE, hacker) , J. Zimmermann (QDN)"
   link: "https://www.thinkerview.com/allons-vers-cyber-dictature-e-filiol-ex-dgse-hacker-j-zimmermann-qdn/"
   pubDate: "Mon, 10 Feb 2014 17:50:27 +0000"
   category: ["Interviews","Internet / Technologies"]
@@ -8712,7 +8713,7 @@
     - title: ""
       author: ""
       storeUrl: ""
-- title: "Loi de programmation militaire et neutralité du réseau, vie privée et démocratie en danger ?"
+- title: "Loi de programmation militaire et neutralité du réseau, vie privée et démocratie en danger\_?"
   link: "https://www.thinkerview.com/loi-de-programmation-militaire-neutralite-reseau-vie-privee-democratie-danger/"
   pubDate: "Mon, 27 Jan 2014 17:53:12 +0000"
   category: ["Interviews","Internet / Technologies"]
@@ -8820,7 +8821,7 @@
   link: "https://www.thinkerview.com/interview-de-denis-robert-journaliste-ecrivain-whistleblower/"
   pubDate: "Wed, 11 Sep 2013 17:07:37 +0000"
   category: ["Interviews","Médias"]
-  description: "Vous avez un problème avec l&#8217;information ? Nous aussi. Nous avons cherché pour notre interview..."
+  description: "Vous avez un problème avec l&#8217;information\_? Nous aussi. Nous avons cherché pour notre interview..."
   # extends
   releaseDate:
   videoId: ""
