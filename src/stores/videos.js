@@ -22,11 +22,12 @@ export const useVideoStore = defineStore({
     },
     doResetSearch() {
       console.log("doResetSearch");
+
+      this.videos = Videos;
       this.searchValue = "";
-      this.videos = Videos
     },
     doSearch(searchValue) {
-      console.log("doSearch: ", searchValue);
+      console.log("doSearch: %s", searchValue);
       this.searchValue = searchValue;
 
       this.videos = Videos.filter((v) => {

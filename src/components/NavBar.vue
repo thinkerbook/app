@@ -1,28 +1,50 @@
-<script setup>
-import { ref } from "vue";
+<script>
 import { RouterLink } from "vue-router";
-import { storeToRefs } from 'pinia';
+import { storeToRefs } from "pinia";
 import { useVideoStore } from "@/stores/videos";
 
-const videoStore = useVideoStore();
-const { listVideos, videoCount, isSearching, isShowInfo } = storeToRefs(videoStore);
-const { doSearch, doToggleShowInfo, doResetSearch } = videoStore;
+export default {
+  components: {
+    RouterLink,
+  },
+  setup() {
+    const videoStore = useVideoStore();
+    const { listVideos, videoCount, isSearching, isShowInfo } = storeToRefs(videoStore);
+    const { doSearch, doToggleShowInfo } = videoStore;
 
-let searchValue = ref("");
-
-const resetSearch = () => {
-  searchValue.value = "";
-  doResetSearch();
+    return {
+      listVideos,
+      videoCount,
+      isSearching,
+      isShowInfo,
+      doSearch,
+      doToggleShowInfo,
+    };
+  },
+  data() {
+    return {
+      searchValue: "",
+    };
+  },
+  watch: {
+    isSearching: function (newValue, oldValue) {
+      console.log("on:isSearching new: %s, old: %s", newValue, oldValue);
+      if (!newValue) {
+        this.searchValue = "";
+      }
+    },
+  },
 };
+// TODO on change videoStore.searchValue, reset to ""
 </script>
 
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <RouterLink :to="{ name: 'VideoList' }" @click="resetSearch" class="navbar-brand">
+      <RouterLink :to="{ name: 'VideoList' }" class="navbar-brand">
         <i class="far fa-book"></i>
         ThinkerBook
-        <span v-if="isSearching">({{ listVideos.length }} / {{ videoCount }})</span>
+        <span v-if="isSearching">({{ listVideos.length }}/{{ videoCount }})</span>
         <span v-else>({{ videoCount }})</span>
       </RouterLink>
 
@@ -30,7 +52,7 @@ const resetSearch = () => {
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div id="navbarSupportedContent" class="collapse navbar-collapse">
         <ul class="navbar-nav">
           <li class="nav-item">
             <button v-if="isShowInfo" class="btn btn-outline-success" type="button" @click="doToggleShowInfo">
@@ -51,7 +73,6 @@ const resetSearch = () => {
           <form class="d-flex" @submit.prevent>
             <input
               v-model="searchValue"
-              @--search="doSearch(searchValue)"
               class="form-control me-2"
               type="search"
               placeholder="Search"

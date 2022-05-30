@@ -29,7 +29,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="card mb-2 h-100">
+  <div class="card mb-2 h-100" v-touch:swipe="swipe">
     <div class="card-header bg-transparent border-0">
       <div class="text-center">
         <a v-if="clickToVideo" :href="video.videoUrl" target="_blank">
@@ -232,6 +232,9 @@ export default {
       return book.storeUrl.includes("amazon.fr")
         ? "fab fa-amazon"
         : "fas fa-external-link";
+    },
+    swipe() {
+      console.log("swipe");
     },
   },
 };
