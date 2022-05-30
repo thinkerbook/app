@@ -5,7 +5,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview --port 5050",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "publish": "npx dotenv-run-script .env.local publish-cmd",
+    "publish-cmd": "CLOUDFLARE_ACCOUNT_ID=${CLOUDFLARE_ACCOUNT_ID} npx wrangler pages publish dist/"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.5",
@@ -20,6 +22,7 @@
     "@rushstack/eslint-patch": "^1.1.3",
     "@vitejs/plugin-vue": "^2.3.3",
     "@vue/eslint-config-prettier": "^7.0.0",
+    "dotenv-run-script": "^0.2.0",
     "eslint": "^8.16.0",
     "eslint-plugin-vue": "^8.7.1",
     "prettier": "^2.6.2",
