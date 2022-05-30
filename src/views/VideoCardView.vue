@@ -75,6 +75,7 @@ defineProps({
           </div>
 
           <div class="col text-end">
+            <!--
             <RouterLink
               :to="{ name: 'VideoItem', params: { yid: video.videoId || 'unknown' } }"
               :class="!!video.adviceTimecode ? 'btn-dark' : 'btn-secondary'"
@@ -99,14 +100,28 @@ defineProps({
               </span>
               <span v-else class="ms-1">-</span>
             </RouterLink>
-
-            <a :href="video.link" target="_blank" class="btn btn-dark btn-sm-x me-1" title="Ouvrir la page de la publication de l'interview ThinkerView">
-<!--              <i class="fas fa-duck fa-flip-horizontal"></i>-->
-              <SwanIcon />
-            </a>
-            <a v-if="video.mediaUrl" :href="video.mediaUrl" target="_blank" class="btn btn-dark btn-sm-x" title="Ouvrir l'enregistrement audio de l'interview ThinkerView">
-              <i class="fas fa-music"></i>
-            </a>
+            -->
+            <div v-if="inList">
+              <RouterLink
+                v-if="video.bookTimecode"
+                :to="{ name: 'VideoItem', params: { yid: video.videoId || 'unknown' } }"
+                class="btn btn-dark btn-sm-x me-1"
+              >
+                <i class="fas fa-book"></i>
+                <span class="ms-1">Voir les livres</span>
+              </RouterLink>
+              <div v-else class="badge bg-info">
+                Livres à compléter
+              </div>
+            </div>
+            <div v-else>
+              <a :href="video.link" target="_blank" class="btn btn-dark btn-sm-x me-1" title="Ouvrir la page de la publication de l'interview ThinkerView">
+                <SwanIcon />
+              </a>
+              <a v-if="video.mediaUrl" :href="video.mediaUrl" target="_blank" class="btn btn-dark btn-sm-x" title="Ouvrir l'enregistrement audio de l'interview ThinkerView">
+                <i class="fas fa-music"></i>
+              </a>
+            </div>
 
             <!--
             <RouterLink
@@ -122,7 +137,7 @@ defineProps({
 
         <hr/>
 
-        <div class="row">
+        <div v-if="video.category && video.category.length > 0" class="row">
           <div class="mb-1">
             <i class="fas fa-tags me-1" title="Sujets abordés dans l'interview ThinkerView"></i>
             <span
@@ -157,7 +172,7 @@ defineProps({
       <div class="card-body d-flex-none pb-0">
         <h4>
           <i class="fas fa-wine-bottle fa-xs"></i>
-          Conseil(s) pour les jeunes générations
+          Conseil(s) pour les jeunes générations&nbsp;
           <a
             v-if="!!video.adviceTimecode"
             :href="video.videoUrl + '?t=' + video.adviceTimecode"
@@ -181,7 +196,7 @@ defineProps({
         </ul>
         <div v-else class="mb-2">
           <div class="badge bg-primary">
-            A chercher
+            A compléter
             <!-- TODO add link to contribute -->
           </div>
         </div>
@@ -192,7 +207,7 @@ defineProps({
       <div class="card-body d-flex-none pb-0">
         <h4>
           <i class="fas fa-book fa-xs"></i>
-          Bouquins à lire
+          Bouquins à lire&nbsp;
           <a
             v-if="video.bookTimecode"
             :href="video.videoUrl + '?t=' + video.bookTimecode"
@@ -216,7 +231,7 @@ defineProps({
         </ul>
         <div v-else class="mb-2">
           <div class="badge bg-primary">
-            A chercher
+            A compléter
             <!-- TODO add link to contribute -->
           </div>
         </div>

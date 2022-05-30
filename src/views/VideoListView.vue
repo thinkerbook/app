@@ -1,4 +1,18 @@
 <template>
+  <div class="card border-0">
+    <div class="card-body">
+      <p class="card-text" style="text-align: justify">
+        Tous les livres recommandés dans les interviews de la chaine
+        <a href="https://www.thinkerview.com/" target="_blank">ThinkerView</a>
+        (<a href="https://www.youtube.com/c/thinkerview/" target="_blank">
+          <i class="fab fa-youtube"></i>
+          Youtube
+        </a>)
+        ainsi que le conseil aux jeunes générations (une bouteille à la mer).
+      </p>
+    </div>
+  </div>
+
   <div v-if="listVideos.length === 0" class="row my-2">
     <div class="col text-center">
       <div class="alert alert-warning">

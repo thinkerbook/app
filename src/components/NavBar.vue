@@ -54,6 +54,7 @@ export default {
 
       <div id="navbarSupportedContent" class="collapse navbar-collapse">
         <ul class="navbar-nav">
+          <!--
           <li class="nav-item">
             <button v-if="isShowInfo" class="btn btn-outline-success" type="button" @click="doToggleShowInfo">
               <i class="fas fa-toggle-on"></i>
@@ -64,9 +65,13 @@ export default {
               Info
             </button>
           </li>
+          -->
+          <!--
+          TODO about page
           <li class="nav-item">
             <RouterLink :to="{ name: 'about' }" class="nav-link">About</RouterLink>
           </li>
+          -->
         </ul>
 
         <div class="navbar-nav ms-auto">
