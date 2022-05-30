@@ -42,21 +42,18 @@
   videoUrl: "https://youtu.be/i9dVo3mhpSU"
   guests:
     - "Alain Chouet"
-  adviceTimecode:
+  adviceTimecode: 7368
   advices:
-    - title: ""
-      author: ""
-  bookTimecode:
+    - title: "Si on met sa vie au service de son pays dans le renseignement, c'est un beau métier. On peut vivre 100 vies en une vie. Il faut mettre sa fierté derrière soi car on n'aura jamais de réconnaissance."
+      author: "Alain Chouet"
+  bookTimecode: 7271 # 7180
   books:
-    - title: ""
-      author: ""
-      storeUrl: ""
-    - title: ""
-      author: ""
-      storeUrl: ""
-    - title: ""
-      author: ""
-      storeUrl: ""
+    - title: "Tous les livres de"
+      author: "Jean Guisnel"
+      storeUrl: "https://www.amazon.fr/Jean-Guisnel/e/B001K7LTRU"
+    - title: "Tous mes livres"
+      author: "Alain Chouet"
+      storeUrl: "https://www.amazon.fr/Alain-Chouet/e/B004NBCGNQ"
 - title: "Crise de l'eau, planète terre invivable ?"
   link: "https://www.thinkerview.com/emma-haziza-crise-de-leau-planete-terre-invivable/"
   pubDate: "Tue, 17 May 2022 15:25:00 +0000"
