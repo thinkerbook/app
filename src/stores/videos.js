@@ -50,9 +50,8 @@ export const useVideoStore = defineStore({
 
         // console.log(`accept video title: ${v.title}, searchValue: ${searchValue}, result: ${v.title.includes(searchValue)}`);
         accept |= [v.title].some(includesIC(searchValue));
-        accept |= [v.pubDate].some(includesIC(searchValue));
-        accept |= [v.releaseDate].some(includesIC(searchValue));
-        accept |= v.guests && v.guests.some(includesIC(searchValue));
+        // accept |= [v.pubDate].map(e => e.toString()).some(includesIC(searchValue));
+        accept |= [v.releaseDate].filter(e => !!e).map(e => e.getFullYear()).some(includesIC(searchValue));
         accept |= v.guests && v.guests.some(includesIC(searchValue));
         accept |= v.category && v.category.some(includesIC(searchValue));
         accept |= v.advices && v.advices.map(e => e.title).some(includesIC(searchValue));
