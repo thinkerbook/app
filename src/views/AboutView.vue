@@ -22,6 +22,10 @@
       L'hébergement du site est fait via la plateforme <a href="https://www.cloudflare.com/">Cloudflare</a>.
     </p>
 
+    <h1>Contact</h1>
+    <p>
+      <code>contact@thinkerbook.info</code>
+    </p>
     <!--
     <h1>Comment contribuer</h1>
 
