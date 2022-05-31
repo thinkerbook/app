@@ -66,12 +66,9 @@ export default {
             </button>
           </li>
           -->
-          <!--
-          TODO about page
           <li class="nav-item">
             <RouterLink :to="{ name: 'about' }" class="nav-link">About</RouterLink>
           </li>
-          -->
         </ul>
 
         <div class="navbar-nav ms-auto">
