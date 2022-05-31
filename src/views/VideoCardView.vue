@@ -29,38 +29,40 @@ defineProps({
 </script>
 
 <template>
-  <div class="card mb-2 h-100" v-touch:swipe="swipe">
+  <div v-touch:swipe="swipe" class="card mb-2 h-100">
     <div class="card-header bg-transparent border-0">
-      <div class="text-center">
-        <a v-if="clickToVideo" :href="video.videoUrl" target="_blank">
-          <img
-            :src="'https://img.youtube.com/vi/' + video.videoId + '/0.jpg'"
-            :alt="video.title"
-            width="400"
-            height="400"
-            class="img-fluid"
-            :class="inList ? '' : 'w-md-75 w-lg-50'"
-          />
-        </a>
-        <RouterLink
-          v-else
-          :to="{ name: 'VideoItem', params: { yid: video.videoId || 'unknown' } }"
-          class="btn btn-sm-x"
-        >
-          <img
-            :src="'https://img.youtube.com/vi/' + video.videoId + '/0.jpg'"
-            :alt="video.title"
-            width="400"
-            height="400"
-            class="img-fluid card-img-top"
-          />
-        </RouterLink>
-      </div>
+      <div class="row">
+        <div class="col">
+          <div v-if="clickToVideo" class="w-md-100 w-lg-75 w-xxl-50 ratio ratio-16x9 centered">
+            <iframe
+              :src="'https://www.youtube.com/embed/' + video.videoId"
+              :title="video.title"
+              width="800"
+              height="600"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <RouterLink
+            v-else
+            :to="{ name: 'VideoItem', params: { yid: video.videoId || 'unknown' } }"
+            class="btn btn-sm-x"
+          >
+            <img
+              :src="'https://img.youtube.com/vi/' + video.videoId + '/0.jpg'"
+              :alt="video.title"
+              width="400"
+              height="400"
+              class="img-fluid card-img-top"
+            />
+          </RouterLink>
+        </div>
 
-      <div class="text-start">
-        <h2 class="card-title mt-3" :class="!inList ? 'h2' : 'h4'">
-          {{ video.title }}
-        </h2>
+        <div class="text-start">
+          <h2 class="card-title mt-3" :class="!inList ? 'h2' : 'h4'">
+            {{ video.title }}
+          </h2>
+        </div>
       </div>
     </div>
 
@@ -75,32 +77,6 @@ defineProps({
           </div>
 
           <div class="col text-end">
-            <!--
-            <RouterLink
-              :to="{ name: 'VideoItem', params: { yid: video.videoId || 'unknown' } }"
-              :class="!!video.adviceTimecode ? 'btn-dark' : 'btn-secondary'"
-              class="btn btn-sm-x me-1"
-              title="Nombre de conseils aux jeunes générations"
-            >
-              <i class="fas fa-wine-bottle"></i>
-              <span v-if="!!video.adviceTimecode" class="ms-1">
-                {{video.advices && video.advices.length }}
-              </span>
-              <span v-else class="ms-1">-</span>
-            </RouterLink>
-            <RouterLink
-              :to="{ name: 'VideoItem', params: { yid: video.videoId || 'unknown' } }"
-              :class="!!video.bookTimecode ? 'btn-dark' : 'btn-secondary'"
-              class="btn btn-sm-x me-1"
-              title="Nombre de bouquins à lire"
-            >
-              <i class="fas fa-book"></i>
-              <span v-if="!!video.bookTimecode" class="ms-1">
-                {{ video.books && video.books.length }}
-              </span>
-              <span v-else class="ms-1">-</span>
-            </RouterLink>
-            -->
             <div v-if="inList">
               <RouterLink
                 v-if="video.bookTimecode"
@@ -110,9 +86,14 @@ defineProps({
                 <i class="fas fa-book"></i>
                 <span class="ms-1">Voir les livres</span>
               </RouterLink>
-              <div v-else class="badge bg-info">
-                Livres à compléter
-              </div>
+              <RouterLink
+                v-else
+                :to="{ name: 'VideoItem', params: { yid: video.videoId || 'unknown' } }"
+                class="btn btn-info btn-sm-x me-1"
+              >
+                <i class="fas fa-edit"></i>
+                <span class="ms-1">À compléter</span>
+              </RouterLink>
             </div>
             <div v-else>
               <a :href="video.link" target="_blank" class="btn btn-dark btn-sm-x me-1" title="Ouvrir la page de la publication de l'interview ThinkerView">
@@ -249,7 +230,12 @@ export default {
         : "fas fa-external-link";
     },
     swipe() {
+      if (this.inList) {
+        return;
+      }
+
       console.log("swipe");
+      // this.$router.push({ name: "VideoItem", params: { yid: "" } });
     },
   },
 };
@@ -263,5 +249,9 @@ export default {
 }
 .d-flex-none {
   flex: none;
+}
+.centered {
+  margin-right: auto;
+  margin-left: auto;
 }
 </style>
