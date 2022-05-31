@@ -1,8 +1,10 @@
 <script setup>
-import { RouterLink } from "vue-router";
-import SwanIcon from "@/components/icons/SwanIcon.vue";
+import { RouterLink, useRoute } from "vue-router";
 
-defineProps({
+import SwanIcon from "@/components/icons/SwanIcon.vue";
+import { useVideoStore } from "@/stores/videos";
+
+const props = defineProps({
   video: {
     type: Object,
     required: true,
@@ -26,10 +28,28 @@ defineProps({
     default: false,
   },
 });
+
+const videoStore = useVideoStore();
+const { doSearch } = videoStore;
+
+const route = useRoute();
+const exists = props.inList || route.params.yid && videoStore.hasVideo(route.params.yid);
+// console.log("exists: %s", exists);
 </script>
 
 <template>
-  <div v-touch:swipe="swipe" class="card mb-2 h-100">
+  <div v-if="!exists">
+    <div class="col text-center my-2">
+      <div class="alert alert-danger">
+        <i class="fas fa-book-dead fa-2x"></i>
+        <div>
+          Aucune vidéo trouvée pour l'id
+          "<code>{{ route.params.yid }}</code>"
+        </div>
+      </div>
+    </div>
+  </div>
+  <div v-else v-touch:swipe="swipe" class="card mb-2 h-100">
     <div class="card-header bg-transparent border-0">
       <div class="row">
         <div class="col">
@@ -121,13 +141,14 @@ defineProps({
         <div v-if="video.category && video.category.length > 0" class="row">
           <div class="mb-1">
             <i class="fas fa-tags me-1" title="Sujets abordés dans l'interview ThinkerView"></i>
-            <span
+            <button
               v-for="category in video.category"
               :key="category"
-              class="badge bg-secondary me-1"
+              class="btn btn-outline-secondary btn-sm-xx me-1"
+              @click="doSearch(category)"
             >
-            {{ category }}
-          </span>
+              {{ category }}
+            </button>
           </div>
         </div>
       </div>
@@ -244,6 +265,11 @@ export default {
 <style scoped>
 .btn-sm-x {
   padding: 0.2rem 0.4rem;
+  font-size: small !important;
+  border-radius: 0.2rem;
+}
+.btn-sm-xx {
+  padding: 0.1rem 0.3rem;
   font-size: small !important;
   border-radius: 0.2rem;
 }

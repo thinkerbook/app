@@ -2,9 +2,11 @@
   <div v-if="listVideos.length === 0" class="row my-2">
     <div class="col text-center">
       <div class="alert alert-warning">
-        <i class="fas fa-exclamation-triangle"></i>
-        Aucun résultat trouvé pour la recherche
-        "<code>{{ searchValue }}</code>"
+        <i class="fas fa-exclamation-triangle fa-2x"></i>
+        <div>
+          Aucun résultat trouvé pour la recherche
+          "<code>{{ searchValue }}</code>"
+        </div>
       </div>
     </div>
   </div>
@@ -60,18 +62,25 @@ export default {
   setup() {
     const videoStore = useVideoStore();
     const { listVideos, isSearching, isShowInfo, searchValue } = storeToRefs(videoStore);
-    const { doResetSearch } = videoStore;
+    const { doSearch, doResetSearch } = videoStore;
 
     return {
       listVideos,
       isSearching,
       isShowInfo,
       searchValue,
+      doSearch,
       doResetSearch,
     };
   },
   data() {
     return {};
+  },
+  watch: {
+    "$route.query.q": function (newValue, oldValue) {
+      console.log("on:search new: %s, old: %s", newValue, oldValue);
+      // this.doSearch(newValue);
+    },
   },
   methods: {
     resetSearch() {

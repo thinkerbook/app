@@ -9,7 +9,7 @@ export default {
   },
   setup() {
     const videoStore = useVideoStore();
-    const { listVideos, videoCount, isSearching, isShowInfo } = storeToRefs(videoStore);
+    const { listVideos, videoCount, isSearching, isShowInfo, searchValue } = storeToRefs(videoStore);
     const { doSearch, doToggleShowInfo } = videoStore;
 
     return {
@@ -17,25 +17,29 @@ export default {
       videoCount,
       isSearching,
       isShowInfo,
+      searchValue,
       doSearch,
       doToggleShowInfo,
     };
   },
   data() {
     return {
-      searchValue: "",
+      search: "",
     };
   },
   watch: {
     isSearching: function (newValue, oldValue) {
       console.log("on:isSearching new: %s, old: %s", newValue, oldValue);
       if (!newValue) {
-        this.searchValue = "";
+        this.search = "";
       }
+    },
+    searchValue: function (newValue, oldValue) {
+      console.log("on:isSearching new: %s, old: %s", newValue, oldValue);
+      this.search = this.searchValue;
     },
   },
 };
-// TODO on change videoStore.searchValue, reset to ""
 </script>
 
 <template>
@@ -54,18 +58,6 @@ export default {
 
       <div id="navbarSupportedContent" class="collapse navbar-collapse">
         <ul class="navbar-nav">
-          <!--
-          <li class="nav-item">
-            <button v-if="isShowInfo" class="btn btn-outline-success" type="button" @click="doToggleShowInfo">
-              <i class="fas fa-toggle-on"></i>
-              Info
-            </button>
-            <button v-else class="btn btn-outline-secondary" type="button" @click="doToggleShowInfo">
-              <i class="fas fa-toggle-off"></i>
-              Info
-            </button>
-          </li>
-          -->
           <li class="nav-item">
             <RouterLink :to="{ name: 'about' }" class="nav-link">About</RouterLink>
           </li>
@@ -74,7 +66,7 @@ export default {
         <div class="navbar-nav ms-auto">
           <form class="d-flex" @submit.prevent>
             <input
-              v-model="searchValue"
+              v-model="search"
               class="form-control me-2"
               type="search"
               placeholder="Search"
@@ -84,7 +76,7 @@ export default {
               class="btn btn-outline-secondary"
               type="submit"
               title="Search"
-              @click="doSearch(searchValue)"
+              @click="doSearch(search)"
             >
               <i class="fas fa-search"></i>
             </button>

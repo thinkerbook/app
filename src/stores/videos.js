@@ -14,6 +14,9 @@ export const useVideoStore = defineStore({
     isShowInfo: (state) => state.showInfo,
     videoCount: () => Videos.length,
     listVideos: (state) => state.videos,
+    hasVideo: () => {
+      return (yid) => Videos.findIndex(v => v.videoId === yid) >= 0;
+    },
   },
   actions: {
     doToggleShowInfo() {
