@@ -197,10 +197,29 @@ const exists = props.inList || route.params.yid && videoStore.hasVideo(route.par
           </li>
         </ul>
         <div v-else class="mb-2">
-          <div class="badge bg-primary">
-            A compléter
-            <!-- TODO add link to contribute -->
+          <div class="h4">
+            <div class="badge bg-primary">
+              A compléter
+            </div>
           </div>
+
+          <div>
+            <label class="form-label">Code de temps</label>
+            <input v-model="form.adviceTimecode" type="text" class="form-control" form="video-data-form">
+            <div class="form-text">Le code de temps (en seconde) auquel est le conseil aux jeunes générations (la valeur t dans l'url youtube)</div>
+          </div>
+
+          <fieldset>
+            <div>
+              <label class="form-label">Le conseil aux jeunes générations</label>
+              <input v-model="form.advices[0].title" type="text" class="form-control" form="video-data-form">
+            </div>
+            <div>
+              <label class="form-label">L'auteur du conseil</label>
+              <input v-model="form.advices[0].author" type="text" class="form-control" form="video-data-form">
+              <div class="form-text">Indiquer d'abord le premier auteur du conseil si c'est une citation puis indiquer entre parenthèse qui des invités l'a prononcé (ie: "Einstein (via nom invité)")</div>
+            </div>
+          </fieldset>
         </div>
       </div>
 
@@ -209,7 +228,7 @@ const exists = props.inList || route.params.yid && videoStore.hasVideo(route.par
       <div class="card-body d-flex-none pb-0">
         <h4>
           <i class="fas fa-book fa-xs"></i>
-          Bouquins à lire&nbsp;
+          Livres à lire&nbsp;
           <a
             v-if="video.bookTimecode"
             :href="video.videoUrl + '?t=' + video.bookTimecode"
@@ -232,23 +251,66 @@ const exists = props.inList || route.params.yid && videoStore.hasVideo(route.par
           </li>
         </ul>
         <div v-else class="mb-2">
-          <div class="badge bg-primary">
-            A compléter
-            <!-- TODO add link to contribute -->
+          <div class="h4">
+            <div class="badge bg-primary">
+              A compléter
+            </div>
           </div>
+
+          <div>
+            <label class="form-label">Code de temps</label>
+            <input v-model="form.bookTimecode" type="text" class="form-control" form="video-data-form">
+            <div class="form-text">Le code de temps (en seconde) auquels sont les 3 livres (la valeur t dans l'url youtube)</div>
+          </div>
+
+          <fieldset>
+            <div>
+              <label class="form-label">Titre du livre</label>
+              <input v-model="form.books[0].title" type="text" class="form-control" form="video-data-form">
+              <div class="form-text">Mettre "Tous les livres de" dans le cas où seul un auteur est indiqué</div>
+            </div>
+            <div>
+              <label class="form-label">Auteur du livre</label>
+              <input v-model="form.books[0].author" type="text" class="form-control" form="video-data-form">
+            </div>
+            <div>
+              <label class="form-label">URL du livre</label>
+              <input v-model="form.books[0].storeUrl" type="text" class="form-control" form="video-data-form">
+              <div class="form-text">En priorité l'URL du livre sur Amazon, à défault la FNAC, sinon l'URL du site</div>
+            </div>
+          </fieldset>
         </div>
       </div>
+
+      <form id="video-data-form" @submit.prevent @click="sendData">
+        <div>
+          <button type="submit" class="btn btn-primary">Envoyer les informations</button>
+        </div>
+      </form>
     </div>
   </div>
 </template>
 
 <script>
 export default {
+  data() {
+    return {
+      form: {
+        adviceTimecode: null,
+        advices: [{}],
+        bookTimecode: null,
+        books: [{}],
+      },
+    };
+  },
   methods: {
     bookStoreIcon(book) {
       return book.storeUrl.includes("amazon.fr")
         ? "fab fa-amazon"
         : "fas fa-external-link";
+    },
+    sendData() {
+      console.log("sendData, form: ", this.form);
     },
     swipe() {
       if (this.inList) {
