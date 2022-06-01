@@ -4334,9 +4334,9 @@
   description: "Nous vous proposons de réfléchir ensemble avec : Jacques Blamont Père de la recherche spatiale..."
   mediaUrl:
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2013-01-30
+  videoId: "6VUpicNBMzg"
+  videoUrl: "https://youtu.be/6VUpicNBMzg"
   guests:
     - "Jacques Blamont"
   adviceTimecode:
