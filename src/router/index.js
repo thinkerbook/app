@@ -33,6 +33,15 @@ const router = createRouter({
       props: true,
     },
     {
+      path: "/watch",
+      redirect: (to) => {
+        if (to.query.v) {
+          return { name: "VideoItem", params: { yid: to.query.v }, query: {} };
+        }
+        return { name: "VideoList" };
+      },
+    },
+    {
       path: "/about",
       name: "about",
       // route level code-splitting

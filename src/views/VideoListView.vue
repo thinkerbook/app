@@ -31,6 +31,11 @@
         </a>)
         ainsi que le conseil aux jeunes générations (une bouteille à la mer).
       </p>
+      <p class="card-text" style="text-align: justify">
+        <i class="fas fa-thumbs-up"></i>
+        Tips: pour accéder directement à ThinkerBook depuis une vidéo Youtube, ajouter <code>-tbk</code> dans l'URL :
+        <i>https://www.youtube<code>-tbk</code>.com/watch?v=6VUpicNBMzg</i>
+      </p>
     </div>
   </div>
 

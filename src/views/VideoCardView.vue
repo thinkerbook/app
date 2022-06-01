@@ -282,7 +282,12 @@ const exists = props.inList || route.params.yid && videoStore.hasVideo(route.par
         </div>
       </div>
 
-      <form id="video-data-form" @submit.prevent @click="sendData">
+      <form
+        v-if="!video.bookTimecode || !video.adviceTimecode"
+        id="video-data-form"
+        @submit.prevent
+        @click="sendData"
+      >
         <div>
           <button type="submit" class="btn btn-primary">Envoyer les informations</button>
         </div>
