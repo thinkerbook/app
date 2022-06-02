@@ -1,47 +1,3 @@
-<script>
-import { RouterLink } from "vue-router";
-import { storeToRefs } from "pinia";
-import { useVideoStore } from "@/stores/videos";
-
-export default {
-  components: {
-    RouterLink,
-  },
-  setup() {
-    const videoStore = useVideoStore();
-    const { listVideos, videoCount, isSearching, isShowInfo, searchValue } = storeToRefs(videoStore);
-    const { doSearch, doToggleShowInfo } = videoStore;
-
-    return {
-      listVideos,
-      videoCount,
-      isSearching,
-      isShowInfo,
-      searchValue,
-      doSearch,
-      doToggleShowInfo,
-    };
-  },
-  data() {
-    return {
-      search: "",
-    };
-  },
-  watch: {
-    isSearching: function (newValue, oldValue) {
-      console.log("on:isSearching new: %s, old: %s", newValue, oldValue);
-      if (!newValue) {
-        this.search = "";
-      }
-    },
-    searchValue: function (newValue, oldValue) {
-      console.log("on:isSearching new: %s, old: %s", newValue, oldValue);
-      this.search = this.searchValue;
-    },
-  },
-};
-</script>
-
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
@@ -56,7 +12,7 @@ export default {
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div id="navbarSupportedContent" class="collapse navbar-collapse">
+      <div id="navbarSupportedContent" ref="navbarCollapse" class="collapse navbar-collapse">
         <ul class="navbar-nav">
           <li class="nav-item">
             <RouterLink :to="{ name: 'about' }" class="nav-link">About</RouterLink>
@@ -66,7 +22,7 @@ export default {
         <div class="navbar-nav ms-auto">
           <form class="d-flex" @submit.prevent>
             <input
-              v-model="search"
+              v-model="query"
               class="form-control me-2"
               type="search"
               placeholder="Search"
@@ -76,7 +32,7 @@ export default {
               class="btn btn-outline-secondary"
               type="submit"
               title="Search"
-              @click="doSearch(search)"
+              @click="search(query)"
             >
               <i class="fas fa-search"></i>
             </button>
@@ -86,6 +42,65 @@ export default {
     </div>
   </nav>
 </template>
+
+<script>
+import { RouterLink } from "vue-router";
+import { storeToRefs } from "pinia";
+import { Collapse } from "bootstrap";
+import { useVideoStore } from "@/stores/videos";
+
+export default {
+  components: {
+    RouterLink,
+  },
+  setup() {
+    const videoStore = useVideoStore();
+    const { listVideos, videoCount, isSearching } = storeToRefs(videoStore);
+    const { doSearch } = videoStore;
+
+    return {
+      listVideos,
+      videoCount,
+      isSearching,
+      doSearch,
+    };
+  },
+  data() {
+    return {
+      navbarCollapse: null,
+      query: "",
+    };
+  },
+  watch: {
+    "$route.query.q": function (newValue, oldValue) {
+      console.log("on:$route.query.q new: %s, old: %s", newValue, oldValue);
+
+      this.query = newValue || "";
+      if (newValue) {
+        console.log("navbarShow: %s", newValue);
+        this.navbarCollapse.show();
+      }
+    },
+    isSearching: function (newValue, oldValue) {
+      console.log("on:isSearching new: %s, old: %s", newValue, oldValue);
+      if (!newValue) {
+        this.query = "";
+      }
+    },
+  },
+  mounted() {
+    const navbarCollapseEl = this.$refs.navbarCollapse;
+    this.navbarCollapse = new Collapse(navbarCollapseEl, { toggle: false });
+  },
+  methods: {
+    search(query) {
+      console.log("search query: %s", query);
+
+      this.$router.push({ name: "VideoList", query: { q: query } });
+    },
+  },
+};
+</script>
 
 <style scoped>
 </style>

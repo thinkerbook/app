@@ -10,7 +10,7 @@ const router = createRouter({
     // see https://router.vuejs.org/guide/advanced/scroll-behavior.html
     if (savedPosition) {
       return savedPosition;
-    } else {
+    } else { // if (to.path !== from.path) {
       return { top: 0 };
     }
   },
@@ -19,6 +19,7 @@ const router = createRouter({
       path: "/",
       name: "VideoList",
       component: VideoListView,
+      props: (route) => ({ query: route.query.q }),
     },
     {
       path: "/:yid",

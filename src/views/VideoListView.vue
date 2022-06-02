@@ -5,20 +5,23 @@
         <i class="fas fa-exclamation-triangle fa-2x"></i>
         <div>
           Aucun résultat trouvé pour la recherche
-          "<code>{{ searchValue }}</code>"
+          "<code>{{ query }}</code>"
         </div>
       </div>
     </div>
   </div>
 
+  <!--
   <div v-if="isSearching" class="row my-2">
     <div class="col text-center">
       <button class="btn btn-outline-primary" @click="resetSearch">
         <i class="fas fa-window-close"></i>
-        Annuler la recherche
+        Annuler la recherche :
+        "<code>{{ searchValue }}</code>"
       </button>
     </div>
   </div>
+  -->
 
   <div class="card border-0">
     <div class="card-body">
@@ -32,7 +35,7 @@
         </span>
         ainsi que le conseil aux jeunes générations (une bouteille à la mer).
       </p>
-      <p class="card-text" style="text-align: justify">
+      <p class="card-text" style="text-align: justify; font-size: smaller">
         <i class="fas fa-thumbs-up"></i>
         Tips: pour accéder directement à ThinkerBook depuis une vidéo Youtube, ajouter <code>-tbk</code> dans l'URL :
         <i>https://www.youtube<code>-tbk</code>.com/watch?v=6VUpicNBMzg</i>
@@ -47,9 +50,9 @@
       class="col"
     >
       <VideoCardView
+        :query="query"
         :video="video"
         :show-details="true"
-        :show-info="isShowInfo"
         :in-list="true"
       />
     </div>
@@ -65,16 +68,23 @@ export default {
   components: {
     VideoCardView,
   },
-  setup() {
+  props: {
+    query: String,
+  },
+  setup(props) {
     const videoStore = useVideoStore();
-    const { listVideos, isSearching, isShowInfo, searchValue } = storeToRefs(videoStore);
+    const { listVideos, isSearching } = storeToRefs(videoStore);
     const { doSearch, doResetSearch } = videoStore;
+
+    console.log("setup props: %s", JSON.stringify(props));
+    if (props.query) {
+      console.log("setup doSearch: %s", props.query);
+      doSearch(props.query);
+    }
 
     return {
       listVideos,
       isSearching,
-      isShowInfo,
-      searchValue,
       doSearch,
       doResetSearch,
     };
@@ -85,12 +95,11 @@ export default {
   watch: {
     "$route.query.q": function (newValue, oldValue) {
       console.log("on:search new: %s, old: %s", newValue, oldValue);
-      // this.doSearch(newValue);
-    },
-  },
-  methods: {
-    resetSearch() {
-      this.doResetSearch();
+      if (newValue === undefined && oldValue !== undefined) {
+        this.doResetSearch();
+      } else {
+        this.doSearch(newValue);
+      }
     },
   },
 };

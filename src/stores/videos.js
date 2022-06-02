@@ -5,13 +5,12 @@ import Videos from "@/assets/thinkerbook-feed.yaml";
 export const useVideoStore = defineStore({
   id: "videoStore",
   state: () => ({
-    searchValue: "",
+    query: "",
     videos: Videos,
-    showInfo: false,
   }),
   getters: {
-    isSearching: (state) => state.searchValue !== "",
-    isShowInfo: (state) => state.showInfo,
+    isSearching: (state) => state.query !== "",
+    // allVideo: () => Videos,
     videoCount: () => Videos.length,
     listVideos: (state) => state.videos,
     hasVideo: () => {
@@ -22,19 +21,15 @@ export const useVideoStore = defineStore({
     },
   },
   actions: {
-    doToggleShowInfo() {
-      console.log("doToggleShowInfo");
-      this.showInfo = !this.showInfo;
-    },
     doResetSearch() {
       console.log("doResetSearch");
 
       this.videos = Videos;
-      this.searchValue = "";
+      this.query = "";
     },
-    doSearch(searchValue) {
-      console.log("doSearch: %s", searchValue);
-      this.searchValue = searchValue;
+    doSearch(query) {
+      console.log("doSearch: %s", query);
+      this.query = query;
 
       this.videos = Videos.filter((v) => {
         let accept = false;
@@ -54,23 +49,19 @@ export const useVideoStore = defineStore({
               .includes(toSearch);
         }
 
-        // console.log(`accept video title: ${v.title}, searchValue: ${searchValue}, result: ${v.title.includes(searchValue)}`);
-        accept |= [v.title].some(includesIC(searchValue));
-        // accept |= [v.pubDate].map(e => e.toString()).some(includesIC(searchValue));
-        accept |= [v.releaseDate].filter(e => !!e).map(e => e.getFullYear()).some(includesIC(searchValue));
-        accept |= v.guests && v.guests.some(includesIC(searchValue));
-        accept |= v.category && v.category.some(includesIC(searchValue));
+        // console.log(`accept video title: ${v.title}, query: ${query}, result: ${v.title.includes(query)}`);
+        accept |= [v.title].some(includesIC(query));
+        // accept |= [v.pubDate].map(e => e.toString()).some(includesIC(query));
+        accept |= [v.releaseDate].filter(e => !!e).map(e => e.getFullYear()).some(includesIC(query));
+        accept |= v.guests && v.guests.some(includesIC(query));
+        accept |= v.category && v.category.some(includesIC(query));
         // TODO include advices and books in search ?
-        // accept |= v.advices && v.advices.map(e => e.title).some(includesIC(searchValue));
-        // accept |= v.books && v.books.map(e => e.title).some(includesIC(searchValue));
-        // accept |= v.books && v.books.map(e => e.author).some(includesIC(searchValue));
-
-        // TODO how highlight results ?
+        // accept |= v.advices && v.advices.map(e => e.title).some(includesIC(query));
+        // accept |= v.books && v.books.map(e => e.title).some(includesIC(query));
+        // accept |= v.books && v.books.map(e => e.author).some(includesIC(query));
 
         return accept;
       });
-
-      this.$router.push({ name: "VideoList" });
     },
   },
 });

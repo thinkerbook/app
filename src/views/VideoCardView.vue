@@ -9,6 +9,9 @@ const props = defineProps({
     type: Object,
     required: true,
   },
+  query: {
+    type: String,
+  },
   // show details such as publishing date, tags
   showDetails: {
     type: Boolean,
@@ -30,7 +33,6 @@ const props = defineProps({
 });
 
 const videoStore = useVideoStore();
-const { doSearch } = videoStore;
 
 const route = useRoute();
 const exists = props.inList || route.params.yid && videoStore.hasVideo(route.params.yid);
@@ -133,8 +135,9 @@ const exists = props.inList || route.params.yid && videoStore.hasVideo(route.par
           <button
             v-for="category in video.category"
             :key="category"
-            class="btn btn-outline-secondary btn-sm-xx me-1"
-            @click="doSearch(category)"
+            class="btn btn-sm-xx me-1"
+            :class="(query === category) ? 'btn-dark' : 'btn-outline-dark'"
+            @click="search(category)"
           >
             {{ category }}
           </button>
@@ -152,11 +155,15 @@ const exists = props.inList || route.params.yid && videoStore.hasVideo(route.par
             style="margin-right: unset"
           >
             <button
-              class="btn btn-outline-secondary btn-sm-xx me-1"
-              @click="doSearch(guest)"
+              class="btn btn-sm-xx me-1"
+              :class="(query === guest) ? 'btn-dark' : 'btn-outline-dark'"
+              @click="search(guest)"
             >
               {{ guest }}
-              <span class="badge bg-secondary rounded-pill">
+              <span
+                class="badge rounded-pill"
+                :class="(query === guest) ? 'bg-light text-dark' : 'bg-dark'"
+              >
                 {{ videoStore.countByGuest(guest) }}
               </span>
             </button>
@@ -308,6 +315,11 @@ export default {
       return book.storeUrl.includes("amazon.fr")
         ? "fab fa-amazon"
         : "fas fa-external-link";
+    },
+    search(query) {
+      console.log("search query: %s", query);
+
+      this.$router.push({ name: "VideoList", query: { q: query } });
     },
     sendData() {
       console.log("sendData, form: ", this.form);
