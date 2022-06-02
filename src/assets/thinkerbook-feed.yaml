@@ -3,22 +3,38 @@
 # (en) Lists recommended books in Thinkerview channel interviews as well as the advice for the young generations (the bottle in the sea).
 #
 - title: "Perte de liberté et grogne sociale\_?"
-  # TODO update
-  link: "https://www.thinkerview.com/"
-  pubDate: ""
-  category: [ ]
+  link: "https://www.thinkerview.com/michel-wieviorka-perte-de-liberte-et-grogne-sociale/"
+  pubDate: "Wed, 25 May 2022 07:01:00 +0000"
+  category: ["Interviews", "Société"]
   description: "Sociologue, directeur d'études à HESS."
-  mediaUrl: ""
+  mediaUrl: "https://www.thinkerview.com/podcast-download/32257/michel-wieviorka-perte-de-liberte-et-grogne-sociale.mp3"
   # extends
   releaseDate: 2022-05-25
   videoId: "tr_IBgFhsSY"
   videoUrl: "https://youtu.be/tr_IBgFhsSY"
   guests:
     - "Michel Wieviorka"
-  adviceTimecode:
+  adviceTimecode: 7756
   advices:
-  bookTimecode:
+    - title: "Ne croyez pas à tous ceux qui vous disent que l'avenir est à tel type de métier. Faites de choses qui vous plaisent. Construisez-vous en décidant qu'il y a des choses plus importantes que d'autres et en suivant vos désirs. Se construire soi-même."
+      author: "Michel Wieviorka"
+  bookTimecode: 7650
   books:
+    - title: "Les misérables"
+      author: "Victor Hugo"
+      storeUrl: "https://www.amazon.fr/mis%C3%A9rables-Victor-Hugo/dp/2010008995/"
+    - title: "Le Comte de Monte-Cristo"
+      author: "Alexandre Dumas"
+      storeUrl: "https://www.amazon.fr/Comte-Monte-Cristo-Alexandre-Dumas/dp/2072895642/"
+    - title: "Tous les livres de"
+      author: "Jules Verne"
+      storeUrl: "https://www.amazon.fr/Jules-Verne/e/B000AQ6LZW"
+    - title: "Tous les livres de"
+      author: "Honoré de Balzac"
+      storeUrl: "https://www.amazon.fr/Honor%25C3%25A9-de-Balzac/e/B00C845KWY"
+    - title: "Cent Ans de solitude"
+      author: "Gabriel García Márquez"
+      storeUrl: "https://www.amazon.fr/Cent-solitude-Gabriel-Garcia-Marquez/dp/202023811X"
 - title: "Alain Chouet, 35 ans de DGSE, une pointe de diamant\_?"
   link: "https://www.thinkerview.com/alain-chouet35-ans-de-dgse-une-pointe-de-diamant/"
   pubDate: "Wed, 18 May 2022 15:26:00 +0000"
