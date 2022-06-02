@@ -17,6 +17,9 @@ export const useVideoStore = defineStore({
     hasVideo: () => {
       return (yid) => Videos.findIndex(v => v.videoId === yid) >= 0;
     },
+    countByGuest: () => {
+      return (guest) => Videos.filter(v => v.guests && v.guests.some(g => g === guest)).length;
+    },
   },
   actions: {
     doToggleShowInfo() {

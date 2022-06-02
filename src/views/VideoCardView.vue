@@ -123,54 +123,49 @@ const exists = props.inList || route.params.yid && videoStore.hasVideo(route.par
                 <i class="fas fa-music"></i>
               </a>
             </div>
-
-            <!--
-            <RouterLink
-              :to="{ name: 'VideoEdit', params: { yid: video.videoId || 'unknown' } }"
-              class="btn btn-primary btn-sm-x"
-            >
-              <i class="fas fa-edit"></i>
-              edit
-            </RouterLink>
-            -->
           </div>
         </div>
+      </div>
 
-        <hr/>
+      <div v-if="video.category && video.category.length > 0" class="card-header">
+        <div class="mb-1">
+          <i class="fas fa-tags me-1" title="Sujets abordés dans l'interview ThinkerView"></i>
+          <button
+            v-for="category in video.category"
+            :key="category"
+            class="btn btn-outline-secondary btn-sm-xx me-1"
+            @click="doSearch(category)"
+          >
+            {{ category }}
+          </button>
+        </div>
+      </div>
 
-        <div v-if="video.category && video.category.length > 0" class="row">
-          <div class="mb-1">
-            <i class="fas fa-tags me-1" title="Sujets abordés dans l'interview ThinkerView"></i>
+      <div class="card-header">
+        <i class="fas fa-user me-1" title="Invité(s)"></i>
+
+        <ul class="list-inline d-inline">
+          <li
+            v-for="(guest) in video.guests"
+            :key="guest"
+            class="list-inline-item"
+            style="margin-right: unset"
+          >
             <button
-              v-for="category in video.category"
-              :key="category"
               class="btn btn-outline-secondary btn-sm-xx me-1"
-              @click="doSearch(category)"
+              @click="doSearch(guest)"
             >
-              {{ category }}
+              {{ guest }}
+              <span class="badge bg-secondary rounded-pill">
+                {{ videoStore.countByGuest(guest) }}
+              </span>
             </button>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     </div>
 
     <div v-if="showInfo">
-      <div class="card-header">
-        <h4>
-          <i class="fas fa-user fa-xs"></i>
-          Invité(s)
-        </h4>
-
-        <ul>
-          <li
-              v-for="(guest) in video.guests"
-              :key="guest"
-          >
-            {{ guest }}
-          </li>
-        </ul>
-      </div>
-
       <div class="card-body d-flex-none pb-0">
         <h4>
           <i class="fas fa-wine-bottle fa-xs"></i>
@@ -288,7 +283,7 @@ const exists = props.inList || route.params.yid && videoStore.hasVideo(route.par
         @submit.prevent
         @click="sendData"
       >
-        <div>
+        <div class="text-center my-3">
           <button type="submit" class="btn btn-primary">Envoyer les informations</button>
         </div>
       </form>
