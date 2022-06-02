@@ -25,10 +25,11 @@
       <p class="card-text" style="text-align: justify">
         Tous les livres recommandés dans les interviews de la chaine
         <a href="https://www.thinkerview.com/" target="_blank">ThinkerView</a>
-        (<a href="https://www.youtube.com/c/thinkerview/" target="_blank">
-          <i class="fab fa-youtube"></i>
-          Youtube
-        </a>)
+        <span class="text-nowrap">
+          (<a href="https://www.youtube.com/c/thinkerview/" target="_blank">
+            <i class="fab fa-youtube"></i> Youtube
+          </a>)
+        </span>
         ainsi que le conseil aux jeunes générations (une bouteille à la mer).
       </p>
       <p class="card-text" style="text-align: justify">
