@@ -57,9 +57,10 @@ export const useVideoStore = defineStore({
         accept |= [v.releaseDate].filter(e => !!e).map(e => e.getFullYear()).some(includesIC(searchValue));
         accept |= v.guests && v.guests.some(includesIC(searchValue));
         accept |= v.category && v.category.some(includesIC(searchValue));
-        accept |= v.advices && v.advices.map(e => e.title).some(includesIC(searchValue));
-        accept |= v.books && v.books.map(e => e.title).some(includesIC(searchValue));
-        accept |= v.books && v.books.map(e => e.author).some(includesIC(searchValue));
+        // TODO include advices and books in search ?
+        // accept |= v.advices && v.advices.map(e => e.title).some(includesIC(searchValue));
+        // accept |= v.books && v.books.map(e => e.title).some(includesIC(searchValue));
+        // accept |= v.books && v.books.map(e => e.author).some(includesIC(searchValue));
 
         // TODO how highlight results ?
 
