@@ -36,6 +36,9 @@ const videoStore = useVideoStore();
 
 const route = useRoute();
 const exists = props.inList || route.params.yid && videoStore.hasVideo(route.params.yid);
+
+const index = videoStore.indexOfVideo(props.video.videoId, props.query);
+const previousNext = videoStore.previousNextAtIndex(index, props.query);
 // console.log("exists: %s", exists);
 </script>
 
@@ -51,7 +54,7 @@ const exists = props.inList || route.params.yid && videoStore.hasVideo(route.par
       </div>
     </div>
   </div>
-  <div v-else v-touch:swipe="swipe" class="card mb-2 h-100">
+  <div v-else v-touch:swipe="onSwipe(previousNext)" class="card mb-2 h-100">
     <div class="card-header bg-transparent border-0">
       <div class="row">
         <div class="col">
@@ -67,7 +70,7 @@ const exists = props.inList || route.params.yid && videoStore.hasVideo(route.par
           </div>
           <RouterLink
             v-else
-            :to="{ name: 'VideoItem', params: { yid: video.videoId || 'unknown' } }"
+            :to="{ name: 'VideoItem', params: { yid: video.videoId || 'unknown' }, query: { q: query } }"
             class="btn btn-sm-x"
           >
             <img
@@ -79,12 +82,35 @@ const exists = props.inList || route.params.yid && videoStore.hasVideo(route.par
             />
           </RouterLink>
         </div>
+      </div>
 
-        <div class="text-start">
-          <h2 class="card-title mt-3" :class="!inList ? 'h2' : 'h4'">
-            {{ video.title }}
-          </h2>
-        </div>
+      <div class="row text-start">
+        <h2 class="col card-title mt-3" :class="!inList ? 'h2' : 'h4'">
+          {{ video.title }}
+        </h2>
+
+        <nav
+          v-if="!inList"
+          class="col-auto mt-3"
+        >
+          <ul
+            v-if="previousNext.previous || previousNext.next"
+            class="pagination pagination-sm justify-content-end"
+          >
+            <li class="page-item" :class="previousNext.previous ? '' : 'disabled'">
+              <router-link
+                :to="{ name: 'VideoItem', params: { yid: previousNext.previous?.videoId || 'unknown' }, query: { q: query } }"
+                class="page-link"
+              >&laquo;</router-link>
+            </li>
+            <li class="page-item" :class="previousNext.next ? '' : 'disabled'">
+              <router-link
+                :to="{ name: 'VideoItem', params: { yid: previousNext.next?.videoId || 'unknown' }, query: { q: query } }"
+                class="page-link"
+              >&raquo;</router-link>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
 
@@ -102,7 +128,7 @@ const exists = props.inList || route.params.yid && videoStore.hasVideo(route.par
             <div v-if="inList">
               <RouterLink
                 v-if="video.bookTimecode"
-                :to="{ name: 'VideoItem', params: { yid: video.videoId || 'unknown' } }"
+                :to="{ name: 'VideoItem', params: { yid: video.videoId || 'unknown' }, query: { q: query } }"
                 class="btn btn-dark btn-sm-x me-1"
               >
                 <i class="fas fa-book"></i>
@@ -110,7 +136,7 @@ const exists = props.inList || route.params.yid && videoStore.hasVideo(route.par
               </RouterLink>
               <RouterLink
                 v-else
-                :to="{ name: 'VideoItem', params: { yid: video.videoId || 'unknown' } }"
+                :to="{ name: 'VideoItem', params: { yid: video.videoId || 'unknown' }, query: { q: query } }"
                 class="btn btn-info btn-sm-x me-1"
               >
                 <i class="fas fa-edit"></i>
@@ -324,13 +350,20 @@ export default {
     sendData() {
       console.log("sendData, form: ", this.form);
     },
-    swipe() {
-      if (this.inList) {
-        return;
-      }
+    onSwipe(previousNext) {
+      return (direction) => {
+        if (this.inList) {
+          return;
+        }
 
-      console.log("swipe");
-      // this.$router.push({ name: "VideoItem", params: { yid: "" } });
+        console.log("swipe", direction, previousNext);
+        if (direction === "right" && previousNext.previous) {
+          this.$router.push({ name: 'VideoItem', params: { yid: previousNext.previous?.videoId || 'unknown' }, query: { q: this.query } });
+        }
+        if (direction === "left" && previousNext.next) {
+          this.$router.push({ name: 'VideoItem', params: { yid: previousNext.next?.videoId || 'unknown' }, query: { q: this.query } });
+        }
+      };
     },
   },
 };

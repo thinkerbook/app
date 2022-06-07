@@ -50,8 +50,8 @@
       class="col"
     >
       <VideoCardView
-        :query="query"
         :video="video"
+        :query="query"
         :show-details="true"
         :in-list="true"
       />
@@ -80,6 +80,8 @@ export default {
     if (props.query) {
       console.log("setup doSearch: %s", props.query);
       doSearch(props.query);
+    } else {
+      doResetSearch();
     }
 
     return {

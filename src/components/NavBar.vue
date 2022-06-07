@@ -76,6 +76,7 @@ export default {
       console.log("on:$route.query.q new: %s, old: %s", newValue, oldValue);
 
       this.query = newValue || "";
+      this.doSearch(this.query);
       if (newValue) {
         console.log("navbarShow: %s", newValue);
         this.navbarCollapse.show();

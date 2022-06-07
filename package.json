@@ -6,7 +6,7 @@
     "build": "vite build",
     "preview": "vite preview --port 5050",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "publish": "npx dotenv-run-script .env.local publish-cmd",
+    "publish": "npm run build && npx dotenv-run-script .env.local publish-cmd",
     "publish-cmd": "CLOUDFLARE_ACCOUNT_ID=${CLOUDFLARE_ACCOUNT_ID} npx wrangler pages publish dist/"
   },
   "dependencies": {
