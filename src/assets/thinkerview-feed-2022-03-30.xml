@@ -13,7 +13,7 @@
         <atom:link href="https://www.thinkerview.com/feed/" rel="self" type="application/rss+xml"/>
         <link>https://www.thinkerview.com</link>
         <description>Interviews et perspectives déformatées dans un monde aux informations caviardées.</description>
-        <lastBuildDate>Wed, 01 Jun 2022 22:22:20 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 03 Jun 2022 16:44:26 +0000</lastBuildDate>
         <language>fr-FR</language>
         <sy:updatePeriod>
             hourly
@@ -30,6 +30,22 @@
             <width>32</width>
             <height>32</height>
         </image>
+        <item>
+            <title>August Cole, La science-fiction prédit la guerre ?</title>
+            <link>https://www.thinkerview.com/august-cole-la-science-fiction-predit-la-guerre/</link>
+
+            <dc:creator><![CDATA[Thinkerview]]></dc:creator>
+            <pubDate>Thu, 02 Jun 2022 16:26:00 +0000</pubDate>
+            <category><![CDATA[Interviews]]></category>
+            <category><![CDATA[Géopolitique]]></category>
+            <category><![CDATA[Société]]></category>
+            <guid isPermaLink="false">https://www.thinkerview.com/?p=32334</guid>
+
+            <description>
+                <![CDATA[August Cole : écrivain, analyste &#38; consultant spécialisé dans les questions de sécurité nationale]]></description>
+
+
+        </item>
         <item>
             <title>Michel Wieviorka, Perte de liberté et grogne sociale ?</title>
             <link>https://www.thinkerview.com/michel-wieviorka-perte-de-liberte-et-grogne-sociale/</link>
@@ -220,8 +236,8 @@
 
             <dc:creator><![CDATA[Thinkerview]]></dc:creator>
             <pubDate>Wed, 09 Feb 2022 08:20:00 +0000</pubDate>
-            <category><![CDATA[Climat]]></category>
             <category><![CDATA[Energie]]></category>
+            <category><![CDATA[Climat]]></category>
             <category><![CDATA[Interviews]]></category>
             <guid isPermaLink="false">https://www.thinkerview.com/?p=30387</guid>
 
@@ -251,8 +267,8 @@
 
             <dc:creator><![CDATA[Thinkerview]]></dc:creator>
             <pubDate>Tue, 25 Jan 2022 14:42:00 +0000</pubDate>
-            <category><![CDATA[Climat]]></category>
             <category><![CDATA[Energie]]></category>
+            <category><![CDATA[Climat]]></category>
             <category><![CDATA[Interviews]]></category>
             <category><![CDATA[Environnement]]></category>
             <guid isPermaLink="false">https://www.thinkerview.com/?p=30094</guid>
@@ -272,8 +288,8 @@
 
             <dc:creator><![CDATA[Thinkerview]]></dc:creator>
             <pubDate>Fri, 21 Jan 2022 20:58:56 +0000</pubDate>
-            <category><![CDATA[Climat]]></category>
             <category><![CDATA[Energie]]></category>
+            <category><![CDATA[Climat]]></category>
             <category><![CDATA[Interviews]]></category>
             <category><![CDATA[Environnement]]></category>
             <category><![CDATA[Société]]></category>
@@ -518,8 +534,8 @@
 
             <dc:creator><![CDATA[Thinkerview]]></dc:creator>
             <pubDate>Wed, 08 Sep 2021 11:29:45 +0000</pubDate>
-            <category><![CDATA[Climat]]></category>
             <category><![CDATA[Energie]]></category>
+            <category><![CDATA[Climat]]></category>
             <category><![CDATA[Interviews]]></category>
             <category><![CDATA[Géopolitique]]></category>
             <category><![CDATA[Environnement]]></category>
@@ -995,8 +1011,8 @@
 
             <dc:creator><![CDATA[Thinkerview]]></dc:creator>
             <pubDate>Wed, 14 Oct 2020 18:00:54 +0000</pubDate>
-            <category><![CDATA[Energie]]></category>
             <category><![CDATA[Climat]]></category>
+            <category><![CDATA[Energie]]></category>
             <category><![CDATA[Interviews]]></category>
             <category><![CDATA[Environnement]]></category>
             <guid isPermaLink="false">https://www.thinkerview.com/?p=20421</guid>
@@ -1672,8 +1688,8 @@
 
             <dc:creator><![CDATA[Thinkerview]]></dc:creator>
             <pubDate>Tue, 02 Jul 2019 16:00:53 +0000</pubDate>
-            <category><![CDATA[Energie]]></category>
             <category><![CDATA[Climat]]></category>
+            <category><![CDATA[Energie]]></category>
             <category><![CDATA[Interviews]]></category>
             <guid isPermaLink="false">https://www.thinkerview.com/?p=9804</guid>
 
@@ -1703,8 +1719,8 @@
 
             <dc:creator><![CDATA[Thinkerview]]></dc:creator>
             <pubDate>Wed, 19 Jun 2019 18:00:37 +0000</pubDate>
-            <category><![CDATA[Energie]]></category>
             <category><![CDATA[Climat]]></category>
+            <category><![CDATA[Energie]]></category>
             <category><![CDATA[Interviews]]></category>
             <guid isPermaLink="false">https://www.thinkerview.com/?p=9301</guid>
 
@@ -2070,8 +2086,8 @@
 
             <dc:creator><![CDATA[Thinkerview]]></dc:creator>
             <pubDate>Tue, 12 Feb 2019 20:00:22 +0000</pubDate>
-            <category><![CDATA[Climat]]></category>
             <category><![CDATA[Energie]]></category>
+            <category><![CDATA[Climat]]></category>
             <category><![CDATA[Interviews]]></category>
             <guid isPermaLink="false">https://thinkerview.com/?p=7099</guid>
 

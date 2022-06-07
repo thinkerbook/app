@@ -2,6 +2,27 @@
 # (fr) Liste les livres (bouqins) recommendés dans les interviews de la chaine Thinkerview ainsi que le conseil aux jeunes générations (la bouteille à la mer).
 # (en) Lists recommended books in Thinkerview channel interviews as well as the advice for the young generations (the bottle in the sea).
 #
+- title: "La science-fiction prédit la guerre\_?"
+  link: "https://www.thinkerview.com/august-cole-la-science-fiction-predit-la-guerre/"
+  pubDate: "Thu, 02 Jun 2022 16:26:00 +0000"
+  category: ["Interviews", "Géopolitique", "Société"]
+  description: "August Cole : écrivain, analyste &#38; consultant spécialisé dans les questions de sécurité nationale"
+  mediaUrl: "https://www.thinkerview.com/podcast-download/32334/august-cole-la-science-fiction-predit-la-guerre.mp3"
+  # extends
+  releaseDate: 2022-06-02
+  videoId: "i86t42xsZPY"
+  videoUrl: "https://youtu.be/i86t42xsZPY"
+  guests:
+    - "August Cole"
+  adviceTimecode:
+  advices:
+    - title: ""
+      author: "August Cole"
+  bookTimecode:
+  books:
+    - title: ""
+      author: ""
+      storeUrl: ""
 - title: "Perte de liberté et grogne sociale\_?"
   link: "https://www.thinkerview.com/michel-wieviorka-perte-de-liberte-et-grogne-sociale/"
   pubDate: "Wed, 25 May 2022 07:01:00 +0000"
