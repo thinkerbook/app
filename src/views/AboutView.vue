@@ -1,5 +1,9 @@
 <template>
   <div class="about">
+    <h1>A propos</h1>
+
+    <info-card />
+
     <h1>Usage</h1>
 
     <p>
@@ -35,6 +39,10 @@
     -->
   </div>
 </template>
+
+<script setup>
+import InfoCard from "@/components/InfoCard.vue";
+</script>
 
 <style>
 </style>

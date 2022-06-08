@@ -23,25 +23,7 @@
   </div>
   -->
 
-  <div class="card border-0">
-    <div class="card-body">
-      <p class="card-text" style="text-align: justify">
-        Tous les livres recommandés dans les interviews de la chaine
-        <a href="https://www.thinkerview.com/" target="_blank">ThinkerView</a>
-        <span class="text-nowrap">
-          (<a href="https://www.youtube.com/c/thinkerview/" target="_blank">
-            <i class="fab fa-youtube"></i> Youtube
-          </a>)
-        </span>
-        ainsi que le conseil aux jeunes générations (une bouteille à la mer).
-      </p>
-      <p class="card-text" style="text-align: justify; font-size: smaller">
-        <i class="fas fa-thumbs-up"></i>
-        Tips: pour accéder directement à ThinkerBook depuis une vidéo Youtube, ajouter <code>-tbk</code> dans l'URL :
-        <i>https://www.youtube<code>-tbk</code>.com/watch?v=6VUpicNBMzg</i>
-      </p>
-    </div>
-  </div>
+  <info-card dismissible />
 
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xxl-4">
     <div
@@ -63,10 +45,12 @@
 import { storeToRefs } from "pinia";
 import { useVideoStore } from "@/stores/videos";
 import VideoCardView from "@/views/VideoCardView.vue";
+import InfoCard from "@/components/InfoCard.vue";
 
 export default {
   components: {
     VideoCardView,
+    InfoCard,
   },
   props: {
     query: String,
