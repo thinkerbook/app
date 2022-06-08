@@ -232,23 +232,25 @@ const previousNext = videoStore.previousNextAtIndex(index, props.query);
             </div>
           </div>
 
-          <div>
-            <label class="form-label">Code de temps</label>
-            <input v-model="form.adviceTimecode" type="text" class="form-control" form="video-data-form">
-            <div class="form-text">Le code de temps (en seconde) auquel est le conseil aux jeunes générations (la valeur t dans l'url youtube)</div>
-          </div>
+          <div v-if="editable">
+            <div>
+              <label class="form-label">Code de temps</label>
+              <input v-model="form.adviceTimecode" type="text" class="form-control" form="video-data-form">
+              <div class="form-text">Le code de temps (en seconde) auquel est le conseil aux jeunes générations (la valeur t dans l'url youtube)</div>
+            </div>
 
-          <fieldset>
-            <div>
-              <label class="form-label">Le conseil aux jeunes générations</label>
-              <input v-model="form.advices[0].title" type="text" class="form-control" form="video-data-form">
-            </div>
-            <div>
-              <label class="form-label">L'auteur du conseil</label>
-              <input v-model="form.advices[0].author" type="text" class="form-control" form="video-data-form">
-              <div class="form-text">Indiquer d'abord le premier auteur du conseil si c'est une citation puis indiquer entre parenthèse qui des invités l'a prononcé (ie: "Einstein (via nom invité)")</div>
-            </div>
-          </fieldset>
+            <fieldset>
+              <div>
+                <label class="form-label">Le conseil aux jeunes générations</label>
+                <input v-model="form.advices[0].title" type="text" class="form-control" form="video-data-form">
+              </div>
+              <div>
+                <label class="form-label">L'auteur du conseil</label>
+                <input v-model="form.advices[0].author" type="text" class="form-control" form="video-data-form">
+                <div class="form-text">Indiquer d'abord le premier auteur du conseil si c'est une citation puis indiquer entre parenthèse qui des invités l'a prononcé (ie: "Einstein (via nom invité)")</div>
+              </div>
+            </fieldset>
+          </div>
         </div>
       </div>
 
@@ -286,33 +288,35 @@ const previousNext = videoStore.previousNextAtIndex(index, props.query);
             </div>
           </div>
 
-          <div>
-            <label class="form-label">Code de temps</label>
-            <input v-model="form.bookTimecode" type="text" class="form-control" form="video-data-form">
-            <div class="form-text">Le code de temps (en seconde) auquels sont les 3 livres (la valeur t dans l'url youtube)</div>
-          </div>
+          <div v-if="editable">
+            <div>
+              <label class="form-label">Code de temps</label>
+              <input v-model="form.bookTimecode" type="text" class="form-control" form="video-data-form">
+              <div class="form-text">Le code de temps (en seconde) auquels sont les 3 livres (la valeur t dans l'url youtube)</div>
+            </div>
 
-          <fieldset>
-            <div>
-              <label class="form-label">Titre du livre</label>
-              <input v-model="form.books[0].title" type="text" class="form-control" form="video-data-form">
-              <div class="form-text">Mettre "Tous les livres de" dans le cas où seul un auteur est indiqué</div>
-            </div>
-            <div>
-              <label class="form-label">Auteur du livre</label>
-              <input v-model="form.books[0].author" type="text" class="form-control" form="video-data-form">
-            </div>
-            <div>
-              <label class="form-label">URL du livre</label>
-              <input v-model="form.books[0].storeUrl" type="text" class="form-control" form="video-data-form">
-              <div class="form-text">En priorité l'URL du livre sur Amazon, à défault la FNAC, sinon l'URL du site</div>
-            </div>
-          </fieldset>
+            <fieldset>
+              <div>
+                <label class="form-label">Titre du livre</label>
+                <input v-model="form.books[0].title" type="text" class="form-control" form="video-data-form">
+                <div class="form-text">Mettre "Tous les livres de" dans le cas où seul un auteur est indiqué</div>
+              </div>
+              <div>
+                <label class="form-label">Auteur du livre</label>
+                <input v-model="form.books[0].author" type="text" class="form-control" form="video-data-form">
+              </div>
+              <div>
+                <label class="form-label">URL du livre</label>
+                <input v-model="form.books[0].storeUrl" type="text" class="form-control" form="video-data-form">
+                <div class="form-text">En priorité l'URL du livre sur Amazon, à défault la FNAC, sinon l'URL du site</div>
+              </div>
+            </fieldset>
+          </div>
         </div>
       </div>
 
       <form
-        v-if="!video.bookTimecode || !video.adviceTimecode"
+        v-if="editable && (!video.bookTimecode || !video.adviceTimecode)"
         id="video-data-form"
         @submit.prevent
         @click="sendData"
@@ -329,6 +333,7 @@ const previousNext = videoStore.previousNextAtIndex(index, props.query);
 export default {
   data() {
     return {
+      editable: false,
       form: {
         adviceTimecode: null,
         advices: [{}],
