@@ -20,6 +20,7 @@ const router = createRouter({
       name: "VideoList",
       component: VideoListView,
       props: (route) => ({ query: route.query.q }),
+      // props: true,
     },
     {
       path: "/:yid",

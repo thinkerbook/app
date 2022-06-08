@@ -6,7 +6,7 @@ import "bootstrap";
 </script>
 
 <template>
-  <NavBar></NavBar>
+  <NavBar />
 
   <div id="app" class="container-fluid">
     <!-- see https://stackoverflow.com/questions/45432208/vue-router-same-route-with-different-param -->

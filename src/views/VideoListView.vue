@@ -1,11 +1,11 @@
 <template>
-  <div v-if="listVideos.length === 0" class="row my-2">
+  <div v-if="listCount === 0" class="row my-2">
     <div class="col text-center">
       <div class="alert alert-warning">
         <i class="fas fa-exclamation-triangle fa-2x"></i>
         <div>
           Aucun résultat trouvé pour la recherche
-          "<code>{{ query }}</code>"
+          "<code>{{ searchQuery }}</code>"
         </div>
       </div>
     </div>
@@ -33,7 +33,7 @@
     >
       <VideoCardView
         :video="video"
-        :query="query"
+        :query="searchQuery"
         :show-details="true"
         :in-list="true"
       />
@@ -57,36 +57,21 @@ export default {
   },
   setup(props) {
     const videoStore = useVideoStore();
-    const { listVideos, isSearching } = storeToRefs(videoStore);
-    const { doSearch, doResetSearch } = videoStore;
+    const { searchQuery, listVideos, listCount } = storeToRefs(videoStore);
+    const { setupList } = videoStore;
 
-    console.log("setup props: %s", JSON.stringify(props));
-    if (props.query) {
-      console.log("setup doSearch: %s", props.query);
-      doSearch(props.query);
-    } else {
-      doResetSearch();
-    }
+    setupList(props.query);
 
     return {
+      searchQuery,
       listVideos,
-      isSearching,
-      doSearch,
-      doResetSearch,
+      listCount,
+      setupList,
     };
   },
   data() {
     return {};
   },
-  watch: {
-    "$route.query.q": function (newValue, oldValue) {
-      console.log("on:search new: %s, old: %s", newValue, oldValue);
-      if (newValue === undefined && oldValue !== undefined) {
-        this.doResetSearch();
-      } else {
-        this.doSearch(newValue);
-      }
-    },
-  },
+  watch: {},
 };
 </script>

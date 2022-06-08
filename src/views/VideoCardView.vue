@@ -33,6 +33,7 @@ const props = defineProps({
 });
 
 const videoStore = useVideoStore();
+const listRouteLocation = videoStore.listRouteLocation;
 
 const route = useRoute();
 const exists = props.inList || route.params.yid && videoStore.hasVideo(route.params.yid);
@@ -158,15 +159,15 @@ const previousNext = videoStore.previousNextAtIndex(index, props.query);
       <div v-if="video.category && video.category.length > 0" class="card-header">
         <div class="mb-1">
           <i class="fas fa-tags me-1" title="Sujets abordés dans l'interview ThinkerView"></i>
-          <button
+          <RouterLink
             v-for="category in video.category"
             :key="category"
+            :to="listRouteLocation(category)"
             class="btn btn-sm-xx me-1"
             :class="(query === category) ? 'btn-dark' : 'btn-outline-dark'"
-            @click="search(category)"
           >
             {{ category }}
-          </button>
+          </RouterLink>
         </div>
       </div>
 
@@ -180,10 +181,10 @@ const previousNext = videoStore.previousNextAtIndex(index, props.query);
             class="list-inline-item"
             style="margin-right: unset"
           >
-            <button
+            <RouterLink
+              :to="listRouteLocation(guest)"
               class="btn btn-sm-xx me-1"
               :class="(query === guest) ? 'btn-dark' : 'btn-outline-dark'"
-              @click="search(guest)"
             >
               {{ guest }}
               <span
@@ -192,7 +193,7 @@ const previousNext = videoStore.previousNextAtIndex(index, props.query);
               >
                 {{ videoStore.countByGuest(guest) }}
               </span>
-            </button>
+            </RouterLink>
           </li>
         </ul>
       </div>
@@ -341,11 +342,6 @@ export default {
       return book.storeUrl.includes("amazon.fr")
         ? "fab fa-amazon"
         : "fas fa-external-link";
-    },
-    search(query) {
-      console.log("search query: %s", query);
-
-      this.$router.push({ name: "VideoList", query: { q: query } });
     },
     sendData() {
       console.log("sendData, form: ", this.form);

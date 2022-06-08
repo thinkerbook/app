@@ -4,8 +4,9 @@
       <RouterLink :to="{ name: 'VideoList' }" class="navbar-brand">
         <i class="far fa-book"></i>
         ThinkerBook
-        <span v-if="isSearching">({{ listVideos.length }}/{{ videoCount }})</span>
-        <span v-else>({{ videoCount }})</span>
+        (<span v-if="isItem">1-</span>
+        <span v-if="isSearching">{{ listCount }}/</span>
+        <span>{{ allCount }}</span>)
       </RouterLink>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +23,7 @@
         <div class="navbar-nav ms-auto">
           <form class="d-flex" @submit.prevent>
             <input
-              v-model="query"
+              v-model="queryInput"
               class="form-control me-2"
               type="search"
               placeholder="Search"
@@ -32,7 +33,7 @@
               class="btn btn-outline-secondary"
               type="submit"
               title="Search"
-              @click="search(query)"
+              @click="search(queryInput)"
             >
               <i class="fas fa-search"></i>
             </button>
@@ -55,37 +56,30 @@ export default {
   },
   setup() {
     const videoStore = useVideoStore();
-    const { listVideos, videoCount, isSearching } = storeToRefs(videoStore);
-    const { doSearch } = videoStore;
+    const { searchQuery, listVideos, listCount, allCount, isSearching, isItem } = storeToRefs(videoStore);
 
     return {
+      searchQuery,
       listVideos,
-      videoCount,
+      listCount,
+      allCount,
       isSearching,
-      doSearch,
+      isItem,
     };
   },
   data() {
     return {
       navbarCollapse: null,
-      query: "",
+      queryInput: null,
     };
   },
   watch: {
-    "$route.query.q": function (newValue, oldValue) {
-      console.log("on:$route.query.q new: %s, old: %s", newValue, oldValue);
+    searchQuery: function (newValue) {
+      this.queryInput = newValue;
 
-      this.query = newValue || "";
-      this.doSearch(this.query);
       if (newValue) {
         console.log("navbarShow: %s", newValue);
         this.navbarCollapse.show();
-      }
-    },
-    isSearching: function (newValue, oldValue) {
-      console.log("on:isSearching new: %s, old: %s", newValue, oldValue);
-      if (!newValue) {
-        this.query = "";
       }
     },
   },
@@ -94,10 +88,9 @@ export default {
     this.navbarCollapse = new Collapse(navbarCollapseEl, { toggle: false });
   },
   methods: {
-    search(query) {
-      console.log("search query: %s", query);
-
-      this.$router.push({ name: "VideoList", query: { q: query } });
+    search(queryInput) {
+      const query = (queryInput === "") ? null : { q: queryInput };
+      this.$router.push({ name: "VideoList", query });
     },
   },
 };

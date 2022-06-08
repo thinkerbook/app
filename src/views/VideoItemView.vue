@@ -5,12 +5,12 @@ import { useVideoStore } from "@/stores/videos";
 import VideoCardView from "@/views/VideoCardView.vue";
 
 const route = useRoute();
-const yid = route.params.yid;
+const videoId = route.params.yid;
 const query = route.query.q;
-console.log("itemView yid: %s, query: %s", yid, query);
+console.log("itemView videoId: %s, query: %s", videoId, query);
 
 const { listVideos } = storeToRefs(useVideoStore());
-const videoIndex = listVideos.value.findIndex(v => v.videoId === yid);
+const videoIndex = listVideos.value.findIndex(v => v.videoId === videoId);
 const video = listVideos.value[videoIndex];
 
 defineProps({

@@ -1,63 +1,85 @@
+import { useRouter } from "vue-router";
 import { defineStore } from "pinia";
 
 import Videos from "@/assets/thinkerbook-feed.yaml";
 
+function queryVideo(queryOpt) {
+  const query = queryOpt || "";
+  return (video) => {
+    let accept = false;
+
+    function includesIC(searched) {
+      const toSearch = searched
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/\p{Diacritic}/gu, "");
+
+      return (value) =>
+        (value || "")
+          .toString()
+          .toLowerCase()
+          .normalize("NFD")
+          .replace(/\p{Diacritic}/gu, "")
+          .includes(toSearch);
+    }
+
+    // console.log(`accept video title: ${video.title}, query: ${query}, result: ${video.title.includes(query)}`);
+    accept |= [video.title].some(includesIC(query));
+    // accept |= [video.pubDate].map(e => e.toString()).some(includesIC(query));
+    accept |= [video.releaseDate].filter(e => !!e).map(e => e.getFullYear()).some(includesIC(query));
+    accept |= video.guests && video.guests.some(includesIC(query));
+    accept |= video.category && video.category.some(includesIC(query));
+    // TODO include advices and books in search ?
+    // accept |= video.advices && video.advices.map(e => e.title).some(includesIC(query));
+    // accept |= video.books && video.books.map(e => e.title).some(includesIC(query));
+    // accept |= video.books && video.books.map(e => e.author).some(includesIC(query));
+
+    return accept;
+  };
+}
+const PAGE_SIZE = 20;
+
 export const useVideoStore = defineStore({
   id: "videoStore",
   state: () => ({
-    query: "",
+    item: null, // { index: 0, videoId: '' }
+    // page: null, // { index: 0, size: 20 }
+    query: null,
     videos: Videos,
   }),
   getters: {
-    isSearching: (state) => state.query !== "",
-    // allVideo: () => Videos,
-    videoCount: () => Videos.length,
+    itemRouteLocation: () => (videoId, query) => ({
+      name: "VideoItem",
+      params: { yid: videoId },
+      query: { q: query },
+    }),
+    listRouteLocation: () => (query) => ({
+      name: "VideoList",
+      query: { q: query },
+    }),
+    isItem: (state) => !!state.item,
+    // TODO hasPagePrevious
+    isSearching: (state) => !!state.query,
+    searchQuery: (state) => state.query,
+    itemVideo: (state) =>
+      this.isItem
+        ? state.videos[0]
+        : null,
+    // allVideos: () => Videos,
+    allCount: () => Videos.length,
     listVideos: (state) => state.videos,
-    hasVideo: () => {
-      return (yid) => Videos.findIndex(v => v.videoId === yid) >= 0;
-    },
+    listCount: (state) => state.videos.length,
+    // pageVideos: (state) =>
+    //   this.isPage
+    //     ? state.videos.slice(state.page.index * (state.page.size || PAGE_SIZE))
+    //     : null,
+    hasVideo: () => (yid) => Videos.findIndex(v => v.videoId === yid) >= 0,
     countByGuest: () => {
       return (guest) => Videos.filter(v => v.guests && v.guests.some(g => g === guest)).length;
     },
-    doFilter() {
-      return (query) => {
-        return Videos.filter((v) => {
-          let accept = false;
-
-          function includesIC(searched) {
-            const toSearch = searched
-              .toLowerCase()
-              .normalize("NFD")
-              .replace(/\p{Diacritic}/gu, "");
-
-            return (value) =>
-              (value || "")
-                .toString()
-                .toLowerCase()
-                .normalize("NFD")
-                .replace(/\p{Diacritic}/gu, "")
-                .includes(toSearch);
-          }
-
-          // console.log(`accept video title: ${v.title}, query: ${query}, result: ${v.title.includes(query)}`);
-          accept |= [v.title].some(includesIC(query));
-          // accept |= [v.pubDate].map(e => e.toString()).some(includesIC(query));
-          accept |= [v.releaseDate].filter(e => !!e).map(e => e.getFullYear()).some(includesIC(query));
-          accept |= v.guests && v.guests.some(includesIC(query));
-          accept |= v.category && v.category.some(includesIC(query));
-          // TODO include advices and books in search ?
-          // accept |= v.advices && v.advices.map(e => e.title).some(includesIC(query));
-          // accept |= v.books && v.books.map(e => e.title).some(includesIC(query));
-          // accept |= v.books && v.books.map(e => e.author).some(includesIC(query));
-
-          return accept;
-        });
-      };
-    },
     indexOfVideo() {
       return (yid, query) => {
-        const findIndex = this
-          .doFilter(query || "")
+        const findIndex = Videos.filter(queryVideo(query))
           .findIndex((v) => v.videoId === yid);
         // console.log(
         //   "vids count: %s, indexOfVideo yid: %s, query: %s => %s",
@@ -67,7 +89,7 @@ export const useVideoStore = defineStore({
     },
     previousNextAtIndex() {
       return (index, query) => {
-        const vids = this.doFilter(query || "");
+        const vids = Videos.filter(queryVideo(query));
         const previous = (index <= 0)
           ? null
           : vids[index - 1];
@@ -81,15 +103,36 @@ export const useVideoStore = defineStore({
   actions: {
     doResetSearch() {
       console.log("doResetSearch");
-
-      this.videos = Videos;
-      this.query = "";
+      this.$reset();
     },
     doSearch(query) {
-      console.log("doSearch: %s", query);
+      console.log("doSearch query: %s", query);
       this.query = query;
+      this.videos = Videos.filter(queryVideo(query));
+    },
+    setupItem(itemIndex, query) {
+      console.log("setupItem itemIndex: %s, query: %s", itemIndex, query);
+      this.item = { index: itemIndex };
+      this.query = query;
+      this.videos = Videos.filter(queryVideo(query));
+    },
+    setupList(query) {
+      console.log("setupList query: %s", query);
+      this.item = null;
+      this.query = query;
+      this.videos = Videos.filter(queryVideo(query));
+    },
+    routeSearch(query) {
+      console.log("routeSearch query: %s", query);
 
-      this.videos = this.doFilter(query || "");
+      const router = useRouter();
+      router.push(this.listRouteLocation(query));
+    },
+    routeVideo(videoId, query) {
+      console.log("routeVideo videoId: %s, query: %s", videoId, query);
+
+      const router = useRouter();
+      router.push(this.itemRouteLocation(videoId, query));
     },
   },
 });
