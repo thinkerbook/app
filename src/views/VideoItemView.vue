@@ -9,9 +9,14 @@ const videoId = route.params.yid;
 const query = route.query.q;
 console.log("itemView videoId: %s, query: %s", videoId, query);
 
-const { listVideos } = storeToRefs(useVideoStore());
-const videoIndex = listVideos.value.findIndex(v => v.videoId === videoId);
+const videoStore = useVideoStore();
+const { listVideos } = storeToRefs(videoStore);
+const { setupItem } = videoStore;
+// const videoIndex = listVideos.value.findIndex(v => v.videoId === videoId);
+const videoIndex = videoStore.indexByVideoId(videoId);
 const video = listVideos.value[videoIndex];
+
+setupItem(videoId, query);
 
 defineProps({
   yid: {

@@ -38,7 +38,7 @@ const listRouteLocation = videoStore.listRouteLocation;
 const route = useRoute();
 const exists = props.inList || route.params.yid && videoStore.hasVideo(route.params.yid);
 
-const index = videoStore.indexOfVideo(props.video.videoId, props.query);
+const index = videoStore.indexByVideoId(props.video.videoId);
 const previousNext = videoStore.previousNextAtIndex(index, props.query);
 // console.log("exists: %s", exists);
 </script>
@@ -55,7 +55,7 @@ const previousNext = videoStore.previousNextAtIndex(index, props.query);
       </div>
     </div>
   </div>
-  <div v-else v-touch:swipe="onSwipe(previousNext)" class="card mb-2 h-100">
+  <div v-else class="card mb-2 h-100">
     <div class="card-header bg-transparent border-0">
       <div class="row">
         <div class="col">
@@ -102,12 +102,14 @@ const previousNext = videoStore.previousNextAtIndex(index, props.query);
               <router-link
                 :to="{ name: 'VideoItem', params: { yid: previousNext.previous?.videoId || 'unknown' }, query: { q: query } }"
                 class="page-link"
+                title="Précédent"
               >&laquo;</router-link>
             </li>
             <li class="page-item" :class="previousNext.next ? '' : 'disabled'">
               <router-link
                 :to="{ name: 'VideoItem', params: { yid: previousNext.next?.videoId || 'unknown' }, query: { q: query } }"
                 class="page-link"
+                title="Suivant"
               >&raquo;</router-link>
             </li>
           </ul>
@@ -350,21 +352,6 @@ export default {
     },
     sendData() {
       console.log("sendData, form: ", this.form);
-    },
-    onSwipe(previousNext) {
-      return (direction) => {
-        if (this.inList) {
-          return;
-        }
-
-        console.log("swipe", direction, previousNext);
-        if (direction === "right" && previousNext.previous) {
-          this.$router.push({ name: 'VideoItem', params: { yid: previousNext.previous?.videoId || 'unknown' }, query: { q: this.query } });
-        }
-        if (direction === "left" && previousNext.next) {
-          this.$router.push({ name: 'VideoItem', params: { yid: previousNext.next?.videoId || 'unknown' }, query: { q: this.query } });
-        }
-      };
     },
   },
 };

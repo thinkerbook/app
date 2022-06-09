@@ -4,7 +4,7 @@
       <RouterLink :to="{ name: 'VideoList' }" class="navbar-brand">
         <i class="far fa-book"></i>
         ThinkerBook
-        (<span v-if="isItem">1-</span>
+        (<span v-if="isItem">{{ item.index + 1 }}-</span>
         <span v-if="isSearching">{{ listCount }}/</span>
         <span>{{ allCount }}</span>)
       </RouterLink>
@@ -56,9 +56,10 @@ export default {
   },
   setup() {
     const videoStore = useVideoStore();
-    const { searchQuery, listVideos, listCount, allCount, isSearching, isItem } = storeToRefs(videoStore);
+    const { item, searchQuery, listVideos, listCount, allCount, isSearching, isItem } = storeToRefs(videoStore);
 
     return {
+      item,
       searchQuery,
       listVideos,
       listCount,

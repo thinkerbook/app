@@ -1,5 +1,5 @@
-import { useRouter } from "vue-router";
-import { defineStore } from "pinia";
+import {useRouter} from "vue-router";
+import {defineStore} from "pinia";
 
 import Videos from "@/assets/thinkerbook-feed.yaml";
 
@@ -77,15 +77,8 @@ export const useVideoStore = defineStore({
     countByGuest: () => {
       return (guest) => Videos.filter(v => v.guests && v.guests.some(g => g === guest)).length;
     },
-    indexOfVideo() {
-      return (yid, query) => {
-        const findIndex = Videos.filter(queryVideo(query))
-          .findIndex((v) => v.videoId === yid);
-        // console.log(
-        //   "vids count: %s, indexOfVideo yid: %s, query: %s => %s",
-        //   vids.length, yid, query, findIndex);
-        return findIndex;
-      };
+    indexByVideoId() {
+      return (videoId) => this.listVideos.findIndex((v) => v.videoId === videoId);
     },
     previousNextAtIndex() {
       return (index, query) => {
@@ -101,38 +94,31 @@ export const useVideoStore = defineStore({
     },
   },
   actions: {
-    doResetSearch() {
-      console.log("doResetSearch");
-      this.$reset();
-    },
-    doSearch(query) {
-      console.log("doSearch query: %s", query);
+    setupItem(videoId, query) {
+      console.log("setupItem videoId: %s, query: %s", videoId, query);
       this.query = query;
       this.videos = Videos.filter(queryVideo(query));
-    },
-    setupItem(itemIndex, query) {
-      console.log("setupItem itemIndex: %s, query: %s", itemIndex, query);
-      this.item = { index: itemIndex };
-      this.query = query;
-      this.videos = Videos.filter(queryVideo(query));
+      const videoIndex = this.indexByVideoId(videoId);
+      this.item = { index: videoIndex, videoId };
     },
     setupList(query) {
       console.log("setupList query: %s", query);
-      this.item = null;
       this.query = query;
       this.videos = Videos.filter(queryVideo(query));
+      this.item = null;
     },
-    routeSearch(query) {
-      console.log("routeSearch query: %s", query);
-
-      const router = useRouter();
-      router.push(this.listRouteLocation(query));
-    },
-    routeVideo(videoId, query) {
-      console.log("routeVideo videoId: %s, query: %s", videoId, query);
-
-      const router = useRouter();
-      router.push(this.itemRouteLocation(videoId, query));
-    },
+    //
+    // routeSearch(query) {
+    //   console.log("routeSearch query: %s", query);
+    //
+    //   const router = useRouter();
+    //   router.push(this.listRouteLocation(query));
+    // },
+    // routeVideo(videoId, query) {
+    //   console.log("routeVideo videoId: %s, query: %s", videoId, query);
+    //
+    //   const router = useRouter();
+    //   router.push(this.itemRouteLocation(videoId, query));
+    // },
   },
 });

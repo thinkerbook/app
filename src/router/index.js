@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import VideoListView from "@/views/VideoListView.vue";
 import VideoItemView from "@/views/VideoItemView.vue";
-import VideoEditView from "@/views/VideoEditView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -10,7 +9,7 @@ const router = createRouter({
     // see https://router.vuejs.org/guide/advanced/scroll-behavior.html
     if (savedPosition) {
       return savedPosition;
-    } else { // if (to.path !== from.path) {
+    } else {
       return { top: 0 };
     }
   },
@@ -20,18 +19,11 @@ const router = createRouter({
       name: "VideoList",
       component: VideoListView,
       props: (route) => ({ query: route.query.q }),
-      // props: true,
     },
     {
       path: "/:yid",
       name: "VideoItem",
       component: VideoItemView,
-      props: true,
-    },
-    {
-      path: "/:yid/edit",
-      name: "VideoEdit",
-      component: VideoEditView,
       props: true,
     },
     {
