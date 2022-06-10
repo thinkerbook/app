@@ -357,7 +357,7 @@ export default {
   },
   mounted() {
     const data = this.getLocalFeed(this.video.videoId);
-    console.log("mounted data:", data);
+    // console.log("mounted data:", data);
 
     this.form = data || this.form;
   },
