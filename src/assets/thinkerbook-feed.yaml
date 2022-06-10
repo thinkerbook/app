@@ -2,6 +2,42 @@
 # (fr) Liste les livres (bouqins) recommendés dans les interviews de la chaine Thinkerview ainsi que le conseil aux jeunes générations (la bouteille à la mer).
 # (en) Lists recommended books in Thinkerview channel interviews as well as the advice for the young generations (the bottle in the sea).
 #
+- title: "Effondrement économique, monétaire & civilisationnel\_?"
+  link: "https://www.thinkerview.com/"
+  pubDate: "Thu, 07 Jun 2022 16:26:00 +0000"
+  category: ["Interviews", "Economie", "Société"]
+  description: ""
+  mediaUrl: ""
+  # extends
+  releaseDate: 2022-06-07
+  videoId: "AfzhfvBCrYQ"
+  videoUrl: "https://youtu.be/AfzhfvBCrYQ"
+  guests:
+    - "Charles Gave"
+    - "Olivier Delamarche"
+  adviceTimecode: 10484
+  advices:
+    - title: "En aucun cas vous ne restez dans un endroit où vous vous emmerdez. En aucun cas vous n'acceptez l'ennuie, vous vous barrez."
+      author: "Charles Gave"
+    - title: "Ayez l'esprit critique. Ne prennez pas pour argent comptant tout ce que l'on vous raconte, surtout sur ce que les plus menteurs vous disent, cad les hommes politiques."
+      author: "Olivier Delamarche"
+  bookTimecode: 10047
+  books:
+    - title: "Du pouvoir, Histoire Naturelle de sa Croissance"
+      author: "Bertrand de Jouvenel"
+      storeUrl: "https://www.amazon.fr/DU-POUVOIR-HISTOIRE-NATURELLE-CROISSANCE/dp/2010092791/"
+    - title: "L'histoire"
+      author: "Arnold Toynbee"
+      storeUrl: "https://www.amazon.fr/Lhistoire-Arnold-Toynbee/dp/2228889849/"
+    - title: "Je vois Satan tomber comme l'éclair"
+      author: "René Girard"
+      storeUrl: "https://www.amazon.fr/vois-Satan-tomber-comme-l%C3%A9clair/dp/2253942642/"
+    - title: "La crise financière française de 1789-1799"
+      author: "Andrew Dickson White"
+      storeUrl: "https://www.amazon.fr/crise-financi%C3%A8re-fran%C3%A7aise-1789-1799/dp/2914569726/"
+    - title: "histoire de Law"
+      author: "Adolphe Thiers"
+      storeUrl: "https://www.amazon.fr/gp/product/2012939945/"
 - title: "La science-fiction prédit la guerre\_?"
   link: "https://www.thinkerview.com/august-cole-la-science-fiction-predit-la-guerre/"
   pubDate: "Thu, 02 Jun 2022 16:26:00 +0000"
