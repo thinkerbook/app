@@ -961,9 +961,9 @@
   description: "Thinkerview diffusé en direct le 8 décembre 2020"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Alexandre_Langlois_Et_Noam_Anouar_La_Police_En_Deconfiture.mp3"
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-12-08
+  videoId: "zPneHz0MuKQ"
+  videoUrl: "https://youtu.be/zPneHz0MuKQ"
   guests:
     - "Alexandre Langlois"
     - "Noam Anouar"
@@ -978,9 +978,9 @@
   description: "Thinkerview diffusé en direct le 8 décembre 2020"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Julia_Cage_Journalisme_De_Facade_De_Cour_De_Trottoir.mp3"
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-12-08
+  videoId: "0txop8vnaIU"
+  videoUrl: "https://youtu.be/0txop8vnaIU"
   guests:
     - "Julia Cagé"
   adviceTimecode:
@@ -994,9 +994,9 @@
   description: "Thinkerview diffusé en direct le 1 décembre 2020"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Marc_Eichinger_L_Espion_Qui_Nous_Veut_Du_Bien.mp3"
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-12-01
+  videoId: "jGAjuM5Nb4A"
+  videoUrl: "https://youtu.be/jGAjuM5Nb4A"
   guests:
     - "Marc Eichinger"
   adviceTimecode:
@@ -1010,9 +1010,9 @@
   description: "Thinkerview diffusé en direct le 18 novembre 2020"
   mediaUrl:
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-11-18
+  videoId: "Q6SIxUA_Ans"
+  videoUrl: "https://youtu.be/Q6SIxUA_Ans"
   guests:
     - "Arnaud Montebourg"
   adviceTimecode:
@@ -1026,9 +1026,9 @@
   description: "Thinkerview diffusé en direct le 12 novembre 2020"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Noel_Mamere_Le_Covid_Les_Fake_News_Les_Journalistes.mp3"
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-11-12
+  videoId: "wk1c5BXumB0"
+  videoUrl: "https://youtu.be/wk1c5BXumB0"
   guests:
     - "Noël Mamère"
   adviceTimecode:
@@ -1042,9 +1042,9 @@
   description: "Thinkerview diffusé en direct le 9 novembre 2020"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Anne_Laure_Kiechel_L_Etat_Demissionnaire.mp3"
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-11-06
+  videoId: "_eCIeFpCLSw"
+  videoUrl: "https://youtu.be/_eCIeFpCLSw"
   guests:
     - "Anne-Laure Kiechel"
   adviceTimecode:
@@ -1058,9 +1058,9 @@
   description: "Thinkerview diffusé en direct le 29 octobre 2020"
   mediaUrl:
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-10-29
+  videoId: "GBuEgZwTaAM"
+  videoUrl: "https://youtu.be/GBuEgZwTaAM"
   guests:
     - "Denis Robert"
   adviceTimecode:
@@ -1074,9 +1074,9 @@
   description: "Thinkerview diffusé en direct le 14 octobre 2020"
   mediaUrl:
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-10-14
+  videoId: "E7QnwVx2fY0"
+  videoUrl: "https://youtu.be/E7QnwVx2fY0"
   guests:
     - "Nicolas Meilhan"
     - "Philippe Bihouix"
@@ -1091,9 +1091,9 @@
   description: "Thinkerview diffusé en direct le 14 octobre 2020"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Adieu_Les_Cons_Transhumance_Suicidaire_Albert_Dupontel.mp3"
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-10-14
+  videoId: "vrus2Jwi67A"
+  videoUrl: "https://youtu.be/vrus2Jwi67A"
   guests:
     - "Albert Dupontel"
   adviceTimecode:
@@ -1107,9 +1107,9 @@
   description: "Thinkerview diffusé en direct le 6 octobre 2020"
   mediaUrl:
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-10-06
+  videoId: "suHXQfpBTxM"
+  videoUrl: "https://youtu.be/suHXQfpBTxM"
   guests:
     - "Éric Sadin"
   adviceTimecode:
@@ -1123,9 +1123,9 @@
   description: "Thinkerview diffusé en direct le 25 septembre 2020"
   mediaUrl:
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-09-25
+  videoId: "-8j8xgkZxuE"
+  videoUrl: "https://youtu.be/-8j8xgkZxuE"
   guests:
     - "Gaël Giraud"
   adviceTimecode:
@@ -1139,9 +1139,9 @@
   description: "Thinkerview diffusé en direct le 17 septembre 2020"
   mediaUrl:
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-09-17
+  videoId: "4DJkr2whd5g"
+  videoUrl: "https://youtu.be/4DJkr2whd5g"
   guests:
     - "Isabelle Saporta"
   adviceTimecode:
@@ -1155,9 +1155,9 @@
   description: "Thinkerview diffusé en direct le 10 septembre 2020"
   mediaUrl:
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-09-14
+  videoId: "KelxO3PYthI"
+  videoUrl: "https://youtu.be/KelxO3PYthI"
   guests:
     - "Jean-Paul Fitoussi"
   adviceTimecode:
@@ -1171,9 +1171,9 @@
   description: "Thinkerview diffusé en direct le 17 juillet 2020"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Tariq_Krim_Et_Bernard_Benhamou_Souverainete_Numerique_La_Douche_Froide.mp3"
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-07-17
+  videoId: "2iErDLlIlG4"
+  videoUrl: "https://youtu.be/2iErDLlIlG4"
   guests:
     - "Tariq Krim"
     - "Bernard Benhamou"
@@ -1188,9 +1188,9 @@
   description: "Thinkerview diffusé en direct le 17 juillet 2020"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Michel_Onfray_Ou_en_Est_La_France.mp3"
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-07-17
+  videoId: "txl6l5ORhzo"
+  videoUrl: "https://youtu.be/txl6l5ORhzo"
   guests:
     - "Michel Onfray"
   adviceTimecode:
@@ -1204,9 +1204,9 @@
   description: "Thinkerview diffusé en direct le 1er juillet 2020"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Maxime_Renahy_L_Espion_Le_Covid_Et_Le_Truand.mp3"
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-07-03
+  videoId: "-NN89JhzOvk"
+  videoUrl: "https://youtu.be/-NN89JhzOvk"
   guests:
     - "Maxime Renahy"
   adviceTimecode:
@@ -1220,9 +1220,9 @@
   description: "Thinkerview diffusé en direct le 18 Juin 2020"
   mediaUrl:
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-06-18
+  videoId: "yOcEiXiYIDA"
+  videoUrl: "https://youtu.be/yOcEiXiYIDA"
   guests:
     - "Olivier Delamarche"
   adviceTimecode:
@@ -1236,9 +1236,9 @@
   description: "Thinkerview diffusé en direct le 17 Juin 2020"
   mediaUrl:
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-06-17
+  videoId: "NS8acSbI1Bs"
+  videoUrl: "https://youtu.be/NS8acSbI1Bs"
   guests:
     - "François-Xavier Selleret et Pierre Sabatier"
   adviceTimecode:
@@ -1252,9 +1252,9 @@
   description: "Thinkerview diffusé en direct le 3 Juin 2020"
   mediaUrl:
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-06-03
+  videoId: "xQ3BoOCSdXE"
+  videoUrl: "https://youtu.be/xQ3BoOCSdXE"
   guests:
     - "Isabelle Delannoy"
   adviceTimecode:
@@ -1268,9 +1268,9 @@
   description: "Thinkerview diffusé en direct le 3 Juin 2020"
   mediaUrl:
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-06-05
+  videoId: "Fd0_wdle4Ts"
+  videoUrl: "https://youtu.be/Fd0_wdle4Ts"
   guests:
     - "Sylvain Lapoix"
     - "Henri Poulain"
@@ -1285,9 +1285,9 @@
   description: "Thinkerview diffusé en direct le 27 Mai 2020"
   mediaUrl:
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-06-05
+  videoId: "yAi_GKbpKUQ"
+  videoUrl: "https://youtu.be/yAi_GKbpKUQ"
   guests:
     - "Philippe Douste-Blazy"
   adviceTimecode:
@@ -1301,9 +1301,9 @@
   description: "Thinkerview diffusé en direct le 20 Mai 2020"
   mediaUrl:
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-06-05
+  videoId: "QMgfIVYqZTM"
+  videoUrl: "https://youtu.be/QMgfIVYqZTM"
   guests:
     - "Christian Harbulot"
   adviceTimecode:
@@ -1344,9 +1344,9 @@
   description: "Thinkerview diffusé en direct le 3 Mars 2020"
   mediaUrl:
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-06-04
+  videoId: "MLOQAZXwVWQ"
+  videoUrl: "https://youtu.be/MLOQAZXwVWQ"
   guests:
     - "Jean Ziegler"
   adviceTimecode:
@@ -1360,9 +1360,9 @@
   description: "Thinkerview diffusé en direct le 1er Mars 2020"
   mediaUrl:
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-02-28
+  videoId: "z-boL89uKLo"
+  videoUrl: "https://youtu.be/boL89uKLo"
   guests:
     - "Glenn Albrecht"
   adviceTimecode:
@@ -1376,9 +1376,9 @@
   description: "Thinkerview diffusé en direct le 24 février 2020"
   mediaUrl:
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-02-24
+  videoId: "hTl3XDZLQ0Q"
+  videoUrl: "https://youtu.be/hTl3XDZLQ0Q"
   guests:
     - "Bernard Norlain"
   adviceTimecode:
@@ -1392,9 +1392,9 @@
   description: "Thinkerview diffusé en direct le 4 février 2020"
   mediaUrl:
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-02-04
+  videoId: "RgmLorXQpNM"
+  videoUrl: "https://youtu.be/RgmLorXQpNM"
   guests:
     - "Virginie Martin"
   adviceTimecode:
@@ -1408,9 +1408,9 @@
   description: "Thinkerview diffusé en direct le 29 janvier 2020."
   mediaUrl:
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-01-29
+  videoId: "K_fsNDjhwks"
+  videoUrl: "https://youtu.be/K_fsNDjhwks"
   guests:
     - "Delphine Batho"
   adviceTimecode:
@@ -1424,9 +1424,9 @@
   description: "Thinkerview diffusé en direct le 10 janvier 2020"
   mediaUrl:
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-01-10
+  videoId: "TrkMWnce3I8"
+  videoUrl: "https://youtu.be/TrkMWnce3I8"
   guests:
     - "Stéphanie Fontaine"
     - "Antoine Champagne"
@@ -1442,9 +1442,9 @@
   description: "Thinkerview diffusé en direct le 7 janvier 2020"
   mediaUrl:
   # extends
-  releaseDate:
-  videoId: ""
-  videoUrl: "https://youtu.be/"
+  releaseDate: 2020-01-07
+  videoId: "GyoW77ZervA"
+  videoUrl: "https://youtu.be/GyoW77ZervA"
   guests:
     - "Thomas Wiesel"
   adviceTimecode:
