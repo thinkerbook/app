@@ -196,17 +196,29 @@
               <div class="form-text">Le code de temps (en seconde) auquel est le conseil aux jeunes générations (la valeur t dans l'url youtube)</div>
             </div>
 
-            <fieldset>
+            <hr/>
+
+            <fieldset v-for="(advice, index) in form.advices" :key="index">
               <div>
                 <label class="form-label">Le conseil aux jeunes générations</label>
-                <input v-model="form.advices[0].title" type="text" class="form-control" form="video-data-form">
+                <input v-model="advice.title" type="text" class="form-control" form="video-data-form">
               </div>
               <div>
                 <label class="form-label">L'auteur du conseil</label>
-                <input v-model="form.advices[0].author" type="text" class="form-control" form="video-data-form">
-                <div class="form-text">Indiquer d'abord le premier auteur du conseil si c'est une citation puis indiquer entre parenthèse qui des invités l'a prononcé (ie: "Einstein (via nom invité)")</div>
+                <input v-model="advice.author" type="text" class="form-control" form="video-data-form">
+                <div v-if="index === 0" class="form-text">Indiquer d'abord le premier auteur du conseil si c'est une citation puis indiquer entre parenthèse qui des invités l'a prononcé (ie: "Einstein (via nom invité)")</div>
               </div>
+
+              <hr/>
             </fieldset>
+
+            <div>
+              <div class="text-start my-3">
+                <button type="button" class="btn btn-outline-primary" @click="addAdvice">
+                  Ajouter un conseil
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -252,22 +264,34 @@
               <div class="form-text">Le code de temps (en seconde) auquels sont les 3 livres (la valeur t dans l'url youtube)</div>
             </div>
 
-            <fieldset>
+            <hr/>
+
+            <fieldset v-for="(book, index) in form.books" :key="index">
               <div>
                 <label class="form-label">Titre du livre</label>
-                <input v-model="form.books[0].title" type="text" class="form-control" form="video-data-form">
-                <div class="form-text">Mettre "Tous les livres de" dans le cas où seul un auteur est indiqué</div>
+                <input v-model="book.title" type="text" class="form-control" form="video-data-form">
+                <div v-if="index === 0" class="form-text">Mettre "Tous les livres de" dans le cas où seul un auteur est indiqué</div>
               </div>
               <div>
                 <label class="form-label">Auteur du livre</label>
-                <input v-model="form.books[0].author" type="text" class="form-control" form="video-data-form">
+                <input v-model="book.author" type="text" class="form-control" form="video-data-form">
               </div>
               <div>
                 <label class="form-label">URL du livre</label>
-                <input v-model="form.books[0].storeUrl" type="text" class="form-control" form="video-data-form">
-                <div class="form-text">En priorité l'URL du livre sur Amazon, à défault la FNAC, sinon l'URL du site</div>
+                <input v-model="book.storeUrl" type="text" class="form-control" form="video-data-form">
+                <div v-if="index === 0" class="form-text">En priorité l'URL du livre sur Amazon, à défault la FNAC, sinon l'URL du site</div>
               </div>
+
+              <hr/>
             </fieldset>
+
+            <div>
+              <div class="text-start my-3">
+                <button type="button" class="btn btn-outline-primary" @click="addBook">
+                  Ajouter un livre
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -346,7 +370,6 @@ export default {
   },
   data() {
     return {
-      editable: true,
       form: {
         adviceTimecode: null,
         advices: [{}],
@@ -356,6 +379,10 @@ export default {
     };
   },
   computed: {
+    editable() {
+      console.log("this.$route.query.editable", this.$route.query.editable);
+      return this.$route.query.editable !== undefined;
+    },
     coverUrl() {
       return (
         this.video.coverUrl ||
@@ -374,6 +401,14 @@ export default {
       return book.storeUrl.includes("amazon.fr")
         ? "fab fa-amazon"
         : "fas fa-external-link";
+    },
+    addAdvice() {
+      console.log("addAdvice");
+      this.form.advices.push({});
+    },
+    addBook() {
+      console.log("addBook");
+      this.form.books.push({});
     },
     sendData() {
       console.log("sendData, form: ", this.form);
