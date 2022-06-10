@@ -30,7 +30,7 @@
             class="btn btn-sm-x"
           >
             <img
-              :src="'https://img.youtube.com/vi/' + video.videoId + '/0.jpg'"
+              :src="coverUrl"
               :alt="video.title"
               width="400"
               height="400"
@@ -354,6 +354,14 @@ export default {
         books: [{}],
       },
     };
+  },
+  computed: {
+    coverUrl() {
+      return (
+        this.video.coverUrl ||
+        "https://img.youtube.com/vi/" + this.video.videoId + "/0.jpg"
+      );
+    },
   },
   mounted() {
     const data = this.getLocalFeed(this.video.videoId);
