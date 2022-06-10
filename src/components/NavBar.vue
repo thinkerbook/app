@@ -18,6 +18,9 @@
           <li class="nav-item">
             <RouterLink :to="{ name: 'about' }" class="nav-link">About</RouterLink>
           </li>
+          <li v-if="getLocalFeeds()" class="nav-item">
+            <RouterLink :to="{ name: 'data' }" class="nav-link">Local Data</RouterLink>
+          </li>
         </ul>
 
         <div class="navbar-nav ms-auto">
@@ -57,6 +60,7 @@ export default {
   setup() {
     const videoStore = useVideoStore();
     const { item, searchQuery, listVideos, listCount, allCount, isSearching, isItem } = storeToRefs(videoStore);
+    const { getLocalFeeds } = videoStore;
 
     return {
       item,
@@ -66,6 +70,7 @@ export default {
       allCount,
       isSearching,
       isItem,
+      getLocalFeeds,
     };
   },
   data() {

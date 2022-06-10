@@ -1,56 +1,11 @@
-<script setup>
-import { RouterLink, useRoute } from "vue-router";
-
-import SwanIcon from "@/components/icons/SwanIcon.vue";
-import { useVideoStore } from "@/stores/videos";
-
-const props = defineProps({
-  video: {
-    type: Object,
-    required: true,
-  },
-  query: {
-    type: String,
-  },
-  // show details such as publishing date, tags
-  showDetails: {
-    type: Boolean,
-    default: true,
-  },
-  // show guests, advices and books
-  showInfo: {
-    type: Boolean,
-    default: false,
-  },
-  clickToVideo: {
-    type: Boolean,
-    default: false,
-  },
-  inList: {
-    type: Boolean,
-    default: false,
-  },
-});
-
-const videoStore = useVideoStore();
-const listRouteLocation = videoStore.listRouteLocation;
-
-const route = useRoute();
-const exists = props.inList || route.params.yid && videoStore.hasVideo(route.params.yid);
-
-const index = videoStore.indexByVideoId(props.video.videoId);
-const previousNext = videoStore.previousNextAtIndex(index, props.query);
-// console.log("exists: %s", exists);
-</script>
-
 <template>
-  <div v-if="!exists">
+  <div v-if="!videoExists">
     <div class="col text-center my-2">
       <div class="alert alert-danger">
         <i class="fas fa-book-dead fa-2x"></i>
         <div>
           Aucune vidéo trouvée pour l'id
-          "<code>{{ route.params.yid }}</code>"
+          "<code>{{ $route.params.yid }}</code>"
         </div>
       </div>
     </div>
@@ -193,7 +148,7 @@ const previousNext = videoStore.previousNextAtIndex(index, props.query);
                 class="badge rounded-pill"
                 :class="(query === guest) ? 'bg-light text-dark' : 'bg-dark'"
               >
-                {{ videoStore.countByGuest(guest) }}
+                {{ countByGuest(guest) }}
               </span>
             </RouterLink>
           </li>
@@ -324,7 +279,7 @@ const previousNext = videoStore.previousNextAtIndex(index, props.query);
         @click="sendData"
       >
         <div class="text-center my-3">
-          <button type="submit" class="btn btn-primary">Envoyer les informations</button>
+          <button type="submit" class="btn btn-primary">Enregistrer les informations</button>
         </div>
       </form>
     </div>
@@ -332,10 +287,66 @@ const previousNext = videoStore.previousNextAtIndex(index, props.query);
 </template>
 
 <script>
+import { useRoute } from "vue-router";
+import { storeToRefs } from "pinia";
+
+import { useVideoStore } from "@/stores/videos";
+import SwanIcon from "@/components/icons/SwanIcon.vue";
+
 export default {
+  components: {
+    SwanIcon,
+  },
+  props: {
+    video: {
+      type: Object,
+      required: true,
+    },
+    query: {
+      type: String,
+    },
+    // show details such as publishing date, tags
+    showDetails: {
+      type: Boolean,
+      default: true,
+    },
+    // show guests, advices and books
+    showInfo: {
+      type: Boolean,
+      default: false,
+    },
+    clickToVideo: {
+      type: Boolean,
+      default: false,
+    },
+    inList: {
+      type: Boolean,
+      default: false,
+    },
+  },
+  setup(props) {
+    const videoStore = useVideoStore();
+    const { countByGuest } = storeToRefs(videoStore);
+    const { listRouteLocation, getLocalFeed, setLocalFeed } = videoStore;
+
+    const route = useRoute();
+    const videoExists = props.inList || route.params.yid && videoStore.hasVideo(route.params.yid);
+
+    const index = videoStore.indexByVideoId(props.video.videoId);
+    const previousNext = videoStore.previousNextAtIndex(index, props.query);
+
+    return {
+      countByGuest,
+      listRouteLocation,
+      getLocalFeed,
+      setLocalFeed,
+      videoExists,
+      previousNext,
+    };
+  },
   data() {
     return {
-      editable: false,
+      editable: true,
       form: {
         adviceTimecode: null,
         advices: [{}],
@@ -343,6 +354,12 @@ export default {
         books: [{}],
       },
     };
+  },
+  mounted() {
+    const data = this.getLocalFeed(this.video.videoId);
+    console.log("mounted data:", data);
+
+    this.form = data || this.form;
   },
   methods: {
     bookStoreIcon(book) {
@@ -352,6 +369,8 @@ export default {
     },
     sendData() {
       console.log("sendData, form: ", this.form);
+
+      this.setLocalFeed(this.video.videoId, this.form);
     },
   },
 };

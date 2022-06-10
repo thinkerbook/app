@@ -1,7 +1,10 @@
-import {useRouter} from "vue-router";
-import {defineStore} from "pinia";
+import { defineStore } from "pinia";
+import ls from "localstorage-slim";
 
 import Videos from "@/assets/thinkerbook-feed.yaml";
+
+const VideoFeedsKey = "video-feeds";
+const PAGE_SIZE = 20;
 
 function queryVideo(queryOpt) {
   const query = queryOpt || "";
@@ -37,8 +40,6 @@ function queryVideo(queryOpt) {
     return accept;
   };
 }
-const PAGE_SIZE = 20;
-
 export const useVideoStore = defineStore({
   id: "videoStore",
   state: () => ({
@@ -65,7 +66,7 @@ export const useVideoStore = defineStore({
       this.isItem
         ? state.videos[0]
         : null,
-    // allVideos: () => Videos,
+    allVideos: () => Videos,
     allCount: () => Videos.length,
     listVideos: (state) => state.videos,
     listCount: (state) => state.videos.length,
@@ -106,6 +107,19 @@ export const useVideoStore = defineStore({
       this.query = query;
       this.videos = Videos.filter(queryVideo(query));
       this.item = null;
+    },
+    getLocalFeeds() {
+      return ls.get(VideoFeedsKey);
+    },
+    getLocalFeed(videoId) {
+      const localFeeds = this.getLocalFeeds() || {};
+      return localFeeds[videoId];
+    },
+    setLocalFeed(videoId, form) {
+      const feeds = this.getLocalFeeds() || {};
+      feeds[videoId] = Object.assign({}, form);
+
+      ls.set(VideoFeedsKey, feeds);
     },
     //
     // routeSearch(query) {
