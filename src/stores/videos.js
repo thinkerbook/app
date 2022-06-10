@@ -6,25 +6,29 @@ import Videos from "@/assets/thinkerbook-feed.yaml";
 const VideoFeedsKey = "video-feeds";
 const PAGE_SIZE = 20;
 
+function includesIC(searched) {
+  const toSearch = searched
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "");
+
+  return (value) =>
+    (value || "")
+      .toString()
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/\p{Diacritic}/gu, "")
+      .includes(toSearch);
+}
+
 function queryVideo(queryOpt) {
+  if (!queryOpt) {
+    return () => true;
+  }
+
   const query = queryOpt || "";
   return (video) => {
     let accept = false;
-
-    function includesIC(searched) {
-      const toSearch = searched
-        .toLowerCase()
-        .normalize("NFD")
-        .replace(/\p{Diacritic}/gu, "");
-
-      return (value) =>
-        (value || "")
-          .toString()
-          .toLowerCase()
-          .normalize("NFD")
-          .replace(/\p{Diacritic}/gu, "")
-          .includes(toSearch);
-    }
 
     // console.log(`accept video title: ${video.title}, query: ${query}, result: ${video.title.includes(query)}`);
     accept |= [video.title].some(includesIC(query));

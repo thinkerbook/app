@@ -332,8 +332,8 @@ export default {
     const route = useRoute();
     const videoExists = props.inList || route.params.yid && videoStore.hasVideo(route.params.yid);
 
-    const index = videoStore.indexByVideoId(props.video.videoId);
-    const previousNext = videoStore.previousNextAtIndex(index, props.query);
+    const index = !props.inList && videoStore.indexByVideoId(props.video.videoId) || -1;
+    const previousNext = !props.inList && videoStore.previousNextAtIndex(index, props.query) || null;
 
     return {
       countByGuest,
