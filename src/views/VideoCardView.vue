@@ -60,6 +60,11 @@
                 title="Précédent"
               >&laquo;</router-link>
             </li>
+            <li class="page-item disabled">
+              <span class="page-link">
+                {{ index + 1 }}-{{ searchCount }}/{{ allCount }}
+              </span>
+            </li>
             <li class="page-item" :class="previousNext.next ? '' : 'disabled'">
               <router-link
                 :to="{ name: 'VideoItem', params: { yid: previousNext.next?.videoId || 'unknown' }, query: { q: query } }"
@@ -350,17 +355,20 @@ export default {
   },
   setup(props) {
     const videoStore = useVideoStore();
-    const { countByGuest } = storeToRefs(videoStore);
+    const { countByGuest, searchCount, allCount } = storeToRefs(videoStore);
     const { listRouteLocation, getLocalFeed, setLocalFeed } = videoStore;
 
     const route = useRoute();
     const videoExists = props.inList || route.params.yid && videoStore.hasVideo(route.params.yid);
 
-    const index = !props.inList && videoStore.indexByVideoId(props.video.videoId) || -1;
+    const index = !props.inList && videoStore.indexByVideoId(props.video.videoId);
     const previousNext = !props.inList && videoStore.previousNextAtIndex(index, props.query) || null;
 
     return {
       countByGuest,
+      index,
+      searchCount,
+      allCount,
       listRouteLocation,
       getLocalFeed,
       setLocalFeed,

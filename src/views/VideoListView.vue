@@ -25,6 +25,8 @@
 
   <info-card />
 
+  <PageNav v-if="listCount > 0" :page="page" />
+
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xxl-4">
     <div
       v-for="(video, index) in listVideos"
@@ -39,6 +41,9 @@
       />
     </div>
   </div>
+
+  <PageNav v-if="listCount > 0" :page="page" />
+
 </template>
 
 <script>
@@ -46,21 +51,24 @@ import { storeToRefs } from "pinia";
 import { useVideoStore } from "@/stores/videos";
 import VideoCardView from "@/views/VideoCardView.vue";
 import InfoCard from "@/components/InfoCard.vue";
+import PageNav from "@/components/PageNav.vue";
 
 export default {
   components: {
+    PageNav,
     VideoCardView,
     InfoCard,
   },
   props: {
     query: String,
+    page: String,
   },
   setup(props) {
     const videoStore = useVideoStore();
     const { searchQuery, listVideos, listCount } = storeToRefs(videoStore);
     const { setupList } = videoStore;
 
-    setupList(props.query);
+    setupList(props.query, props.page);
 
     return {
       searchQuery,

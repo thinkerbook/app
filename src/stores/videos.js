@@ -1,10 +1,10 @@
-import { defineStore } from "pinia";
+import {defineStore} from "pinia";
 import ls from "localstorage-slim";
 
 import Videos from "@/assets/thinkerbook-feed.yaml";
 
 const VideoFeedsKey = "video-feeds";
-const PAGE_SIZE = 20;
+const PAGE_SIZE = 25;
 
 function includesIC(searched) {
   const toSearch = searched
@@ -48,7 +48,7 @@ export const useVideoStore = defineStore({
   id: "videoStore",
   state: () => ({
     item: null, // { index: 0, videoId: '' }
-    // page: null, // { index: 0, size: 20 }
+    page: null, // { index: 0, size: 20, hasPrevious, hasNext }
     query: null,
     videos: Videos,
   }),
@@ -58,12 +58,11 @@ export const useVideoStore = defineStore({
       params: { yid: videoId },
       query: { q: query },
     }),
-    listRouteLocation: () => (query) => ({
+    listRouteLocation: () => (query, page) => ({
       name: "VideoList",
-      query: { q: query },
+      query: { q: query, page: page },
     }),
     isItem: (state) => !!state.item,
-    // TODO hasPagePrevious
     isSearching: (state) => !!state.query,
     searchQuery: (state) => state.query,
     itemVideo: (state) =>
@@ -74,6 +73,7 @@ export const useVideoStore = defineStore({
     allCount: () => Videos.length,
     listVideos: (state) => state.videos,
     listCount: (state) => state.videos.length,
+    searchCount: (state) => Videos.filter(queryVideo(state.query)).length,
     // pageVideos: (state) =>
     //   this.isPage
     //     ? state.videos.slice(state.page.index * (state.page.size || PAGE_SIZE))
@@ -106,12 +106,23 @@ export const useVideoStore = defineStore({
       const videoIndex = this.indexByVideoId(videoId);
       this.item = { index: videoIndex, videoId };
     },
-    setupList(query) {
-      console.log("setupList query: %s", query);
+    setupList(query, page) {
+      console.log("setupList query: %s, page: %s", query, page);
       this.query = query;
-      this.videos = Videos.filter(queryVideo(query));
+      const videos = Videos.filter(queryVideo(query));
       this.item = null;
+      const index = parseInt(page) || 0;
+      const count = Math.floor(videos.length / PAGE_SIZE) + 1;
+      this.videos = videos.slice(index * PAGE_SIZE, (index + 1) * PAGE_SIZE);
+      this.page = {
+        index: index,
+        size: PAGE_SIZE,
+        count: count,
+        hasPrevious: index > 0,
+        hasNext: index + 1 < count,
+      };
     },
+
     getLocalFeeds() {
       return ls.get(VideoFeedsKey);
     },
@@ -125,7 +136,7 @@ export const useVideoStore = defineStore({
 
       ls.set(VideoFeedsKey, feeds);
     },
-    //
+
     // routeSearch(query) {
     //   console.log("routeSearch query: %s", query);
     //

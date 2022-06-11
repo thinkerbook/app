@@ -4,9 +4,9 @@
       <RouterLink :to="{ name: 'VideoList' }" class="navbar-brand">
         <i class="far fa-book"></i>
         ThinkerBook
-        (<span v-if="isItem">{{ item.index + 1 }}-</span>
-        <span v-if="isSearching">{{ listCount }}/</span>
-        <span>{{ allCount }}</span>)
+<!--        (<span v-if="isItem">{{ item.index + 1 }}-</span>-->
+<!--        <span v-if="isSearching">{{ searchCount }}/</span>-->
+<!--        <span>{{ allCount }}</span>)-->
       </RouterLink>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +59,7 @@ export default {
   },
   setup() {
     const videoStore = useVideoStore();
-    const { item, searchQuery, listVideos, listCount, allCount, isSearching, isItem } = storeToRefs(videoStore);
+    const { item, searchQuery, listVideos, listCount, searchCount, allCount, isSearching, isItem } = storeToRefs(videoStore);
     const { getLocalFeeds } = videoStore;
 
     return {
@@ -67,6 +67,7 @@ export default {
       searchQuery,
       listVideos,
       listCount,
+      searchCount,
       allCount,
       isSearching,
       isItem,
