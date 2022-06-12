@@ -197,7 +197,7 @@
           <div v-if="editable">
             <div>
               <label class="form-label">Code de temps</label>
-              <input v-model="form.adviceTimecode" type="text" class="form-control" form="video-data-form">
+              <input v-model="form.adviceTimecode" type="number" class="form-control" form="video-data-form">
               <div class="form-text">Le code de temps (en seconde) auquel est le conseil aux jeunes générations (la valeur t dans l'url youtube)</div>
             </div>
 
@@ -265,7 +265,7 @@
           <div v-if="editable">
             <div>
               <label class="form-label">Code de temps</label>
-              <input v-model="form.bookTimecode" type="text" class="form-control" form="video-data-form">
+              <input v-model="form.bookTimecode" type="number" class="form-control" form="video-data-form">
               <div class="form-text">Le code de temps (en seconde) auquels sont les 3 livres (la valeur t dans l'url youtube)</div>
             </div>
 

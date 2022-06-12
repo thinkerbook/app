@@ -136,6 +136,12 @@ export const useVideoStore = defineStore({
 
       ls.set(VideoFeedsKey, feeds);
     },
+    removeLocalFeed(videoId) {
+      const feeds = this.getLocalFeeds() || {};
+      delete feeds[videoId];
+
+      ls.set(VideoFeedsKey, feeds);
+    },
 
     // routeSearch(query) {
     //   console.log("routeSearch query: %s", query);
