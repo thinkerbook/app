@@ -50,15 +50,21 @@
   videoUrl: "https://youtu.be/i86t42xsZPY"
   guests:
     - "August Cole"
-  adviceTimecode:
+  adviceTimecode: 7715
   advices:
-    - title: ""
-      author: "August Cole"
-  bookTimecode:
+    - author: "August Cole"
+      title: "S'occuper des gens, prendre soin les uns des autres."
+  bookTimecode: 7407
   books:
-    - title: ""
-      author: ""
-      storeUrl: ""
+    - title: "The power of the dog"
+      author: "Don Wislow"
+      storeUrl: "https://www.amazon.fr/dp/2757872117/"
+    - title: "The Peripheral"
+      author: "William Gibson"
+      storeUrl: "https://www.amazon.fr/dp/0241961009/"
+    - title: "Red Storm Rising"
+      author: "Tom Clancy"
+      storeUrl: "https://www.amazon.fr/dp/0399138412/"
 - title: "Perte de liberté et grogne sociale\_?"
   link: "https://www.thinkerview.com/michel-wieviorka-perte-de-liberte-et-grogne-sociale/"
   pubDate: "Wed, 25 May 2022 07:01:00 +0000"
