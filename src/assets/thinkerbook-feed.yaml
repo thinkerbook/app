@@ -11,7 +11,6 @@
   # extends
   releaseDate: 2022-06-07
   videoId: "AfzhfvBCrYQ"
-  videoUrl: "https://youtu.be/AfzhfvBCrYQ"
   guests:
     - "Charles Gave"
     - "Olivier Delamarche"
@@ -47,7 +46,6 @@
   # extends
   releaseDate: 2022-06-02
   videoId: "i86t42xsZPY"
-  videoUrl: "https://youtu.be/i86t42xsZPY"
   guests:
     - "August Cole"
   adviceTimecode: 7715
@@ -74,7 +72,6 @@
   # extends
   releaseDate: 2022-05-25
   videoId: "tr_IBgFhsSY"
-  videoUrl: "https://youtu.be/tr_IBgFhsSY"
   guests:
     - "Michel Wieviorka"
   adviceTimecode: 7756
@@ -107,7 +104,6 @@
   # extends
   releaseDate: 2022-05-18
   videoId: "i9dVo3mhpSU"
-  videoUrl: "https://youtu.be/i9dVo3mhpSU"
   guests:
     - "Alain Chouet"
   adviceTimecode: 7368
@@ -131,7 +127,6 @@
   # extends
   releaseDate: 2022-05-17
   videoId: "5ysUySSNW3M"
-  videoUrl: "https://youtu.be/5ysUySSNW3M"
   guests:
     - "Emma Haziza"
   adviceTimecode: 7408
@@ -159,7 +154,6 @@
   # extends
   releaseDate: 2022-05-04
   videoId: "iEogCC71eoQ"
-  videoUrl: "https://youtu.be/iEogCC71eoQ"
   guests:
     - "Pascal Boniface"
   adviceTimecode:
@@ -175,7 +169,6 @@
   # extends
   releaseDate: 2022-04-14
   videoId: "PXIiR612ghE"
-  videoUrl: "https://youtu.be/PXIiR612ghE"
   guests:
     - "Sacha Filipenko"
   adviceTimecode: 6104
@@ -202,7 +195,6 @@
   # extends
   releaseDate: 2022-03-30
   videoId: "nGpkykPCbVU"
-  videoUrl: "https://youtu.be/nGpkykPCbVU"
   guests:
     - "Nicolas Meilhan"
     - "Francis Perrin"
@@ -240,7 +232,6 @@
   # extends
   releaseDate: 2022-03-28
   videoId: "Q63JItjAsow"
-  videoUrl: "https://youtu.be/Q63JItjAsow"
   guests:
     - "Jean-Luc Mélenchon"
   adviceTimecode: 7532
@@ -267,7 +258,6 @@
   # extends
   releaseDate: 2022-03-18
   videoId: "YHNxl8djy5Y"
-  videoUrl: "https://youtu.be/YHNxl8djy5Y"
   guests:
     - "Christophe Deloire"
   adviceTimecode: 8904
@@ -296,7 +286,6 @@
   # extends
   releaseDate: 2022-03-10
   videoId: "zkLwVeaQOiA"
-  videoUrl: "https://youtu.be/zkLwVeaQOiA"
   guests:
     - "Pierre Conesa"
   adviceTimecode: 7051
@@ -322,7 +311,6 @@
   # extends
   releaseDate: 2022-02-23
   videoId: "y6sMAYIjxjg"
-  videoUrl: "https://youtu.be/y6sMAYIjxjg"
   guests:
     - "Paul Moreira"
     - "Edwy Plenel"
@@ -339,7 +327,6 @@
   # extends
   releaseDate: 2022-02-17
   videoId: "HHyUr6RPMSk"
-  videoUrl: "https://youtu.be/HHyUr6RPMSk"
   guests:
     - "Marc Endeweld"
   adviceTimecode:
@@ -354,7 +341,6 @@
   # extends
   releaseDate: 2022-02-09
   videoId: "dmBRwFVQk_M"
-  videoUrl: "https://youtu.be/dmBRwFVQk_M"
   guests:
     - "Jean-Marc Jancovici"
     - "Laurent Morel"
@@ -370,7 +356,6 @@
   # extends
   releaseDate: 2022-01-27
   videoId: "x6qsHdJNn1E"
-  videoUrl: "https://youtu.be/x6qsHdJNn1E"
   guests:
     - "Geoffroy Roux de Bézieux"
   adviceTimecode:
@@ -386,7 +371,6 @@
   # extends
   releaseDate: 2022-01-25
   videoId: "xx3PsG2mr-Y"
-  videoUrl: "https://youtu.be/xx3PsG2mr-Y"
   guests:
     - "Aurore Stéphant"
   adviceTimecode:
@@ -401,7 +385,6 @@
   # extends
   releaseDate: 2022-01-21
   videoId: "YFhV_SkhZyc"
-  videoUrl: "https://youtu.be/YFhV_SkhZyc"
   guests:
     - "Jean-Luc Mélenchon"
   adviceTimecode:
@@ -416,7 +399,6 @@
   # extends
   releaseDate: 2022-01-11
   videoId: "7LHX_hMsFcA"
-  videoUrl: "https://youtu.be/7LHX_hMsFcA"
   guests:
     - "Loïc Finaz"
   adviceTimecode:
@@ -431,7 +413,6 @@
   # extends
   releaseDate: 2021-12-13
   videoId: "44Vnvcsd4ME"
-  videoUrl: "https://youtu.be/44Vnvcsd4ME"
   guests:
     - "Étienne Klein"
   adviceTimecode:
@@ -446,7 +427,6 @@
   # extends
   releaseDate: 2021-12-04
   videoId: "E7e7v-Ig9Ds"
-  videoUrl: "https://youtu.be/E7e7v-Ig9Ds"
   guests:
     - "Clément Viktorovitch"
   adviceTimecode:
@@ -462,7 +442,6 @@
   # extends
   releaseDate: 2021-11-22
   videoId: "UlFGkut-j8s"
-  videoUrl: "https://youtu.be/UlFGkut-j8s"
   guests:
     - "Eric Sadin"
   adviceTimecode:
@@ -477,7 +456,6 @@
   # extends
   releaseDate: 2021-11-15
   videoId: "_D-AnsdbnRI"
-  videoUrl: "https://youtu.be/_D-AnsdbnRI"
   guests:
     - "John Shipton"
   adviceTimecode:
@@ -493,7 +471,6 @@
   # extends
   releaseDate: 2021-11-15
   videoId: "MAUriihHjWE"
-  videoUrl: "https://youtu.be/"
   guests:
     - "John Shipton"
   adviceTimecode:
@@ -508,7 +485,6 @@
   # extends
   releaseDate: 2021-11-11
   videoId: "EBdG-kH6TrU"
-  videoUrl: "https://youtu.be/EBdG-kH6TrU"
   guests:
     - "Raphaël Rossello"
     - "Owen Simonin"
@@ -524,7 +500,6 @@
   # extends
   releaseDate: 2021-11-01
   videoId: "7b6HPsqwT2E"
-  videoUrl: "https://youtu.be/7b6HPsqwT2E"
   guests:
     - "Anais Voy Gillis"
   adviceTimecode:
@@ -539,7 +514,6 @@
   # extends
   releaseDate: 2021-10-23
   videoId: "61AN7Vf4RSs"
-  videoUrl: "https://youtu.be/61AN7Vf4RSs"
   guests:
     - "Eric Zemmour"
   adviceTimecode:
@@ -555,7 +529,6 @@
   # extends
   releaseDate: 2021-10-15
   videoId: "2Kj-MPA-OZE"
-  videoUrl: "https://youtu.be/2Kj-MPA-OZE"
   guests:
     - "Régis Le Sommier"
   adviceTimecode:
@@ -571,7 +544,6 @@
   # extends
   releaseDate: 2021-10-06
   videoId: "9AWeWkNhLnQ"
-  videoUrl: "https://youtu.be/9AWeWkNhLnQ"
   guests:
     - "Georges Ugeux"
   adviceTimecode:
@@ -586,7 +558,6 @@
   # extends
   releaseDate: 2021-09-24
   videoId: "1DJ3qTW51FA"
-  videoUrl: "https://youtu.be/1DJ3qTW51FA"
   guests:
     - "Zax"
     - "Doomer"
@@ -602,7 +573,6 @@
   # extends
   releaseDate: 2021-09-22
   videoId: "f80zcxsuuS8"
-  videoUrl: "https://youtu.be/f80zcxsuuS8"
   guests:
     - "Lu Shaye"
   adviceTimecode:
@@ -617,7 +587,6 @@
   # extends
   releaseDate: 2021-09-09
   videoId: "yq_ok3RHU9Q"
-  videoUrl: "https://youtu.be/yq_ok3RHU9Q"
   guests:
     - "Alain Juillet"
   adviceTimecode:
@@ -632,7 +601,6 @@
   # extends
   releaseDate: 2021-09-08
   videoId: "9X4bV9fYkfs"
-  videoUrl: "https://youtu.be/9X4bV9fYkfs"
   guests:
     - "Valérie Masson-Delmotte"
     - "Pierre Larrouturou"
@@ -648,7 +616,6 @@
   # extends
   releaseDate: 2021-07-06
   videoId: "7GUPgNXowFw"
-  videoUrl: "https://youtu.be/7GUPgNXowFw"
   guests:
     - "Renaud Van Ruymbeke"
   adviceTimecode:
@@ -663,7 +630,6 @@
   # extends
   releaseDate: 2021-06-23
   videoId: "tXkMBRsbwz4"
-  videoUrl: "https://youtu.be/tXkMBRsbwz4"
   guests:
     - "Philippe Corcuff"
   adviceTimecode:
@@ -678,7 +644,6 @@
   # extends
   releaseDate: 2021-06-15
   videoId: "EOWeewlc2CE"
-  videoUrl: "https://youtu.be/EOWeewlc2CE"
   guests:
     - "Benjamin Bayart"
     - "Marc Rees"
@@ -694,7 +659,6 @@
   # extends
   releaseDate: 2021-06-10
   videoId: "vJr1PWWvccQ"
-  videoUrl: "https://youtu.be/vJr1PWWvccQ"
   guests:
     - "Bruno Gaccio"
   adviceTimecode:
@@ -709,7 +673,6 @@
   # extends
   releaseDate: 2021-06-03
   videoId: "kY5dni2vbVc"
-  videoUrl: "https://youtu.be/kY5dni2vbVc"
   guests:
     - "Henri Bentégeat"
   adviceTimecode:
@@ -724,7 +687,6 @@
   # extends
   releaseDate: 2021-05-26
   videoId: "I0GImBIkA7Y"
-  videoUrl: "https://youtu.be/I0GImBIkA7Y"
   guests:
     - "Hubert Védrine"
   adviceTimecode:
@@ -739,7 +701,6 @@
   # extends
   releaseDate: 2021-05-19
   videoId: "q1Lm9aS0Oxg"
-  videoUrl: "https://youtu.be/q1Lm9aS0Oxg"
   guests:
     - "Philippe de Villiers"
   adviceTimecode:
@@ -754,7 +715,6 @@
   # extends
   releaseDate: 2021-05-18
   videoId: "t85OumT730g"
-  videoUrl: "https://youtu.be/t85OumT730g"
   guests:
     - "Gaspard Glanz"
   adviceTimecode:
@@ -769,7 +729,6 @@
   # extends
   releaseDate: 2021-04-30
   videoId: "cIjbLK3w5Ks"
-  videoUrl: "https://youtu.be/cIjbLK3w5Ks"
   guests:
     - "Barbara Stiegler"
   adviceTimecode:
@@ -784,7 +743,6 @@
   # extends
   releaseDate: 2021-04-29
   videoId: "1wul4z8pmzU"
-  videoUrl: "https://youtu.be/1wul4z8pmzU"
   guests:
     - "Brice Perrier"
   adviceTimecode:
@@ -799,7 +757,6 @@
   # extends
   releaseDate: 2021-04-16
   videoId: "VgZMOy9AaNA"
-  videoUrl: "https://youtu.be/VgZMOy9AaNA"
   guests:
     - "Pierre Conesa"
   adviceTimecode:
@@ -814,7 +771,6 @@
   # extends
   releaseDate: 2021-04-09
   videoId: "eLwiJwnrpEU"
-  videoUrl: "https://youtu.be/eLwiJwnrpEU"
   guests:
     - "Renaud Piarroux"
   adviceTimecode:
@@ -829,7 +785,6 @@
   # extends
   releaseDate: 2021-04-01
   videoId: "bIIRor8z1Wk"
-  videoUrl: "https://youtu.be/bIIRor8z1Wk"
   guests:
     - "Gilles Raveaud"
   adviceTimecode:
@@ -844,7 +799,6 @@
   # extends
   releaseDate: 2021-03-17
   videoId: "rrTH31VbdXI"
-  videoUrl: "https://youtu.be/rrTH31VbdXI"
   guests:
     - "Elise Van Beneden"
   adviceTimecode:
@@ -859,7 +813,6 @@
   # extends
   releaseDate: 2021-03-11
   videoId: "ahgC1HHGgIU"
-  videoUrl: "https://youtu.be/ahgC1HHGgIU"
   guests:
     - "Guillaume Meurice"
   adviceTimecode:
@@ -874,7 +827,6 @@
   # extends
   releaseDate: 2021-03-04
   videoId: "TzSGHWUDX3A"
-  videoUrl: "https://youtu.be/TzSGHWUDX3A"
   guests:
     - "Raphaël Rossello"
   adviceTimecode:
@@ -889,7 +841,6 @@
   # extends
   releaseDate: 2021-02-10
   videoId: "QdgE0TZjgjs"
-  videoUrl: "https://youtu.be/QdgE0TZjgjs"
   guests:
     - "Yves Jégo"
   adviceTimecode:
@@ -904,7 +855,6 @@
   # extends
   releaseDate: 2021-02-04
   videoId: "fnnFQ3Jnd3Q"
-  videoUrl: "https://youtu.be/fnnFQ3Jnd3Q"
   guests:
     - "Yann Arthus-Bertrand"
   adviceTimecode:
@@ -919,7 +869,6 @@
   # extends
   releaseDate: 2021-01-29
   videoId: "Gz8QeqOi-sg"
-  videoUrl: "https://youtu.be/Gz8QeqOi-sg"
   guests:
     - "Renaud Piarroux"
   adviceTimecode:
@@ -934,7 +883,6 @@
   # extends
   releaseDate: 2021-01-21
   videoId: "_y2h_fkTrq4"
-  videoUrl: "https://youtu.be/_y2h_fkTrq4"
   guests:
     - "Christophe Deloire"
   adviceTimecode:
@@ -949,7 +897,6 @@
   # extends
   releaseDate: 2021-01-15
   videoId: "BsSxYvltlXA"
-  videoUrl: "https://youtu.be/BsSxYvltlXA"
   guests:
     - "Béatrice Brugère"
   adviceTimecode:
@@ -965,7 +912,6 @@
   # extends
   releaseDate: 2020-12-17
   videoId: "sSidiNHSFIo"
-  videoUrl: "https://youtu.be/sSidiNHSFIo"
   guests:
     - "Cédric Herrou"
   adviceTimecode:
@@ -981,7 +927,6 @@
   # extends
   releaseDate: 2020-12-08
   videoId: "zPneHz0MuKQ"
-  videoUrl: "https://youtu.be/zPneHz0MuKQ"
   guests:
     - "Alexandre Langlois"
     - "Noam Anouar"
@@ -998,7 +943,6 @@
   # extends
   releaseDate: 2020-12-08
   videoId: "0txop8vnaIU"
-  videoUrl: "https://youtu.be/0txop8vnaIU"
   guests:
     - "Julia Cagé"
   adviceTimecode:
@@ -1014,7 +958,6 @@
   # extends
   releaseDate: 2020-12-01
   videoId: "jGAjuM5Nb4A"
-  videoUrl: "https://youtu.be/jGAjuM5Nb4A"
   guests:
     - "Marc Eichinger"
   adviceTimecode:
@@ -1030,7 +973,6 @@
   # extends
   releaseDate: 2020-11-18
   videoId: "Q6SIxUA_Ans"
-  videoUrl: "https://youtu.be/Q6SIxUA_Ans"
   guests:
     - "Arnaud Montebourg"
   adviceTimecode:
@@ -1046,7 +988,6 @@
   # extends
   releaseDate: 2020-11-12
   videoId: "wk1c5BXumB0"
-  videoUrl: "https://youtu.be/wk1c5BXumB0"
   guests:
     - "Noël Mamère"
   adviceTimecode:
@@ -1062,7 +1003,6 @@
   # extends
   releaseDate: 2020-11-06
   videoId: "_eCIeFpCLSw"
-  videoUrl: "https://youtu.be/_eCIeFpCLSw"
   guests:
     - "Anne-Laure Kiechel"
   adviceTimecode:
@@ -1078,7 +1018,6 @@
   # extends
   releaseDate: 2020-10-29
   videoId: "GBuEgZwTaAM"
-  videoUrl: "https://youtu.be/GBuEgZwTaAM"
   guests:
     - "Denis Robert"
   adviceTimecode:
@@ -1094,7 +1033,6 @@
   # extends
   releaseDate: 2020-10-14
   videoId: "E7QnwVx2fY0"
-  videoUrl: "https://youtu.be/E7QnwVx2fY0"
   guests:
     - "Nicolas Meilhan"
     - "Philippe Bihouix"
@@ -1111,7 +1049,6 @@
   # extends
   releaseDate: 2020-10-14
   videoId: "vrus2Jwi67A"
-  videoUrl: "https://youtu.be/vrus2Jwi67A"
   guests:
     - "Albert Dupontel"
   adviceTimecode:
@@ -1127,7 +1064,6 @@
   # extends
   releaseDate: 2020-10-06
   videoId: "suHXQfpBTxM"
-  videoUrl: "https://youtu.be/suHXQfpBTxM"
   guests:
     - "Éric Sadin"
   adviceTimecode:
@@ -1143,7 +1079,6 @@
   # extends
   releaseDate: 2020-09-25
   videoId: "-8j8xgkZxuE"
-  videoUrl: "https://youtu.be/-8j8xgkZxuE"
   guests:
     - "Gaël Giraud"
   adviceTimecode:
@@ -1159,7 +1094,6 @@
   # extends
   releaseDate: 2020-09-17
   videoId: "4DJkr2whd5g"
-  videoUrl: "https://youtu.be/4DJkr2whd5g"
   guests:
     - "Isabelle Saporta"
   adviceTimecode:
@@ -1175,7 +1109,6 @@
   # extends
   releaseDate: 2020-09-14
   videoId: "KelxO3PYthI"
-  videoUrl: "https://youtu.be/KelxO3PYthI"
   guests:
     - "Jean-Paul Fitoussi"
   adviceTimecode:
@@ -1191,7 +1124,6 @@
   # extends
   releaseDate: 2020-07-17
   videoId: "2iErDLlIlG4"
-  videoUrl: "https://youtu.be/2iErDLlIlG4"
   guests:
     - "Tariq Krim"
     - "Bernard Benhamou"
@@ -1208,7 +1140,6 @@
   # extends
   releaseDate: 2020-07-17
   videoId: "txl6l5ORhzo"
-  videoUrl: "https://youtu.be/txl6l5ORhzo"
   guests:
     - "Michel Onfray"
   adviceTimecode:
@@ -1224,7 +1155,6 @@
   # extends
   releaseDate: 2020-07-03
   videoId: "-NN89JhzOvk"
-  videoUrl: "https://youtu.be/-NN89JhzOvk"
   guests:
     - "Maxime Renahy"
   adviceTimecode:
@@ -1240,7 +1170,6 @@
   # extends
   releaseDate: 2020-06-18
   videoId: "yOcEiXiYIDA"
-  videoUrl: "https://youtu.be/yOcEiXiYIDA"
   guests:
     - "Olivier Delamarche"
   adviceTimecode:
@@ -1256,7 +1185,6 @@
   # extends
   releaseDate: 2020-06-17
   videoId: "NS8acSbI1Bs"
-  videoUrl: "https://youtu.be/NS8acSbI1Bs"
   guests:
     - "François-Xavier Selleret et Pierre Sabatier"
   adviceTimecode:
@@ -1272,7 +1200,6 @@
   # extends
   releaseDate: 2020-06-03
   videoId: "xQ3BoOCSdXE"
-  videoUrl: "https://youtu.be/xQ3BoOCSdXE"
   guests:
     - "Isabelle Delannoy"
   adviceTimecode:
@@ -1288,7 +1215,6 @@
   # extends
   releaseDate: 2020-06-05
   videoId: "Fd0_wdle4Ts"
-  videoUrl: "https://youtu.be/Fd0_wdle4Ts"
   guests:
     - "Sylvain Lapoix"
     - "Henri Poulain"
@@ -1305,7 +1231,6 @@
   # extends
   releaseDate: 2020-06-05
   videoId: "yAi_GKbpKUQ"
-  videoUrl: "https://youtu.be/yAi_GKbpKUQ"
   guests:
     - "Philippe Douste-Blazy"
   adviceTimecode:
@@ -1321,7 +1246,6 @@
   # extends
   releaseDate: 2020-06-05
   videoId: "QMgfIVYqZTM"
-  videoUrl: "https://youtu.be/QMgfIVYqZTM"
   guests:
     - "Christian Harbulot"
   adviceTimecode:
@@ -1337,7 +1261,6 @@
   # extends
   releaseDate: 2020-05-15
   videoId: "AY2tCBZZy5I"
-  videoUrl: "https://youtu.be/AY2tCBZZy5I"
   guests:
     - "Bernard Squarcini"
   adviceTimecode: 9040
@@ -1364,7 +1287,6 @@
   # extends
   releaseDate: 2020-06-04
   videoId: "MLOQAZXwVWQ"
-  videoUrl: "https://youtu.be/MLOQAZXwVWQ"
   guests:
     - "Jean Ziegler"
   adviceTimecode:
@@ -1380,7 +1302,6 @@
   # extends
   releaseDate: 2020-02-28
   videoId: "z-boL89uKLo"
-  videoUrl: "https://youtu.be/boL89uKLo"
   guests:
     - "Glenn Albrecht"
   adviceTimecode:
@@ -1396,7 +1317,6 @@
   # extends
   releaseDate: 2020-02-24
   videoId: "hTl3XDZLQ0Q"
-  videoUrl: "https://youtu.be/hTl3XDZLQ0Q"
   guests:
     - "Bernard Norlain"
   adviceTimecode:
@@ -1412,7 +1332,6 @@
   # extends
   releaseDate: 2020-02-04
   videoId: "RgmLorXQpNM"
-  videoUrl: "https://youtu.be/RgmLorXQpNM"
   guests:
     - "Virginie Martin"
   adviceTimecode:
@@ -1428,7 +1347,6 @@
   # extends
   releaseDate: 2020-01-29
   videoId: "K_fsNDjhwks"
-  videoUrl: "https://youtu.be/K_fsNDjhwks"
   guests:
     - "Delphine Batho"
   adviceTimecode:
@@ -1444,7 +1362,6 @@
   # extends
   releaseDate: 2020-01-10
   videoId: "TrkMWnce3I8"
-  videoUrl: "https://youtu.be/TrkMWnce3I8"
   guests:
     - "Stéphanie Fontaine"
     - "Antoine Champagne"
@@ -1462,7 +1379,6 @@
   # extends
   releaseDate: 2020-01-07
   videoId: "GyoW77ZervA"
-  videoUrl: "https://youtu.be/GyoW77ZervA"
   guests:
     - "Thomas Wiesel"
   adviceTimecode:
@@ -1478,7 +1394,6 @@
   # extends
   releaseDate: 2019-12-19
   videoId: "PvfXlbk-n9c"
-  videoUrl: "https://youtu.be/PvfXlbk-n9c"
   guests:
     - "Marc Endeweld"
   adviceTimecode:
@@ -1494,7 +1409,6 @@
   # extends
   releaseDate: 2019-12-18
   videoId: "2lHTHINmNVk"
-  videoUrl: "https://youtu.be/2lHTHINmNVk"
   guests:
     - "Guillaume Pitron"
   adviceTimecode:
@@ -1510,7 +1424,6 @@
   # extends
   releaseDate: 2019-12-12
   videoId: "MJ7ZOn222Ig"
-  videoUrl: "https://youtu.be/MJ7ZOn222Ig"
   guests:
     - "Cédric O"
   adviceTimecode:
@@ -1526,7 +1439,6 @@
   # extends
   releaseDate: 2019-11-26
   videoId: "1sOgeAeBZ1I"
-  videoUrl: "https://youtu.be/1sOgeAeBZ1I"
   guests:
     - "Christophe Stalla-Bourdillon"
   adviceTimecode:
@@ -1542,7 +1454,6 @@
   # extends
   releaseDate: 2019-11-21
   videoId: "ndXqR_aWHcU"
-  videoUrl: "https://youtu.be/ndXqR_aWHcU"
   guests:
     - "Francis Dupuis-Déri"
   adviceTimecode:
@@ -1558,7 +1469,6 @@
   # extends
   releaseDate: 2019-11-14
   videoId: "V4yf3HOEHPk"
-  videoUrl: "https://youtu.be/V4yf3HOEHPk"
   guests:
     - "Gilles Babinet"
   adviceTimecode:
@@ -1574,7 +1484,6 @@
   # extends
   releaseDate: 2019-11-07
   videoId: "lXXp-PVQ0HQ"
-  videoUrl: "https://youtu.be/lXXp-PVQ0HQ"
   guests:
     - "Christophe Brusset"
   adviceTimecode:
@@ -1590,7 +1499,6 @@
   # extends
   releaseDate: 2019-11-04
   videoId: "fNylkT2QW4U"
-  videoUrl: "https://youtu.be/fNylkT2QW4U"
   guests:
     - "Costa-Gavras"
   adviceTimecode:
@@ -1606,7 +1514,6 @@
   # extends
   releaseDate: 2019-10-24
   videoId: "MdtxJxaF_0w"
-  videoUrl: "https://youtu.be/MdtxJxaF_0w"
   guests:
     - "Agnès Levallois"
     - "Pierre Conesa"
@@ -1623,7 +1530,6 @@
   # extends
   releaseDate: 2019-10-16
   videoId: "TFk_w_N2xXM"
-  videoUrl: "https://youtu.be/TFk_w_N2xXM"
   guests:
     - "Bruno Gaccio"
   adviceTimecode:
@@ -1639,7 +1545,6 @@
   # extends
   releaseDate: 2019-10-09
   videoId: "5WHg49trJCw"
-  videoUrl: "https://youtu.be/5WHg49trJCw"
   guests:
     - "Christophe Nijdam"
     - "Jérôme Cazes"
@@ -1656,7 +1561,6 @@
   # extends
   releaseDate: 2019-09-27
   videoId: "tUml_4KZKhk"
-  videoUrl: "https://youtu.be/tUml_4KZKhk"
   guests:
     - "Jean Jouzel"
     - "Pierre Larrouturou"
@@ -1673,7 +1577,6 @@
   # extends
   releaseDate: 2019-09-25
   videoId: "-J_2tNIA4cI"
-  videoUrl: "https://youtu.be/-J_2tNIA4cI"
   guests:
     - "Joseph Stiglitz"
   adviceTimecode:
@@ -1689,7 +1592,6 @@
   # extends
   releaseDate: 2019-09-20
   videoId: "_GONFUveBH0"
-  videoUrl: "https://youtu.be/_GONFUveBH0"
   guests:
     - "Beryl614"
   adviceTimecode:
@@ -1705,7 +1607,6 @@
   # extends
   releaseDate: 2019-09-17
   videoId: "2mor2qort4U"
-  videoUrl: "https://youtu.be/2mor2qort4U"
   guests:
     - "Olivier Marleix"
   adviceTimecode:
@@ -1721,7 +1622,6 @@
   # extends
   releaseDate: 2019-09-11
   videoId: "mx5QlspmmE8"
-  videoUrl: "https://youtu.be/mx5QlspmmE8"
   guests:
     - "Eric Dénécé"
   adviceTimecode:
@@ -1737,7 +1637,6 @@
   # extends
   releaseDate: 2019-09-05
   videoId: "_EFDjsMDlXU"
-  videoUrl: "https://youtu.be/_EFDjsMDlXU"
   guests:
     - "Vikash Dhorasoo"
   adviceTimecode:
@@ -1753,7 +1652,6 @@
   # extends
   releaseDate: 2019-09-03
   videoId: "Uj83ZmfT4Dw"
-  videoUrl: "https://youtu.be/Uj83ZmfT4Dw"
   guests:
     - "Maxime Renahy"
   adviceTimecode:
@@ -1769,7 +1667,6 @@
   # extends
   releaseDate: 2019-07-25
   videoId: "W7OY8TeglnM"
-  videoUrl: "https://youtu.be/W7OY8TeglnM"
   guests:
     - "Arnaud Montebourg"
   adviceTimecode:
@@ -1785,7 +1682,6 @@
   # extends
   releaseDate: 2019-07-08
   videoId: "dejeVuL9-7c"
-  videoUrl: "https://youtu.be/dejeVuL9-7c"
   guests:
     - "Frédéric Pierucci"
   adviceTimecode:
@@ -1801,7 +1697,6 @@
   # extends
   releaseDate: 2019-07-02
   videoId: "5TbbV06LlP0"
-  videoUrl: "https://youtu.be/5TbbV06LlP0"
   guests:
     - "Pierre Conesa"
   adviceTimecode:
@@ -1817,7 +1712,6 @@
   # extends
   releaseDate: 2019-07-02
   videoId: "5gOsjIxR7T0"
-  videoUrl: "https://youtu.be/5gOsjIxR7T0"
   guests:
     - "Laurent Castaignède"
   adviceTimecode:
@@ -1833,7 +1727,6 @@
   # extends
   releaseDate: 2019-06-25
   videoId: "9iuBVin9oOk"
-  videoUrl: "https://youtu.be/9iuBVin9oOk"
   guests:
     - "Laurent Alexandre"
     - "Philippe Bihouix"
@@ -1850,7 +1743,6 @@
   # extends
   releaseDate: 2019-06-19
   videoId: "zyt81qmTz6g"
-  videoUrl: "https://youtu.be/zyt81qmTz6g"
   guests:
     - "Jean Laherrère"
     - "Nicolas Meilhan"
@@ -1867,7 +1759,6 @@
   # extends
   releaseDate: 2019-06-14
   videoId: "sIJd1kuR2Ps"
-  videoUrl: "https://youtu.be/sIJd1kuR2Ps"
   guests:
     - "Jean Ziegler"
   adviceTimecode:
@@ -1883,7 +1774,6 @@
   # extends
   releaseDate: 2019-06-12
   videoId: "zoT3XBmsZc8"
-  videoUrl: "https://youtu.be/zoT3XBmsZc8"
   guests:
     - "Alain Grandjean"
   adviceTimecode:
@@ -1899,7 +1789,6 @@
   # extends
   releaseDate: 2019-06-04
   videoId: "DnHUyRfY3Wc"
-  videoUrl: "https://youtu.be/DnHUyRfY3Wc"
   guests:
     - "Monique Pinçon-Charlot"
   adviceTimecode:
@@ -1915,7 +1804,6 @@
   # extends
   releaseDate: 2019-05-24
   videoId: "PFaD3NP6-Lk"
-  videoUrl: "https://youtu.be/PFaD3NP6-Lk"
   guests:
     - "Edwy Plenel"
   adviceTimecode:
@@ -1931,7 +1819,6 @@
   # extends
   releaseDate: 2019-05-17
   videoId: "uSSFmNHgJQQ"
-  videoUrl: "https://youtu.be/uSSFmNHgJQQ"
   guests:
     - "Barbara Stiegler"
   adviceTimecode:
@@ -1947,7 +1834,6 @@
   # extends
   releaseDate: 2019-05-14
   videoId: "Oq84s9BLn14"
-  videoUrl: "https://youtu.be/Oq84s9BLn14"
   guests:
     - "Philippe Bihouix"
   adviceTimecode:
@@ -1963,7 +1849,6 @@
   # extends
   releaseDate: 2019-05-10
   videoId: "M5_v9ld_LVc"
-  videoUrl: "https://youtu.be/M5_v9ld_LVc"
   guests:
     - "Coralie Delaume"
   adviceTimecode:
@@ -1979,7 +1864,6 @@
   # extends
   releaseDate: 2019-05-06
   videoId: "9y3aC0LruiQ"
-  videoUrl: "https://youtu.be/9y3aC0LruiQ"
   guests:
     - "Jean-Luc Mélenchon"
   adviceTimecode:
@@ -1995,7 +1879,6 @@
   # extends
   releaseDate: 2019-04-17
   videoId: "qYCfx2xFMjE"
-  videoUrl: "https://youtu.be/qYCfx2xFMjE"
   guests:
     - "Bernard Stiegler"
   adviceTimecode:
@@ -2011,7 +1894,6 @@
   # extends
   releaseDate: 2019-04-12
   videoId: "XK2dsgJWqgk"
-  videoUrl: "https://youtu.be/XK2dsgJWqgk"
   guests:
     - "Stéphanie Fontaine"
     - "Antoine Champagne"
@@ -2029,7 +1911,6 @@
   # extends
   releaseDate: 2019-04-12
   videoId: "1IUfQ7o8TnI"
-  videoUrl: "https://youtu.be/1IUfQ7o8TnI"
   guests:
     - "Charles Rojzman"
   adviceTimecode:
@@ -2045,7 +1926,6 @@
   # extends
   releaseDate: 2019-04-11
   videoId: "a7KapmsJQOE"
-  videoUrl: "https://youtu.be/a7KapmsJQOE"
   guests:
     - "Alain Damasio"
   adviceTimecode:
@@ -2061,7 +1941,6 @@
   # extends
   releaseDate: 2019-03-27
   videoId: "9QePE_pAP9I"
-  videoUrl: "https://youtu.be/9QePE_pAP9I"
   guests:
     - "Caroline Galacteros"
   adviceTimecode:
@@ -2077,7 +1956,6 @@
   # extends
   releaseDate: 2019-03-20
   videoId: "lNS7tA7Nhkw"
-  videoUrl: "https://youtu.be/lNS7tA7Nhkw"
   guests:
     - "Noam Anouar"
   adviceTimecode:
@@ -2093,7 +1971,6 @@
   # extends
   releaseDate: 2019-03-20
   videoId: "2oFARgqG0NA"
-  videoUrl: "https://youtu.be/2oFARgqG0NA"
   guests:
     - "Gaël Giraud"
   adviceTimecode:
@@ -2109,7 +1986,6 @@
   # extends
   releaseDate: 2019-03-13
   videoId: "yEtmZKE5jhw"
-  videoUrl: "https://youtu.be/yEtmZKE5jhw"
   guests:
     - "Juan Branco"
   adviceTimecode:
@@ -2125,7 +2001,6 @@
   # extends
   releaseDate: 2019-03-13
   videoId: "JcBglTuSLcs"
-  videoUrl: "https://youtu.be/JcBglTuSLcs"
   guests:
     - "Aymeric Caron"
   adviceTimecode:
@@ -2141,7 +2016,6 @@
   # extends
   releaseDate: 2019-02-25
   videoId: "1wF5FMUtHDM"
-  videoUrl: "https://youtu.be/1wF5FMUtHDM"
   guests:
     - "Francis Dupuis-Déri"
   adviceTimecode:
@@ -2157,7 +2031,6 @@
   # extends
   releaseDate: 2019-02-25
   videoId: "tRl9_q2ytI8"
-  videoUrl: "https://youtu.be/tRl9_q2ytI8"
   guests:
     - "François Boulo"
   adviceTimecode:
@@ -2173,7 +2046,6 @@
   # extends
   releaseDate: 2019-02-18
   videoId: "GPfXLUThC6M"
-  videoUrl: "https://youtu.be/GPfXLUThC6M"
   guests:
     - "François Bégaudeau"
   adviceTimecode:
@@ -2189,7 +2061,6 @@
   # extends
   releaseDate: 2019-02-18
   videoId: "bWlDm9BuB-s"
-  videoUrl: "https://youtu.be/bWlDm9BuB-s"
   guests:
     - "Khalid Essa"
   adviceTimecode:
@@ -2205,7 +2076,6 @@
   # extends
   releaseDate: 2019-02-18
   videoId: "hbnzQtLS4T8"
-  videoUrl: "https://youtu.be/hbnzQtLS4T8"
   guests:
     - "Yánis Varoufákis"
   adviceTimecode:
@@ -2221,7 +2091,6 @@
   # extends
   releaseDate: 2019-02-12
   videoId: "NQkjhugvekI"
-  videoUrl: "https://youtu.be/NQkjhugvekI"
   guests:
     - "Jean-Marc Jancovici"
     - "Philippe Bihouix"
@@ -2238,7 +2107,6 @@
   # extends
   releaseDate: 2019-02-12
   videoId: "no_KeDQ1eqQ"
-  videoUrl: "https://youtu.be/no_KeDQ1eqQ"
   guests:
     - "Natacha Polony"
   adviceTimecode:
@@ -2254,7 +2122,6 @@
   # extends
   releaseDate: 2019-01-17
   videoId: "no_KeDQ1eqQ"
-  videoUrl: "https://youtu.be/no_KeDQ1eqQ"
   guests:
     - "Denis Robert"
   adviceTimecode:
@@ -2270,7 +2137,6 @@
   # extends
   releaseDate: 2019-01-16
   videoId: "OoJ2fCJxAyw"
-  videoUrl: "https://youtu.be/OoJ2fCJxAyw"
   guests:
     - "Jacques Sapir"
     - "Olivier Berruyer"
@@ -2288,7 +2154,6 @@
   # extends
   releaseDate: 2018-12-18
   videoId: "iVEdbIb1xQw"
-  videoUrl: "https://youtu.be/iVEdbIb1xQw"
   guests:
     - "Alekseï Pouchkov"
   adviceTimecode:
@@ -2304,7 +2169,6 @@
   # extends
   releaseDate: 2018-12-10
   videoId: "fz-yQJmmoG8"
-  videoUrl: "https://youtu.be/fz-yQJmmoG8"
   guests:
     - "Jean-Christophe Picard"
   adviceTimecode:
@@ -2320,7 +2184,6 @@
   # extends
   releaseDate: 2018-11-30
   videoId: "oEG7QQKZ3jQ"
-  videoUrl: "https://youtu.be/oEG7QQKZ3jQ"
   guests:
     - "Carbon de Seze"
   adviceTimecode:
@@ -2336,7 +2199,6 @@
   # extends
   releaseDate: 2018-11-27
   videoId: "I6zzV4b3nDU"
-  videoUrl: "https://youtu.be/I6zzV4b3nDU"
   guests:
     - "Jérémy Ferrari"
   adviceTimecode:
@@ -2352,7 +2214,6 @@
   # extends
   releaseDate: 2018-11-22
   videoId: "yKjsOzPaHKg"
-  videoUrl: "https://youtu.be/yKjsOzPaHKg"
   guests:
     - "Général Vincent Desportes"
   adviceTimecode:
@@ -2368,7 +2229,6 @@
   # extends
   releaseDate: 2018-11-21
   videoId: "TQPjPeeP9dI"
-  videoUrl: "https://youtu.be/TQPjPeeP9dI"
   guests:
     - "Kémi Séba"
   adviceTimecode:
@@ -2384,7 +2244,6 @@
   # extends
   releaseDate: 2018-11-13
   videoId: "N6yzLWse410"
-  videoUrl: "https://youtu.be/N6yzLWse410"
   guests:
     - "Frédéric Penard"
   adviceTimecode:
@@ -2400,7 +2259,6 @@
   # extends
   releaseDate: 2018-11-12
   videoId: "Iy5HMGIFpSI"
-  videoUrl: "https://youtu.be/Iy5HMGIFpSI"
   guests:
     - "Daniel Schneidermann"
   adviceTimecode:
@@ -2416,7 +2274,6 @@
   # extends
   releaseDate: 2018-11-08
   videoId: "VzeOnBRzDik"
-  videoUrl: "https://youtu.be/VzeOnBRzDik"
   guests:
     - "Éric Sadin"
   adviceTimecode:
@@ -2432,7 +2289,6 @@
   # extends
   releaseDate: 2018-11-07
   videoId: "6adEOQR3ea4"
-  videoUrl: "https://youtu.be/6adEOQR3ea4"
   guests:
     - "Emmanuel Todd"
   adviceTimecode:
@@ -2448,7 +2304,6 @@
   # extends
   releaseDate: 2018-11-06
   videoId: "FF3TIps24es"
-  videoUrl: "https://youtu.be/FF3TIps24es"
   guests:
     - "Laurent Obertone"
   adviceTimecode:
@@ -2464,7 +2319,6 @@
   # extends
   releaseDate: 2018-11-06
   videoId: "ThtvnyONBbQ"
-  videoUrl: "https://youtu.be/ThtvnyONBbQ"
   guests:
     - "Thibault de Montbrial"
   adviceTimecode:
@@ -2480,7 +2334,6 @@
   # extends
   releaseDate: 2018-10-18
   videoId: "Xmy3_QIGOe4"
-  videoUrl: "https://youtu.be/Xmy3_QIGOe4"
   guests:
     - "Jérémie Zimmermann"
   adviceTimecode:
@@ -2496,7 +2349,6 @@
   # extends
   releaseDate: 2018-10-18
   videoId: "DwD4VhSOoos"
-  videoUrl: "https://youtu.be/DwD4VhSOoos"
   guests:
     - "Pablo Servigne"
     - "Jacques Blamont"
@@ -2513,7 +2365,6 @@
   # extends
   releaseDate: 2018-10-02
   videoId: "E7vscTxD308"
-  videoUrl: "https://youtu.be/E7vscTxD308"
   guests:
     - "Tancrède Ramonet"
   adviceTimecode:
@@ -2529,7 +2380,6 @@
   # extends
   releaseDate: 2018-09-27
   videoId: "82cgWGlrAyE"
-  videoUrl: "https://youtu.be/82cgWGlrAyE"
   guests:
     - "Olivier Delamarche"
     - "Pierre Sabatier"
@@ -2547,7 +2397,6 @@
   # extends
   releaseDate: 2018-09-27
   videoId: "b0R1bSFxUsI"
-  videoUrl: "https://youtu.be/b0R1bSFxUsI"
   guests:
     - "Artem Studennikov"
   adviceTimecode:
@@ -2563,7 +2412,6 @@
   # extends
   releaseDate: 2018-09-21
   videoId: "lMJbD7Yjfuc"
-  videoUrl: "https://youtu.be/lMJbD7Yjfuc"
   guests:
     - "Isabelle Attard"
   adviceTimecode:
@@ -2579,7 +2427,6 @@
   # extends
   releaseDate: 2018-09-19
   videoId: "jiyMlZauB8c"
-  videoUrl: "https://youtu.be/jiyMlZauB8c"
   guests:
     - "Edgar Morin"
   adviceTimecode:
@@ -2595,7 +2442,6 @@
   # extends
   releaseDate: 2018-09-19
   videoId: "mQqxAIxLjjs"
-  videoUrl: "https://youtu.be/mQqxAIxLjjs"
   guests:
     - "Yannick Rousselet"
   adviceTimecode:
@@ -2611,7 +2457,6 @@
   # extends
   releaseDate: 2018-09-14
   videoId: "40iIDVT05WY"
-  videoUrl: "https://youtu.be/40iIDVT05WY"
   guests:
     - "Pierre Conesa"
   adviceTimecode:
@@ -2627,7 +2472,6 @@
   # extends
   releaseDate: 2018-09-14
   videoId: "XO4q9oVrWWw"
-  videoUrl: "https://youtu.be/XO4q9oVrWWw"
   guests:
     - "Aurélien Barrau"
   adviceTimecode:
@@ -2643,7 +2487,6 @@
   # extends
   releaseDate: 2018-09-13
   videoId: "82JOF9_ZXYQ"
-  videoUrl: "https://youtu.be/82JOF9_ZXYQ"
   guests:
     - "Louis Magloire Keumayou"
   adviceTimecode:
@@ -2659,7 +2502,6 @@
   # extends
   releaseDate: 2018-06-28
   videoId: "T0gm0O2iaMs"
-  videoUrl: "https://youtu.be/T0gm0O2iaMs"
   guests:
     - "Pierre Larrouturou"
   adviceTimecode:
@@ -2675,7 +2517,6 @@
   # extends
   releaseDate: 2018-06-27
   videoId: "d4MiF4AWtsw"
-  videoUrl: "https://youtu.be/d4MiF4AWtsw"
   guests:
     - "Antoine Champagne"
     - "Olivier Laurelli"
@@ -2692,7 +2533,6 @@
   # extends
   releaseDate: 2018-06-26
   videoId: "g5ZMXtnckT8"
-  videoUrl: "https://youtu.be/g5ZMXtnckT8"
   guests:
     - "Mireille Bruyère"
     - "Eric Berr"
@@ -2710,7 +2550,6 @@
   # extends
   releaseDate: 2018-06-19
   videoId: "3FJAhWBPhO4"
-  videoUrl: "https://youtu.be/3FJAhWBPhO4"
   guests:
     - "Primavera De Filippi"
     - "Remy Bourganel"
@@ -2727,7 +2566,6 @@
   # extends
   releaseDate: 2018-06-08
   videoId: "pOl8ZYQLF8I"
-  videoUrl: "https://youtu.be/pOl8ZYQLF8I"
   guests:
     - "Jon palais"
   adviceTimecode:
@@ -2743,7 +2581,6 @@
   # extends
   releaseDate: 2018-06-07
   videoId: "VanOVShKsCM"
-  videoUrl: "https://youtu.be/VanOVShKsCM"
   guests:
     - "Jean-Pierre Petit"
   adviceTimecode:
@@ -2759,7 +2596,6 @@
   # extends
   releaseDate: 2018-05-31
   videoId: "g0je4ji8o1M"
-  videoUrl: "https://youtu.be/g0je4ji8o1M"
   guests:
     - "François Ruffin"
   adviceTimecode:
@@ -2775,7 +2611,6 @@
   # extends
   releaseDate: 2018-05-26
   videoId: "OVd8YOFvVtc"
-  videoUrl: "https://youtu.be/OVd8YOFvVtc"
   guests:
     - "Gunter Pauli"
   adviceTimecode:
@@ -2791,7 +2626,6 @@
   # extends
   releaseDate: 2018-05-24
   videoId: "KJQl--wHQSM"
-  videoUrl: "https://youtu.be/KJQl--wHQSM"
   guests:
     - "Étienne Klein"
   adviceTimecode:
@@ -2807,7 +2641,6 @@
   # extends
   releaseDate: 2018-05-23
   videoId: "U-mpUyTOrLI"
-  videoUrl: "https://youtu.be/U-mpUyTOrLI"
   guests:
     - "Fabrice Arfi"
   adviceTimecode:
@@ -2823,7 +2656,6 @@
   # extends
   releaseDate: 2018-05-22
   videoId: "Gun2ez6kzIk"
-  videoUrl: "https://youtu.be/Gun2ez6kzIk"
   guests:
     - "Thanh Nghiem"
   adviceTimecode:
@@ -2839,7 +2671,6 @@
   # extends
   releaseDate: 2018-05-04
   videoId: "IBdj4Z0FtZU"
-  videoUrl: "https://youtu.be/IBdj4Z0FtZU"
   guests:
     - "Alain Deneault"
   adviceTimecode:
@@ -2855,7 +2686,6 @@
   # extends
   releaseDate: 2018-05-04
   videoId: "bnl_MRSbeHk"
-  videoUrl: "https://youtu.be/bnl_MRSbeHk"
   guests:
     - "Jérémie Assous"
   adviceTimecode:
@@ -2871,7 +2701,6 @@
   # extends
   releaseDate: 2018-04-25
   videoId: "luJBZfVWhXM"
-  videoUrl: "https://youtu.be/luJBZfVWhXM"
   guests:
     - "Pierre Conesa"
   adviceTimecode:
@@ -2887,7 +2716,6 @@
   # extends
   releaseDate: 2018-04-09
   videoId: "-iiXPA6Ux2Q"
-  videoUrl: "https://youtu.be/-iiXPA6Ux2Q"
   guests:
     - "Artem Studennikov"
   adviceTimecode:
@@ -2903,7 +2731,6 @@
   # extends
   releaseDate: 2018-04-07
   videoId: "AjM8TpMs01Y"
-  videoUrl: "https://youtu.be/AjM8TpMs01Y"
   guests:
     - "Alain Juillet"
   adviceTimecode:
@@ -2919,7 +2746,6 @@
   # extends
   releaseDate: 2018-04-03
   videoId: "oshQeyarrY8"
-  videoUrl: "https://youtu.be/oshQeyarrY8"
   guests:
     - "Olivier Delamarche"
     - "Pierre Sabatier"
@@ -2937,7 +2763,6 @@
   # extends
   releaseDate: 2018-03-30
   videoId: "WPdbEbwNTcU"
-  videoUrl: "https://youtu.be/WPdbEbwNTcU"
   guests:
     - "Benjamin Bayart"
     - "Alexis Fitzjean O Cobhthaigh"
@@ -2954,7 +2779,6 @@
   # extends
   releaseDate: 2018-03-13
   videoId: "4liskT_XaUk"
-  videoUrl: "https://youtu.be/4liskT_XaUk"
   guests:
     - "Isabelle Saporta"
   adviceTimecode:
@@ -2970,7 +2794,6 @@
   # extends
   releaseDate: 2018-03-13
   videoId: "zrS-OkFTLkc"
-  videoUrl: "https://youtu.be/zrS-OkFTLkc"
   guests:
     - "Bernard Friot"
   adviceTimecode:
@@ -2986,7 +2809,6 @@
   # extends
   releaseDate: 2018-03-05
   videoId: "47mqPCR5dI8"
-  videoUrl: "https://youtu.be/47mqPCR5dI8"
   guests:
     - "Natacha Polony"
   adviceTimecode:
@@ -3002,7 +2824,6 @@
   # extends
   releaseDate: 2018-02-27
   videoId: "iBqDp_pSTxc"
-  videoUrl: "https://youtu.be/iBqDp_pSTxc"
   guests:
     - "Aude Lancelin"
   adviceTimecode:
@@ -3018,7 +2839,6 @@
   # extends
   releaseDate: 2018-02-23
   videoId: "5xziAeW7l6w"
-  videoUrl: "https://youtu.be/5xziAeW7l6w"
   guests:
     - "Pablo Servigne"
   adviceTimecode:
@@ -3034,7 +2854,6 @@
   # extends
   releaseDate: 2018-02-15
   videoId: "NrQ0dSusGrQ"
-  videoUrl: "https://youtu.be/NrQ0dSusGrQ"
   guests:
     - "Idriss Aberkane"
   adviceTimecode:
@@ -3050,7 +2869,6 @@
   # extends
   releaseDate: 2018-02-13
   videoId: "vYzP5544K20"
-  videoUrl: "https://youtu.be/vYzP5544K20"
   guests:
     - "David Koubbi"
     - "Jean-Pierre Canet"
@@ -3067,7 +2885,6 @@
   # extends
   releaseDate: 2018-02-13
   videoId: "iCu-zqidtPo"
-  videoUrl: "https://youtu.be/iCu-zqidtPo"
   guests:
     - "Mathieu Rigouste"
   adviceTimecode:
@@ -3083,7 +2900,6 @@
   # extends
   releaseDate: 2018-01-17
   videoId: "KIwtT8cAAKI"
-  videoUrl: "https://youtu.be/KIwtT8cAAKI"
   guests:
     - "Étienne Klein"
   adviceTimecode:
@@ -3099,7 +2915,6 @@
   # extends
   releaseDate: 2018-01-17
   videoId: "YDT5f5sQSGA"
-  videoUrl: "https://youtu.be/YDT5f5sQSGA"
   guests:
     - "Bernard Stiegler"
   adviceTimecode:
@@ -3115,7 +2930,6 @@
   # extends
   releaseDate: 2018-01-16
   videoId: "jGBYRWEF5Pk"
-  videoUrl: "https://youtu.be/jGBYRWEF5Pk"
   guests:
     - "Xenia Fedorova"
   adviceTimecode:
@@ -3131,7 +2945,6 @@
   # extends
   releaseDate: 2018-01-11
   videoId: "Bx9S8gvNKkA"
-  videoUrl: "https://youtu.be/Bx9S8gvNKkA"
   guests:
     - "Philippe Bihouix"
   adviceTimecode:
@@ -3147,7 +2960,6 @@
   # extends
   releaseDate: 2018-01-10
   videoId: "6_RjvC7fQck"
-  videoUrl: "https://youtu.be/6_RjvC7fQck"
   guests:
     - "Sébastien Arsac"
   adviceTimecode:
@@ -3163,7 +2975,6 @@
   # extends
   releaseDate: 2018-01-10
   videoId: "nUiFM_YUMMw"
-  videoUrl: "https://youtu.be/nUiFM_YUMMw"
   guests:
     - "Serge Orru"
     - "Gilles Dixsaut"
@@ -3181,7 +2992,6 @@
   # extends
   releaseDate: 2017-12-14
   videoId: "5SkHrhxaFxE"
-  videoUrl: "https://youtu.be/5SkHrhxaFxE"
   guests:
     - "Périco Légasse"
   adviceTimecode:
@@ -3197,7 +3007,6 @@
   # extends
   releaseDate: 2017-12-14
   videoId: "Fp6aJZQldFs"
-  videoUrl: "https://youtu.be/Fp6aJZQldFs"
   guests:
     - "Jean-Marc Jancovici"
   adviceTimecode:
@@ -3213,7 +3022,6 @@
   # extends
   releaseDate: 2017-12-06
   videoId: "mbbKDdFTx9w"
-  videoUrl: "https://youtu.be/mbbKDdFTx9w"
   guests:
     - "Olivier Delamarche"
     - "Pierre Sabatier"
@@ -3230,7 +3038,6 @@
   # extends
   releaseDate: 2017-12-06
   videoId: "3HgwtHenFWs"
-  videoUrl: "https://youtu.be/3HgwtHenFWs"
   guests:
     - "Frédéric Taddeï"
   adviceTimecode:
@@ -3246,7 +3053,6 @@
   # extends
   releaseDate: 2017-12-05
   videoId: "LMRdn_MQWXM"
-  videoUrl: "https://youtu.be/LMRdn_MQWXM"
   guests:
     - "Cédric Villani"
   adviceTimecode:
@@ -3262,7 +3068,6 @@
   # extends
   releaseDate: 2017-12-05
   videoId: "qWOIYGIAbFw"
-  videoUrl: "https://youtu.be/qWOIYGIAbFw"
   guests:
     - "Philippe Tixier"
   adviceTimecode:
@@ -3278,7 +3083,6 @@
   # extends
   releaseDate: 2017-12-03
   videoId: "8xL6XxKTieA"
-  videoUrl: "https://youtu.be/8xL6XxKTieA"
   guests:
     - "Jean-Marie Muller"
   adviceTimecode:
@@ -3294,7 +3098,6 @@
   # extends
   releaseDate: 2017-11-15
   videoId: "JDRzEdRQF5s"
-  videoUrl: "https://youtu.be/JDRzEdRQF5s"
   guests:
     - "Marc Luyckx Ghisi"
   adviceTimecode:
@@ -3310,7 +3113,6 @@
   # extends
   releaseDate: 2017-11-08
   videoId: "QS951xiGGvI"
-  videoUrl: "https://youtu.be/QS951xiGGvI"
   guests:
     - "Laurent Alexandre"
   adviceTimecode:
@@ -3326,7 +3128,6 @@
   # extends
   releaseDate: 2017-11-01
   videoId: "TxHqU0ICDr4"
-  videoUrl: "https://youtu.be/TxHqU0ICDr4"
   guests:
     - "Mounir Mahjoubi"
   adviceTimecode:
@@ -3342,7 +3143,6 @@
   # extends
   releaseDate: 2017-09-29
   videoId: "l9VGz9Lrt70"
-  videoUrl: "https://youtu.be/l9VGz9Lrt70"
   guests:
     - "Bruno Parmentier"
   adviceTimecode:
@@ -3358,7 +3158,6 @@
   # extends
   releaseDate: 2017-09-21
   videoId: "CwXudpMdbuo"
-  videoUrl: "https://youtu.be/CwXudpMdbuo"
   guests:
     - "Vincent Mignerot"
   adviceTimecode:
@@ -3374,7 +3173,6 @@
   # extends
   releaseDate: 2017-09-11
   videoId: "nlZsdVgf8Ww"
-  videoUrl: "https://youtu.be/nlZsdVgf8Ww"
   guests:
     - "Philippe Pascot"
   adviceTimecode:
@@ -3390,7 +3188,6 @@
   # extends
   releaseDate: 2017-09-11
   videoId: "W6xoUHRHkFc"
-  videoUrl: "https://youtu.be/W6xoUHRHkFc"
   guests:
     - "Olivier Delamarche"
   adviceTimecode:
@@ -3406,7 +3203,6 @@
   # extends
   releaseDate: 2017-08-05
   videoId: "DROqR_7EKvs"
-  videoUrl: "https://youtu.be/DROqR_7EKvs"
   guests:
     - "Étienne Chouard"
   adviceTimecode:
@@ -3422,7 +3218,6 @@
   # extends
   releaseDate: 2017-08-02
   videoId: "zyB1eQFskf4"
-  videoUrl: "https://youtu.be/zyB1eQFskf4"
   guests:
     - "Rayna Stamboliyska"
   adviceTimecode:
@@ -3438,7 +3233,6 @@
   # extends
   releaseDate: 2017-08-02
   videoId: "TeOlL_hVF6g"
-  videoUrl: "https://youtu.be/TeOlL_hVF6g"
   guests:
     - "José Pluki"
   adviceTimecode:
@@ -3454,7 +3248,6 @@
   # extends
   releaseDate: 2017-07-15
   videoId: "9eBBIYWeUxs"
-  videoUrl: "https://youtu.be/9eBBIYWeUxs"
   guests:
     - "Pierre-Emmanuel Valentin"
   adviceTimecode:
@@ -3470,7 +3263,6 @@
   # extends
   releaseDate: 2017-06-22
   videoId: "VBsLSfPs2PE"
-  videoUrl: "https://youtu.be/VBsLSfPs2PE"
   guests:
     - "Benjamin Bayart"
   adviceTimecode:
@@ -3486,7 +3278,6 @@
   # extends
   releaseDate: 2017-06-22
   videoId: "sIaLxUiR9BQ"
-  videoUrl: "https://youtu.be/sIaLxUiR9BQ"
   guests:
     - "Guillaume Ancel"
   adviceTimecode:
@@ -3502,7 +3293,6 @@
   # extends
   releaseDate: 2017-06-22
   videoId: "SH69-qP_saE"
-  videoUrl: "https://youtu.be/SH69-qP_saE"
   guests:
     - "Stéphanie Gibaud"
   adviceTimecode:
@@ -3518,7 +3308,6 @@
   # extends
   releaseDate: 2017-06-22
   videoId: "uBaAvHxdShw"
-  videoUrl: "https://youtu.be/uBaAvHxdShw"
   guests:
     - "Juan Branco"
   adviceTimecode:
@@ -3534,7 +3323,6 @@
   # extends
   releaseDate: 2017-06-02
   videoId: "0BV-6_kXYSg"
-  videoUrl: "https://youtu.be/0BV-6_kXYSg"
   guests:
     - "Lilian Thuram"
   adviceTimecode:
@@ -3550,7 +3338,6 @@
   # extends
   releaseDate: 2017-05-21
   videoId: "CQ-nzRlDnns"
-  videoUrl: "https://youtu.be/CQ-nzRlDnns"
   guests:
     - "Guillaume Meurice"
   adviceTimecode:
@@ -3567,7 +3354,6 @@
   # extends
   releaseDate: 2017-03-29
   videoId: "znyrtZVz-BY"
-  videoUrl: "https://youtu.be/znyrtZVz-BY"
   guests:
     - "Marie-Noëlle Lienemann"
   adviceTimecode:
@@ -3583,7 +3369,6 @@
   # extends
   releaseDate: 2017-03-19
   videoId: "9jdpSDmbhG0"
-  videoUrl: "https://youtu.be/9jdpSDmbhG0"
   guests:
     - "Jean Lassalle"
   adviceTimecode:
@@ -3599,7 +3384,6 @@
   # extends
   releaseDate: 2017-03-14
   videoId: "748-3Jqm7Bs"
-  videoUrl: "https://youtu.be/748-3Jqm7Bs"
   guests:
     - "Yannick Jadot"
   adviceTimecode:
@@ -3616,7 +3400,6 @@
   # extends
   releaseDate: 2017-03-12
   videoId: "flm5DzD6nl0"
-  videoUrl: "https://youtu.be/flm5DzD6nl0"
   guests:
     - "Alexandre Jardin"
   adviceTimecode:
@@ -3632,7 +3415,6 @@
   # extends
   releaseDate: 2017-03-10
   videoId: "4XT03Mad4PI"
-  videoUrl: "https://youtu.be/4XT03Mad4PI"
   guests:
     - "Nicolas Dupont-Aignan"
   adviceTimecode:
@@ -3648,7 +3430,6 @@
   # extends
   releaseDate: 2017-03-10
   videoId: "rTCDnKckCiY"
-  videoUrl: "https://youtu.be/rTCDnKckCiY"
   guests:
     - "François Asselineau"
   adviceTimecode:
@@ -3664,7 +3445,6 @@
   # extends
   releaseDate: 2017-03-06
   videoId: "fr9xtFz78dg"
-  videoUrl: "https://youtu.be/fr9xtFz78dg"
   guests:
     - "Ivan Erhel"
   adviceTimecode:
@@ -3680,7 +3460,6 @@
   # extends
   releaseDate: 2017-02-06
   videoId: "507HStKtw-I"
-  videoUrl: "https://youtu.be/507HStKtw-I"
   guests:
     - "Henri Poulain"
     - "Julien Goetz"
@@ -3698,7 +3477,6 @@
   # extends
   releaseDate: 2016-11-15
   videoId: "-odoA0BauaE"
-  videoUrl: "https://youtu.be/-odoA0BauaE"
   guests:
     - "David Koubbi"
   adviceTimecode:
@@ -3714,7 +3492,6 @@
   # extends
   releaseDate: 2016-10-25
   videoId: "AQN8AYVzXqs"
-  videoUrl: "https://youtu.be/AQN8AYVzXqs"
   guests:
     - "Pierre Conesa"
   adviceTimecode:
@@ -3730,7 +3507,6 @@
   # extends
   releaseDate: 2016-10-10
   videoId: "N845HBEzzGY"
-  videoUrl: "https://youtu.be/N845HBEzzGY"
   guests:
     - "Artem Studennikov"
   adviceTimecode:
@@ -3746,7 +3522,6 @@
   # extends
   releaseDate: 2016-09-29
   videoId: "yh26_9b7IJI"
-  videoUrl: "https://youtu.be/yh26_9b7IJI"
   guests:
     - "Paul Watson"
   adviceTimecode:
@@ -3762,7 +3537,6 @@
   # extends
   releaseDate: 2016-09-15
   videoId: "Ed9GTZSL3zU"
-  videoUrl: "https://youtu.be/Ed9GTZSL3zU"
   guests:
     - "Jean-Marc Manach"
     - "Marc Rees"
@@ -3780,7 +3554,6 @@
   # extends
   releaseDate: 2016-09-08
   videoId: "exhl1rpAUiA"
-  videoUrl: "https://youtu.be/exhl1rpAUiA"
   guests:
     - "Nicolas Meilhan"
     - "Francis Perrin"
@@ -3798,7 +3571,6 @@
   # extends
   releaseDate: 2016-08-31
   videoId: "krKi0RNMxgU"
-  videoUrl: "https://youtu.be/krKi0RNMxgU"
   guests:
     - "Henri Maler"
   adviceTimecode:
@@ -3814,7 +3586,6 @@
   # extends
   releaseDate: 2016-07-04
   videoId: "uRawWLYX8K0"
-  videoUrl: "https://youtu.be/uRawWLYX8K0"
   guests:
     - "Paul Moreira"
   adviceTimecode:
@@ -3830,7 +3601,6 @@
   # extends
   releaseDate: 2016-06-11
   videoId: "jiMv-YIifTI"
-  videoUrl: "https://youtu.be/jiMv-YIifTI"
   guests:
     - "David Koubbi"
   adviceTimecode:
@@ -3846,7 +3616,6 @@
   # extends
   releaseDate: 2016-05-17
   videoId: "laDOwa1gGF0"
-  videoUrl: "https://youtu.be/laDOwa1gGF0"
   guests:
     - "Elise Lucet"
   adviceTimecode:
@@ -3862,7 +3631,6 @@
   # extends
   releaseDate: 2016-04-19
   videoId: "_jSPkz_0UZw"
-  videoUrl: "https://youtu.be/_jSPkz_0UZw"
   guests:
     - "Michel Collon"
   adviceTimecode:
@@ -3878,7 +3646,6 @@
   # extends
   releaseDate: 2016-04-07
   videoId: "PwHlxMfCnKg"
-  videoUrl: "https://youtu.be/PwHlxMfCnKg"
   guests:
     - "Marina E. Henke"
   adviceTimecode:
@@ -3894,7 +3661,6 @@
   # extends
   releaseDate: 2016-02-25
   videoId: "tyy3v-jpe34"
-  videoUrl: "https://youtu.be/tyy3v-jpe34"
   guests:
     - "Philippe Bechade"
     - "Jérôme Cazes"
@@ -3911,7 +3677,6 @@
   # extends
   releaseDate: 2016-02-19
   videoId: "db26_acAeF4"
-  videoUrl: "https://youtu.be/db26_acAeF4"
   guests:
     - "Natacha Polony"
   adviceTimecode:
@@ -3927,7 +3692,6 @@
   # extends
   releaseDate: 2016-01-09
   videoId: "iXnUIx24jng"
-  videoUrl: "https://youtu.be/iXnUIx24jng"
   guests:
     - "Denis Robert"
   adviceTimecode:
@@ -3943,7 +3707,6 @@
   # extends
   releaseDate: 2016-01-07
   videoId: "TR9IG4Ysuv0"
-  videoUrl: "https://youtu.be/TR9IG4Ysuv0"
   guests:
     - "Alexandre Orlov"
   adviceTimecode:
@@ -3959,7 +3722,6 @@
   # extends
   releaseDate: 2015-12-30
   videoId: "fmgxfvbAMK8"
-  videoUrl: "https://youtu.be/fmgxfvbAMK8"
   guests:
     - "Hervé Brusini"
     - "Pierre Conesa"
@@ -3977,7 +3739,6 @@
   # extends
   releaseDate: 2015-11-21
   videoId: "fzF7mPpsFQI"
-  videoUrl: "https://youtu.be/fzF7mPpsFQI"
   guests:
     - "Charles Gave"
     - "Artem Studennikov"
@@ -3996,7 +3757,6 @@
   # extends
   releaseDate: 2015-10-23
   videoId: "mp3VZ-k2mhA"
-  videoUrl: "https://youtu.be/mp3VZ-k2mhA"
   guests:
     - "Jean-Pierre Canet et Nicolas Vescovacci"
   adviceTimecode:
@@ -4012,7 +3772,6 @@
   # extends
   releaseDate: 2015-10-06
   videoId: "d22EkRIxowI"
-  videoUrl: "https://youtu.be/d22EkRIxowI"
   guests:
     - "Pierre Conesa"
   adviceTimecode:
@@ -4028,7 +3787,6 @@
   # extends
   releaseDate: 2015-07-14
   videoId: "nb-GvtlETj4"
-  videoUrl: "https://youtu.be/nb-GvtlETj4"
   guests:
     - "Jean Lassalle"
   adviceTimecode:
@@ -4044,7 +3802,6 @@
   # extends
   releaseDate: 2015-06-27
   videoId: "IDe84N2l5_M"
-  videoUrl: "https://youtu.be/IDe84N2l5_M"
   guests:
     - "Alexandre Langlois"
   adviceTimecode:
@@ -4060,7 +3817,6 @@
   # extends
   releaseDate: 2015-06-12
   videoId: "qAncsrRsUss"
-  videoUrl: "https://youtu.be/qAncsrRsUss"
   guests:
     - "Nicolas Meilhan"
     - "Francis Perrin"
@@ -4078,7 +3834,6 @@
   # extends
   releaseDate: 2015-06-01
   videoId: "01gGuXRKH5I"
-  videoUrl: "https://youtu.be/01gGuXRKH5I"
   guests:
     - "Axelle Lemaire"
   adviceTimecode:
@@ -4094,7 +3849,6 @@
   # extends
   releaseDate: 2015-02-25
   videoId: "uYzCK_RPzx8"
-  videoUrl: "https://youtu.be/uYzCK_RPzx8"
   guests:
     - "Jérémie Zimmermann"
     - "Korben"
@@ -4112,7 +3866,6 @@
   # extends
   releaseDate: 2015-02-23
   videoId: "13nQ0sqpHxU"
-  videoUrl: "https://youtu.be/13nQ0sqpHxU"
   guests:
     - "Pierre Conesa"
   adviceTimecode:
@@ -4128,7 +3881,6 @@
   # extends
   releaseDate: 2015-02-14
   videoId: "n3c1_cHkNN0"
-  videoUrl: "https://youtu.be/n3c1_cHkNN0"
   guests:
     - "Hervé de Carmoy"
     - "Olivier Delamarche"
@@ -4147,7 +3899,6 @@
   # extends
   releaseDate: 2015-01-19
   videoId: "bxANdVGz2bA"
-  videoUrl: "https://youtu.be/bxANdVGz2bA"
   guests:
     - "Pierre Conesa"
   adviceTimecode:
@@ -4163,7 +3914,6 @@
   # extends
   releaseDate: 2014-12-18
   videoId: "_-N7_V5aK5M"
-  videoUrl: "https://youtu.be/_-N7_V5aK5M"
   guests:
     - "Bob Coen"
     - "Eric Nadler"
@@ -4180,7 +3930,6 @@
   # extends
   releaseDate: 2014-04-28
   videoId: "_lrC9Ydh3Fo"
-  videoUrl: "https://youtu.be/_lrC9Ydh3Fo"
   guests:
     - "Benjamin Bayart"
   adviceTimecode:
@@ -4196,7 +3945,6 @@
   # extends
   releaseDate: 2014-04-14
   videoId: "m0ha0aN1cSU"
-  videoUrl: "https://youtu.be/m0ha0aN1cSU"
   guests:
     - "Gilles Babinet"
   adviceTimecode:
@@ -4212,7 +3960,6 @@
   # extends
   releaseDate: 2014-03-13
   videoId: "OYm6r6aKD98"
-  videoUrl: "https://youtu.be/OYm6r6aKD98"
   guests:
     - "Olivier Iteanu"
   adviceTimecode:
@@ -4228,7 +3975,6 @@
   # extends
   releaseDate: 2014-03-01
   videoId: "TxVyRoJTG94"
-  videoUrl: "https://youtu.be/TxVyRoJTG94"
   guests:
     - "Jean-Manuel Rozan"
     - "Hervé de Carmoy"
@@ -4245,7 +3991,6 @@
   # extends
   releaseDate: 2014-02-10
   videoId: "r_G9fOCBpes"
-  videoUrl: "https://youtu.be/r_G9fOCBpes"
   guests:
     - "Jeremie Zimmermann"
     - "Éric Filiol"
@@ -4262,7 +4007,6 @@
   # extends
   releaseDate: 2014-01-27
   videoId: "Is-svrzmXRs"
-  videoUrl: "https://youtu.be/Is-svrzmXRs"
   guests:
     - "Fabrice Epelboin"
     - "Jean-Manuel Rozan"
@@ -4280,7 +4024,6 @@
   # extends
   releaseDate: 2013-12-21
   videoId: "WyTQlf2rijs"
-  videoUrl: "https://youtu.be/WyTQlf2rijs"
   guests:
     - "Hervé de Carmoy"
     - "Olivier Delamarche"
@@ -4299,7 +4042,6 @@
   # extends
   releaseDate: 2013-11-03
   videoId: "oFG-CmlEvLA"
-  videoUrl: "https://youtu.be/oFG-CmlEvLA"
   guests:
     - "Michel Éléftériadès"
   adviceTimecode:
@@ -4315,7 +4057,6 @@
   # extends
   releaseDate: 2013-09-28
   videoId: "i4dcmJALM8k"
-  videoUrl: "https://youtu.be/i4dcmJALM8k"
   guests:
     - "Peter Dale Scott"
   adviceTimecode:
@@ -4331,7 +4072,6 @@
   # extends
   releaseDate: 2013-09-11
   videoId: "taiWyjVLvvc"
-  videoUrl: "https://youtu.be/taiWyjVLvvc"
   guests:
     - "Denis Robert"
   adviceTimecode:
@@ -4347,7 +4087,6 @@
   # extends
   releaseDate: 2013-07-04
   videoId: "-ND0YsCZga4"
-  videoUrl: "https://youtu.be/-ND0YsCZga4"
   guests:
     - "Jérémie Zimmermann"
   adviceTimecode:
@@ -4363,7 +4102,6 @@
   # extends
   releaseDate: 2013-07-02
   videoId: "Fn_dcljvPuY"
-  videoUrl: "https://youtu.be/Fn_dcljvPuY"
   guests:
     - "Eric Filiol"
   adviceTimecode:
@@ -4379,7 +4117,6 @@
   # extends
   releaseDate: 2013-05-16
   videoId: "0PbXQ97FTHc"
-  videoUrl: "https://youtu.be/0PbXQ97FTHc"
   guests:
     - "Alain Chouet"
   adviceTimecode:
@@ -4395,7 +4132,6 @@
   # extends
   releaseDate: 2013-05-07
   videoId: "pKTK8zx5VQA"
-  videoUrl: "https://youtu.be/pKTK8zx5VQA"
   guests:
     - "Olivier Delamarche"
     - "Olivier Berruyer"
@@ -4413,7 +4149,6 @@
   # extends
   releaseDate: 2013-04-02
   videoId: "OsIY1QBunes"
-  videoUrl: "https://youtu.be/OsIY1QBunes"
   guests:
     - "Olivier Delamarche"
   adviceTimecode:
@@ -4429,7 +4164,6 @@
   # extends
   releaseDate: 2013-01-30
   videoId: "6VUpicNBMzg"
-  videoUrl: "https://youtu.be/6VUpicNBMzg"
   guests:
     - "Jacques Blamont"
   adviceTimecode:

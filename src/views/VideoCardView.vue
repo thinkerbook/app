@@ -168,7 +168,7 @@
           Conseil(s) pour les jeunes générations&nbsp;
           <a
             v-if="!!video.adviceTimecode"
-            :href="video.videoUrl + '?t=' + video.adviceTimecode"
+            :href="videoUrl(video.videoId, video.adviceTimecode)"
             target="_blank"
             :title="'Ouvrir la vidéo au temps t=' + video.adviceTimecode"
           >
@@ -236,7 +236,7 @@
           Livres à lire&nbsp;
           <a
             v-if="video.bookTimecode"
-            :href="video.videoUrl + '?t=' + video.bookTimecode"
+            :href="videoUrl(video.videoId, video.bookTimecode)"
             target="_blank"
             :title="'Ouvrir la vidéo au temps t=' + video.bookTimecode"
           >
@@ -396,6 +396,10 @@ export default {
         this.video.coverUrl ||
         "https://img.youtube.com/vi/" + this.video.videoId + "/0.jpg"
       );
+    },
+    videoUrl() {
+      return (videoId, timecode) =>
+        "https://youtu.be/" + videoId + (timecode ? "?t=" + timecode : "");
     },
   },
   mounted() {
