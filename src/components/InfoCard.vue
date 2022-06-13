@@ -18,9 +18,21 @@
             <i class="fab fa-youtube"></i> Youtube
           </a>)
         </span>
-        ainsi que le conseil aux jeunes générations (une bouteille à la mer).
+
+        <span
+          v-if="!isShowAll"
+          class="btn btn-outline-secondary btn-sm-xx ms-2"
+          title="Afficher plus"
+          @click="doShowAll"
+        >
+          ...
+        </span>
+
+        <span v-if="isShowAll">
+          ainsi que le conseil aux jeunes générations (une bouteille à la mer).
+        </span>
       </p>
-      <p class="card-text" style="text-align: justify; font-size: smaller">
+      <p v-if="isShowAll" class="card-text" style="text-align: justify; font-size: smaller">
         <i class="fas fa-thumbs-up"></i>
         Tips: pour accéder directement à ThinkerBook depuis une vidéo Youtube, ajouter <code>-tbk</code> dans l'URL :
         <i>https://www.youtube<code>-tbk</code>.com/watch?v=6VUpicNBMzg</i>
@@ -39,6 +51,10 @@ export default {
     dismissible: {
       type: Boolean,
       default: false,
+    },
+    showAll: {
+      type: Boolean,
+      default: true,
     },
   },
   setup() {
@@ -59,10 +75,18 @@ export default {
       setConfig,
     };
   },
+  data() {
+    return {
+      isShowAll: this.showAll,
+    };
+  },
   methods: {
     dismissInfo() {
       console.log("dismissInfo");
       this.setConfig({ showInfoOnStart: false });
+    },
+    doShowAll() {
+      this.isShowAll = true;
     },
   },
 };

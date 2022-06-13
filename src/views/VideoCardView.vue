@@ -62,7 +62,7 @@
             </li>
             <li class="page-item disabled">
               <span class="page-link">
-                {{ index + 1 }}-{{ searchCount }}/{{ allCount }}
+                {{ index + 1 }}-{{ searchCount }}
               </span>
             </li>
             <li class="page-item" :class="previousNext.next ? '' : 'disabled'">
@@ -432,16 +432,6 @@ export default {
 </script>
 
 <style scoped>
-.btn-sm-x {
-  padding: 0.2rem 0.4rem;
-  font-size: small !important;
-  border-radius: 0.2rem;
-}
-.btn-sm-xx {
-  padding: 0.1rem 0.3rem;
-  font-size: small !important;
-  border-radius: 0.2rem;
-}
 .d-flex-none {
   flex: none;
 }

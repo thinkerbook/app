@@ -21,4 +21,15 @@ import "bootstrap";
 <style>
 @import "bootstrap/dist/css/bootstrap.min.css";
 @import "@/assets/scss/utility.css";
+
+.btn-sm-x {
+  padding: 0.2rem 0.4rem;
+  font-size: small !important;
+  border-radius: 0.2rem;
+}
+.btn-sm-xx {
+  padding: 0.1rem 0.3rem;
+  font-size: small !important;
+  border-radius: 0.2rem;
+}
 </style>

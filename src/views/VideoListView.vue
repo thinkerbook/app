@@ -23,7 +23,7 @@
   </div>
   -->
 
-  <info-card />
+  <info-card :show-all="false" />
 
   <PageNav v-if="listCount > 0" :page="page" />
 
