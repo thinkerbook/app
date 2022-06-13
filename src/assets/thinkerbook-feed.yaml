@@ -134,10 +134,22 @@
   videoUrl: "https://youtu.be/5ysUySSNW3M"
   guests:
     - "Emma Haziza"
-  adviceTimecode:
+  adviceTimecode: 7408
   advices:
-  bookTimecode:
+    - title: "Essayer que chacun trouve son pourquoi parce que quand on le trouve cela
+        nous donne l'énergie d'avancer."
+      author: "Emma Haziza"
+  bookTimecode: 7220
   books:
+    - title: "Le Bug humain"
+      author: "Sébastien Bohler"
+      storeUrl: "https://www.amazon.fr/Bug-humain-S%C3%A9bastien-BOHLER/dp/2266306243/"
+    - title: "L'empreinte eau: Les faces cachées d'une ressource vitale"
+      author: "Daniel Zimmer"
+      storeUrl: "https://www.amazon.fr/Lempreinte-eau-cach%C3%A9es-ressource-vitale/dp/2843771765/"
+    - title: "Voyage aux pays du coton: Petit précis de mondialisation"
+      author: "Erik Orsenna"
+      storeUrl: "https://www.amazon.fr/Petit-pr%C3%A9cis-mondialisation-Voyage-coton/dp/2253121940/"
 - title: "Tempête géopolitique\_?"
   link: "https://www.thinkerview.com/pascal-boniface-tempete-geopolitique/"
   pubDate: "Wed, 04 May 2022 09:12:00 +0000"
