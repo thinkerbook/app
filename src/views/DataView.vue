@@ -12,7 +12,7 @@
         : {{ videoById(key).title }}
         <a
           class="btn btn-outline-success btn-sm me-2"
-          :href="`mailto:data@thinkerbook.info?subject=${emailSubject(key)}&body=${emailBody(feed)}`"
+          :href="`mailto:data@thinkerbook.info?subject=${emailSubject(key)}&body=${emailBody(key, feed)}`"
         >
           <i class="fas fa-envelope"></i>
           Email
@@ -52,8 +52,8 @@ export default {
     emailSubject(key) {
       return encodeURI(`ThinkerBook - ${this.videoById(key).title}`);
     },
-    emailBody(feed) {
-      return encodeURI(YAML.stringify(feed));
+    emailBody(key, feed) {
+      return encodeURI(`https://thinkerbook.info/${key}\n${YAML.stringify(feed)}`);
     },
     feedStr(feed) {
       return YAML.stringify(feed);
