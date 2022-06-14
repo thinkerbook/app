@@ -21,10 +21,11 @@
         <span
           v-if="!isShowAll"
           class="btn btn-outline-secondary btn-sm-xx ms-2"
+          style="border-style: dashed"
           title="Afficher plus"
           @click="doDisplayAll(true)"
         >
-          v
+          Afficher plus
         </span>
       </p>
 
@@ -32,15 +33,6 @@
         <i class="fas fa-thumbs-up"></i>
         Tips: pour accéder directement à ThinkerBook depuis une vidéo Youtube, ajouter <code>-tbk</code> dans l'URL :
         <i>https://www.youtube<code>-tbk</code>.com/watch?v=6VUpicNBMzg</i>
-
-        <span
-          v-if="!showAll && isShowAll"
-          class="btn btn-outline-secondary btn-sm-xx ms-2"
-          title="Afficher moins"
-          @click="doDisplayAll(false)"
-        >
-          ^
-        </span>
       </p>
     </div>
   </div>
