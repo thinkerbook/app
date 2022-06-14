@@ -113,7 +113,7 @@ export const useVideoStore = defineStore({
       this.item = null;
       const index = parseInt(pageIndex) || 0;
       const count = Math.floor(videos.length / PAGE_SIZE) + 1;
-      this.videos = videos.slice(index * PAGE_SIZE, (index + 1) * PAGE_SIZE);
+      this.videos = videos.slice(0, (index + 1) * PAGE_SIZE);
       this.page = {
         index: index,
         size: PAGE_SIZE,

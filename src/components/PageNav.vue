@@ -14,7 +14,7 @@
 <!--          <span>First</span>-->
 <!--        </a>-->
 <!--      </li>-->
-      <li class="page-item" :class="pageNav.hasPrevious ? '' : 'disabled'">
+      <li v-if="!showMore" class="page-item" :class="pageNav.hasPrevious ? '' : 'disabled'">
         <router-link
           :to="listRouteLocation(searchQuery, pageIndex - 1)"
           class="page-link"
@@ -25,7 +25,7 @@
 <!--      <li class="page-item"><a class="page-link" href="#">1</a></li>-->
 <!--      <li class="page-item"><a class="page-link" href="#">2</a></li>-->
 <!--      <li class="page-item"><a class="page-link" href="#">3</a></li>-->
-      <li class="page-item" :class="pageNav.hasNext ? '' : 'disabled'">
+      <li v-if="!showMore" class="page-item" :class="pageNav.hasNext ? '' : 'disabled'">
         <router-link
             :to="listRouteLocation(searchQuery, pageIndex + 1)"
             class="page-link"
@@ -38,6 +38,15 @@
 <!--          <span>Last</span>-->
 <!--        </a>-->
 <!--      </li>-->
+
+      <li v-if="showMore && pageNav.hasNext" class="page-item">
+        <router-link
+          :to="listRouteLocation(searchQuery, pageIndex + 1)"
+          class="page-link"
+        >
+          <span>Afficher plus</span>
+        </router-link>
+      </li>
     </ul>
   </nav>
 </template>
@@ -52,6 +61,10 @@ export default {
     page: {
       type: String,
       default: "0",
+    },
+    showMore: {
+      type: Boolean,
+      default: true,
     },
   },
   setup() {
