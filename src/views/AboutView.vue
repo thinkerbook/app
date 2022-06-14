@@ -15,7 +15,7 @@
         <i class="fab fa-creative-commons-nc"></i>
         <i class="fab fa-creative-commons-sa"></i>
       </span>
-      (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+      (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
         <code>CC BY-NC-SA 4.0</code>
       </a>).
     </p>
@@ -23,20 +23,21 @@
     <h1>Hébergement</h1>
 
     <p>
-      L'hébergement du site est fait via la plateforme <a href="https://www.cloudflare.com/">Cloudflare</a>.
+      L'hébergement du site est fait via la plateforme <a href="https://www.cloudflare.com/" target="_blank">Cloudflare</a>.
     </p>
 
     <h1>Contact</h1>
     <p>
       <code>contact@thinkerbook.info</code>
     </p>
-    <!--
-    <h1>Comment contribuer</h1>
+
+    <h1>Sources</h1>
 
     <p>
-      Proposer une pull request sur github.
+      <a href="https://github.com/thinkerbook/app" target="_blank">
+        https://github.com/thinkerbook/app
+      </a>
     </p>
-    -->
   </div>
 </template>
 
