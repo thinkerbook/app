@@ -34,7 +34,7 @@
         <i>https://www.youtube<code>-tbk</code>.com/watch?v=6VUpicNBMzg</i>
 
         <span
-          v-if="isShowAll"
+          v-if="!showAll && isShowAll"
           class="btn btn-outline-secondary btn-sm-xx ms-2"
           title="Afficher moins"
           @click="doDisplayAll(false)"
