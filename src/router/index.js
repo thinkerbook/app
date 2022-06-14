@@ -10,8 +10,8 @@ const router = createRouter({
     if (savedPosition) {
       return savedPosition;
     } else {
-      // scroll top if searchQuery changes
-      if (from.query.q !== to.query.q) {
+      // scroll top if searchQuery changes or changing page
+      if (from.query.q !== to.query.q || from.path !== to.path) {
         return { top: 0 };
       }
       // else

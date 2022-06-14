@@ -139,15 +139,27 @@
       <div v-if="video.category && video.category.length > 0" class="card-header">
         <div class="mb-1">
           <i class="fas fa-tags me-1" title="Sujets abordés dans l'interview ThinkerView"></i>
-          <RouterLink
+          <div
             v-for="category in video.category"
             :key="category"
-            :to="listRouteLocation(category)"
-            class="btn btn-sm-xx me-1"
-            :class="(query === category) ? 'btn-dark' : 'btn-outline-dark'"
+            class="btn-group"
+            role="group"
           >
-            {{ category }}
-          </RouterLink>
+            <RouterLink
+              v-if="query === category"
+              :to="{ name: 'VideoList' }"
+              class="btn btn-dark btn-sm-xx"
+            >
+              <i class="fas fa-times-circle"></i>
+            </RouterLink>
+            <RouterLink
+              :to="listRouteLocation(category)"
+              class="btn btn-sm-xx me-1"
+              :class="(query === category) ? 'btn-dark' : 'btn-outline-dark'"
+            >
+              {{ category }}
+            </RouterLink>
+          </div>
         </div>
       </div>
 
