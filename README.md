@@ -34,3 +34,13 @@ npm run build
 ```sh
 npm run lint
 ```
+
+## Git
+
+Rewrite all commits author
+
+    git filter-branch -f --env-filter "GIT_AUTHOR_NAME='dev-thinkerbook'; GIT_AUTHOR_EMAIL='dev@thinkerbook.info'; GIT_COMMITTER_NAME='dev-thinkerbook'; GIT_COMMITTER_EMAIL='dev@thinkerbook.info';" HEAD
+
+Remove ref/heads/master
+
+    git update-ref -d refs/original/refs/heads/master
