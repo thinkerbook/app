@@ -106,12 +106,12 @@ export const useVideoStore = defineStore({
       const videoIndex = this.indexByVideoId(videoId);
       this.item = { index: videoIndex, videoId };
     },
-    setupList(query, page) {
-      console.log("setupList query: %s, page: %s", query, page);
+    setupList(query, pageIndex) {
+      console.log("setupList query: %s, pageIndex: %s", query, pageIndex);
       this.query = query;
       const videos = Videos.filter(queryVideo(query));
       this.item = null;
-      const index = parseInt(page) || 0;
+      const index = parseInt(pageIndex) || 0;
       const count = Math.floor(videos.length / PAGE_SIZE) + 1;
       this.videos = videos.slice(index * PAGE_SIZE, (index + 1) * PAGE_SIZE);
       this.page = {

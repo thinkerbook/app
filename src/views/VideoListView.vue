@@ -28,6 +28,7 @@
   <div class="row text-center">
     <div class="col">
       {{ searchCount }}<span v-if="isSearching">/{{ allCount }}</span> interviews
+      <span v-if="pageNav.index > 0">(page {{ pageNav.index + 1 }}/{{ pageNav.count }})</span>
     </div>
   </div>
   <div v-if="isSearching" class="row text-center mb-2">
@@ -57,7 +58,7 @@
     </div>
   </div>
 
-  <PageNav v-if="listCount > 0" :page="page" />
+  <PageNav v-if="listCount > 0" :page="pageIndex" />
 
 </template>
 
@@ -76,16 +77,17 @@ export default {
   },
   props: {
     query: String,
-    page: String,
+    pageIndex: String,
   },
   setup(props) {
     const videoStore = useVideoStore();
-    const { isSearching, searchQuery, searchCount, listVideos, listCount, allCount } = storeToRefs(videoStore);
+    const { page, isSearching, searchQuery, searchCount, listVideos, listCount, allCount } = storeToRefs(videoStore);
     const { setupList } = videoStore;
 
-    setupList(props.query, props.page);
+    setupList(props.query, props.pageIndex);
 
     return {
+      pageNav: page,
       isSearching,
       searchQuery,
       searchCount,
