@@ -10,8 +10,12 @@ const router = createRouter({
     if (savedPosition) {
       return savedPosition;
     } else {
+      // scroll top if searchQuery changes
+      if (from.query.q !== to.query.q) {
+        return { top: 0 };
+      }
+      // else
       return savedPosition;
-      // return { top: 0 };
     }
   },
   routes: [
