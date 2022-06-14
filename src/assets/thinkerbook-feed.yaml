@@ -14,15 +14,35 @@
   guests:
     - "Nicolas Nace"
     - "Gilles Babinet"
-  adviceTimecode:
+  adviceTimecode: 9215
   advices:
-    - title: ""
-      author: ""
-  bookTimecode:
+    - title: "Les jeunes générations doivent prendre le pouvoir."
+      author: "Gilles Babinet"
+    - author: "Nicolas Nace"
+      title: "Engagez-vous pour vos convictions (en politique, ONG, syndicat...)"
+  bookTimecode: 8923
   books:
-    - title: ""
-      author: ""
-      storeUrl: ""
+    - title: "Le monde d'hier : Souvenirs d'un européen"
+      author: "Stefan Zweig"
+      storeUrl: "https://www.amazon.fr/monde-dhier-Souvenirs-dun-europ%C3%A9en/dp/2253140406/"
+    - title: "Le Fabuleux Destin des baby-boomers"
+      author: "Michel Lacroix"
+      storeUrl: "https://www.amazon.fr/Fabuleux-Destin-baby-boomers-Michel-Lacroix/dp/2708238302"
+    - title: "Génération sans pareille: Les baby-boomers de 1945 à nos jours"
+      author: "Jean-François Sirinelli"
+      storeUrl: "https://www.amazon.fr/G%C3%A9n%C3%A9ration-sans-pareille-baby-boomers-jours/dp/B014QOYM5O"
+    - title: "L' Insurrection qui vient"
+      author: "Comité Invisible"
+      storeUrl: "https://www.amazon.fr/Linsurrection-qui-vient-Comit%C3%A9-invisible/dp/2913372627/"
+    - title: "Petit traité de sobriété énergétique"
+      author: "Barbara Nicoloso"
+      storeUrl: "https://www.amazon.fr/trait%C3%A9-sobri%C3%A9t%C3%A9-%C3%A9nerg%C3%A9tique-Barbara-Nicoloso/dp/2843772281/"
+    - title: "La Fabrique du monstre - 10 ans d'immersion dans les quartiers nord de Marseille"
+      author: "Philippe Pujol"
+      storeUrl: "https://www.amazon.fr/Fabrique-monstre-dimmersion-quartiers-Marseille/dp/275786338X/"
+    - title: "Et Si... le monde d'après ne ressemblait pas au monde d'avant"
+      author: "Hugo de Faucompret, Christophe Cassou, Geneviève Azam, Estelle Hocquet, Alternatiba"
+      storeUrl: "https://www.amazon.fr/monde-dapr%C3%A8s-ressemblait-davant-intellectuel%C2%B7/dp/2957621401"
 - title: "Effondrement économique, monétaire & civilisationnel\_?"
   link: "https://www.thinkerview.com/"
   pubDate: "Thu, 07 Jun 2022 16:26:00 +0000"
