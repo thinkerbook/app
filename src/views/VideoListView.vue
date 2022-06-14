@@ -6,40 +6,37 @@
         <div>
           Aucun résultat trouvé pour la recherche
           "<code>{{ searchQuery }}</code>"
+
+          <RouterLink
+            :to="{ name: 'VideoList' }"
+            class="btn btn-outline-secondary btn-sm-x"
+          >
+            <i class="fas fa-times-circle"></i>
+          </RouterLink>
         </div>
       </div>
     </div>
   </div>
 
-  <!--
-  <div v-if="isSearching" class="row my-2">
-    <div class="col text-center">
-      <button class="btn btn-outline-primary" @click="resetSearch">
-        <i class="fas fa-window-close"></i>
-        Annuler la recherche :
-        "<code>{{ searchQuery }}</code>"
-      </button>
-    </div>
-  </div>
-  -->
+  <div v-if="listCount !== 0">
+    <info-card :show-all="false" />
 
-  <info-card :show-all="false" />
-
-  <div class="row text-center">
-    <div class="col">
-      {{ searchCount }}<span v-if="isSearching">/{{ allCount }}</span> interviews
-      <span v-if="pageNav.index > 0">(page {{ pageNav.index + 1 }}/{{ pageNav.count }})</span>
+    <div class="row text-center">
+      <div class="col" style="font-weight: bold">
+        {{ searchCount }}<span v-if="isSearching">/{{ allCount }}</span> interviews
+        <span v-if="pageNav.index > 0">(page {{ pageNav.index + 1 }}/{{ pageNav.count }})</span>
+      </div>
     </div>
-  </div>
-  <div v-if="isSearching" class="row text-center mb-2">
-    <div class="col">
-      Recherche "<code>{{ searchQuery }}</code>"
-      <RouterLink
-        :to="{ name: 'VideoList' }"
-        class="btn btn-outline-secondary btn-sm-x"
-      >
-        <i class="fas fa-times-circle"></i>
-      </RouterLink>
+    <div v-if="isSearching" class="row text-center mb-2">
+      <div class="col">
+        Recherche "<code>{{ searchQuery }}</code>"
+        <RouterLink
+          :to="{ name: 'VideoList' }"
+          class="btn btn-outline-secondary btn-sm-x"
+        >
+          <i class="fas fa-times-circle"></i>
+        </RouterLink>
+      </div>
     </div>
   </div>
 
