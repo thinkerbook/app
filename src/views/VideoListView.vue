@@ -17,7 +17,7 @@
       <button class="btn btn-outline-primary" @click="resetSearch">
         <i class="fas fa-window-close"></i>
         Annuler la recherche :
-        "<code>{{ searchValue }}</code>"
+        "<code>{{ searchQuery }}</code>"
       </button>
     </div>
   </div>
@@ -25,7 +25,22 @@
 
   <info-card :show-all="false" />
 
-  <PageNav v-if="listCount > 0" :page="page" />
+  <div class="row text-center">
+    <div class="col">
+      {{ searchCount }}<span v-if="isSearching">/{{ allCount }}</span> interviews
+    </div>
+  </div>
+  <div v-if="isSearching" class="row text-center mb-2">
+    <div class="col">
+      Recherche "<code>{{ searchQuery }}</code>"
+      <RouterLink
+        :to="{ name: 'VideoList' }"
+        class="btn btn-outline-secondary btn-sm-x"
+      >
+        <i class="fas fa-times-circle"></i>
+      </RouterLink>
+    </div>
+  </div>
 
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xxl-4">
     <div
@@ -65,15 +80,18 @@ export default {
   },
   setup(props) {
     const videoStore = useVideoStore();
-    const { searchQuery, listVideos, listCount } = storeToRefs(videoStore);
+    const { isSearching, searchQuery, searchCount, listVideos, listCount, allCount } = storeToRefs(videoStore);
     const { setupList } = videoStore;
 
     setupList(props.query, props.page);
 
     return {
+      isSearching,
       searchQuery,
+      searchCount,
       listVideos,
       listCount,
+      allCount,
       setupList,
     };
   },
