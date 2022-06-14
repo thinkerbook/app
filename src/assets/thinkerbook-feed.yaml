@@ -86,7 +86,11 @@
   mediaUrl: "https://www.thinkerview.com/podcast-download/32334/august-cole-la-science-fiction-predit-la-guerre.mp3"
   # extends
   releaseDate: 2022-06-02
+  language: dub/fr
   videoId: "i86t42xsZPY"
+  videoIds:
+    - language: en
+      videoId: "2E1D8-BkLQg"
   guests:
     - "August Cole"
   adviceTimecode: 7715
@@ -209,6 +213,7 @@
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Sacha_Filipenko_Vivre_En_Dictature.mp3"
   # extends
   releaseDate: 2022-04-14
+  language: dub/fr
   videoId: "PXIiR612ghE"
   guests:
     - "Sacha Filipenko"
@@ -489,29 +494,19 @@
   advices:
   bookTimecode:
   books:
-- title: "Julian Assange, torture made in Europe\_? [Version Française]"
-  link: "https://www.thinkerview.com/john-shipton-julian-assange-torture-made-in-europe-version-francaise/"
-  pubDate: "Mon, 15 Nov 2021 22:59:00 +0000"
-  category: ["Géopolitique","Terrorisme"]
-  description: "Père de Julian Assange."
-  # extends
-  releaseDate: 2021-11-15
-  videoId: "_D-AnsdbnRI"
-  guests:
-    - "John Shipton"
-  adviceTimecode:
-  advices:
-  bookTimecode:
-  books:
-- title: "Julian Assange, torture made in Europe\_? [VO]"
+- title: "Julian Assange, torture made in Europe\_?"
   link: "https://www.thinkerview.com/john-shipton-julian-assange-torture-made-in-europe-vo/"
   pubDate: "Mon, 15 Nov 2021 22:52:00 +0000"
-  category: ["Géopolitique","Internet / Technologies","Médias","Société"]
+  category: ["Géopolitique","Internet / Technologies","Médias","Société","Terrorisme"]
   description: "Père de Julian Assange."
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/John_Shipton_Julian_Assange_Torture_Made_In_Europe.mp3"
   # extends
   releaseDate: 2021-11-15
-  videoId: "MAUriihHjWE"
+  language: dub/fr
+  videoId: "_D-AnsdbnRI"
+  videoIds:
+    - language: en
+      videoId: "MAUriihHjWE"
   guests:
     - "John Shipton"
   adviceTimecode:
@@ -1342,7 +1337,11 @@
   mediaUrl:
   # extends
   releaseDate: 2020-02-28
+  language: dub/fr
   videoId: "z-boL89uKLo"
+  videoIds:
+    - language: en
+      videoId: "n7yxxa4iFwc"
   guests:
     - "Glenn Albrecht"
   adviceTimecode:
@@ -1617,6 +1616,7 @@
   mediaUrl:
   # extends
   releaseDate: 2019-09-25
+  language: dub/fr
   videoId: "-J_2tNIA4cI"
   guests:
     - "Joseph Stiglitz"
@@ -2162,7 +2162,7 @@
   mediaUrl: "https://thinkerview.com/wp-content/uploads/videos/mp3_128k/Les_milliardaires_gaves_au_sang_des_gilets_jaunes-Denis_Robert.mp3"
   # extends
   releaseDate: 2019-01-17
-  videoId: "no_KeDQ1eqQ"
+  videoId: "e5vAzJpyvCI"
   guests:
     - "Denis Robert"
   adviceTimecode:
@@ -2970,6 +2970,7 @@
   mediaUrl:
   # extends
   releaseDate: 2018-01-16
+  language: en
   videoId: "jGBYRWEF5Pk"
   guests:
     - "Xenia Fedorova"
@@ -3562,6 +3563,7 @@
   mediaUrl:
   # extends
   releaseDate: 2016-09-29
+  language: en
   videoId: "yh26_9b7IJI"
   guests:
     - "Paul Watson"

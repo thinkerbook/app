@@ -43,6 +43,11 @@
       <div class="row text-start">
         <h2 class="col card-title mt-3" :class="!inList ? 'h2' : 'h4'">
           {{ video.title }}
+          <div class="d-inline" style="font-size: medium">
+            <div class="badge bg-dark rounded-pill">
+              {{ video.language }}
+            </div>
+          </div>
         </h2>
 
         <nav
@@ -110,9 +115,22 @@
               <a :href="video.link" target="_blank" class="btn btn-dark btn-sm-x me-1" title="Ouvrir la page de la publication de l'interview ThinkerView">
                 <SwanIcon />
               </a>
-              <a v-if="video.mediaUrl" :href="video.mediaUrl" target="_blank" class="btn btn-dark btn-sm-x" title="Ouvrir l'enregistrement audio de l'interview ThinkerView">
+              <a v-if="video.mediaUrl" :href="video.mediaUrl" target="_blank" class="btn btn-dark btn-sm-x me-1" title="Ouvrir l'enregistrement audio de l'interview ThinkerView">
                 <i class="fas fa-music"></i>
               </a>
+              <div v-if="video.videoIds" class="d-inline">
+                <a
+                  v-for="({language, videoId}) in video.videoIds"
+                  :key="language"
+                  :href="videoUrl(videoId)"
+                  target="_blank"
+                  class="btn btn-dark btn-sm-x"
+                  :title="`Ouvrir la version '${language}' de l'interview ThinkerView`"
+                >
+                  <i class="fas fa-film"></i>
+                  {{ language }}
+                </a>
+              </div>
             </div>
           </div>
         </div>

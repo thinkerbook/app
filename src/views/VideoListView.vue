@@ -24,7 +24,7 @@
     <div class="row text-center">
       <div class="col" style="font-weight: bold">
         {{ searchCount }}<span v-if="isSearching">/{{ allCount }}</span> interviews
-        <span v-if="pageNav.index > 0">(page {{ pageNav.index + 1 }}/{{ pageNav.count }})</span>
+        <span v-if="pageNav.index > 0">(page 1-{{ pageNav.index + 1 }}/{{ pageNav.count }})</span>
       </div>
     </div>
     <div v-if="isSearching" class="row text-center mb-2">
