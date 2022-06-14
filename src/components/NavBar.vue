@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar /*sticky-top*/ navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <RouterLink :to="{ name: 'VideoList' }" class="navbar-brand">
         <i class="far fa-book"></i>
@@ -86,7 +86,7 @@ export default {
 
       if (newValue) {
         console.log("navbarShow: %s", newValue);
-        this.navbarCollapse.show();
+        // this.navbarCollapse.show();
       }
     },
   },
