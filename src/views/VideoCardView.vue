@@ -139,27 +139,19 @@
       <div v-if="video.category && video.category.length > 0" class="card-header">
         <div class="mb-1">
           <i class="fas fa-tags me-1" title="Sujets abordés dans l'interview ThinkerView"></i>
-          <div
+
+          <RouterLink
             v-for="category in video.category"
             :key="category"
-            class="btn-group"
-            role="group"
+            :to="query === category ? { name: 'VideoList' } : listRouteLocation(category)"
+            class="btn btn-sm-xx me-1"
+            :class="(query === category) ? 'btn-dark' : 'btn-outline-dark'"
           >
-            <RouterLink
-              v-if="query === category"
-              :to="{ name: 'VideoList' }"
-              class="btn btn-dark btn-sm-xx"
-            >
+            <span v-if="query === category">
               <i class="fas fa-times-circle"></i>
-            </RouterLink>
-            <RouterLink
-              :to="listRouteLocation(category)"
-              class="btn btn-sm-xx me-1"
-              :class="(query === category) ? 'btn-dark' : 'btn-outline-dark'"
-            >
-              {{ category }}
-            </RouterLink>
-          </div>
+            </span>
+            {{ category }}
+          </RouterLink>
         </div>
       </div>
 
@@ -174,10 +166,14 @@
             style="margin-right: unset"
           >
             <RouterLink
-              :to="listRouteLocation(guest)"
+              :to="query === guest ? { name: 'VideoList' } : listRouteLocation(guest)"
               class="btn btn-sm-xx me-1"
               :class="(query === guest) ? 'btn-dark' : 'btn-outline-dark'"
             >
+              <span v-if="query === guest">
+                <i class="fas fa-times-circle"></i>
+              </span>
+
               {{ guest }}
               <span
                 class="badge rounded-pill"
