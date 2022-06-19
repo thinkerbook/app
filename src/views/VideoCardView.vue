@@ -207,7 +207,7 @@
               <blockquote class="blockquote">
                 <p>{{ advice.title }}</p>
               </blockquote>
-              <figcaption class="blockquote-footer text-end">
+              <figcaption class="blockquote-footer text-start">
                 {{ advice.author }}
               </figcaption>
             </figure>
