@@ -259,7 +259,7 @@
       <div class="card-body d-flex-none pb-0">
         <h4>
           <i class="fas fa-book fa-xs"></i>
-          Livres à lire&nbsp;
+          Livres recommandés
           <a
             v-if="video.bookTimecode"
             :href="videoUrl(video.videoId, video.bookTimecode)"
