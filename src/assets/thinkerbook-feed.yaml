@@ -201,10 +201,33 @@
   videoId: "iEogCC71eoQ"
   guests:
     - "Pascal Boniface"
-  adviceTimecode:
+  adviceTimecode: 7445
   advices:
-  bookTimecode:
+    - title: "Bosser en restant ouvert sur les autres, c'est le boulot qui fait la différence."
+      author: "Pascal Boniface "
+  bookTimecode: 6225
   books:
+    - title: "Sapiens: Une brève histoire de l'humanité"
+      author: "Yuval Noah Harari"
+      storeUrl: "https://www.amazon.fr/Sapiens-Une-br%C3%A8ve-histoire-lhumanit%C3%A9/dp/2226257012/"
+    - title: "Homo Deus, Une brève histoire de l'avenir"
+      author: "Yuval Noah Harari"
+      storeUrl: "https://www.amazon.fr/Homo-Deus-br%C3%A8ve-histoire-lavenir/dp/2226393870/"
+    - title: "Les livres de"
+      author: "Gérard Chaliand"
+      storeUrl: "https://www.amazon.fr/G%25C3%25A9rard-Chaliand/e/B001IXNVIQ"
+    - title: "Les livres de"
+      author: "Hubert Védrine"
+      storeUrl: "https://www.amazon.fr/Hubert-V%25C3%25A9drine/e/B004N6JC24"
+    - title: "De Gaulle et la Russie"
+      author: "Alexandre Jevakhoff"
+      storeUrl: "https://www.amazon.fr/Gaulle-Russie-Alexandre-Jevakhoff/dp/2262075174/"
+    - title: "The Hell of Good Intentions: America's Foreign Policy Elite and the Decline of U.S. Primacy"
+      author: "Stephen M. Walt"
+      storeUrl: "https://www.amazon.fr/gp/product/B07C9BT7MS/"
+    - title: "Le premier XXIe siècle: De la globalisation à l'émiettement du monde"
+      author: "Jean-Marie Guéhenno"
+      storeUrl: "https://www.amazon.fr/premier-XXIe-si%C3%A8cle-globalisation-l%C3%A9miettement/dp/2080255967/"
 - title: "Vivre en dictature\_?"
   link: "https://www.thinkerview.com/sacha-filipenko-vivre-en-dictature/"
   pubDate: "Thu, 14 Apr 2022 09:18:00 +0000"
@@ -360,10 +383,32 @@
   guests:
     - "Paul Moreira"
     - "Edwy Plenel"
-  adviceTimecode:
+  adviceTimecode: 4856 # 6530
   advices:
-  bookTimecode:
+    - title: Sauvez-nous !
+      author: Paul Moreira
+    - author: Edwy Plenel
+      title: Faut résistez !
+  bookTimecode: 6439 # 4875
   books:
+    - title: La Route
+      author: Cormac Mccarthy
+      storeUrl: https://www.amazon.fr/route-Cormac-McCarthy/dp/2757884964/
+    - author: Toni Morrison
+      title: Beloved
+      storeUrl: https://www.amazon.fr/Beloved-Toni-MORRISON/dp/2264047968/
+    - title: "Mémoire du feu : Les naissances ; Les visages et les masques ; Le siècle du vent"
+      author: Eduardo Galeano
+      storeUrl: https://www.amazon.fr/M%C3%A9moire-feu-naissances-visages-masques/dp/289596159X/
+    - title: Sur le journalisme
+      author: Joseph Pulitzer
+      storeUrl: https://www.amazon.fr/Sur-journalisme-Joseph-Pulitzer/dp/2842423100/
+    - title: "Terre d'ébène: La traite des Noirs"
+      author: Albert Londres
+      storeUrl: https://www.amazon.fr/Terre-d%C3%A9b%C3%A8ne-traite-Albert-Londres/dp/2268072509/
+    - title: Mémoires vives
+      author: Edward Snowden
+      storeUrl: https://www.amazon.fr/M%C3%A9moires-vives-Edward-Snowden/dp/275788607X/
 - title: "L’emprise, la France sous influence\_?"
   link: "https://www.thinkerview.com/marc-endeweld-lemprise-la-france-sous-influence/"
   pubDate: "Thu, 17 Feb 2022 19:04:00 +0000"
@@ -375,10 +420,24 @@
   videoId: "HHyUr6RPMSk"
   guests:
     - "Marc Endeweld"
-  adviceTimecode:
+  adviceTimecode: 11008
   advices:
-  bookTimecode:
+    - title: Informez-vous ! Faites l'effort de vous informer.
+      author: Marc Endeweld
+  bookTimecode: 10871
   books:
+    - title: Requiem pour une République
+      author: Thomas Cantaloube
+      storeUrl: https://www.amazon.fr/gp/product/B096L3CWXT/
+    - title: Mémoires impubliables
+      author: Pierre Péan
+      storeUrl: https://www.amazon.fr/gp/product/B0888JL2KG/
+    - title: "L'enfer numérique: Voyage au bout d'un Like"
+      author: Guillaume Pitron
+      storeUrl: https://www.amazon.fr/Lenfer-num%C3%A9rique-Voyage-bout-Like/dp/B08ZW1RQPY/
+    - title: "La guerre des métaux rares: La face cachée de la transition énergétique et numérique"
+      author: Guillaume Pitron
+      storeUrl: https://www.amazon.fr/guerre-m%C3%A9taux-rares-transition-%C3%A9nerg%C3%A9tique/dp/B07577TH97/
 - title: "Éviter l’effondrement\_?"
   link: "https://www.thinkerview.com/jean-marc-jancovici-et-laurent-morel-eviter-leffondrement/"
   pubDate: "Wed, 09 Feb 2022 08:20:00 +0000"
@@ -390,10 +449,35 @@
   guests:
     - "Jean-Marc Jancovici"
     - "Laurent Morel"
-  adviceTimecode:
+  adviceTimecode: 9988
   advices:
-  bookTimecode:
+    - title: Être curieux, cela permet d'être informé et d'augmenter sa zone de
+        confort et la sécurité de ce qu'on fait et de faire plus de choses qui
+        vont réussir. La curiosité n'est pas un défaut, c'est quelque chose
+        d'utile parce que cela permet de comprendre le monde dans lequel on vie.
+      author: Jean-Marc Jancovici
+    - title: Arriver à former des projets parce que c'est absolument essentiel.
+      author: Jean-Marc Jancovici
+  bookTimecode: 9630
   books:
+    - title: L'argent
+      author: Charles Péguy
+      storeUrl: https://www.amazon.fr/Largent-Charles-P%C3%A9guy/dp/1543285570/
+    - title: La société de consommation
+      author: Jean Baudrillard
+      storeUrl: https://www.amazon.fr/soci%C3%A9t%C3%A9-consommation-Jean-Baudrillard/dp/2070323498/
+    - title: La Chartreuse de Parme
+      author: Stendhal
+      storeUrl: https://www.amazon.fr/Chartreuse-Parme-Stendhal-scientifiques-Classiques/dp/2253160687/
+    - title: Les Limites à la croissance (The Limits to Growth)
+      author: Donella Meadows, Dennis Meadows, Jorgen Randers
+      storeUrl: https://www.amazon.fr/Limites-croissance-dans-monde-fini/dp/2374250741/
+    - title: De la démocratie en Amérique
+      author: Alexis de Tocqueville
+      storeUrl: https://www.amazon.fr/d%C3%A9mocratie-en-Am%C3%A9rique-Alexis-Tocqueville/dp/2081220873/
+    - title: Malevil
+      author: Robert Merle
+      storeUrl: https://www.amazon.fr/Malevil-Robert-Merle/dp/2070374440/
 - title: "La France face à la nouvelle mondialisation\_?"
   link: "https://www.thinkerview.com/geoffroy-roux-de-bezieux-la-france-face-a-la-nouvelle-mondialisation/"
   pubDate: "Thu, 27 Jan 2022 12:31:00 +0000"
@@ -4209,7 +4293,18 @@
   videoId: "6VUpicNBMzg"
   guests:
     - "Jacques Blamont"
-  adviceTimecode:
+  adviceTimecode: 2390
   advices:
-  bookTimecode:
+    - title: "Pour réussir sa vie, il faut choisir dans ses rêves celui qui a la forte composante de réalité."
+      author: "Jacques Blamont"
+  bookTimecode: 2000
   books:
+    - title: "Introduction au siècle des menaces"
+      author: "Jacques Blamont"
+      storeUrl: "https://www.amazon.fr/Introduction-si%C3%A8cle-menaces-Jacques-Blamont/dp/2738114091/"
+    - title: "Action, soeur du rêve"
+      author: "Jacques Blamont"
+      storeUrl: "https://www.amazon.fr/gp/product/2846083223/"
+    - title: "Le Chiffre et le Songe"
+      author: "Jacques Blamont"
+      storeUrl: "https://www.amazon.fr/Chiffre-Songe-Jacques-Blamont/dp/2738143105/"
