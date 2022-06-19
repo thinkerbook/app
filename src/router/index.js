@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import VideoListView from "@/views/VideoListView.vue";
 import VideoItemView from "@/views/VideoItemView.vue";
+import BookListView from "@/views/BookListView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -29,6 +30,12 @@ const router = createRouter({
       path: "/:yid",
       name: "VideoItem",
       component: VideoItemView,
+      props: true,
+    },
+    {
+      path: "/books",
+      name: "BookList",
+      component: BookListView,
       props: true,
     },
     {

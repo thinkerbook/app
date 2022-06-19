@@ -69,6 +69,15 @@ export const useVideoStore = defineStore({
       this.isItem
         ? state.videos[0]
         : null,
+    allBooks: () => {
+      return Videos
+        .flatMap(v => {
+          return v.books && v.books.map(b => Object.assign({video: v}, b));
+        })
+        .filter(v => v !== null)
+        .sort((a, b) => a.author.localeCompare(b.author))
+        ;
+    },
     allVideos: () => Videos,
     allCount: () => Videos.length,
     listVideos: (state) => state.videos,

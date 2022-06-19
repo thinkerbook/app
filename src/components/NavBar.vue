@@ -16,10 +16,13 @@
       <div id="navbarSupportedContent" ref="navbarCollapse" class="collapse navbar-collapse">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <RouterLink :to="{ name: 'about' }" class="nav-link">About</RouterLink>
+            <RouterLink :to="{ name: 'BookList' }" class="nav-link">Livres</RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink :to="{ name: 'about' }" class="nav-link">A propos</RouterLink>
           </li>
           <li v-if="getLocalFeeds()" class="nav-item">
-            <RouterLink :to="{ name: 'data' }" class="nav-link">Local Data</RouterLink>
+            <RouterLink :to="{ name: 'data' }" class="nav-link">LocalData</RouterLink>
           </li>
         </ul>
 
