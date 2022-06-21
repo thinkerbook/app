@@ -2,12 +2,37 @@
 # (fr) Liste les livres (bouqins) recommendés dans les interviews de la chaine Thinkerview ainsi que le conseil aux jeunes générations (la bouteille à la mer).
 # (en) Lists recommended books in Thinkerview channel interviews as well as the advice for the young generations (the bottle in the sea).
 #
-- title: "Nucléaire : Choc énergétique, inflationniste, écologique\_?"
+- title: "Les bellicistes de plateaux TV, complexe militaro-intellectuel\_?"
   link: "https://www.thinkerview.com/"
-  pubDate: "Thu, 13 Jun 2022 20:26:00 +0000"
-  category: ["Energie", "Environnement", "Société"]
+  category: ["Géopolitique","Médias"]
   description: ""
   mediaUrl: ""
+  # extends
+  releaseDate: 2022-06-20
+  videoId: "FBeG-areq3Q"
+  guests:
+    - "Pierre Conesa"
+  adviceTimecode:
+  advices:
+    - title: ""
+      author: "Pierre Conesa"
+  bookTimecode: 6125
+  books:
+    - title: "1984"
+      author: "George Orwell"
+      storeUrl: "https://www.amazon.fr/1984-George-Orwell/dp/2072938228/"
+    - title: "La ferme des animaux"
+      author: "George Orwell"
+      storeUrl: "https://www.amazon.fr/ferme-animaux-George-Orwell/dp/2072921414/"
+    - title: "La Fabrication de l'ennemi"
+      author: "Pierre Conesa"
+      storeUrl: "https://www.amazon.fr/Fabrication-lennemi-Pierre-CONESA/dp/2221126785/"
+- title: "Nucléaire : Choc énergétique, inflationniste, écologique\_?"
+  link: "https://www.thinkerview.com/nicolas-nace-gilles-babinet-nucleaire-choc-energetique-inflationniste-ecologique/"
+  pubDate: "Thu, 13 Jun 2022 20:26:00 +0000"
+  category: ["Energie", "Environnement", "Climat"]
+  description: ""
+  mediaUrl: "https://www.thinkerview.com/podcast-download/32573/nicolas-nace-gilles-babinet-nucleaire-choc-energetique-inflationniste-ecologique.mp3"
   # extends
   releaseDate: 2022-06-13
   videoId: "F7S76vLLzMk"
@@ -18,8 +43,8 @@
   advices:
     - title: "Les jeunes générations doivent prendre le pouvoir."
       author: "Gilles Babinet"
-    - author: "Nicolas Nace"
-      title: "Engagez-vous pour vos convictions (en politique, ONG, syndicat...)"
+    - title: "Engagez-vous pour vos convictions (en politique, ONG, syndicat...)"
+      author: "Nicolas Nace"
   bookTimecode: 8923
   books:
     - title: "Le monde d'hier : Souvenirs d'un européen"
@@ -44,11 +69,11 @@
       author: "Hugo de Faucompret, Christophe Cassou, Geneviève Azam, Estelle Hocquet, Alternatiba"
       storeUrl: "https://www.amazon.fr/monde-dapr%C3%A8s-ressemblait-davant-intellectuel%C2%B7/dp/2957621401"
 - title: "Effondrement économique, monétaire & civilisationnel\_?"
-  link: "https://www.thinkerview.com/"
+  link: "https://www.thinkerview.com/charles-gave-olivier-delamarche-effondrement-economique-monetaire-civilisationnel/"
   pubDate: "Thu, 07 Jun 2022 16:26:00 +0000"
-  category: ["Finance", "Société"]
+  category: ["Finance", "Société", "Energie", "Climat"]
   description: ""
-  mediaUrl: ""
+  mediaUrl: "https://www.thinkerview.com/podcast-download/32568/charles-gave-olivier-delamarche-effondrement-economique-monetaire-civilisationnel.mp3"
   # extends
   releaseDate: 2022-06-07
   videoId: "AfzhfvBCrYQ"
