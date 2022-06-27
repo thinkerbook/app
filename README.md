@@ -1,6 +1,6 @@
 # ThinkerBook
 
-* (fr) Liste les livres (bouqins) recommendés dans les interviews de la chaine Thinkerview ainsi que le conseil aux jeunes générations (la bouteille à la mer).
+* (fr) Liste les livres recommandés dans les interviews de la chaine Thinkerview ainsi que le conseil aux jeunes générations (une bouteille à la mer).
 * (en) Lists recommended books in Thinkerview channel interviews as well as the advice for the young generations (the bottle in the sea).
 
 # Data
