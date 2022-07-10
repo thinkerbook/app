@@ -301,7 +301,7 @@
   bookTimecode: 7204
   books:
     # Nicolas Meilhan
-    - title: "Les Limites à la croissance (dans un monde fini): Le rapport Meadows (Limit to growth)"
+    - title: "Les Limites à la croissance: Le rapport Meadows (Limit to growth)"
       author: "Donella Meadows, Dennis Meadows, Jorgen Randers"
       storeUrl: "https://www.amazon.fr/Limites-croissance-dans-monde-fini/dp/2374250741/"
     - title: "L'Âge des low tech. vers une civilisation techniquement soutenable"
@@ -494,7 +494,7 @@
     - title: La Chartreuse de Parme
       author: Stendhal
       storeUrl: https://www.amazon.fr/Chartreuse-Parme-Stendhal-scientifiques-Classiques/dp/2253160687/
-    - title: Les Limites à la croissance (The Limits to Growth)
+    - title: "Les Limites à la croissance: Le rapport Meadows (Limit to growth)"
       author: Donella Meadows, Dennis Meadows, Jorgen Randers
       storeUrl: https://www.amazon.fr/Limites-croissance-dans-monde-fini/dp/2374250741/
     - title: De la démocratie en Amérique

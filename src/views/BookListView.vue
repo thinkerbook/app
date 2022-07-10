@@ -44,7 +44,6 @@ export default {
   setup() {
     const videoStore = useVideoStore();
     const { allBooks } = storeToRefs(videoStore);
-    const { } = videoStore;
 
     return {
       allBooks,
