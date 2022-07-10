@@ -78,6 +78,15 @@ export const useVideoStore = defineStore({
         .sort((a, b) => a.author.localeCompare(b.author))
         ;
     },
+    allAdvices: () => {
+      return Videos
+        .flatMap(v => {
+          return v.advices && v.advices.map(e => Object.assign({video: v}, e));
+        })
+        .filter(v => v !== null)
+        .sort((a, b) => a.author.localeCompare(b.author))
+        ;
+    },
     allVideos: () => Videos,
     allCount: () => Videos.length,
     listVideos: (state) => state.videos,

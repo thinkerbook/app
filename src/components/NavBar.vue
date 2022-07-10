@@ -19,6 +19,9 @@
             <RouterLink :to="{ name: 'BookList' }" class="nav-link">Livres</RouterLink>
           </li>
           <li class="nav-item">
+            <RouterLink :to="{ name: 'AdviceList' }" class="nav-link">Conseils</RouterLink>
+          </li>
+          <li class="nav-item">
             <RouterLink :to="{ name: 'about' }" class="nav-link">A propos</RouterLink>
           </li>
           <li v-if="getLocalFeeds()" class="nav-item">
