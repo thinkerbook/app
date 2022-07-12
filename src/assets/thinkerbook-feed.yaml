@@ -3,10 +3,10 @@
 # (en) Lists recommended books in Thinkerview channel interviews as well as the advice for the young generations (the bottle in the sea).
 #
 - title: "Les bellicistes de plateaux TV, complexe militaro-intellectuel\_?"
-  link: "https://www.thinkerview.com/"
+  link: "https://www.thinkerview.com/pierre-conesa-les-bellicistes-de-plateaux-tv-complexe-militaro-intellectuel/"
   category: ["Géopolitique","Médias"]
-  description: ""
-  mediaUrl: ""
+  description: "Pierre Conesa : Ancien haut fonctionnaire du Ministère de la Défense"
+  mediaUrl: "https://www.thinkerview.com/podcast-download/32723/pierre-conesa-les-bellicistes-de-plateaux-tv-complexe-militaro-intellectuel.mp3"
   # extends
   releaseDate: 2022-06-20
   videoId: "FBeG-areq3Q"
@@ -29,7 +29,6 @@
       storeUrl: "https://www.amazon.fr/Fabrication-lennemi-Pierre-CONESA/dp/2221126785/"
 - title: "Nucléaire : Choc énergétique, inflationniste, écologique\_?"
   link: "https://www.thinkerview.com/nicolas-nace-gilles-babinet-nucleaire-choc-energetique-inflationniste-ecologique/"
-  pubDate: "Thu, 13 Jun 2022 20:26:00 +0000"
   category: ["Energie", "Environnement", "Climat"]
   description: ""
   mediaUrl: "https://www.thinkerview.com/podcast-download/32573/nicolas-nace-gilles-babinet-nucleaire-choc-energetique-inflationniste-ecologique.mp3"
@@ -70,7 +69,6 @@
       storeUrl: "https://www.amazon.fr/monde-dapr%C3%A8s-ressemblait-davant-intellectuel%C2%B7/dp/2957621401"
 - title: "Effondrement économique, monétaire & civilisationnel\_?"
   link: "https://www.thinkerview.com/charles-gave-olivier-delamarche-effondrement-economique-monetaire-civilisationnel/"
-  pubDate: "Thu, 07 Jun 2022 16:26:00 +0000"
   category: ["Finance", "Société", "Energie", "Climat"]
   description: ""
   mediaUrl: "https://www.thinkerview.com/podcast-download/32568/charles-gave-olivier-delamarche-effondrement-economique-monetaire-civilisationnel.mp3"
@@ -105,7 +103,6 @@
       storeUrl: "https://www.amazon.fr/gp/product/2012939945/"
 - title: "La science-fiction prédit la guerre\_?"
   link: "https://www.thinkerview.com/august-cole-la-science-fiction-predit-la-guerre/"
-  pubDate: "Thu, 02 Jun 2022 16:26:00 +0000"
   category: ["Géopolitique", "Société"]
   description: "August Cole : écrivain, analyste &#38; consultant spécialisé dans les questions de sécurité nationale"
   mediaUrl: "https://www.thinkerview.com/podcast-download/32334/august-cole-la-science-fiction-predit-la-guerre.mp3"
@@ -135,7 +132,6 @@
       storeUrl: "https://www.amazon.fr/dp/0399138412/"
 - title: "Perte de liberté et grogne sociale\_?"
   link: "https://www.thinkerview.com/michel-wieviorka-perte-de-liberte-et-grogne-sociale/"
-  pubDate: "Wed, 25 May 2022 07:01:00 +0000"
   category: ["Société"]
   description: "Sociologue, directeur d'études à HESS."
   mediaUrl: "https://www.thinkerview.com/podcast-download/32257/michel-wieviorka-perte-de-liberte-et-grogne-sociale.mp3"
@@ -167,7 +163,6 @@
       storeUrl: "https://www.amazon.fr/Cent-solitude-Gabriel-Garcia-Marquez/dp/202023811X"
 - title: "Alain Chouet, 35 ans de DGSE, une pointe de diamant\_?"
   link: "https://www.thinkerview.com/alain-chouet35-ans-de-dgse-une-pointe-de-diamant/"
-  pubDate: "Wed, 18 May 2022 15:26:00 +0000"
   category: ["Géopolitique", "Terrorisme"]
   description: "Alain Chouet : ancien chef du service de renseignement de sécurité à la DGSE."
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Alain_Chouet_35_Ans_De_DGSE_Une_Pointe_De_Diamant.mp3"
@@ -190,7 +185,6 @@
       storeUrl: "https://www.amazon.fr/Alain-Chouet/e/B004NBCGNQ"
 - title: "Crise de l'eau, planète terre invivable\_?"
   link: "https://www.thinkerview.com/emma-haziza-crise-de-leau-planete-terre-invivable/"
-  pubDate: "Tue, 17 May 2022 15:25:00 +0000"
   category: ["Climat", "Energie", "Société"]
   description: "Emma Haziza est hydrologue, spécialiste de la résilience des territoires face aux risques climatiques extrêmes...."
   mediaUrl: "https://www.thinkerview.com/podcast-download/32074/emma-haziza-crise-de-leau-planete-terre-invivable.mp3"
@@ -217,7 +211,6 @@
       storeUrl: "https://www.amazon.fr/Petit-pr%C3%A9cis-mondialisation-Voyage-coton/dp/2253121940/"
 - title: "Tempête géopolitique\_?"
   link: "https://www.thinkerview.com/pascal-boniface-tempete-geopolitique/"
-  pubDate: "Wed, 04 May 2022 09:12:00 +0000"
   category: ["Energie", "Géopolitique", "Terrorisme"]
   description: "Pascal Boniface : Fondateur et directeur de l&#8217;Institut de Relations Internationales et Stratégiques (IRIS)."
   mediaUrl: "https://www.thinkerview.com/podcast-download/31827/pascal-boniface-tempete-geopolitique.mp3"
@@ -255,7 +248,6 @@
       storeUrl: "https://www.amazon.fr/premier-XXIe-si%C3%A8cle-globalisation-l%C3%A9miettement/dp/2080255967/"
 - title: "Vivre en dictature\_?"
   link: "https://www.thinkerview.com/sacha-filipenko-vivre-en-dictature/"
-  pubDate: "Thu, 14 Apr 2022 09:18:00 +0000"
   category: ["Géopolitique", "Société"]
   description: "Sacha Filipenko : écrivain biélorusse, lauréat du Prix russe."
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Sacha_Filipenko_Vivre_En_Dictature.mp3"
@@ -282,7 +274,6 @@
       storeUrl: "https://www.amazon.fr/Marcel-Proust/e/B00J9SSFOC"
 - title: "L’Europe à court d’énergie\_?"
   link: "https://www.thinkerview.com/nicolas-meilhan-et-francis-perrin-leurope-a-court-denergie/"
-  pubDate: "Wed, 30 Mar 2022 15:56:02 +0000"
   category: [ "Energie", "Climat", "Géopolitique"]
   description: ""
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Nicolas_Meilhan_Et_Francis_Perrin_L_Europe_A_Court_D_Energie.mp3"
@@ -319,7 +310,6 @@
       storeUrl: "https://www.iea.org/topics/world-energy-outlook"
 - title: "Où va la France\_? Partie\_2"
   link: "https://www.thinkerview.com/jean-luc-melenchon-ou-va-la-france-part-2/"
-  pubDate: "Mon, 28 Mar 2022 15:45:00 +0000"
   category: ["Environnement","Société"]
   description: ""
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Jean_Luc_Melenchon__Ou_va_La_France_Part_2.mp3"
@@ -345,7 +335,6 @@
       storeUrl: "https://www.amazon.fr/V%C3%A9ritable-Histoire-Gracques-Christopher-Bouix/dp/2251040137/"
 - title: "Coup d’état numérique, la matrice\_?"
   link: "https://www.thinkerview.com/christophe-deloire-coup-detat-numerique-la-matrice/"
-  pubDate: "Fri, 18 Mar 2022 16:50:00 +0000"
   category: ["Internet / Technologies","Médias"]
   description: "DG Reporters sans frontières (RSF) et Pdt du Forum sur l&#8217;information et la démocratie (http://informationdemocracy.org)"
   mediaUrl: "https://www.thinkerview.com/podcast-download/31003/christophe-deloire-coup-detat-numerique-la-matrice.mp3"
@@ -373,7 +362,6 @@
       storeUrl: "https://www.amazon.fr/fin-lhomme-rouge-temps-d%C3%A9senchantement/dp/2330066848/"
 - title: "Comment arrive-t-on à la guerre\_?"
   link: "https://www.thinkerview.com/pierre-conesa-comment-arrive-t-on-a-la-guerre/"
-  pubDate: "Thu, 10 Mar 2022 20:16:00 +0000"
   category: ["Géopolitique"]
   description: "Journaliste et réalisateur de documentaires à Premières Lignes"
   mediaUrl: "https://www.thinkerview.com/podcast-download/30925/pierre-conesa-comment-arrive-t-on-a-la-guerre.mp3"
@@ -399,7 +387,6 @@
       storeUrl: "https://www.lepoint.fr/journalistes-du-point/kamel-daoud"
 - title: "Crash des médias\_? Crash des journalistes\_?"
   link: "https://www.thinkerview.com/paul-moreira-et-edwy-plenel-crash-des-medias-crash-des-journalistes/"
-  pubDate: "Wed, 23 Feb 2022 08:25:00 +0000"
   category: ["Médias"]
   description: "Paul Moreira : Journaliste et réalisateur de documentaires à Premières Lignes Edwy Plenel : Journaliste,..."
   # extends
@@ -436,7 +423,6 @@
       storeUrl: https://www.amazon.fr/M%C3%A9moires-vives-Edward-Snowden/dp/275788607X/
 - title: "L’emprise, la France sous influence\_?"
   link: "https://www.thinkerview.com/marc-endeweld-lemprise-la-france-sous-influence/"
-  pubDate: "Thu, 17 Feb 2022 19:04:00 +0000"
   category: ["Médias","Société"]
   description: "Journaliste d&#8217;investigation."
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Marc_Endeweld_L_Emprise_La_France_Sous_Influence.mp3"
@@ -465,7 +451,6 @@
       storeUrl: https://www.amazon.fr/guerre-m%C3%A9taux-rares-transition-%C3%A9nerg%C3%A9tique/dp/B07577TH97/
 - title: "Éviter l’effondrement\_?"
   link: "https://www.thinkerview.com/jean-marc-jancovici-et-laurent-morel-eviter-leffondrement/"
-  pubDate: "Wed, 09 Feb 2022 08:20:00 +0000"
   category: ["Energie","Climat"]
   description: "Jean-Marc Jancovici: polytechnicien, président de The Shift Project Laurent Morel: ingénieur, entrepreneur, membre de Carbone..."
   # extends
@@ -505,7 +490,6 @@
       storeUrl: https://www.amazon.fr/Malevil-Robert-Merle/dp/2070374440/
 - title: "La France face à la nouvelle mondialisation\_?"
   link: "https://www.thinkerview.com/geoffroy-roux-de-bezieux-la-france-face-a-la-nouvelle-mondialisation/"
-  pubDate: "Thu, 27 Jan 2022 12:31:00 +0000"
   category: ["Société"]
   description: "Président du MEDEF."
   # extends
@@ -519,7 +503,6 @@
   books:
 - title: "L’effondrement, le point critique\_?"
   link: "https://www.thinkerview.com/aurore-stephant-leffondrement-le-point-critique/"
-  pubDate: "Tue, 25 Jan 2022 14:42:00 +0000"
   category: ["Energie","Climat","Environnement"]
   description: "Ingénieure géologue minier, spécialisée dans les risques environnementaux et sanitaires des filières minérales."
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Aurore_Stephant__L_Effondrement_Le_Point_Critique.mp3"
@@ -534,7 +517,6 @@
   books:
 - title: "Où va la France, Partie1\_?"
   link: "https://www.thinkerview.com/jean-luc-melenchon-ou-va-la-france/"
-  pubDate: "Fri, 21 Jan 2022 20:58:56 +0000"
   category: ["Energie","Climat","Environnement","Société","Sciences"]
   description: "Député France Insoumise, candidat à l&#8217;élection présidentielle 2022."
   # extends
@@ -548,7 +530,6 @@
   books:
 - title: "L’art de la guerre et du commandement\_?"
   link: "https://www.thinkerview.com/loic-finaz-lart-de-la-guerre-et-du-commandement/"
-  pubDate: "Tue, 11 Jan 2022 16:03:00 +0000"
   category: ["Géopolitique"]
   description: "Vice-Amiral, ex-directeur de l&#8217;Ecole de guerre. Thinkerview diffusé en direct le 11 janvier 2022."
   # extends
@@ -562,7 +543,6 @@
   books:
 - title: "Science et société, où va-t-on\_?"
   link: "https://www.thinkerview.com/etienne-klein-science-et-societe-ou-va-t-on/"
-  pubDate: "Mon, 13 Dec 2021 08:53:21 +0000"
   category: ["Sciences"]
   description: "Physicien, directeur de recherche au CEA."
   # extends
@@ -576,7 +556,6 @@
   books:
 - title: "Militarisation de la langue\_?"
   link: "https://www.thinkerview.com/clement-viktorovitch-militarisation-de-la-langue/"
-  pubDate: "Sat, 04 Dec 2021 00:22:59 +0000"
   category: ["Philosophie","Société"]
   description: "Professeur de rhétorique, docteur en science politique."
   # extends
@@ -590,7 +569,6 @@
   books:
 - title: "Désamorcer notre impuissance politique\_?"
   link: "https://www.thinkerview.com/eric-sadin-desamorcer-notre-impuissance-politique/"
-  pubDate: "Mon, 22 Nov 2021 21:29:00 +0000"
   category: ["Philosophie","Société"]
   description: "Écrivain et philosophe."
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Eric_Sadin_Desamorcer_Notre_Impuissance_Politique.mp3"
@@ -605,7 +583,6 @@
   books:
 - title: "Julian Assange, torture made in Europe\_?"
   link: "https://www.thinkerview.com/john-shipton-julian-assange-torture-made-in-europe-vo/"
-  pubDate: "Mon, 15 Nov 2021 22:52:00 +0000"
   category: ["Géopolitique","Internet / Technologies","Médias","Société","Terrorisme"]
   description: "Père de Julian Assange."
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/John_Shipton_Julian_Assange_Torture_Made_In_Europe.mp3"
@@ -624,7 +601,6 @@
   books:
 - title: "De la récession à la crypto\_?"
   link: "https://www.thinkerview.com/raphael-rossello-et-owen-simonin-de-la-recession-a-la-crypto/"
-  pubDate: "Thu, 11 Nov 2021 17:17:24 +0000"
   category: ["Finance","Société"]
   description: "Raphaël Rossello : banquier d’affaire. Owen Simonin : entrepreneur, spécialiste des cryptomonnaies."
   # extends
@@ -639,7 +615,6 @@
   books:
 - title: "Réindustrialisation, reprendre son autonomie\_?"
   link: "https://www.thinkerview.com/anais-voy-gillis-reindustrialisation-reprendre-son-autonomie/"
-  pubDate: "Mon, 01 Nov 2021 08:26:16 +0000"
   category: ["Société"]
   description: "Docteure en géographie de l&#8217;Institut Français de Géopolitique."
   # extends
@@ -653,7 +628,6 @@
   books:
 - title: "Où va la France\_?"
   link: "https://www.thinkerview.com/eric-zemmour-ou-va-la-france/"
-  pubDate: "Sat, 23 Oct 2021 19:41:35 +0000"
   category: ["Société"]
   description: "Thinkerview diffusé en direct le 20 oct. 2021"
   # extends
@@ -667,7 +641,6 @@
   books:
 - title: "Journaliste sous les balles\_?"
   link: "https://www.thinkerview.com/regis-le-sommier-journaliste-sous-les-balles/"
-  pubDate: "Fri, 15 Oct 2021 01:08:10 +0000"
   category: ["Géopolitique","Médias"]
   description: "Thinkerview diffusé en direct le 12 octobre 2021"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Regis_Le_Sommier_Journaliste_Sous_Les_Balles.mp3"
@@ -682,7 +655,6 @@
   books:
 - title: "La Finance destructrice de démocratie\_?"
   link: "https://www.thinkerview.com/georges-ugeux-la-finance-destructrice-de-democratie/"
-  pubDate: "Wed, 06 Oct 2021 13:39:00 +0000"
   category: ["Finance","Société"]
   description: "Thinkerview diffusé en direct le 6 octobre 2021"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Georges_Ugeux_La_Finance_Destructrice_De_Democratie.mp3"
@@ -697,7 +669,6 @@
   books:
 - title: "Le hacking au XXIe siècle\_?"
   link: "https://www.thinkerview.com/zax-et-doomer-le-hacking-au-xxie-siecle/"
-  pubDate: "Fri, 24 Sep 2021 10:59:18 +0000"
   category: ["Internet / Technologies"]
   description: "Thinkerview diffusé en direct le 24 septembre 2021"
   # extends
@@ -712,7 +683,6 @@
   books:
 - title: "Ambassadeur de Chine sans filtre\_?"
   link: "https://www.thinkerview.com/lu-shaye-ambassadeur-de-chine-sans-filtre/"
-  pubDate: "Wed, 22 Sep 2021 10:58:13 +0000"
   category: ["Géopolitique","Société"]
   description: "Thinkerview diffusé en direct le 22 septembre 2021"
   # extends
@@ -726,7 +696,6 @@
   books:
 - title: "La fin de la guerre classique\_?"
   link: "https://www.thinkerview.com/alain-juillet-la-fin-de-la-guerre-classique/"
-  pubDate: "Thu, 09 Sep 2021 11:31:19 +0000"
   category: ["Géopolitique"]
   description: "Thinkerview diffusé en direct le 9 septembre 2021"
   # extends
@@ -740,7 +709,6 @@
   books:
 - title: "Le rapport qui annonce l’apocalypse\_?"
   link: "https://www.thinkerview.com/le-rapport-qui-annonce-lapocalypse-valerie-masson-delmotte-et-pierre-larrouturou/"
-  pubDate: "Wed, 08 Sep 2021 11:29:45 +0000"
   category: ["Energie","Climat","Géopolitique","Environnement","Sciences"]
   description: "Valérie Masson-Delmotte : vice-présidente du GIEC, paléoclimatologue. Pierre Larrouturou : député européen, rapporteur au budget."
   # extends
@@ -755,7 +723,6 @@
   books:
 - title: "Pas de prison pour les grands escrocs\_?"
   link: "https://www.thinkerview.com/renaud-van-ruymbeke-pas-de-prison-pour-les-grands-escrocs/"
-  pubDate: "Tue, 06 Jul 2021 15:35:50 +0000"
   category: ["Société"]
   description: "Thinkerview Diffusée en direct le 6 juillet 2021"
   # extends
@@ -769,7 +736,6 @@
   books:
 - title: "66% d’abstention, la grande confusion\_?"
   link: "https://www.thinkerview.com/philippe-corcuff-66-dabstention-la-grande-confusion/"
-  pubDate: "Wed, 23 Jun 2021 09:40:08 +0000"
   category: ["Médias","Société"]
   description: "Thinkerview diffusé en direct le 23 juin 2021"
   # extends
@@ -783,7 +749,6 @@
   books:
 - title: "Pass sanitaire, géopolitique de la Data, copie privée\_?"
   link: "https://www.thinkerview.com/benjamin-bayart-et-marc-rees-pass-sanitaire-geopolitique-de-la-data-copie-privee/"
-  pubDate: "Tue, 15 Jun 2021 12:17:44 +0000"
   category: ["Internet / Technologies"]
   description: "Thinkerview diffusé en direct le 15 juin 2021"
   # extends
@@ -798,7 +763,6 @@
   books:
 - title: "La satire avant la guerre\_?"
   link: "https://www.thinkerview.com/bruno-gaccio-la-satire-avant-la-guerre/"
-  pubDate: "Thu, 10 Jun 2021 09:22:33 +0000"
   category: ["Médias"]
   description: "Thinkerview diffusé en direct le 10 juin 2021"
   # extends
@@ -812,7 +776,6 @@
   books:
 - title: "Militaires en colère\_?"
   link: "https://www.thinkerview.com/henri-bentegeat-militaires-en-colere/"
-  pubDate: "Thu, 03 Jun 2021 09:05:03 +0000"
   category: ["Géopolitique"]
   description: "Thinkerview diffusé en direct le 3 juin 2021"
   # extends
@@ -826,7 +789,6 @@
   books:
 - title: "Géopolitique, Le désastre Français\_?"
   link: "https://www.thinkerview.com/hubert-vedrine-geopolitique-le-desastre-francais/"
-  pubDate: "Wed, 26 May 2021 15:17:29 +0000"
   category: ["Géopolitique"]
   description: "Thinkerview diffusé en direct le 26 mai 2021"
   # extends
@@ -840,7 +802,6 @@
   books:
 - title: "Philippe de Villiers, sans filtre\_?"
   link: "https://www.thinkerview.com/philippe-de-villiers-sans-filtre/"
-  pubDate: "Wed, 19 May 2021 13:51:56 +0000"
   category: ["Société"]
   description: "Thinkerview diffusé en direct le 19 mai 2021"
   # extends
@@ -854,7 +815,6 @@
   books:
 - title: "Au coeur des soulèvements\_?"
   link: "https://www.thinkerview.com/gaspard-glanz-au-coeur-des-soulevements/"
-  pubDate: "Tue, 18 May 2021 13:51:48 +0000"
   category: ["Médias","Société"]
   description: "Thinkerview diffusé en direct le 18 mai 2021"
   # extends
@@ -868,7 +828,6 @@
   books:
 - title: "Démocratie, Épiphénomène historique, sécession des élites\_?"
   link: "https://www.thinkerview.com/barbara-stiegler-democratie-epiphenomene-historique-secession-des-elites/"
-  pubDate: "Fri, 30 Apr 2021 14:23:53 +0000"
   category: ["Philosophie","Géopolitique","Société"]
   description: "Thinkerview diffusé en direct le 30 avril 2021"
   # extends
@@ -882,7 +841,6 @@
   books:
 - title: "Covid\_: aux origines du mal\_?"
   link: "https://www.thinkerview.com/brice-perrier-covid-aux-origines-du-mal/"
-  pubDate: "Thu, 29 Apr 2021 14:20:32 +0000"
   category: ["Société","Sciences"]
   description: "Thinkerview diffusé en direct le 29 avril 2021"
   # extends
@@ -896,7 +854,6 @@
   books:
 - title: "Les radicalismes religieux et le Lobby Saoudien en France\_?"
   link: "https://www.thinkerview.com/pierre-conesa-les-radicalismes-religieux-et-le-lobby-saoudien-en-france/"
-  pubDate: "Fri, 16 Apr 2021 07:33:53 +0000"
   category: ["Géopolitique","Terrorisme"]
   description: "Thinkerview diffusé en direct le 16 avril 2021"
   # extends
@@ -910,7 +867,6 @@
   books:
 - title: "Désinformation en temps d’épidémie\_?"
   link: "https://www.thinkerview.com/renaud-piarroux-desinformation-en-temps-depidemie/"
-  pubDate: "Fri, 09 Apr 2021 12:40:03 +0000"
   category: ["Géopolitique","Sciences"]
   description: "Thinkerview diffusé en direct le 9 avril 2021"
   # extends
@@ -924,7 +880,6 @@
   books:
 - title: "Crise gigantesque en approche\_?"
   link: "https://www.thinkerview.com/gilles-raveaud-crise-gigantesque-en-approche/"
-  pubDate: "Thu, 01 Apr 2021 14:16:52 +0000"
   category: ["Finance"]
   description: "Thinkerview diffusé en direct le 1er avril 2021"
   # extends
@@ -938,7 +893,6 @@
   books:
 - title: "France, Corruption à tous les étages\_?"
   link: "https://www.thinkerview.com/elise-van-beneden-france-corruption-a-tous-les-etages/"
-  pubDate: "Wed, 17 Mar 2021 10:19:49 +0000"
   category: ["Politique"]
   description: "Thinkerview diffusé en direct le 17 mars 2021"
   # extends
@@ -952,7 +906,6 @@
   books:
 - title: "Le bouffon du Roi\_?"
   link: "https://www.thinkerview.com/guillaume-meurice-le-bouffon-du-roi/"
-  pubDate: "Thu, 11 Mar 2021 17:31:45 +0000"
   category: ["Société"]
   description: "Thinkerview diffusé en direct le 11 mars 2021"
   # extends
@@ -966,7 +919,6 @@
   books:
 - title: "Banquier d’affaires face aux crises\_?"
   link: "https://www.thinkerview.com/raphael-rossello-banquier-daffaires-face-aux-crises/"
-  pubDate: "Thu, 04 Mar 2021 17:31:37 +0000"
   category: ["Finance"]
   description: "Thinkerview diffusé en direct le 4 mars 2021"
   # extends
@@ -980,7 +932,6 @@
   books:
 - title: "La France en cours de tiers-mondisation\_?"
   link: "https://www.thinkerview.com/yves-jego-la-france-en-cours-de-tiers-mondisation/"
-  pubDate: "Wed, 10 Feb 2021 12:17:00 +0000"
   category: ["Société"]
   description: "Thinkerview diffusé en direct le 10 févr. 2021"
   # extends
@@ -994,7 +945,6 @@
   books:
 - title: "50 ans d’Utopie\_?"
   link: "https://www.thinkerview.com/yann-arthus-bertrand-50-ans-dutopie/"
-  pubDate: "Thu, 04 Feb 2021 13:21:00 +0000"
   category: ["Climat","Environnement"]
   description: "Thinkerview diffusé en direct le 4 févr. 2021"
   # extends
@@ -1008,7 +958,6 @@
   books:
 - title: "COVID 19, La faillite occidentale\_?"
   link: "https://www.thinkerview.com/renaud-piarroux-covid-19-la-faillite-occidentale/"
-  pubDate: "Fri, 29 Jan 2021 13:15:00 +0000"
   category: ["Environnement","Société","Sciences"]
   description: "Thinkerview diffusé en direct le 29 janv. 2021"
   # extends
@@ -1022,7 +971,6 @@
   books:
 - title: "En route vers la dictature\_?"
   link: "https://www.thinkerview.com/christophe-deloire-en-route-vers-la-dictature/"
-  pubDate: "Thu, 21 Jan 2021 16:14:36 +0000"
   category: ["Médias","Société"]
   description: "Thinkerview diffusé en direct le 21 janv. 2021"
   # extends
@@ -1036,7 +984,6 @@
   books:
 - title: "La Justice face aux Politiques, aux terroristes\_?"
   link: "https://www.thinkerview.com/beatrice-brugere-la-justice-face-aux-politiques-aux-terroristes/"
-  pubDate: "Fri, 15 Jan 2021 16:14:00 +0000"
   category: ["Médias","Terrorisme","Société"]
   description: "Thinkerview diffusé en direct le 15 janv. 2021"
   # extends
@@ -1050,7 +997,6 @@
   books:
 - title: "Partout où nécessité fait loi\_?"
   link: "https://www.thinkerview.com/cedric-herrou-partout-ou-necessite-fait-loi/"
-  pubDate: "Thu, 17 Dec 2020 22:58:00 +0000"
   category: ["Société"]
   description: "Thinkerview diffusé en direct le 17 déc. 2020"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Cedric_Herrou_Partout_Ou_Necessite_Fait_Loi.mp3"
@@ -1065,7 +1011,6 @@
   books:
 - title: "La police en déconfiture\_?"
   link: "https://www.thinkerview.com/alexandre-langlois-et-noam-anouar-la-police-en-deconfiture/"
-  pubDate: "Tue, 08 Dec 2020 17:24:00 +0000"
   category: ["Terrorisme","Société"]
   description: "Thinkerview diffusé en direct le 8 décembre 2020"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Alexandre_Langlois_Et_Noam_Anouar_La_Police_En_Deconfiture.mp3"
@@ -1081,7 +1026,6 @@
   books:
 - title: "Journalisme de façade, de cour, de trottoir\_?"
   link: "https://www.thinkerview.com/julia-cage-journalisme-de-facade-de-cour-de-trottoir/"
-  pubDate: "Tue, 08 Dec 2020 14:22:00 +0000"
   category: ["Climat","Finance","Environnement","Société"]
   description: "Thinkerview diffusé en direct le 8 décembre 2020"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Julia_Cage_Journalisme_De_Facade_De_Cour_De_Trottoir.mp3"
@@ -1096,7 +1040,6 @@
   books:
 - title: "L’espion qui nous veut du bien\_?"
   link: "https://www.thinkerview.com/marc-eichinger-lespion-qui-nous-veut-du-bien/"
-  pubDate: "Tue, 01 Dec 2020 21:54:00 +0000"
   category: ["Géopolitique","Terrorisme"]
   description: "Thinkerview diffusé en direct le 1 décembre 2020"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Marc_Eichinger_L_Espion_Qui_Nous_Veut_Du_Bien.mp3"
@@ -1111,7 +1054,6 @@
   books:
 - title: "France, réveiller nos vieux démons\_?"
   link: "https://www.thinkerview.com/arnaud-montebourg-france-reveiller-nos-vieux-demons/"
-  pubDate: "Wed, 18 Nov 2020 12:19:00 +0000"
   category: ["Energie","Géopolitique","Finance","Médias","Société"]
   description: "Thinkerview diffusé en direct le 18 novembre 2020"
   mediaUrl:
@@ -1126,7 +1068,6 @@
   books:
 - title: "Le Covid, les fake news, les journalistes\_?"
   link: "https://www.thinkerview.com/noel-mamere-le-covid-les-fake-news-les-journalistes/"
-  pubDate: "Thu, 12 Nov 2020 13:54:00 +0000"
   category: ["Environnement","Société"]
   description: "Thinkerview diffusé en direct le 12 novembre 2020"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Noel_Mamere_Le_Covid_Les_Fake_News_Les_Journalistes.mp3"
@@ -1141,7 +1082,6 @@
   books:
 - title: "L’État démissionnaire\_?"
   link: "https://www.thinkerview.com/anne-laure-kiechel-letat-demissionnaire/"
-  pubDate: "Fri, 06 Nov 2020 11:47:00 +0000"
   category: ["Géopolitique","Finance","Société"]
   description: "Thinkerview diffusé en direct le 9 novembre 2020"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Anne_Laure_Kiechel_L_Etat_Demissionnaire.mp3"
@@ -1156,7 +1096,6 @@
   books:
 - title: "Nager avec les requins\_?"
   link: "https://www.thinkerview.com/denis-robert-nager-avec-les-requins/"
-  pubDate: "Thu, 29 Oct 2020 12:31:00 +0000"
   category: ["Médias"]
   description: "Thinkerview diffusé en direct le 29 octobre 2020"
   mediaUrl:
@@ -1171,7 +1110,6 @@
   books:
 - title: "Le futur, entre 5G et Amish\_?"
   link: "https://www.thinkerview.com/nicolas-meilhan-et-philippe-bihouix-le-futur-entre-5g-et-amish/"
-  pubDate: "Wed, 14 Oct 2020 18:00:54 +0000"
   category: ["Energie","Climat","Environnement"]
   description: "Thinkerview diffusé en direct le 14 octobre 2020"
   mediaUrl:
@@ -1187,7 +1125,6 @@
   books:
 - title: "Adieu les cons, transhumance suicidaire\_?"
   link: "https://www.thinkerview.com/albert-dupontel-adieu-les-cons-transhumance-suicidaire/"
-  pubDate: "Wed, 14 Oct 2020 10:00:40 +0000"
   category: ["Arts","Géopolitique","Finance","Médias","Société"]
   description: "Thinkerview diffusé en direct le 14 octobre 2020"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Adieu_Les_Cons_Transhumance_Suicidaire_Albert_Dupontel.mp3"
@@ -1202,7 +1139,6 @@
   books:
 - title: "La fin d’un monde commun\_?"
   link: "https://www.thinkerview.com/eric-sadin-la-fin-dun-monde-commun/"
-  pubDate: "Tue, 06 Oct 2020 18:01:00 +0000"
   category: ["Philosophie","Société"]
   description: "Thinkerview diffusé en direct le 6 octobre 2020"
   mediaUrl:
@@ -1217,7 +1153,6 @@
   books:
 - title: "Chaos économique, blanchiment bancaire\_?"
   link: "https://www.thinkerview.com/gael-giraud-chaos-economique-blanchiment-bancaire/"
-  pubDate: "Fri, 25 Sep 2020 22:05:59 +0000"
   category: ["Climat","Géopolitique","Finance","Environnement"]
   description: "Thinkerview diffusé en direct le 25 septembre 2020"
   mediaUrl:
@@ -1232,7 +1167,6 @@
   books:
 - title: "Les sangsues de la République\_?"
   link: "https://www.thinkerview.com/isabelle-saporta-les-sangsues-de-la-republique/"
-  pubDate: "Thu, 17 Sep 2020 13:42:00 +0000"
   category: ["Environnement","Société"]
   description: "Thinkerview diffusé en direct le 17 septembre 2020"
   mediaUrl:
@@ -1247,7 +1181,6 @@
   books:
 - title: "Crise économique, débats interdits en France\_?"
   link: "https://www.thinkerview.com/jean-paul-fitoussi-crise-economique-debats-interdits-en-france/"
-  pubDate: "Mon, 14 Sep 2020 14:55:20 +0000"
   category: ["Finance"]
   description: "Thinkerview diffusé en direct le 10 septembre 2020"
   mediaUrl:
@@ -1262,7 +1195,6 @@
   books:
 - title: "Souveraineté numérique, la douche froide\_?"
   link: "https://www.thinkerview.com/tariq-krim-et-bernard-benhamou-souverainete-numerique-la-douche-froide/"
-  pubDate: "Fri, 17 Jul 2020 08:00:00 +0000"
   category: ["Internet / Technologies"]
   description: "Thinkerview diffusé en direct le 17 juillet 2020"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Tariq_Krim_Et_Bernard_Benhamou_Souverainete_Numerique_La_Douche_Froide.mp3"
@@ -1278,7 +1210,6 @@
   books:
 - title: "Où en est la France\_?"
   link: "https://www.thinkerview.com/michel-onfray-ou-en-est-la-france/"
-  pubDate: "Fri, 17 Jul 2020 06:55:00 +0000"
   category: ["Société"]
   description: "Thinkerview diffusé en direct le 17 juillet 2020"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Michel_Onfray_Ou_en_Est_La_France.mp3"
@@ -1293,7 +1224,6 @@
   books:
 - title: "L’espion, le Covid et le truand\_?"
   link: "https://www.thinkerview.com/maxime-renahy-lespion-le-covid-et-le-truand/"
-  pubDate: "Fri, 03 Jul 2020 15:14:30 +0000"
   category: ["Finance"]
   description: "Thinkerview diffusé en direct le 1er juillet 2020"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Maxime_Renahy_L_Espion_Le_Covid_Et_Le_Truand.mp3"
@@ -1308,7 +1238,6 @@
   books:
 - title: "Économie sous perfusion, les risques\_?"
   link: "https://www.thinkerview.com/olivier-delamarche-economie-sous-perfusion-les-risques/"
-  pubDate: "Thu, 18 Jun 2020 14:29:00 +0000"
   category: ["Finance","Société"]
   description: "Thinkerview diffusé en direct le 18 Juin 2020"
   mediaUrl:
@@ -1323,7 +1252,6 @@
   books:
 - title: "Solidité du système financier et des retraites\_?"
   link: "https://www.thinkerview.com/f-x-selleret-et-p-sabatier-solidite-du-systeme-financier-et-des-retraites/"
-  pubDate: "Wed, 17 Jun 2020 14:18:00 +0000"
   category: ["Finance","Société"]
   description: "Thinkerview diffusé en direct le 17 Juin 2020"
   mediaUrl:
@@ -1338,7 +1266,6 @@
   books:
 - title: "Choc économique, Perspectives alternatives\_?"
   link: "https://www.thinkerview.com/isabelle-delannoy-choc-economique-perspectives-alternatives/"
-  pubDate: "Fri, 05 Jun 2020 09:19:11 +0000"
   category: ["Climat","Société","Sciences"]
   description: "Thinkerview diffusé en direct le 3 Juin 2020"
   mediaUrl:
@@ -1353,7 +1280,6 @@
   books:
 - title: "DataGueule: Un monde malade, quelles sont les pistes\_?"
   link: "https://www.thinkerview.com/datagueule-un-monde-malade-quelles-sont-les-pistes/"
-  pubDate: "Fri, 05 Jun 2020 09:17:24 +0000"
   category: ["Géopolitique","Société"]
   description: "Thinkerview diffusé en direct le 3 Juin 2020"
   mediaUrl:
@@ -1369,7 +1295,6 @@
   books:
 - title: "COVID-19, panique sociale, scientifique et politique\_?"
   link: "https://www.thinkerview.com/philippe-douste-blazy-covid-19-panique-sociale-scientifique-et-politique/"
-  pubDate: "Fri, 05 Jun 2020 09:08:40 +0000"
   category: ["Société","Sciences"]
   description: "Thinkerview diffusé en direct le 27 Mai 2020"
   mediaUrl:
@@ -1384,7 +1309,6 @@
   books:
 - title: "COVID-19, Crise financière, Chine, Menace sur la France."
   link: "https://www.thinkerview.com/christian-harbulot-covid-19-crise-financiere-chine-menace-sur-la-france/"
-  pubDate: "Fri, 05 Jun 2020 09:06:18 +0000"
   category: ["Géopolitique","Société"]
   description: "Thinkerview diffusé en direct le 20 Mai 2020"
   mediaUrl:
@@ -1399,7 +1323,6 @@
   books:
 - title: "Insurrections, Espions, COVID-19, Crise mondiales"
   link: "https://www.thinkerview.com/bernard-squarcini-insurrections-espions-covid-19-crise-mondiales/"
-  pubDate: "Fri, 05 Jun 2020 09:03:24 +0000"
   category: ["Géopolitique", "Société"]
   description: "Thinkerview diffusé en direct le 15 Mai 2020"
   mediaUrl:
@@ -1425,7 +1348,6 @@
       storeUrl: "https://www.amazon.fr/fil-l%C3%A9p%C3%A9e-Charles-GAULLE/dp/2262050201"
 - title: "Migrants/Réfugiés, le grand scandale\_?"
   link: "https://www.thinkerview.com/jean-ziegler-migrants-refugies-le-grand-scandale/"
-  pubDate: "Thu, 04 Jun 2020 12:34:53 +0000"
   category: ["Climat","Géopolitique","Société"]
   description: "Thinkerview diffusé en direct le 3 Mars 2020"
   mediaUrl:
@@ -1440,7 +1362,6 @@
   books:
 - title: "Collapsologie, anxiété et dépression\_?"
   link: "https://www.thinkerview.com/vf-glenn-albrecht-collapsologie-anxiete-et-depression/"
-  pubDate: "Fri, 28 Feb 2020 15:29:00 +0000"
   category: ["Energie","Climat"]
   description: "Thinkerview diffusé en direct le 1er Mars 2020"
   mediaUrl:
@@ -1459,7 +1380,6 @@
   books:
 - title: "Général 5 étoiles face à la bombe nucléaire\_?"
   link: "https://www.thinkerview.com/bernard-norlain-general-5-etoiles-face-a-la-bombe-nucleaire/"
-  pubDate: "Mon, 24 Feb 2020 13:35:00 +0000"
   category: ["Géopolitique"]
   description: "Thinkerview diffusé en direct le 24 février 2020"
   mediaUrl:
@@ -1474,7 +1394,6 @@
   books:
 - title: "Les politiques, l’important c’est pas la chute\_?"
   link: "https://www.thinkerview.com/virginie-martin-les-politiques-limportant-cest-pas-la-chute-2/"
-  pubDate: "Tue, 04 Feb 2020 12:08:00 +0000"
   category: ["Finance","Société"]
   description: "Thinkerview diffusé en direct le 4 février 2020"
   mediaUrl:
@@ -1489,7 +1408,6 @@
   books:
 - title: "La religion de la croissance économique?"
   link: "https://www.thinkerview.com/delphine-batho-la-religion-de-la-croissance-economique/"
-  pubDate: "Wed, 29 Jan 2020 12:42:00 +0000"
   category: ["Climat","Environnement"]
   description: "Thinkerview diffusé en direct le 29 janvier 2020."
   mediaUrl:
@@ -1504,7 +1422,6 @@
   books:
 - title: "Reflets + Extra-Muros, Radars, un pognon de dingue\_?"
   link: "https://www.thinkerview.com/reflets-extra-muros-radars-un-pognon-de-dingue/"
-  pubDate: "Fri, 10 Jan 2020 11:29:00 +0000"
   category: ["Médias"]
   description: "Thinkerview diffusé en direct le 10 janvier 2020"
   mediaUrl:
@@ -1521,7 +1438,6 @@
   books:
 - title: "Humour, pensée formatée et politiquement correct\_?"
   link: "https://www.thinkerview.com/thomas-wiesel-humour-pensee-formatee-et-politiquement-correct/"
-  pubDate: "Tue, 07 Jan 2020 18:22:00 +0000"
   category: ["Société"]
   description: "Thinkerview diffusé en direct le 7 janvier 2020"
   mediaUrl:
@@ -1536,7 +1452,6 @@
   books:
 - title: "Macron, les réseaux secrets\_?"
   link: "https://www.thinkerview.com/marc-endeweld-macron-les-reseaux-secrets/"
-  pubDate: "Thu, 19 Dec 2019 18:23:00 +0000"
   category: ["Géopolitique","Société"]
   description: "Thinkerview diffusé en direct le 19 décembre 2019"
   mediaUrl:
@@ -1551,7 +1466,6 @@
   books:
 - title: "L’enfumage de la transition écologique\_?"
   link: "https://www.thinkerview.com/guillaume-pitron-lenfumage-de-la-transition-ecologique/"
-  pubDate: "Wed, 18 Dec 2019 18:23:00 +0000"
   category: ["Climat"]
   description: "Thinkerview diffusé en direct le 18 décembre 2019"
   mediaUrl:
@@ -1566,7 +1480,6 @@
   books:
 - title: "Guerre économique, surveillance de masse\_?"
   link: "https://www.thinkerview.com/cedric-o-guerre-economique-surveillance-de-masse/"
-  pubDate: "Thu, 12 Dec 2019 18:24:00 +0000"
   category: ["Internet / Technologies"]
   description: "Thinkerview diffusé en direct le 12 décembre 2019"
   mediaUrl:
@@ -1581,7 +1494,6 @@
   books:
 - title: "Propagande et contre-propagande\_?"
   link: "https://www.thinkerview.com/christophe-stalla-bourdillon-propagande-et-contre-propagande/"
-  pubDate: "Tue, 26 Nov 2019 18:00:00 +0000"
   category: ["Géopolitique","Société"]
   description: "Thinkerview diffusé en direct le 26 novembre 2019"
   mediaUrl:
@@ -1596,7 +1508,6 @@
   books:
 - title: "Crise de la masculinité\_?"
   link: "https://www.thinkerview.com/francis-dupuis-deri-crise-de-la-masculinite/"
-  pubDate: "Thu, 21 Nov 2019 17:21:00 +0000"
   category: ["Société"]
   description: "Thinkerview diffusé en direct le 21 novembre 2019"
   mediaUrl:
@@ -1611,7 +1522,6 @@
   books:
 - title: "Camisole numérique pour votre bien\_?"
   link: "https://www.thinkerview.com/gilles-babinet-camisole-numerique-pour-votre-bien/"
-  pubDate: "Thu, 14 Nov 2019 17:24:00 +0000"
   category: ["Internet / Technologies"]
   description: "Thinkerview diffusé en direct le 14 novembre 2019"
   mediaUrl:
@@ -1626,7 +1536,6 @@
   books:
 - title: "L’agroalimentaire vu de l’intérieur, intoxication\_?"
   link: "https://www.thinkerview.com/christophe-brusset-lagroalimentaire-vu-de-linterieur-intoxication/"
-  pubDate: "Thu, 07 Nov 2019 17:27:00 +0000"
   category: ["Environnement","Société"]
   description: "Thinkerview diffusé en direct le 7 novembre 2019"
   mediaUrl:
@@ -1641,7 +1550,6 @@
   books:
 - title: "Europe, dictature technocratique\_?"
   link: "https://www.thinkerview.com/costa-gavras-europe-dictature-technocratique/"
-  pubDate: "Mon, 04 Nov 2019 19:20:00 +0000"
   category: ["Société"]
   description: "Thinkerview diffusé en direct le 4 novembre 2019"
   mediaUrl:
@@ -1656,7 +1564,6 @@
   books:
 - title: "Clientélisme politique et Moyen-Orient."
   link: "https://www.thinkerview.com/agnes-levallois-et-pierre-conesa-clientelisme-politique-et-moyen-orient/"
-  pubDate: "Thu, 24 Oct 2019 18:06:54 +0000"
   category: ["Géopolitique","Terrorisme"]
   description: "Thinkerview diffusé en direct le 24 octobre 2019"
   mediaUrl:
@@ -1672,7 +1579,6 @@
   books:
 - title: "Médias, les nouveaux GUIGNOLS\_?"
   link: "https://www.thinkerview.com/bruno-gaccio-medias-les-nouveaux-guignols/"
-  pubDate: "Wed, 16 Oct 2019 18:43:11 +0000"
   category: ["Médias"]
   description: "Thinkerview diffusé en direct le 16 octobre 2019"
   mediaUrl:
@@ -1687,7 +1593,6 @@
   books:
 - title: "L’explosion des banques\_?"
   link: "https://www.thinkerview.com/christophe-nijdam-jerome-cazes-lexplosion-des-banques/"
-  pubDate: "Wed, 09 Oct 2019 18:31:49 +0000"
   category: ["Finance"]
   description: "Thinkerview diffusé en direct le 9 octobre 2019"
   mediaUrl:
@@ -1703,7 +1608,6 @@
   books:
 - title: "GIEC, Le climat survivra-t-il au capitalisme\_?"
   link: "https://www.thinkerview.com/jouzel-larrouturou-giec-le-climat-survivra-t-il-au-capitalisme/"
-  pubDate: "Fri, 27 Sep 2019 17:00:33 +0000"
   category: ["Climat"]
   description: "Thinkerview diffusé en direct le 27 septembre 2019"
   mediaUrl:
@@ -1719,7 +1623,6 @@
   books:
 - title: "Un prix Nobel face au krach à venir\_?"
   link: "https://www.thinkerview.com/joseph-stiglitz-un-prix-nobel-face-au-krach-a-venir/"
-  pubDate: "Wed, 25 Sep 2019 17:32:49 +0000"
   category: ["Climat","Finance","Société"]
   description: "Thinkerview diffusé en direct le 25 septembre 2019"
   mediaUrl:
@@ -1735,7 +1638,6 @@
   books:
 - title: "DGSE, Face à la réalité\_? Beryl614 Talk with a spy"
   link: "https://www.thinkerview.com/dgse-face-a-la-realite-beryl614-talk-with-a-spy/"
-  pubDate: "Fri, 20 Sep 2019 18:00:00 +0000"
   category: ["Géopolitique"]
   description: "Thinkerview diffusé en direct le 20 septembre 2019"
   mediaUrl:
@@ -1750,7 +1652,6 @@
   books:
 - title: "Guerre économique sans pitié pour la France\_?"
   link: "https://www.thinkerview.com/olivier-marleix-guerre-economique-sans-pitie-pour-la-france/"
-  pubDate: "Tue, 17 Sep 2019 18:00:14 +0000"
   category: ["Géopolitique","Finance"]
   description: ""
   mediaUrl:
@@ -1765,7 +1666,6 @@
   books:
 - title: "La France en danger: où en est le renseignement\_?"
   link: "https://www.thinkerview.com/eric-denece-la-france-en-danger-ou-en-est-le-renseignement/"
-  pubDate: "Wed, 11 Sep 2019 18:00:20 +0000"
   category: ["Géopolitique"]
   description: "Thinkerview diffusé en direct le 11 septembre 2019"
   mediaUrl:
@@ -1780,7 +1680,6 @@
   books:
 - title: "Football, du pain, des jeux et des magouilles\_?"
   link: "https://www.thinkerview.com/vikash-dhorasoo-football-du-pain-des-jeux-et-des-magouilles/"
-  pubDate: "Thu, 05 Sep 2019 18:00:00 +0000"
   category: ["Société"]
   description: "Thinkerview diffusé en direct le 5 septembre 2019"
   mediaUrl:
@@ -1795,7 +1694,6 @@
   books:
 - title: "DGSE, l’impuissance de l’état\_?"
   link: "https://www.thinkerview.com/maxime-renahy-dgse-limpuissance-de-letat/"
-  pubDate: "Tue, 03 Sep 2019 18:00:03 +0000"
   category: ["Finance"]
   description: "Thinkerview diffusé en direct le 3 septembre 2019"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Maxime_Renahy_DGSE_L_Impuissance_De_L_Etat.mp3"
@@ -1810,7 +1708,6 @@
   books:
 - title: "USA, Nos anciens alliés\_?"
   link: "https://www.thinkerview.com/arnaud-montebourg-usa-nos-anciens-allies/"
-  pubDate: "Thu, 25 Jul 2019 18:00:05 +0000"
   category: ["Géopolitique"]
   description: "Thinkerview diffusé en direct le 25 juillet 2019."
   mediaUrl:
@@ -1825,7 +1722,6 @@
   books:
 - title: "Alstom, la France vendue à la découpe\_?"
   link: "https://www.thinkerview.com/frederic-pierucci-alstom-la-france-vendue-a-la-decoupe/"
-  pubDate: "Mon, 08 Jul 2019 18:00:28 +0000"
   category: ["Géopolitique"]
   description: "Thinkerview diffusé en direct le 8 juillet 2019."
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Frederic_Pierucci_Alstom__la_France_vendue_a_la_decoupe.mp3"
@@ -1840,7 +1736,6 @@
   books:
 - title: "Arabie Saoudite, un pays protégé\_?"
   link: "https://www.thinkerview.com/pierre-conesa-arabie-saoudite-un-pays-protege/"
-  pubDate: "Tue, 02 Jul 2019 18:00:30 +0000"
   category: ["Géopolitique"]
   description: "Thinkerview diffusé en direct le 2 juillet 2019."
   mediaUrl:
@@ -1855,7 +1750,6 @@
   books:
 - title: "Ecologie, Transport et Mythomanie."
   link: "https://www.thinkerview.com/laurent-castaignede-ecologie-transport-et-mythomanie/"
-  pubDate: "Tue, 02 Jul 2019 16:00:53 +0000"
   category: ["Energie","Climat"]
   description: "Thinkerview diffusé en direct le 2 juillet 2019."
   mediaUrl:
@@ -1870,7 +1764,6 @@
   books:
 - title: "L’avenir de l’humanité\_?"
   link: "https://www.thinkerview.com/laurent-alexandre-et-philippe-bihouix-lavenir-de-lhumanite/"
-  pubDate: "Tue, 25 Jun 2019 18:00:27 +0000"
   category: ["Climat","Environnement","Sciences"]
   description: "Thinkerview diffusé en direct le 25 juin 2019"
   mediaUrl:
@@ -1886,7 +1779,6 @@
   books:
 - title: "Croissance, énergie, le point de non-retour\_?"
   link: "https://www.thinkerview.com/laherrere-meilhan-croissance-energie-le-point-de-non-retour/"
-  pubDate: "Wed, 19 Jun 2019 18:00:37 +0000"
   category: ["Energie","Climat"]
   description: "Thinkerview diffusé en direct le 19 juin 2019"
   mediaUrl:
@@ -1902,7 +1794,6 @@
   books:
 - title: "Pourquoi il faut détruire le capitalisme\_?"
   link: "https://www.thinkerview.com/jean-ziegler-pourquoi-il-faut-detruire-le-capitalisme/"
-  pubDate: "Fri, 14 Jun 2019 18:00:31 +0000"
   category: ["Géopolitique","Société"]
   description: "Thinkerview diffusé en direct le 14 juin 2019"
   mediaUrl:
@@ -1917,7 +1808,6 @@
   books:
 - title: "la finance va-t-elle sauver la planète\_?"
   link: "https://www.thinkerview.com/alain-grandjean-la-finance-va-t-elle-sauver-la-planete/"
-  pubDate: "Wed, 12 Jun 2019 18:00:58 +0000"
   category: ["Energie","Climat"]
   description: "Thinkerview diffusé en direct le 12 juin 2019."
   mediaUrl:
@@ -1932,7 +1822,6 @@
   books:
 - title: "Casse sociale, le début\_?"
   link: "https://www.thinkerview.com/monique-pincon-charlot-casse-sociale-le-debut/"
-  pubDate: "Tue, 04 Jun 2019 18:00:47 +0000"
   category: ["Société"]
   description: "Thinkerview diffusé en direct le 4 juin 2019"
   mediaUrl:
@@ -1947,7 +1836,6 @@
   books:
 - title: "Mediapart, Benalla, Macron, le journalisme menacé\_?"
   link: "https://www.thinkerview.com/mediapart-benalla-macron-le-journalisme-menace/"
-  pubDate: "Fri, 24 May 2019 18:00:51 +0000"
   category: ["Société"]
   description: "Thinkerview d&#8217;Edwy Plenel, diffusé en direct le 24 mai 2019"
   mediaUrl: "https://www.thinkerview.com/wp-content/uploads/videos/mp3_128k/Edwy_Plenel_Benalla_Macron_Le_Journalisme_Menace.mp3"
@@ -1962,7 +1850,6 @@
   books:
 - title: "S’adapter à une société malade\_?"
   link: "https://www.thinkerview.com/barbara-stiegler-sadapter-a-une-societe-malade/"
-  pubDate: "Fri, 17 May 2019 18:00:03 +0000"
   category: ["Finance"]
   description: "Thinkerview diffusé en direct le 17 mai 2019"
   mediaUrl:
@@ -1977,7 +1864,6 @@
   books:
 - title: "Prophète de l’apocalypse\_?"
   link: "https://www.thinkerview.com/philippe-bihouix-prophete-de-lapocalypse-en-direct/"
-  pubDate: "Tue, 14 May 2019 18:00:25 +0000"
   category: ["Climat","Sciences"]
   description: "Thinkerview de Philippe Bihouix, diffusé en direct le 14 mai 2019."
   mediaUrl:
@@ -1992,7 +1878,6 @@
   books:
 - title: "Union Européenne pour ou contre\_?"
   link: "https://www.thinkerview.com/coralie-delaume-union-europeenne-pour-ou-contre-en-direct/"
-  pubDate: "Fri, 10 May 2019 18:00:57 +0000"
   category: ["Finance","Société"]
   description: "Thinkerview diffusé en direct le 10 mai 2019"
   mediaUrl: "https://thinkerview.com/wp-content/uploads/videos/mp3_128k/Coralie_Delaume_Union_Europeenne_Pour_Ou_Contre.mp3"
@@ -2007,7 +1892,6 @@
   books:
 - title: "Face à la réalité\_?"
   link: "https://www.thinkerview.com/jean-luc-melenchon-face-a-la-realite-en-direct/"
-  pubDate: "Mon, 06 May 2019 13:09:13 +0000"
   category: ["Société"]
   description: "Thinkerview de Jean-Luc Mélenchon, diffusé en direct le 6 mai 2019."
   mediaUrl:
@@ -2022,7 +1906,6 @@
   books:
 - title: "Etat d’urgence, géopolitique, Médias, Gilets Jaunes"
   link: "https://www.thinkerview.com/bernard-stiegler-etat-durgence-geopolitique-medias-gilets-jaunes/"
-  pubDate: "Wed, 17 Apr 2019 18:00:58 +0000"
   category: ["Géopolotique","Société"]
   description: "Thinkerview de Bernard Stiegler diffusé en direct, le 17 avril 2019 à 16h."
   mediaUrl:
@@ -2037,7 +1920,6 @@
   books:
 - title: "Investigation sans filtre\_?"
   link: "https://www.thinkerview.com/champagne-duplessy-et-fontaine-investigation-sans-filtre/"
-  pubDate: "Fri, 12 Apr 2019 18:00:21 +0000"
   category: ["Médias"]
   description: "Thinkerview de Champagne, Duplessy et Fontaine, diffusé en direct, le 12 avril 2019 à 19h."
   mediaUrl:
@@ -2054,7 +1936,6 @@
   books:
 - title: "Vers les Guerres civiles\_?"
   link: "https://www.thinkerview.com/charles-rojzman-vers-les-guerres-civiles/"
-  pubDate: "Fri, 12 Apr 2019 15:00:40 +0000"
   category: ["Société"]
   description: "Thinkerview de Charles Rojzman diffusé en direct, le 11 avril 2019 à 16h."
   mediaUrl: "https://thinkerview.com/wp-content/uploads/videos/mp3_128k/Charles_Rojzman_Vers_Les_Guerres_Civiles.mp3"
@@ -2069,7 +1950,6 @@
   books:
 - title: "l’intuition de la science-fiction\_?"
   link: "https://www.thinkerview.com/alain-damasio-lintuition-de-la-science-fiction/"
-  pubDate: "Thu, 11 Apr 2019 18:00:03 +0000"
   category: ["Société"]
   description: "Thinkerview d&#8217;Alain Damasio diffusé en direct, le 11 avril 2019 à 19h."
   mediaUrl: "https://thinkerview.com/wp-content/uploads/videos/mp3_128k/Alain_Damasio_Intuition_De_La_Science_Fiction.mp3"
@@ -2084,7 +1964,6 @@
   books:
 - title: "Géopolitique, Cynisme et bons sentiments\_?"
   link: "https://www.thinkerview.com/caroline-galacteros-geopolitique-cynisme-et-bons-sentiments/"
-  pubDate: "Wed, 27 Mar 2019 18:00:36 +0000"
   category: ["Géopolitique"]
   description: "Interview de Caroline Galacteros en direct, le 27 mars 2019 à 19h Docteur en science..."
   mediaUrl: "https://thinkerview.com/wp-content/uploads/videos/mp3_128k/Caroline_Galacteros_Geopolitique_Cynisme_Et_Bons_Sentiments.mp3"
@@ -2099,7 +1978,6 @@
   books:
 - title: "Lucidité face aux terrorismes\_?"
   link: "https://www.thinkerview.com/noam-anouar-lucidite-face-aux-terrorismes/"
-  pubDate: "Wed, 20 Mar 2019 13:30:31 +0000"
   category: ["Terrorisme"]
   description: "Interview de Noam Anouar en direct, le 20 mars 2019 à 14h30"
   mediaUrl: "https://thinkerview.com/wp-content/uploads/videos/mp3_128k/Noam_Anouar_Lucidite_Face_Aux_Terrorismes.mp3"
@@ -2114,7 +1992,6 @@
   books:
 - title: "Tsunami financier, désastre humanitaire\_?"
   link: "https://www.thinkerview.com/gael-giraud-tsunami-financier-desastre-humanitaire/"
-  pubDate: "Wed, 20 Mar 2019 09:30:23 +0000"
   category: ["Energie","Climat"]
   description: "Interview de Gael Giraud en direct, le 20 mars 2019 à 10h30"
   mediaUrl: "https://thinkerview.com/wp-content/uploads/videos/mp3_128k/Gael_GIRAUD_Tsunami_Financier_Desastre_Humanitair.mp3"
@@ -2129,7 +2006,6 @@
   books:
 - title: "L’illusion de la démocratie en France\_?"
   link: "https://www.thinkerview.com/juan-branco-lillusion-de-la-democratie-en-france/"
-  pubDate: "Wed, 13 Mar 2019 18:00:14 +0000"
   category: ["Société"]
   description: "Interview de Juan Branco en direct, le 13 mars 2019 à 19h00"
   mediaUrl: "https://thinkerview.com/wp-content/uploads/videos/mp3_128k/Juan_Branco_L_Illusion_De_La_Democratie_En_France.mp3"
@@ -2144,7 +2020,6 @@
   books:
 - title: "Société à bout de souffle\_?"
   link: "https://www.thinkerview.com/aymeric-caron-societe-a-bout-de-souffle/"
-  pubDate: "Wed, 13 Mar 2019 15:30:21 +0000"
   category: ["Environnement","Société"]
   description: "Interview d&#8217;Aymeric Caron en direct, le 13 mars 2019 à 16h30"
   mediaUrl:
@@ -2159,7 +2034,6 @@
   books:
 - title: "Démocratie, Marketing politique pour les pauvres\_?"
   link: "https://www.thinkerview.com/francis-dupuis-deri-democratie-marketing-politique-pour-les-pauvres/"
-  pubDate: "Mon, 25 Feb 2019 16:00:45 +0000"
   category: ["Société"]
   description: "Interview de Francis Dupuis-Déri en direct le 25/02/2019 à 17h."
   mediaUrl: "https://thinkerview.com/wp-content/uploads/videos/mp3_128k/Francis_Dupuis-Deri_Democratie_Marketing_Politique_Pour_Les_Pauvres.mp3"
@@ -2174,7 +2048,6 @@
   books:
 - title: "Gilets Jaunes, Avant la révolution\_?"
   link: "https://www.thinkerview.com/francois-boulo-gilets-jaunes-avant-la-revolution/"
-  pubDate: "Mon, 25 Feb 2019 13:30:38 +0000"
   category: ["Société"]
   description: "Interview de François Boulo en direct le 25/02/2019 à 14h."
   mediaUrl:
@@ -2189,7 +2062,6 @@
   books:
 - title: "Gilets Jaunes, Populisme, Bourgeois\_?"
   link: "https://www.thinkerview.com/francois-begaudeau-gilets-jaunes-populisme-bourgeois/"
-  pubDate: "Mon, 18 Feb 2019 19:00:48 +0000"
   category: ["Société"]
   description: "Interview de François Bégaudeau en direct le 18/02/2019 à 20h."
   mediaUrl:
@@ -2204,7 +2076,6 @@
   books:
 - title: "Taxi un métier en danger\_?"
   link: "https://www.thinkerview.com/khalid-essa-taxi-un-metier-en-danger/"
-  pubDate: "Mon, 18 Feb 2019 16:00:51 +0000"
   category: ["Société"]
   description: "Interview de Khalid Essa, en direct le 18/02/2019 à 17h"
   mediaUrl:
@@ -2219,7 +2090,6 @@
   books:
 - title: "La fin de l’Europe et de l’Euro\_?"
   link: "https://www.thinkerview.com/yanis-varoufakis-la-fin-de-leurope-et-de-leuro/"
-  pubDate: "Mon, 18 Feb 2019 12:00:07 +0000"
   category: ["Finance","Politique"]
   description: "Interview de Yánis Varoufákis, en direct le 18/02/2019 à 13h"
   mediaUrl:
@@ -2234,7 +2104,6 @@
   books:
 - title: "Croissance et Effondrement"
   link: "https://www.thinkerview.com/jean-marc-jancovici-et-philippe-bihouix-croissance-et-effondrement/"
-  pubDate: "Tue, 12 Feb 2019 20:00:22 +0000"
   category: ["Energie","Climat"]
   description: "Interview de Jean-Marc Jancovici et Philippe Bihouix, en direct le 12/02/2019 à 21h"
   mediaUrl:
@@ -2250,7 +2119,6 @@
   books:
 - title: "Journalisme et #LigueduLOL"
   link: "https://www.thinkerview.com/natacha-polony-journalisme-et-liguedulol/"
-  pubDate: "Tue, 12 Feb 2019 16:30:21 +0000"
   category: ["Médias","Société"]
   description: "Interview de Natacha Polony, en direct le 12/02/2019 à 17h30"
   mediaUrl:
@@ -2265,7 +2133,6 @@
   books:
 - title: "Les milliardaires gavés au sang des gilets jaunes\_?"
   link: "https://www.thinkerview.com/les-milliardaires-gaves-au-sang-des-gilets-jaunes-denis-robert/"
-  pubDate: "Thu, 17 Jan 2019 14:00:34 +0000"
   category: ["Société"]
   description: "Interview de Denis Robert en direct à 15h, le 17/01/2019."
   mediaUrl: "https://thinkerview.com/wp-content/uploads/videos/mp3_128k/Les_milliardaires_gaves_au_sang_des_gilets_jaunes-Denis_Robert.mp3"
@@ -2280,7 +2147,6 @@
   books:
 - title: "Gilets Jaunes : le début de la fin pour l’UE\_?"
   link: "https://www.thinkerview.com/gilets-jaunes-le-debut-de-la-fin-pour-lue/"
-  pubDate: "Wed, 16 Jan 2019 18:00:52 +0000"
   category: ["Société"]
   description: "Table ronde avec Jacques Sapir, Olivier Berruyer et Olivier Delamarche, en direct le 16/01/2019 à..."
   mediaUrl:
@@ -2297,7 +2163,6 @@
   books:
 - title: "Futur de l’ordre mondial, la menace russe\_?"
   link: "https://www.thinkerview.com/futur-de-lordre-mondial-la-menace-russe/"
-  pubDate: "Tue, 18 Dec 2018 14:00:54 +0000"
   category: ["Géopolitique"]
   description: "Interview de Alekseï Pouchkov en direct à 15h, le 18/12/2018. ERRATUM : « au sein de..."
   mediaUrl:
@@ -2312,7 +2177,6 @@
   books:
 - title: "Corruption, Maladie de la France\_? Anticor sans filtre"
   link: "https://www.thinkerview.com/corruption-maladie-de-la-france-anticor-sans-filtre/"
-  pubDate: "Mon, 10 Dec 2018 17:00:08 +0000"
   category: ["Société"]
   description: "Interview de Jean-Christophe Picard, en direct le 10/12/2018 à 18h."
   mediaUrl: "https://thinkerview.com/wp-content/uploads/videos/mp3_128k/Corruption_Maladie_de_la_France_Anticor_sans_filtre.mp3"
@@ -2327,7 +2191,6 @@
   books:
 - title: "Une Justice sous Macron\_?"
   link: "https://www.thinkerview.com/une-justice-sous-macron-carbon-de-seze/"
-  pubDate: "Fri, 30 Nov 2018 10:30:00 +0000"
   category: ["Société"]
   description: "Interview de Carbon de Seze, en direct, le 30/11/2018, à 11h30."
   mediaUrl:
@@ -2342,7 +2205,6 @@
   books:
 - title: "la révolte par l’humour\_?"
   link: "https://www.thinkerview.com/jeremy-ferrari-la-revolte-par-lhumour/"
-  pubDate: "Tue, 27 Nov 2018 18:30:31 +0000"
   category: ["Société"]
   description: "Interview de Jérémy Ferrari, en direct le 27/11/2018 à 19h30."
   mediaUrl:
@@ -2357,7 +2219,6 @@
   books:
 - title: "Armée française, Quelle stratégie\_?"
   link: "https://www.thinkerview.com/armee-francaise-quelle-strategie-general-vincent-desportes/"
-  pubDate: "Thu, 22 Nov 2018 17:30:46 +0000"
   category: ["Géopolitique"]
   description: "Interview de Vincent Desportes, en direct le 22/11/2018 à 18h30."
   mediaUrl:
@@ -2372,7 +2233,6 @@
   books:
 - title: "Panafricanisme 2.0\_?"
   link: "https://www.thinkerview.com/kemi-seba-panafricanisme-2-0/"
-  pubDate: "Wed, 21 Nov 2018 19:00:07 +0000"
   category: ["Géopolitique"]
   description: "Interview de Kémi Séba, en direct le 21/11/2018 à 20h."
   mediaUrl:
@@ -2387,7 +2247,6 @@
   books:
 - title: "Migrants / Réfugiés / Immigration : Problèmes inextricables\_?"
   link: "https://www.thinkerview.com/migrants-refugies-immigration-problemes-inextricables/"
-  pubDate: "Tue, 13 Nov 2018 18:00:26 +0000"
   category: ["Société"]
   description: "Interview de Frédéric Penard en direct le 13/11/2018 à 19h."
   mediaUrl:
@@ -2402,7 +2261,6 @@
   books:
 - title: "Autopsie du Journalisme, de Hitler à Trump"
   link: "https://www.thinkerview.com/autopsie-du-journalisme-de-hitler-a-trump-daniel-schneidermann/"
-  pubDate: "Mon, 12 Nov 2018 18:00:17 +0000"
   category: ["Médias"]
   description: "Interview de Daniel Schneidermann, en direct à 19h le 12/11/2018."
   mediaUrl:
@@ -2417,7 +2275,6 @@
   books:
 - title: "L’asservissement par l’Intelligence Artificielle\_?"
   link: "https://www.thinkerview.com/eric-sadin-lasservissement-par-lintelligence-artificielle/"
-  pubDate: "Thu, 08 Nov 2018 18:00:15 +0000"
   category: ["Internet / Technologies"]
   description: "Interview de Éric Sadin, en direct le 08/11/2018 à 19h."
   mediaUrl:
@@ -2432,7 +2289,6 @@
   books:
 - title: "Trahison des élites françaises\_?"
   link: "https://www.thinkerview.com/emmanuel-todd-trahison-des-elites-francaises/"
-  pubDate: "Wed, 07 Nov 2018 18:00:26 +0000"
   category: ["Société"]
   description: "Interview de Emmanuel Todd, en direct le 07/11/2018 à 19h."
   mediaUrl:
@@ -2447,7 +2303,6 @@
   books:
 - title: "La France interdite\_?"
   link: "https://www.thinkerview.com/la-france-interdite-laurent-obertone/"
-  pubDate: "Tue, 06 Nov 2018 18:00:02 +0000"
   category: ["Société"]
   description: "Interview de Laurent Obertone en direct le 06/11/2018 à 19h."
   mediaUrl:
@@ -2462,7 +2317,6 @@
   books:
 - title: "Terrorisme ou Légitime défense\_?"
   link: "https://www.thinkerview.com/terrorisme-ou-legitime-defense-thibault-de-montbrial/"
-  pubDate: "Tue, 06 Nov 2018 14:30:16 +0000"
   category: ["Société"]
   description: "Interview de Thibault de Montbrial, en direct le 06/11/2018 à 15h30."
   mediaUrl:
@@ -2477,7 +2331,6 @@
   books:
 - title: "1984, un manuel d’instructions\_?"
   link: "https://www.thinkerview.com/jeremie-zimmermann-1984-un-manuel-dinstructions/"
-  pubDate: "Thu, 18 Oct 2018 18:00:15 +0000"
   category: ["Internet / Technologies"]
   description: "Interview de Jérémie Zimmermann en direct le 18/10/2018 à 19h."
   mediaUrl:
@@ -2492,7 +2345,6 @@
   books:
 - title: "Introduction au siècle des menaces"
   link: "https://www.thinkerview.com/p-servigne-j-blamont-introduction-au-siecle-des-menaces/"
-  pubDate: "Thu, 18 Oct 2018 14:30:19 +0000"
   category: ["Environnement"]
   description: "Entretien avec Pablo Servigne et Jacques Blamont, en direct le 18/10/2018 à 15h30."
   mediaUrl:
@@ -2508,7 +2360,6 @@
   books:
 - title: "Anarchie VS Capitalisme\_?"
   link: "https://www.thinkerview.com/anarchie-vs-capitalisme/"
-  pubDate: "Tue, 02 Oct 2018 18:00:14 +0000"
   category: ["Société"]
   description: "Interview de Tancrède Ramonet, documentariste, en direct le 02/10/2018 à 19h."
   mediaUrl:
@@ -2523,7 +2374,6 @@
   books:
 - title: "École de Guerre, L’état du monde"
   link: "https://www.thinkerview.com/ecole-de-guerre-letat-du-monde/"
-  pubDate: "Thu, 27 Sep 2018 17:30:53 +0000"
   category: ["Géopolitique"]
   description: "Conférence « L’état du monde : une approche géopolitique et économique » avec Olivier Delamarche et Pierre..."
   mediaUrl:
@@ -2540,7 +2390,6 @@
   books:
 - title: "Ambassade de Russie : Acte 2, Espions, Guerre Froide sans filtre"
   link: "https://www.thinkerview.com/ambassade-de-russie-acte-2-espions-guerre-froide-sans-filtre/"
-  pubDate: "Thu, 27 Sep 2018 13:30:16 +0000"
   category: ["Géopolitique"]
   description: "Interview d&#8217;Artem Studennikov, Ministre Conseiller de l&#8217;Ambassade de Russie, en direct à 14h30, le 27/09/2018."
   mediaUrl:
@@ -2555,7 +2404,6 @@
   books:
 - title: "Ex-députée écolo : sans langue de bois\_?"
   link: "https://www.thinkerview.com/ex-deputee-ecolo-sans-langue-de-bois/"
-  pubDate: "Fri, 21 Sep 2018 18:00:14 +0000"
   category: ["Environnement"]
   description: "Interview de Isabelle Attard, ex-députée EÉLV, en direct le 21/09/2018 à 19h."
   mediaUrl:
@@ -2570,7 +2418,6 @@
   books:
 - title: "L’effondrement\_?"
   link: "https://www.thinkerview.com/edgar-morin-leffondrement/"
-  pubDate: "Wed, 19 Sep 2018 17:15:53 +0000"
   category: ["Société"]
   description: "Interview de Edgar Morin, en direct le 19/09/2018 à 18h15."
   mediaUrl:
@@ -2585,7 +2432,6 @@
   books:
 - title: "Greenpeace : Menaces Nucléaire\_?"
   link: "https://www.thinkerview.com/greenpeace-menaces-nucleaire/"
-  pubDate: "Wed, 19 Sep 2018 15:30:03 +0000"
   category: ["Environnement"]
   description: "Interview de Yannick Rousselet, Greenpeace, en direct le 19/09/2018 à 16h30."
   mediaUrl:
@@ -2600,7 +2446,6 @@
   books:
 - title: "Guerres, Embargos et Propagandes"
   link: "https://www.thinkerview.com/pierre-conesa-guerres-embargos-et-propagandes/"
-  pubDate: "Fri, 14 Sep 2018 18:00:06 +0000"
   category: ["Géopolitique"]
   description: "Interview de Pierre Conesa, ancien haut fonctionnaire du Ministère de la Défense, en direct le..."
   mediaUrl:
@@ -2615,7 +2460,6 @@
   books:
 - title: "Quand la Science appelle à l’aide pour l’humanité\_?"
   link: "https://www.thinkerview.com/quand-la-science-appelle-a-laide-pour-lhumanite-aurelien-barrau-astrophysicien/"
-  pubDate: "Fri, 14 Sep 2018 12:30:26 +0000"
   category: ["Sciences"]
   description: "Interview de Aurélien Barrau, Astrophysicien spécialisé dans la physique des astroparticules, des trous noirs et..."
   mediaUrl:
@@ -2630,7 +2474,6 @@
   books:
 - title: "Sankara, Françafrique, CFA, où va l’Afrique\_?"
   link: "https://www.thinkerview.com/sankara-francafrique-cfa-ou-va-lafrique/"
-  pubDate: "Thu, 13 Sep 2018 18:00:08 +0000"
   category: ["Géopolitique"]
   description: "Interview de Louis Magloire Keumayou, Journaliste pigiste de nationalité camerounaise et Président du Club de..."
   mediaUrl:
@@ -2645,7 +2488,6 @@
   books:
 - title: "Climat : Trois quarts de l’humanité menacés de mort\_?"
   link: "https://www.thinkerview.com/climat-trois-quarts-de-lhumanite-menaces-de-mort/"
-  pubDate: "Thu, 28 Jun 2018 16:00:58 +0000"
   category: ["Environnement"]
   description: "Interview de Pierre Larrouturou en direct le 28/06/2018 à 17h."
   mediaUrl:
@@ -2660,7 +2502,6 @@
   books:
 - title: "Surveillance, Hacker et Journaliste : sans filtre"
   link: "https://www.thinkerview.com/surveillance-hacker-et-journaliste-sans-filtre/"
-  pubDate: "Wed, 27 Jun 2018 18:00:10 +0000"
   category: ["Internet / Technologies"]
   description: "Table ronde avec Antoine Champagne « kitetoa », journaliste &#038; co-fondateur de reflets.info et Olivier Laurelli Aka..."
   mediaUrl: "https://thinkerview.com/wp-content/uploads/videos/mp3_128k/Surveillance_Hacker_et_Journaliste_sans_filtre.mp3"
@@ -2676,7 +2517,6 @@
   books:
 - title: "Economie en danger\_? Flux migratoires, Brexit et Mondialisation"
   link: "https://www.thinkerview.com/economie-en-danger-flux-migratoires-brexit-et-mondialisation/"
-  pubDate: "Tue, 26 Jun 2018 13:15:27 +0000"
   category: ["Finance"]
   description: "Table ronde avec Mireille Bruyère, Eric Berr et David Cayla : Les économistes atterrés en..."
   mediaUrl:
@@ -2693,7 +2533,6 @@
   books:
 - title: "Blockchain, gouvernance et énergie\_?"
   link: "https://www.thinkerview.com/blockchain-gouvernance-et-energie/"
-  pubDate: "Tue, 19 Jun 2018 18:00:32 +0000"
   category: ["Internet / Technologies"]
   description: "Interview de Primavera De Filippi et Remy Bourganel en direct, le 19/06/2018 à 19h."
   mediaUrl:
@@ -2709,7 +2548,6 @@
   books:
 - title: "Non Violence VS Urgence Climatique"
   link: "https://www.thinkerview.com/non-violence-vs-urgence-climatique-jon-palais/"
-  pubDate: "Fri, 08 Jun 2018 13:00:17 +0000"
   category: ["Société"]
   description: "Interview de Jon palais en direct le 08/06/2018 à 14h."
   mediaUrl:
@@ -2724,7 +2562,6 @@
   books:
 - title: "Modèle Janus et Armes russes"
   link: "https://www.thinkerview.com/jean-pierre-petit-modele-janus-et-armes-russes/"
-  pubDate: "Thu, 07 Jun 2018 18:30:19 +0000"
   category: ["Sciences"]
   description: "Interview de Jean-Pierre Petit en direct le 07/06/2018 à 18h30."
   mediaUrl:
@@ -2739,7 +2576,6 @@
   books:
 - title: "Journaliste VS Politique\_?"
   link: "https://www.thinkerview.com/francois-ruffin-sans-filtre-journaliste-vs-politique/"
-  pubDate: "Thu, 31 May 2018 18:00:13 +0000"
   category: ["Société"]
   description: "Interview de François Ruffin en direct le 31/05/2018 à 19h."
   mediaUrl:
@@ -2754,7 +2590,6 @@
   books:
 - title: "Biomimétisme et économie bleue"
   link: "https://www.thinkerview.com/gunter-pauli-biomimetisme-et-economie-bleue/"
-  pubDate: "Sat, 26 May 2018 18:15:56 +0000"
   category: ["Environnement"]
   description: "Interview de Gunter Pauli en direct le 26/05/2018 à 19h15."
   mediaUrl:
@@ -2769,7 +2604,6 @@
   books:
 - title: "La structure fondamentale de la matière : le Boson de Higgs"
   link: "https://www.thinkerview.com/etienne-klein-la-structure-fondamentale-de-la-matiere-le-boson-de-higgs/"
-  pubDate: "Thu, 24 May 2018 18:00:02 +0000"
   category: ["Sciences"]
   description: "Conférence de Étienne Klein sur le Boson de Higgs, en direct le 24/05/2018 à 19h."
   mediaUrl:
@@ -2784,7 +2618,6 @@
   books:
 - title: "Sarkozy, corruption, assassinat et affaire d’état\_?"
   link: "https://www.thinkerview.com/sarkozy-corruption-assassinat-et-affaire-detat-fabrice-arfi-mediapart/"
-  pubDate: "Wed, 23 May 2018 18:00:32 +0000"
   category: ["Société"]
   description: "Interview de Fabrice Arfi, journaliste, en direct le 23/05/2018 à 19h."
   mediaUrl: "https://thinkerview.com/wp-content/uploads/videos/mp3_128k/Sarkozy_corruption_assassinat_et_affaire_d-etat_Fabrice_Arfi_Mediapart.mp3"
@@ -2799,7 +2632,6 @@
   books:
 - title: "Survivre au système éducatif, Hackers et Crapauds fous"
   link: "https://www.thinkerview.com/survivre-au-systeme-educatif-hackers-et-crapauds-fous/"
-  pubDate: "Tue, 22 May 2018 18:00:00 +0000"
   category: ["Société"]
   description: "Interview de Thanh Nghiem, ingénieure, en direct le 22/05/2018 à 19h."
   mediaUrl:
@@ -2814,7 +2646,6 @@
   books:
 - title: "Le langage au service des puissants\_?"
   link: "https://www.thinkerview.com/le-langage-au-service-des-puissants-alain-deneault/"
-  pubDate: "Fri, 04 May 2018 18:00:34 +0000"
   category: ["Société"]
   description: "Interview de Alain Deneault, philosophe, en direct le 04/05/2018 à 19h."
   mediaUrl:
@@ -2829,7 +2660,6 @@
   books:
 - title: "Criminalisation de la lutte sociale\_? Affaire Tarnac"
   link: "https://www.thinkerview.com/criminalisation-de-la-lutte-sociale-jeremie-assous-affaire-tarnac/"
-  pubDate: "Fri, 04 May 2018 15:30:19 +0000"
   category: ["Société"]
   description: "Interview de Maître Jérémie Assous, avocat Pénaliste au barreau de Paris, en direct le 04/05/2018..."
   mediaUrl:
@@ -2844,7 +2674,6 @@
   books:
 - title: "Propagande de Guerre, Cinéma, Géopolitique, Opinion publique"
   link: "https://www.thinkerview.com/pierre-conesa-propagande-de-guerre-cinema-geopolitique-opinion-publique/"
-  pubDate: "Wed, 25 Apr 2018 16:20:42 +0000"
   category: ["Géopolitique"]
   description: "Interview de Pierre Conesa, ancien haut fonctionnaire du Ministère de la Défense, en direct le..."
   mediaUrl:
@@ -2859,7 +2688,6 @@
   books:
 - title: "Ambassade de Russie, Espions, Guerre Froide sans filtre"
   link: "https://www.thinkerview.com/ambassade-de-russie-espions-guerre-froide-sans-filtre/"
-  pubDate: "Mon, 09 Apr 2018 18:00:36 +0000"
   category: ["Géopolitique"]
   description: "Interview d&#8217;Artem Studennikov, Ministre Conseiller de l&#8217;Ambassade de Russie, en direct à 19h, le 09/04/2018."
   mediaUrl:
@@ -2874,7 +2702,6 @@
   books:
 - title: "DGSE, Espions, Secrets des Affaires, Crises mondiales"
   link: "https://www.thinkerview.com/dgse-espions-secrets-des-affaires-crises-mondiales/"
-  pubDate: "Sat, 07 Apr 2018 18:00:11 +0000"
   category: ["Géopolitique"]
   description: "Interview de Alain Juillet, Ancien Directeur du Renseignement au sein de la DGSE, Haut Responsable..."
   mediaUrl:
@@ -2889,7 +2716,6 @@
   books:
 - title: "Géopolitique, macroéconomie sans filtre"
   link: "https://www.thinkerview.com/delamarche-gave-sabatier-geopolitique-macroeconomie-sans-filtre/"
-  pubDate: "Tue, 03 Apr 2018 17:00:21 +0000"
   category: ["Géopolitique","Finance"]
   description: "Interview de Olivier Delamarche, Pierre Sabatier et Charles Gave en Direct à 18h, le 03..."
   mediaUrl:
@@ -2906,7 +2732,6 @@
   books:
 - title: "Big Brother habite Place Beauvau\_? Exégèse en libertés"
   link: "https://www.thinkerview.com/big-brother-habite-place-beauvau-exegese-en-libertes/"
-  pubDate: "Fri, 30 Mar 2018 19:15:12 +0000"
   category: ["Internet / Technologies"]
   description: "Interview de Benjamin Bayart et d&#8217;Alexis Fitzjean O Cobhthaigh, Les Exégètes Amateurs (@lesExegetes), en direct..."
   mediaUrl:
@@ -2922,7 +2747,6 @@
   books:
 - title: "Santé VS Nourriture\_?"
   link: "https://www.thinkerview.com/sante-vs-nourriture-isabelle-saporta/"
-  pubDate: "Tue, 13 Mar 2018 16:30:18 +0000"
   category: ["Environnement"]
   description: "Interview de Isabelle Saporta, journaliste d&#8217;investigation et chroniqueuse, en direct à 17h30 le 13/03/2018."
   mediaUrl:
@@ -2937,7 +2761,6 @@
   books:
 - title: "Théorie du revenu universel / salaire à la qualification\_?"
   link: "https://www.thinkerview.com/bernard-friot-theorie-du-revenu-universel-salaire-a-la-qualification/"
-  pubDate: "Tue, 13 Mar 2018 14:00:31 +0000"
   category: ["Finance"]
   description: "Interview de Bernard Friot, sociologue et économiste, en direct à 15h le 13/03/2018."
   mediaUrl:
@@ -2952,7 +2775,6 @@
   books:
 - title: "Journalistes et médias sous contrôles\_?"
   link: "https://www.thinkerview.com/natacha-polony-journalistes-medias-controles/"
-  pubDate: "Mon, 05 Mar 2018 11:00:12 +0000"
   category: ["Médias"]
   description: "Interview de Natacha Polony en direct à 12h, le 05/03/2018."
   mediaUrl:
@@ -2967,7 +2789,6 @@
   books:
 - title: "Indépendance des médias\_?"
   link: "https://www.thinkerview.com/aude-lancelin-independance-medias/"
-  pubDate: "Tue, 27 Feb 2018 19:30:38 +0000"
   category: ["Médias"]
   description: "Interview de Aude Lancelin en direct à 20h30 le 27/02/2018."
   mediaUrl:
@@ -2982,7 +2803,6 @@
   books:
 - title: "Effondrement de la civilisation\_?"
   link: "https://www.thinkerview.com/effondrement-de-civilisation-pablo-servigne/"
-  pubDate: "Fri, 23 Feb 2018 18:00:01 +0000"
   category: ["Environnement"]
   description: "Interview de Pablo Servigne en direct à 19h00 le 23/02/2018."
   mediaUrl:
@@ -2997,7 +2817,6 @@
   books:
 - title: "Idriss Aberkane sans filtre"
   link: "https://www.thinkerview.com/idriss-aberkane-filtre/"
-  pubDate: "Thu, 15 Feb 2018 18:30:43 +0000"
   category: ["Société"]
   description: "Interview de Idriss Aberkane en direct à 19h30 le 15/02/2018."
   mediaUrl:
@@ -3012,7 +2831,6 @@
   books:
 - title: "Journalistes et liberté d’expression en danger\_?"
   link: "https://www.thinkerview.com/journalistes-liberte-dexpression-danger/"
-  pubDate: "Tue, 13 Feb 2018 18:30:54 +0000"
   category: ["Médias"]
   description: "Interview de David Koubbi et Jean-Pierre Canet à 19h30 le 13/02/2018. Erratum : Jean-Pierre Canet..."
   mediaUrl:
@@ -3028,7 +2846,6 @@
   books:
 - title: "La police au service du marché\_?"
   link: "https://www.thinkerview.com/police-service-marche/"
-  pubDate: "Tue, 13 Feb 2018 16:30:49 +0000"
   category: ["Société"]
   description: "Interview de Mathieu Rigouste, sociologue et essayiste en direct à 17h30 le 13/02/2018."
   mediaUrl:
@@ -3043,7 +2860,6 @@
   books:
 - title: "Éthique et philosophie des sciences, le rôle des scientifiques\_?"
   link: "https://www.thinkerview.com/etienne-klein-ethique-philosophie-sciences-role-scientifiques/"
-  pubDate: "Wed, 17 Jan 2018 18:30:59 +0000"
   category: ["Sciences"]
   description: "Interview de Etienne Klein, philosophe des sciences, en direct à 19h30 le 17/01/2018."
   mediaUrl:
@@ -3058,7 +2874,6 @@
   books:
 - title: "Mutations sociales, politiques, économiques et psychologiques"
   link: "https://www.thinkerview.com/bernard-stiegler-mutations-sociales-politiques-economiques-psychologiques/"
-  pubDate: "Wed, 17 Jan 2018 17:00:28 +0000"
   category: ["Société"]
   description: "Interview de Bernard Stiegler, philosophe qui axe sa réflexion sur les enjeux des mutations actuelles..."
   mediaUrl:
@@ -3073,7 +2888,6 @@
   books:
 - title: "Propagande VS Journalisme\_? RT France"
   link: "https://www.thinkerview.com/propagande-vs-journalisme-rt-france-xenia-fedorova/"
-  pubDate: "Tue, 16 Jan 2018 16:00:37 +0000"
   category: ["Médias"]
   description: "Interview de Xenia Fedorova, Présidente et directrice de l&#8217;information de RT France, en direct à..."
   mediaUrl:
@@ -3089,7 +2903,6 @@
   books:
 - title: "Le mensonge de la croissance verte\_?"
   link: "https://www.thinkerview.com/philippe-bihouix-mensonge-de-croissance-verte/"
-  pubDate: "Thu, 11 Jan 2018 18:00:18 +0000"
   category: ["Société"]
   description: "Interview de Philippe Bihouix, ingénieur centralien, membre de l&#8217;Institut Momentum et auteur de l&#8217; « L&#8217;Âge..."
   mediaUrl:
@@ -3104,7 +2917,6 @@
   books:
 - title: "L214, Exploitation animale & Alimentation – Souffrance du 21ème siècle\_?"
   link: "https://www.thinkerview.com/exploitation-animale-alimentation-souffrance-21eme-siecle-l214/"
-  pubDate: "Wed, 10 Jan 2018 20:15:36 +0000"
   category: ["Environnement"]
   description: "Interview de Sébastien Arsac, co-fondateur de l&#8217;association L214 sur les questions d&#8217;alimentation et d&#8217;exploitation animale..."
   mediaUrl:
@@ -3119,7 +2931,6 @@
   books:
 - title: "Pollution atmosphérique, après l’amiante, un nouveau scandale d’Etat\_? Solutions\_?"
   link: "https://www.thinkerview.com/pollution-atmospherique-apres-lamiante-nouveau-scandale-detat-solutions/"
-  pubDate: "Wed, 10 Jan 2018 18:00:04 +0000"
   category: ["Environnement"]
   description: "Table ronde autour de la pollution atmosphérique avec : Serge Orru, Conseiller auprès de la..."
   mediaUrl:
@@ -3136,7 +2947,6 @@
   books:
 - title: "Malbouffe et Mondialisation\_?"
   link: "https://www.thinkerview.com/perico-legasse-malbouffe-mondialisation/"
-  pubDate: "Thu, 14 Dec 2017 18:45:54 +0000"
   category: ["Société"]
   description: "Interview de Périco Légasse : Malbouffe et Mondialisation\_? en direct à 19h45 le 14/12/2017."
   mediaUrl:
@@ -3151,7 +2961,6 @@
   books:
 - title: "Anticiper l’effondrement énergétique\_?"
   link: "https://www.thinkerview.com/jean-marc-jancovici-anticiper-leffondrement-energetique/"
-  pubDate: "Thu, 14 Dec 2017 18:00:42 +0000"
   category: ["Géopolitique"]
   description: "Interview de Jean-Marc Jancovici : Anticiper l’effondrement énergétique\_? en direct à 19h00 le 14/12/2017."
   mediaUrl:
@@ -3166,7 +2975,6 @@
   books:
 - title: "Les Éconoclastes à l’École de Guerre : Le Jour d’après"
   link: "https://www.thinkerview.com/econoclastes-a-lecole-de-guerre-jour-dapres/"
-  pubDate: "Wed, 06 Dec 2017 18:00:39 +0000"
   category: ["Géopolitique"]
   description: "Conférence « Le Jour d&#8217;après » des Éconoclastes à l&#8217;École de Guerre en direct à 19h le..."
   mediaUrl:
@@ -3182,7 +2990,6 @@
   books:
 - title: "Les limites du débat\_?"
   link: "https://www.thinkerview.com/frederic-taddei-limites-debat/"
-  pubDate: "Wed, 06 Dec 2017 12:30:25 +0000"
   category: ["Médias"]
   description: "Interview de Frédéric Taddeï sur les limites du débat en direct à 13h30 le 06/12/2017."
   mediaUrl:
@@ -3197,7 +3004,6 @@
   books:
 - title: "Intelligence artificielle perspectives futures"
   link: "https://www.thinkerview.com/cedric-villani-intelligence-artificielle-perspectives-futures/"
-  pubDate: "Tue, 05 Dec 2017 18:30:51 +0000"
   category: ["Internet / Technologies"]
   description: "Interview de Cédric Villani sur l&#8217;Intelligence artificielle et perspectives futures en direct à 19h15 mardi..."
   mediaUrl:
@@ -3212,7 +3018,6 @@
   books:
 - title: "Inventeur du Dirigeable du Futur\_?"
   link: "https://www.thinkerview.com/philippe-tixier-inventeur-dirigeable-futur/"
-  pubDate: "Tue, 05 Dec 2017 16:30:07 +0000"
   category: ["Energie","Technologie"]
   description: "Interview de Philippe Tixier, Inventeur du Dirigeable du Futur\_? en direct à 17h30 mardi..."
   mediaUrl:
@@ -3227,7 +3032,6 @@
   books:
 - title: "Lutter sans violence\_?"
   link: "https://www.thinkerview.com/lutter-violence-jean-marie-muller/"
-  pubDate: "Sun, 03 Dec 2017 14:30:35 +0000"
   category: ["Société"]
   description: "Interview de Jean-Marie Muller, Philosophe, directeur des études à l&#8217;Institut de recherche sur la résolution..."
   mediaUrl:
@@ -3242,7 +3046,6 @@
   books:
 - title: "Changement de Civilisation\_?"
   link: "https://www.thinkerview.com/changement-de-civilisation-marc-luyckx-ghisi/"
-  pubDate: "Wed, 15 Nov 2017 17:15:12 +0000"
   category: ["Société"]
   description: "Interview en direct de Marc Luyckx, mercredi 15/11/2017 à 18h15."
   mediaUrl:
@@ -3257,7 +3060,6 @@
   books:
 - title: "Intelligence artificielle"
   link: "https://www.thinkerview.com/laurent-alexandre-intelligence-artificielle/"
-  pubDate: "Wed, 08 Nov 2017 09:30:38 +0000"
   category: ["Société"]
   description: "Interview en direct de Laurent Alexandre le 08/11/2017 à 10h30."
   mediaUrl:
@@ -3272,7 +3074,6 @@
   books:
 - title: "Ministre chargé du Numérique"
   link: "https://www.thinkerview.com/mounir-mahjoubi-ministre-charge-numerique/"
-  pubDate: "Wed, 01 Nov 2017 11:04:14 +0000"
   category: ["Internet / Technologies"]
   description: "Interview en direct de Mounir Mahjoubi, hors studio, mardi 31/10/2017 à 10h30."
   mediaUrl:
@@ -3287,7 +3088,6 @@
   books:
 - title: "Nourrir l’humanité\_?"
   link: "https://www.thinkerview.com/bruno-parmentier-nourrir-lhumanite/"
-  pubDate: "Fri, 29 Sep 2017 21:46:43 +0000"
   category: ["Environnement"]
   description: "Interview de Bruno Parmentier, économiste, ancien directeur de l&#8217;école supérieure d&#8217;agriculture d&#8217;Angers. Vidéo diffusée le..."
   mediaUrl:
@@ -3302,7 +3102,6 @@
   books:
 - title: "Anticiper l’effondrement\_?"
   link: "https://www.thinkerview.com/vincent-mignerot-anticiper-leffondrement/"
-  pubDate: "Thu, 21 Sep 2017 08:33:54 +0000"
   category: ["Environnement","Société"]
   description: "Interview de Vincent Mignerot, président de l&#8217;association Adrastia adrastia.org Vidéo diffusée le 20 septembre 2017..."
   mediaUrl:
@@ -3317,7 +3116,6 @@
   books:
 - title: "Corruption et Politique"
   link: "https://www.thinkerview.com/philippe-pascot-corruption-politique/"
-  pubDate: "Mon, 11 Sep 2017 13:00:24 +0000"
   category: ["Société"]
   description: "Interview de Philippe Pascot, Ecrivain, à propos de la corruption et de la politique. Vidéo..."
   mediaUrl:
@@ -3332,7 +3130,6 @@
   books:
 - title: "Analyste financier"
   link: "https://www.thinkerview.com/olivier-delamarche-analyste-financier/"
-  pubDate: "Mon, 11 Sep 2017 10:15:07 +0000"
   category: ["Finance"]
   description: "Interview de Olivier Delamarche, Analyste financier. Vidéo diffusée le 11 septembre 2017 à 11h15 en..."
   mediaUrl:
@@ -3347,7 +3144,6 @@
   books:
 - title: "Étienne Chouard"
   link: "https://www.thinkerview.com/etienne-chouard/"
-  pubDate: "Sat, 05 Aug 2017 11:56:33 +0000"
   category: ["Finance","Société"]
   description: "Interview de Étienne Chouard, Professeur d&#8217;économie / Blogueur. Petits soucis de synchro image/son au début..."
   mediaUrl:
@@ -3362,7 +3158,6 @@
   books:
 - title: "Du Sextoy au « Dark Web »"
   link: "https://www.thinkerview.com/rayna-stamboliyska-sextoy-dark-web/"
-  pubDate: "Wed, 02 Aug 2017 10:21:54 +0000"
   category: ["Internet / Technologies","Médias"]
   description: "Interview de Rayna Stamboliyska, Du Sextoy au « Dark Web » . Vidéo diffusée le 01 août..."
   mediaUrl:
@@ -3377,7 +3172,6 @@
   books:
 - title: "Énergie nucléaire\_?"
   link: "https://www.thinkerview.com/jose-pluki-energie-nucleaire/"
-  pubDate: "Wed, 02 Aug 2017 10:17:43 +0000"
   category: ["Environnement"]
   description: "Interview de José Pluki, sur l&#8217;énergie nucléaire. Vidéo diffusée le 01 août 2017 à 15h..."
   mediaUrl:
@@ -3392,7 +3186,6 @@
   books:
 - title: "La Nef – Banque éthique / Coopérative financière"
   link: "https://www.thinkerview.com/nef-banque-ethique-cooperative-financiere/"
-  pubDate: "Sat, 15 Jul 2017 15:59:59 +0000"
   category: ["Finance"]
   description: "Interview de Pierre-Emmanuel Valentin, Président du directoire de la Nef. Vidéo enregistrée le 31 mars..."
   mediaUrl:
@@ -3407,7 +3200,6 @@
   books:
 - title: "Grand Sorcier de l’Internet option vie privée"
   link: "https://www.thinkerview.com/benjamin-bayart-grand-sorcier-de-linternet-option-vie-privee-direct/"
-  pubDate: "Thu, 22 Jun 2017 13:02:32 +0000"
   category: ["Internet / Technologies"]
   description: "Interview de Benjamin Bayart, Grand Sorcier de l&#8217;Internet option vie privée. Vidéo diffusée le 20..."
   mediaUrl:
@@ -3422,7 +3214,6 @@
   books:
 - title: "Lieutenant Colonel / Force d’action rapide"
   link: "https://www.thinkerview.com/guillaume-ancel-lieutenant-colonel-force-daction-rapide-direct/"
-  pubDate: "Thu, 22 Jun 2017 13:01:17 +0000"
   category: ["Géopolitique"]
   description: "Interview de Guillaume Ancel, Lieutenant Colonel / Force d&#8217;action rapide. Vidéo diffusée le 20 juin..."
   mediaUrl:
@@ -3437,7 +3228,6 @@
   books:
 - title: "Lanceuse d’Alerte SwissLeaks"
   link: "https://www.thinkerview.com/stephanie-gibaud-lanceuse-dalerte-swissleaks-direct/"
-  pubDate: "Thu, 22 Jun 2017 12:59:29 +0000"
   category: ["Finance"]
   description: "Interview de Stéphanie Gibaud, Lanceuse d&#8217;Alerte SwissLeaks. Vidéo diffusée le 20 juin 2017 à 16h30..."
   mediaUrl:
@@ -3452,7 +3242,6 @@
   books:
 - title: "Avocat de Wikileaks"
   link: "https://www.thinkerview.com/juan-branco-avocat-de-wikileaks-direct/"
-  pubDate: "Thu, 22 Jun 2017 12:57:29 +0000"
   category: ["Géopolitique"]
   description: "Interview de Juan Branco, avocat de Wikileaks. Vidéo diffusée le 20 juin 2017 à 15h..."
   mediaUrl:
@@ -3467,7 +3256,6 @@
   books:
 - title: "Football, racisme et géopolitique"
   link: "https://www.thinkerview.com/lilian-thuram-football-racisme-geopolitique-direct/"
-  pubDate: "Fri, 02 Jun 2017 07:41:15 +0000"
   category: ["Géopolitique"]
   description: "Interview de Lilian Thuram. Vidéo diffusée le 01 juin 2017 à 16h30 en direct. Deuxième..."
   mediaUrl:
@@ -3482,7 +3270,6 @@
   books:
 - title: "Guillaume Meurice nous répond"
   link: "https://www.thinkerview.com/guillaume-meurice-nous-repond-en-direct/"
-  pubDate: "Sun, 21 May 2017 12:56:30 +0000"
   category: ["Médias"]
   description: "Interview de Guillaume Meurice, humoriste et chroniqueur radio sur France Inter. Vidéo diffusée le 19..."
   mediaUrl: "https://thinkerview.com/wp-content/uploads/videos/mp3_128k/Guillaume_Meurice_nous_repond_EN_DIRECT.mp3"
@@ -3497,7 +3284,6 @@
   books:
 - title: "Présidentielle 2017 sans filtre\_?"
   link: "https://www.thinkerview.com/marie-noelle-lienemann-presidentielle-2017-sans-filtre/"
-  pubDate: "Wed, 29 Mar 2017 19:19:05 +0000"
   category: ["Politique"]
   description: "Dans le cadre de la présidentielle 2017 en France, la communauté Thinkerview a souhaité exceptionnellement..."
   mediaUrl: "https://www.thinkerview.com/podcast-player/960/marie-noelle-lienemann-presidentielle-2017-sans-filtre.mp3"
@@ -3513,7 +3299,6 @@
   books:
 - title: "Présidentielle 2017 sans filtre\_?"
   link: "https://www.thinkerview.com/jean-lassalle-presidentielle-2017-filtre/"
-  pubDate: "Sun, 19 Mar 2017 21:07:15 +0000"
   category: ["Politique"]
   description: "Dans le cadre de la présidentielle 2017 en France, la communauté Thinkerview a souhaité exceptionnellement..."
   mediaUrl:
@@ -3528,7 +3313,6 @@
   books:
 - title: "Présidentielle 2017 sans filtre\_?"
   link: "https://www.thinkerview.com/yannick-jadot-presidentielle-2017-filtre/"
-  pubDate: "Tue, 14 Mar 2017 09:39:54 +0000"
   category: ["Politique"]
   description: "Dans le cadre de la présidentielle 2017 en France, la communauté Thinkerview a souhaité exceptionnellement..."
   mediaUrl:
@@ -3543,7 +3327,6 @@
   books:
 - title: "Présidentielle 2017 sans filtre\_?"
   link: "https://www.thinkerview.com/alexandre-jardin-presidentielle-2017-filtre/"
-  pubDate: "Sun, 12 Mar 2017 10:01:16 +0000"
   category: ["Politique"]
   description: "Dans le cadre de la présidentielle 2017 en France, la communauté Thinkerview a souhaité exceptionnellement..."
   mediaUrl: "https:////www.thinkerview.com/podcast-player/912/alexandre-jardin-presidentielle-2017-filtre.mp3"
@@ -3559,7 +3342,6 @@
   books:
 - title: "Présidentielle 2017 sans filtre\_?"
   link: "https://www.thinkerview.com/nicolas-dupont-aignan-presidentielle-2017-filtre/"
-  pubDate: "Fri, 10 Mar 2017 13:31:35 +0000"
   category: ["Politique"]
   description: "Dans le cadre de la présidentielle 2017 en France, la communauté Thinkerview a souhaité exceptionnellement..."
   mediaUrl:
@@ -3574,7 +3356,6 @@
   books:
 - title: "Présidentielle 2017 sans filtre\_?"
   link: "https://www.thinkerview.com/francois-asselineau-presidentielle-2017-filtre/"
-  pubDate: "Fri, 10 Mar 2017 13:21:09 +0000"
   category: ["Politique"]
   description: "Dans le cadre de la présidentielle 2017 en France, la communauté Thinkerview a souhaité exceptionnellement..."
   mediaUrl:
@@ -3589,7 +3370,6 @@
   books:
 - title: "Sputnik France – Sans Filtre"
   link: "https://www.thinkerview.com/sputnik-france-filtre/"
-  pubDate: "Mon, 06 Mar 2017 09:42:50 +0000"
   category: ["Géopolitique"]
   description: "Interview d&#8217;Ivan Erhel, Journaliste porte parole de Sputnik France. Vidéo enregistrée le 24 janvier 2017...."
   mediaUrl:
@@ -3604,7 +3384,6 @@
   books:
 - title: "DATAGUEULE – Sans Filtre"
   link: "https://www.thinkerview.com/datagueule-sans-filtre/"
-  pubDate: "Mon, 06 Feb 2017 20:01:03 +0000"
   category: ["Médias"]
   description: "Interview de l&#8217;équipe de DataGueule avec : Henri Poulain : Co-concepteur &#038; réalisateur Julien Goetz..."
   mediaUrl:
@@ -3621,7 +3400,6 @@
   books:
 - title: "Justice VS Finance"
   link: "https://www.thinkerview.com/david-koubbi-justice-vs-finance/"
-  pubDate: "Tue, 15 Nov 2016 17:00:27 +0000"
   category: ["Finance"]
   description: "Interview de David Koubbi, avocat chargé de la défense de Jérôme Kerviel. Vidéo enregistrée le..."
   mediaUrl:
@@ -3636,7 +3414,6 @@
   books:
 - title: "France, terrorisme et diplomatie en carton"
   link: "https://www.thinkerview.com/france-terrorisme-diplomatie-carton/"
-  pubDate: "Tue, 25 Oct 2016 17:00:55 +0000"
   category: ["Géopolitique"]
   description: "Interview de Pierre Conesa, ancien haut fonctionnaire du Ministère de la Défense. Vidéo enregistrée le..."
   mediaUrl:
@@ -3651,7 +3428,6 @@
   books:
 - title: "États-Unis / Russie : Tensions Géopolitiques et Terrorisme"
   link: "https://www.thinkerview.com/etats-unis-russie-tensions-geopolitiques-terrorisme/"
-  pubDate: "Mon, 10 Oct 2016 17:12:00 +0000"
   category: ["Géopolitique"]
   description: "Entretien avec Artem Studennikov (Ministre Conseiller de l&#8217;Ambassade de Russie). Vidéo enregistrée le 7 octobre..."
   mediaUrl:
@@ -3666,7 +3442,6 @@
   books:
 - title: "Fondateur de Sea Shepherd : Plongée en eaux troubles"
   link: "https://www.thinkerview.com/plongee-eaux-troubles-paul-watson-fondateur-de-sea-shepherd/"
-  pubDate: "Thu, 29 Sep 2016 17:18:45 +0000"
   category: ["Environnement"]
   description: "Interview de Paul Watson : militant écologiste et antispéciste canadien. Il a fondé la Sea..."
   mediaUrl:
@@ -3682,7 +3457,6 @@
   books:
 - title: "Terrorisme VS Big Brother"
   link: "https://www.thinkerview.com/terrorisme-vs-big-brother/"
-  pubDate: "Thu, 15 Sep 2016 17:22:30 +0000"
   category: ["Internet / Technologies","Terrorisme"]
   description: "Table ronde avec Jean-Marc Manach (Journaliste d&#8217;investigation), Marc Rees (Journalide, Rédacteur en chef de PC..."
   mediaUrl:
@@ -3699,7 +3473,6 @@
   books:
 - title: "L’énergie des conflits, les conflits de l’énergie"
   link: "https://www.thinkerview.com/lenergie-conflits-conflits-de-lenergie/"
-  pubDate: "Thu, 08 Sep 2016 17:00:50 +0000"
   category: ["Géopolitique"]
   description: "Table ronde avec Nicolas Meilhan, Francis Perrin et Philippe Sébille-Lopez autour de l&#8217;énergie. Enregistrée le..."
   mediaUrl:
@@ -3716,7 +3489,6 @@
   books:
 - title: "ACRIMED : Discutons de l’information entre générations"
   link: "https://www.thinkerview.com/henri-maler-acrimed-discutons-de-linformation-entre-generations/"
-  pubDate: "Wed, 31 Aug 2016 17:00:28 +0000"
   category: ["Médias"]
   description: "Entretien avec Henri Maler, fondateur de ACRIMED (Action Critique Médias) et professeur en science politique..."
   mediaUrl:
@@ -3731,7 +3503,6 @@
   books:
 - title: "200 terroristes sur le territoire\_? Entre Ukraine, Irak, Terrorisme, Reporter de Guerre et après\_?"
   link: "https://www.thinkerview.com/200-terroristes-territoire-entre-ukraine-irak-terrorisme-reporter-de-guerre-apres/"
-  pubDate: "Mon, 04 Jul 2016 17:37:59 +0000"
   category: ["Médias","Terrorisme"]
   description: "Interview de Paul Moreira, journaliste « d&#8217;investigation », reporter de guerre. Enregistrée le 22 juin 2016. SUJETS..."
   mediaUrl:
@@ -3746,7 +3517,6 @@
   books:
 - title: "Affaire Kerviel, Justice et Société Générale\_?"
   link: "https://www.thinkerview.com/david-koubbi-affaire-kerviel-justice-societe-generale/"
-  pubDate: "Sat, 11 Jun 2016 17:00:53 +0000"
   category: ["Finance"]
   description: "Interview de David Koubbi à propos de Jérôme Kerviel et de la Société Générale. SUJETS..."
   mediaUrl:
@@ -3761,7 +3531,6 @@
   books:
 - title: "Cash investigation, Panama Papers, l’offensive des journalistes\_?"
   link: "https://www.thinkerview.com/elise-lucet-filtre-cash-investigation-panama-papers-loffensive-journalistes/"
-  pubDate: "Tue, 17 May 2016 17:00:51 +0000"
   category: ["Médias"]
   description: "Interview de Elise Lucet faite le 4 mai 2016. SUJETS : Panama Papers , LuxLeaks,..."
   mediaUrl:
@@ -3776,7 +3545,6 @@
   books:
 - title: "Propagande de Guerre, festival de médias mensonges et complot\_?"
   link: "https://www.thinkerview.com/propagande-de-guerre-festival-de-medias-mensonges-complot/"
-  pubDate: "Tue, 19 Apr 2016 17:00:06 +0000"
   category: ["Géopolitique","Médias"]
   description: "Interview de Michel Collon : Écrivain Journaliste indépendant, Belge. www.investigaction.net SUJETS : Propagande de guerre,..."
   mediaUrl:
@@ -3791,7 +3559,6 @@
   books:
 - title: "De l’éducation à la guerre ou de la guerre, à l’éducation\_?"
   link: "https://www.thinkerview.com/de-leducation-a-guerre-de-guerre-a-leducation/"
-  pubDate: "Thu, 07 Apr 2016 17:00:44 +0000"
   category: ["Géopolitique"]
   description: "Interview de MARINA E. HENKE. Ph.D. Diplômée de Princeton, Sciences Po, professeure a l’université de..."
   mediaUrl:
@@ -3806,7 +3573,6 @@
   books:
 - title: "Schizophrénie financière, casse du siècle ou injure sur l’avenir\_?"
   link: "https://www.thinkerview.com/schizophrenie-financiere-casse-siecle-injure-lavenir/"
-  pubDate: "Thu, 25 Feb 2016 17:00:40 +0000"
   category: ["Finance"]
   description: "Interview de Philippe Bechade (Président des Econoclastes) et Jérôme Cazes (Président de MyCercle, Ancien directeur..."
   mediaUrl:
@@ -3822,7 +3588,6 @@
   books:
 - title: "Police de la pensée, journalistes en laisse\_?"
   link: "https://www.thinkerview.com/natacha-polony-police-de-pensee-journalistes-laisse/"
-  pubDate: "Fri, 19 Feb 2016 17:00:50 +0000"
   category: ["Médias"]
   description: "Interview de Natacha Polony. Trahison, chien de garde, luttes des classes, cercle de pouvoir, Bilderberg,..."
   mediaUrl:
@@ -3837,7 +3602,6 @@
   books:
 - title: "Charlie Hebdo sans filtre"
   link: "https://www.thinkerview.com/charlie-hebdo-filtre-denis-robert/"
-  pubDate: "Sat, 09 Jan 2016 17:00:20 +0000"
   category: ["Médias"]
   description: "Interview de Denis Robert. Thèmes abordés : Cavanna, Charlie Hebdo, Usurpateurs, Philippe Val, Denis Robert,..."
   mediaUrl:
@@ -3852,7 +3616,6 @@
   books:
 - title: "Ambassadeur de Russie face à l’augmentation des tensions"
   link: "https://www.thinkerview.com/ambassadeur-de-russie-face-a-laugmentation-tensions/"
-  pubDate: "Thu, 07 Jan 2016 17:00:08 +0000"
   category: ["Géopolitique"]
   description: "Interview de Alexandre Orlov, Ambassadeur de Russie. Thèmes abordés : Géopolitique, Russie, Terrorisme, Syrie, USA,..."
   mediaUrl:
@@ -3867,7 +3630,6 @@
   books:
 - title: "Terrorisme, Etat d’Urgence, où sont les solutions\_? Journaliste, Renseignement, Stratégiste, Hacker."
   link: "https://www.thinkerview.com/terrorisme-etat-durgence-solutions-journaliste-renseignement-strategiste-hacker/"
-  pubDate: "Wed, 30 Dec 2015 17:00:22 +0000"
   category: ["Géopolitique","Médias","Terrorisme"]
   description: ""
   mediaUrl:
@@ -3884,7 +3646,6 @@
   books:
 - title: "Géopolitique, Russie, Terrorisme, Finance"
   link: "https://www.thinkerview.com/geopolitique-russie-terrorisme-finance/"
-  pubDate: "Sat, 21 Nov 2015 17:00:12 +0000"
   category: ["Géopolitique"]
   description: "Nous recevons Charles Gave (Economiste, entrepreneur français), Artem Studennikov (Ministre Conseiller de l&#8217;Ambassade de Russie),..."
   mediaUrl:
@@ -3902,7 +3663,6 @@
   books:
 - title: "Crédit Mutuel, Censure, Bolloré, Canal+ et TAFTA | Guerre contre le journalisme"
   link: "https://www.thinkerview.com/credit-mutuel-censure-bollore-canal-tafta-guerre-contre-journalisme/"
-  pubDate: "Fri, 23 Oct 2015 17:00:44 +0000"
   category: ["Médias"]
   description: "Interview de Jean-Pierre Canet et Nicolas Vescovacci, ils sont rédacteur en chef / journaliste du..."
   mediaUrl:
@@ -3917,7 +3677,6 @@
   books:
 - title: "Arabie Saoudite, Théâtre de Dupes, Stratégie planétaire. (Ex Affaires Stratégiques)"
   link: "https://www.thinkerview.com/pierre-conesa-arabie-saoudite-theatre-de-dupes-strategie-planetaire-ex-affaires-strategiques/"
-  pubDate: "Tue, 06 Oct 2015 17:08:58 +0000"
   category: ["Géopolitique"]
   description: "Djihad, Croisade, Terrorisme, Israël, Syrie, Daesh, Guerre, Poutine, Arabie Saoudite, Ben Laden, 11 septembre, Diplomatie..."
   mediaUrl:
@@ -3932,7 +3691,6 @@
   books:
 - title: "Député, qui va payer\_? Entre TAFTA, Monsanto et la Syrie\_?"
   link: "https://www.thinkerview.com/depute-va-payer-entre-tafta-monsanto-syrie-jean-lassalle/"
-  pubDate: "Tue, 14 Jul 2015 17:00:39 +0000"
   category: ["Géopolitique","Politique"]
   description: "Que reste t&#8217;il de la politique\_? Entretien sans langue de bois avec un député..."
   mediaUrl:
@@ -3947,7 +3705,6 @@
   books:
 - title: "CGT-Police et Loi renseignement"
   link: "https://www.thinkerview.com/cgt-police-loi-renseignement/"
-  pubDate: "Sat, 27 Jun 2015 17:00:49 +0000"
   category: ["Internet / Technologies","Terrorisme"]
   description: "Police Vs Terrorisme Vs Population. Entretien sans langue de bois avec le secrétaire général CGT..."
   mediaUrl:
@@ -3962,7 +3719,6 @@
   books:
 - title: "Pétrole et gaz de schiste, où va-t-on\_?"
   link: "https://www.thinkerview.com/petrole-gaz-de-schiste-va-t-on/"
-  pubDate: "Fri, 12 Jun 2015 17:17:53 +0000"
   category: ["Géopolitique"]
   description: "Nous avons convié 3 experts pour nous livrer leurs visions de l&#8217;évolution du marché de..."
   mediaUrl:
@@ -3979,7 +3735,6 @@
   books:
 - title: "Ministre, Loi renseignement, Stratégie européenne"
   link: "https://www.thinkerview.com/ministre-loi-renseignement-strategie-europeenne/"
-  pubDate: "Mon, 01 Jun 2015 17:00:18 +0000"
   category: ["Internet / Technologies"]
   description: "Interview d&#8217;Axelle Lemaire (secrétaire d&#8217;Etat chargée du numérique) sur la Loi Renseignement, la stratégie européenne,..."
   mediaUrl:
@@ -3994,7 +3749,6 @@
   books:
 - title: "Terrorisme/Internet : Liberté d’expression menacée en France\_?"
   link: "https://www.thinkerview.com/terrorismeinternet-liberte-dexpression-menacee-france/"
-  pubDate: "Wed, 25 Feb 2015 17:00:30 +0000"
   category: ["Internet / Technologies"]
   description: "Nos gouvernements réagissent de façon symptomatique et contre productive\_? Nous avons donc convié 3..."
   mediaUrl:
@@ -4011,7 +3765,6 @@
   books:
 - title: "Religion, Terrorisme et paradis"
   link: "https://www.thinkerview.com/religion-terrorisme-paradis-pierre-conesa-ex-affaires-strategiques/"
-  pubDate: "Mon, 23 Feb 2015 17:00:06 +0000"
   category: ["Géopolitique"]
   description: ""
   mediaUrl:
@@ -4026,7 +3779,6 @@
   books:
 - title: "USA, Europe, LuxLeaks : Le grand marché des inégalités"
   link: "https://www.thinkerview.com/usa-europe-luxleaks-grand-marche-inegalites/"
-  pubDate: "Sat, 14 Feb 2015 17:35:37 +0000"
   category: ["Finance"]
   description: ""
   mediaUrl:
@@ -4044,7 +3796,6 @@
   books:
 - title: "Politique de contre-radicalisation en France (Ex Affaires stratégiques)"
   link: "https://www.thinkerview.com/pierre-conesa-politique-de-contre-radicalisation-france-ex-affaires-strategiques/"
-  pubDate: "Mon, 19 Jan 2015 17:40:37 +0000"
   category: ["Géopolitique","Terrorisme"]
   description: "Après les attentats de Charlie Hebdo/Porte de Vincennes prenons le temps de réfléchir et de..."
   mediaUrl:
@@ -4059,7 +3810,6 @@
   books:
 - title: "Déchêts sans précautions des stocks énormes d’armes de destruction massive"
   link: "https://www.thinkerview.com/bob-coen-eric-nadler/"
-  pubDate: "Thu, 18 Dec 2014 17:43:40 +0000"
   category: ["Médias"]
   description: "Les états ont jeté sans précautions des stocks énormes d&#8217;armes de destruction massive, Bob Coen..."
   mediaUrl:
@@ -4075,7 +3825,6 @@
   books:
 - title: "Neutralité du net"
   link: "https://www.thinkerview.com/b-bayart-neutralite-net/"
-  pubDate: "Mon, 28 Apr 2014 17:46:10 +0000"
   category: ["Internet / Technologies"]
   description: "Benjamin Bayart se penche sur la neutralité du net et les conséquences d&#8217;une régulation par..."
   mediaUrl:
@@ -4090,7 +3839,6 @@
   books:
 - title: "Le Big Data"
   link: "https://www.thinkerview.com/gilles-babinet-big-data/"
-  pubDate: "Mon, 14 Apr 2014 17:11:04 +0000"
   category: ["Internet / Technologies"]
   description: "Interview de Gilles Babinet sur le Big Data Enregistré à Paris le 05/04/14"
   mediaUrl:
@@ -4105,7 +3853,6 @@
   books:
 - title: "Hacker VS Justice – Affaire « Bluetouff » "
   link: "https://www.thinkerview.com/hacker-vs-justice-affaire-bluetouff-o-iteanu/"
-  pubDate: "Thu, 13 Mar 2014 17:32:30 +0000"
   category: ["Internet / Technologies","Finance"]
   description: "Entretien avec Maître Olivier Iteanu, l&#8217;avocat de Olivier Laurelli, alias Bluetouff,Condamné pour avoir téléchargé des..."
   mediaUrl:
@@ -4120,7 +3867,6 @@
   books:
 - title: "Où va le monde financier\_?"
   link: "https://www.thinkerview.com/va-monde-financier-j-m-rozan-h-de-carmoy/"
-  pubDate: "Sat, 01 Mar 2014 17:36:34 +0000"
   category: ["Finance"]
   description: "Où va le monde financier\_? Avec Jean-Manuel Rozan &#038; Hervé de Carmoy Banquiers, Traders,..."
   mediaUrl:
@@ -4136,7 +3882,6 @@
   books:
 - title: "Allons-nous vers une Cyber Dictature\_?"
   link: "https://www.thinkerview.com/allons-vers-cyber-dictature-e-filiol-ex-dgse-hacker-j-zimmermann-qdn/"
-  pubDate: "Mon, 10 Feb 2014 17:50:27 +0000"
   category: ["Internet / Technologies"]
   description: "Jeremie Zimmermann et Éric Filiol donnent leur point de vue sur la surveillance abusive à..."
   mediaUrl:
@@ -4152,7 +3897,6 @@
   books:
 - title: "Loi de programmation militaire et neutralité du réseau, vie privée et démocratie en danger\_?"
   link: "https://www.thinkerview.com/loi-de-programmation-militaire-neutralite-reseau-vie-privee-democratie-danger/"
-  pubDate: "Mon, 27 Jan 2014 17:53:12 +0000"
   category: ["Internet / Technologies"]
   description: "Nous avons réuni sur le même plateau : Hacker, développeur et chef d&#8217;entreprise pour qu&#8217;ils..."
   mediaUrl:
@@ -4169,7 +3913,6 @@
   books:
 - title: "Réfléchissons ensemble"
   link: "https://www.thinkerview.com/reflechissons-ensemble-h-de-carmoy-p-bechade-o-delamarche-o-berruyer/"
-  pubDate: "Sat, 21 Dec 2013 22:55:48 +0000"
   category: ["Géopolitique","Finance"]
   description: "Nos intervenants proposent une analyse très intéressante sur la situation économique actuelle suivie d&#8217;une analyse..."
   mediaUrl:
@@ -4187,7 +3930,6 @@
   books:
 - title: "Homme d’affaires Libanais"
   link: "https://www.thinkerview.com/michel-elefteriades/"
-  pubDate: "Sun, 03 Nov 2013 17:00:17 +0000"
   category: ["Géopolitique","Terrorisme"]
   description: "Homme d&#8217;affaires Libanais hors normes, homme de réseaux, proche de l&#8217;armée libanaise, torturé à l&#8217;âge..."
   mediaUrl:
@@ -4202,7 +3944,6 @@
   books:
 - title: "Peter Dale Scott - Interview"
   link: "https://www.thinkerview.com/interview-de-peter-dale-scott/"
-  pubDate: "Sat, 28 Sep 2013 17:03:38 +0000"
   category: ["Géopolitique"]
   description: "Peter Dale Scott, professeur émérite de Littérature anglaise à l&#8217;Université de Berkeley, Californie. Il a..."
   mediaUrl:
@@ -4217,7 +3958,6 @@
   books:
 - title: "Denis Robert - Interview"
   link: "https://www.thinkerview.com/interview-de-denis-robert-journaliste-ecrivain-whistleblower/"
-  pubDate: "Wed, 11 Sep 2013 17:07:37 +0000"
   category: ["Médias"]
   description: "Vous avez un problème avec l&#8217;information\_? Nous aussi. Nous avons cherché pour notre interview..."
   mediaUrl:
@@ -4232,7 +3972,6 @@
   books:
 - title: "Jérémie Zimmermann - Interview"
   link: "https://www.thinkerview.com/interview-de-jeremie-zimmermann/"
-  pubDate: "Thu, 04 Jul 2013 17:11:48 +0000"
   category: ["Internet / Technologies"]
   description: "Porte-parole et co-fondateur de La Quadrature du Net, une organisation de défense des droits et..."
   mediaUrl:
@@ -4247,7 +3986,6 @@
   books:
 - title: "Interview d’Eric Filiol (hacker, cryptanalyste, ancien de la DGSE)"
   link: "https://www.thinkerview.com/interview-deric-filiol-hacker-cryptanalyste-ancien-de-dgse/"
-  pubDate: "Tue, 02 Jul 2013 17:14:02 +0000"
   category: ["Géopolitique","Internet / Technologies"]
   description: "Nous avons posé nos questions à Eric Filiol (directeur de laboratoire de virologie et de..."
   mediaUrl:
@@ -4262,7 +4000,6 @@
   books:
 - title: "Interview d’Alain Chouet (Ancien chef de service à la D.G.S.E.)"
   link: "https://www.thinkerview.com/interview-dalain-chouet-ancien-chef-de-service-a-d-g-s-e/"
-  pubDate: "Thu, 16 May 2013 17:16:37 +0000"
   category: ["Géopolitique"]
   description: "Les médias,les experts auto-proclamés parlent beaucoup de la Syrie en ce moment. Nous avons souhaité..."
   mediaUrl:
@@ -4277,7 +4014,6 @@
   books:
 - title: "Réfléchissons ensemble"
   link: "https://www.thinkerview.com/reflechissons-ensemble-b-esambert-o-delamarche-o-berruyer/"
-  pubDate: "Tue, 07 May 2013 17:19:01 +0000"
   category: ["Géopolitique"]
   description: "Nos intervenants proposent une analyse très intéressante sur la situation économique actuelle suivie d&#8217;une analyse..."
   mediaUrl:
@@ -4294,7 +4030,6 @@
   books:
 - title: "Interview de Olivier Delamarche"
   link: "https://www.thinkerview.com/interview-de-olivier-delamarche/"
-  pubDate: "Tue, 02 Apr 2013 17:22:17 +0000"
   category: ["Finance"]
   description: "Nous vous proposons donc de réfléchir ensemble avec : Olivier Delamarche Acteur sur les marchés..."
   mediaUrl:
@@ -4309,7 +4044,6 @@
   books:
 - title: "Interview de Jacques Blamont"
   link: "https://www.thinkerview.com/interview-de-jacques-blamont/"
-  pubDate: "Wed, 30 Jan 2013 17:24:31 +0000"
   category: ["Géopolitique","Environnement"]
   description: "Nous vous proposons de réfléchir ensemble avec : Jacques Blamont Père de la recherche spatiale..."
   mediaUrl:

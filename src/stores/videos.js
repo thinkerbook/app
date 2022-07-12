@@ -32,7 +32,6 @@ function queryVideo(queryOpt) {
 
     // console.log(`accept video title: ${video.title}, query: ${query}, result: ${video.title.includes(query)}`);
     accept |= [video.title].some(includesIC(query));
-    // accept |= [video.pubDate].map(e => e.toString()).some(includesIC(query));
     accept |= [video.releaseDate].filter(e => !!e).map(e => e.getFullYear()).some(includesIC(query));
     accept |= video.guests && video.guests.some(includesIC(query));
     accept |= video.category && video.category.some(includesIC(query));
